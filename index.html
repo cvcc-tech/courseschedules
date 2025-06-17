@@ -11,7 +11,6 @@
     :root {
       --cvcc-primary: #BA0C2F; /* Red Hawk Red */
       --cvcc-secondary: #505759; /* CVCC Classic Grey */
-      --cvcc-light-grey-bg: #f8f8f8; /* Very light grey for alternating rows */
       --cvcc-red-text: #A6192E; /* CVCC Classic Red, used for general red text */
     }
     body {
@@ -70,13 +69,13 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - CORRECTED */
-    .table > tbody > tr:nth-child(odd) > td {
-      background-color: var(--cvcc-light-grey-bg) !important; /* Use the new variable */
+    /* Alternating row colors - CORRECTED, applied to TR */
+    .table > tbody > tr:nth-child(odd) {
+      background-color: #ededed !important; /* Lighter, more visible grey */
     }
 
-    .table > tbody > tr:nth-child(even) > td {
-      background-color: #ffffff !important;
+    .table > tbody > tr:nth-child(even) {
+      background-color: #ffffff !important; /* Explicitly set even rows to white */
     }
 
     /* Text color for links */
@@ -209,11 +208,13 @@
           if (!names || names.length === 0) return 'N/A';
           return names.map(name => {
             const parts = name.split(',').map(p => p.trim());
-            // Ensure proper "Last, First" format if parts exist
-            if (parts.length >= 2) {
-                return `${parts[0]}, ${parts.slice(1).join(' ')}`;
+            // Reconstruct the name to ensure "Last, First Middle" format if a comma exists
+            if (parts.length > 1) {
+              const lastName = parts[0];
+              const firstNameAndMiddle = parts.slice(1).join(' '); // Joins all parts after the first comma
+              return `${lastName}, ${firstNameAndMiddle}`;
             }
-            return name;
+            return name; // Return name as is if no comma or single part
           }).join('; ');
         },
         formatNotes(notes) {
