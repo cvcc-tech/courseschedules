@@ -11,7 +11,7 @@
     :root {
       --cvcc-primary: #BA0C2F; /* Red Hawk Red */
       --cvcc-secondary: #505759; /* CVCC Classic Grey */
-      --cvcc-light-grey: #A2A9AD; /* CVCC Light Grey */
+      --cvcc-light-grey-bg: #f8f8f8; /* Very light grey for alternating rows */
       --cvcc-red-text: #A6192E; /* CVCC Classic Red, used for general red text */
     }
     body {
@@ -23,7 +23,7 @@
     .app-header {
       display: flex;
       justify-content: space-between; /* Pushes items to opposite ends */
-      align-items: center; /* Vertically centers them */
+      align-items: flex-end; /* ALIGNS ITEMS TO THE BOTTOM */
       margin-bottom: 1.5rem; /* Space below header */
     }
     h1 {
@@ -70,9 +70,9 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors */
+    /* Alternating row colors - CORRECTED */
     .table > tbody > tr:nth-child(odd) > td {
-      background-color: #f8f8f8 !important; /* Very light grey for odd rows */
+      background-color: var(--cvcc-light-grey-bg) !important; /* Use the new variable */
     }
 
     .table > tbody > tr:nth-child(even) > td {
@@ -87,7 +87,8 @@
   </style>
 </head>
 <body>
-  <div id="app" class="container py-4"> <div class="app-header">
+  <div id="app" class="container py-4">
+    <div class="app-header">
       <h1>Course Schedule</h1>
       <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
@@ -208,7 +209,11 @@
           if (!names || names.length === 0) return 'N/A';
           return names.map(name => {
             const parts = name.split(',').map(p => p.trim());
-            return parts.length === 2 ? `${parts.join(', ')}` : name;
+            // Ensure proper "Last, First" format if parts exist
+            if (parts.length >= 2) {
+                return `${parts[0]}, ${parts.slice(1).join(' ')}`;
+            }
+            return name;
           }).join('; ');
         },
         formatNotes(notes) {
@@ -224,6 +229,7 @@
           const match = sectionName.match(/-(\d{3,})$/);
           if (!match) return '';
           const num = parseInt(match?.[1]);
+          if (isNaN(num)) return ''; // Handle cases where parseInt might fail
           if (num >= 800 && num <= 829) return 'Online';
           if (num >= 830 && num <= 874) return 'Hybrid';
           return 'Traditional';
