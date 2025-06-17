@@ -19,23 +19,16 @@
       color: #333;
       font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    /* Main content area, provides a consistent width */
-    .main-content-area {
-      max-width: 1200px; /* Or a fixed width if desired, e.g., 960px */
-      margin: 0 auto; /* Center the content area */
-      padding: 0 15px; /* Bootstrap's default container padding */
-    }
-
-    .header-area {
+    /* Header area for logo and title */
+    .app-header {
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin-bottom: 1rem;
+      justify-content: space-between; /* Pushes items to opposite ends */
+      align-items: center; /* Vertically centers them */
+      margin-bottom: 1.5rem; /* Space below header */
     }
     h1 {
       color: var(--cvcc-primary);
       font-weight: 700;
-      margin-left: 1rem; /* Space between logo and text */
       margin-bottom: 0; /* Remove default bottom margin */
     }
     .logo {
@@ -49,7 +42,7 @@
       border-radius: 8px;
       padding: 1rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      /* No width setting here, let it be controlled by parent .main-content-area */
+      /* No specific width, let Bootstrap's col-md-10 handle it within the row */
     }
     .table-wrapper {
       max-height: 70vh;
@@ -57,10 +50,10 @@
       background: white;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      width: 100%; /* Ensure it takes full width of its container */
+      /* No specific width, let Bootstrap's default table behavior handle it */
     }
     .table {
-      width: 100%; /* Make the table itself full width */
+      width: 100%; /* Make the table itself full width of its parent */
       margin-bottom: 0; /* Remove default bottom margin */
     }
     thead th {
@@ -77,7 +70,7 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - CORRECTED */
+    /* Alternating row colors */
     .table > tbody > tr:nth-child(odd) > td {
       background-color: #f8f8f8 !important; /* Very light grey for odd rows */
     }
@@ -94,9 +87,9 @@
   </style>
 </head>
 <body>
-  <div id="app" class="main-content-area py-4"> <div class="header-area">
-      <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+  <div id="app" class="container py-4"> <div class="app-header">
       <h1>Course Schedule</h1>
+      <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
 
     <div class="row filter-bar">
