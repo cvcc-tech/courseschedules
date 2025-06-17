@@ -54,7 +54,7 @@
     }
     /* Alternating row colors */
     .table > tbody > tr:nth-child(odd) > td {
-      background-color: var(--cvcc-light-grey) !important;
+      background-color: #f8f8f8 !important; /* Lighter custom grey */
     }
 
     .table > tbody > tr:nth-child(even) > td {
@@ -97,8 +97,7 @@
     <div v-if="loading" class="alert alert-info">Loading courses...</div>
     <div v-else-if="filteredCourses.length === 0 && !loading" class="alert alert-warning">No courses found matching your criteria.</div>
 
-    <div class="table-wrapper" style="width: 100%;">
-      <table class="table table-bordered">
+    <div class="table-wrapper"> <table class="table table-bordered">
         <thead>
           <tr>
             <th class="section-col">Section</th>
@@ -146,7 +145,7 @@
             'Summer 2025': '2025summer.json',
             'Fall 2025': '2025faintercession.json'
           },
-          loading: false // New loading state
+          loading: false 
         }
       },
       computed: {
@@ -162,8 +161,8 @@
       },
       methods: {
         loadCourses() {
-          this.loading = true; // Set loading to true
-          this.courses = []; // Clear courses when loading new ones
+          this.loading = true; 
+          this.courses = []; 
           fetch(this.selectedTerm)
             .then(res => {
               if (!res.ok) {
@@ -176,13 +175,12 @@
               this.selectedDelivery = '';
               this.searchQuery = '';
             })
-            .catch(error => { // Error handling
+            .catch(error => { 
               console.error('Error loading courses:', error);
-              // Optionally display an error message to the user
               alert('Failed to load courses. Please try again later.');
             })
             .finally(() => {
-              this.loading = false; // Set loading to false regardless of success or failure
+              this.loading = false; 
             });
         },
         formatInstructor(names) {
