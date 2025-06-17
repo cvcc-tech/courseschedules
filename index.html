@@ -19,15 +19,28 @@
       color: #333;
       font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    /* Main content area, provides a consistent width */
+    .main-content-area {
+      max-width: 1200px; /* Or a fixed width if desired, e.g., 960px */
+      margin: 0 auto; /* Center the content area */
+      padding: 0 15px; /* Bootstrap's default container padding */
+    }
+
+    .header-area {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
     h1 {
       color: var(--cvcc-primary);
       font-weight: 700;
-      margin-bottom: 0.5rem; /* Reduced margin for logo */
+      margin-left: 1rem; /* Space between logo and text */
+      margin-bottom: 0; /* Remove default bottom margin */
     }
     .logo {
-      max-width: 300px; /* Adjust as needed */
+      max-width: 200px; /* Reduced logo size */
       height: auto;
-      margin-bottom: 1rem;
     }
     .filter-bar {
       margin-bottom: 1rem;
@@ -36,6 +49,7 @@
       border-radius: 8px;
       padding: 1rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      /* No width setting here, let it be controlled by parent .main-content-area */
     }
     .table-wrapper {
       max-height: 70vh;
@@ -80,9 +94,10 @@
   </style>
 </head>
 <body>
-  <div id="app" class="container py-4">
-    <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
-    <h1 class="mb-4">Course Schedule</h1>
+  <div id="app" class="main-content-area py-4"> <div class="header-area">
+      <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+      <h1>Course Schedule</h1>
+    </div>
 
     <div class="row filter-bar">
       <div class="col-md-3">
