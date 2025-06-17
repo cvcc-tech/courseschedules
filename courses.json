@@ -1,0 +1,309 @@
+[{
+	"secsynonym": "130672",
+	"secname": "ART-111-815",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Kiefer, Jeffery"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "130760",
+	"secname": "BUS-110-815",
+	"secshorttitle": "Introduction to Business",
+	"xcrssecfacultyxname": [
+		"Instructor, CVCC"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "130766",
+	"secname": "BUS-115-815",
+	"secshorttitle": "Business Law I",
+	"xcrssecfacultyxname": [
+		"McNally, Michael Edward"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "130773",
+	"secname": "BUS-137-815",
+	"secshorttitle": "Principles of Management",
+	"xcrssecfacultyxname": [
+		"Stephenson, Latoya Freeman"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "130809",
+	"secname": "CIS-110-815",
+	"secshorttitle": "Introduction to Computers",
+	"xcrssecfacultyxname": [
+		"Fountain, Rory Shawn"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"28"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "130906",
+	"secname": "ECO-251-815",
+	"secshorttitle": "Prin of Microeconomics",
+	"xcrssecfacultyxname": [
+		"Crump, Kathleen B."
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "131193",
+	"secname": "MUS-110-815",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Simyon, Caroline Cogdell"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+},{
+	"secsynonym": "131194",
+	"secname": "MUS-110-816",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Simyon, Caroline Cogdell"
+	],
+	"secstartdate": "12/8/2025",
+	"secenddate": "1/5/2026",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "06-12-2025  01:39 PM"
+}]
