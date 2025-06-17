@@ -16,7 +16,13 @@
     <h1 class="mb-4">CVCC Course Schedule</h1>
 
     <div class="row filter-bar">
-      <div class="col-md-4">
+      <div class="col-md-3">
+        <label class="form-label">Term</label>
+        <select v-model="selectedTerm" @change="loadCourses" class="form-select">
+          <option v-for="(file, label) in termFiles" :value="file">{{ label }}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
         <label class="form-label">Delivery Method</label>
         <select v-model="selectedDelivery" class="form-select">
           <option value="">All</option>
@@ -41,6 +47,7 @@
             <th>Start</th>
             <th>End</th>
             <th>Seats Available</th>
+            <th>Instructor</th>
             <th>Status</th>
           </tr>
         </thead>
@@ -54,6 +61,7 @@
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail[0] || 'N/A' }}</td>
+            <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
           </tr>
         </tbody>
@@ -68,7 +76,12 @@
         return {
           courses: [],
           selectedDelivery: '',
-          searchQuery: ''
+          searchQuery: '',
+          selectedTerm: 'summer.json',
+          termFiles: {
+            'Summer 2025': '2025summer.json',
+            'Fall 2025': '2025faintercession.json'
+          }
         }
       },
       computed: {
@@ -85,12 +98,26 @@
           });
         }
       },
+      methods: {
+        loadCourses() {
+          fetch(this.selectedTerm)
+            .then(res => res.json())
+            .then(data => {
+              this.courses = data;
+              this.selectedDelivery = '';
+              this.searchQuery = '';
+            });
+        },
+        formatInstructor(names) {
+          if (!names || names.length === 0) return 'N/A';
+          return names.map(name => {
+            const parts = name.split(',').map(p => p.trim());
+            return parts.length === 2 ? `${parts[0]}, ${parts[1]}` : name;
+          }).join('; ');
+        }
+      },
       mounted() {
-        fetch('courses.json')
-          .then(res => res.json())
-          .then(data => {
-            this.courses = data;
-          });
+        this.loadCourses();
       }
     }).mount('#app');
   </script>
