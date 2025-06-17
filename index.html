@@ -22,6 +22,12 @@
     h1 {
       color: var(--cvcc-primary);
       font-weight: 700;
+      margin-bottom: 0.5rem; /* Reduced margin for logo */
+    }
+    .logo {
+      max-width: 300px; /* Adjust as needed */
+      height: auto;
+      margin-bottom: 1rem;
     }
     .filter-bar {
       margin-bottom: 1rem;
@@ -37,6 +43,11 @@
       background: white;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      width: 100%; /* Ensure it takes full width of its container */
+    }
+    .table {
+      width: 100%; /* Make the table itself full width */
+      margin-bottom: 0; /* Remove default bottom margin */
     }
     thead th {
       position: sticky;
@@ -52,9 +63,9 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors */
+    /* Alternating row colors - CORRECTED */
     .table > tbody > tr:nth-child(odd) > td {
-      background-color: #f8f8f8 !important; /* Lighter custom grey */
+      background-color: #f8f8f8 !important; /* Very light grey for odd rows */
     }
 
     .table > tbody > tr:nth-child(even) > td {
@@ -70,7 +81,8 @@
 </head>
 <body>
   <div id="app" class="container py-4">
-    <h1 class="mb-4">CVCC Course Schedule</h1>
+    <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+    <h1 class="mb-4">Course Schedule</h1>
 
     <div class="row filter-bar">
       <div class="col-md-3">
@@ -97,7 +109,8 @@
     <div v-if="loading" class="alert alert-info">Loading courses...</div>
     <div v-else-if="filteredCourses.length === 0 && !loading" class="alert alert-warning">No courses found matching your criteria.</div>
 
-    <div class="table-wrapper"> <table class="table table-bordered">
+    <div class="table-wrapper">
+      <table class="table table-bordered">
         <thead>
           <tr>
             <th class="section-col">Section</th>
@@ -119,10 +132,10 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ (course.xsecRoom[0] || '') + ' ' + (course.secBldgmv[0] || '') }}</td>
+            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
-            <td>{{ course.xcrssecseatavail[0] || 'N/A' }}</td>
+            <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
             <td class="notes-col" v-html="formatNotes(course.secprintedcomments)"></td>
@@ -145,7 +158,7 @@
             'Summer 2025': '2025summer.json',
             'Fall 2025': '2025faintercession.json'
           },
-          loading: false 
+          loading: false
         }
       },
       computed: {
@@ -161,8 +174,8 @@
       },
       methods: {
         loadCourses() {
-          this.loading = true; 
-          this.courses = []; 
+          this.loading = true;
+          this.courses = [];
           fetch(this.selectedTerm)
             .then(res => {
               if (!res.ok) {
@@ -175,19 +188,19 @@
               this.selectedDelivery = '';
               this.searchQuery = '';
             })
-            .catch(error => { 
+            .catch(error => {
               console.error('Error loading courses:', error);
               alert('Failed to load courses. Please try again later.');
             })
             .finally(() => {
-              this.loading = false; 
+              this.loading = false;
             });
         },
         formatInstructor(names) {
           if (!names || names.length === 0) return 'N/A';
           return names.map(name => {
             const parts = name.split(',').map(p => p.trim());
-            return parts.length === 2 ? `${parts[0]}, ${parts[1]}` : name;
+            return parts.length === 2 ? `${parts.join(', ')}` : name;
           }).join('; ');
         },
         formatNotes(notes) {
@@ -202,7 +215,7 @@
           if (!sectionName) return '';
           const match = sectionName.match(/-(\d{3,})$/);
           if (!match) return '';
-          const num = parseInt(match[1]);
+          const num = parseInt(match?.[1]);
           if (num >= 800 && num <= 829) return 'Online';
           if (num >= 830 && num <= 874) return 'Hybrid';
           return 'Traditional';
