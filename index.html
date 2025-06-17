@@ -20,7 +20,11 @@
       z-index: 2;
     }
     th.section-col { min-width: 140px; }
-    th.notes-col, td.notes-col { max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    td.notes-col {
+      max-width: 400px;
+      white-space: normal;
+      word-wrap: break-word;
+    }
   </style>
 </head>
 <body class="bg-light">
@@ -41,8 +45,6 @@
           <option value="Online">Online</option>
           <option value="Hybrid">Hybrid</option>
           <option value="Traditional">Traditional</option>
-          <option disabled>──────────</option>
-          <option v-for="method in deliveryMethods" :value="method">{{ method }}</option>
         </select>
       </div>
       <div class="col-md-4">
@@ -65,7 +67,7 @@
             <th>Seats Available</th>
             <th>Instructor</th>
             <th>Status</th>
-            <th class="notes-col">Description/Notes</th>
+            <th>Description/Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -73,14 +75,14 @@
             <td class="section-col">{{ course.secname }}</td>
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
-            <td>{{ course.secinstrmethods[0] || 'N/A' }}</td>
+            <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
             <td>{{ (course.xsecRoom[0] || '') + ' ' + (course.secBldgmv[0] || '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail[0] || 'N/A' }}</td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
-            <td class="notes-col">{{ formatNotes(course.secprintedcomments) }}</td>
+            <td class="notes-col" v-html="formatNotes(course.secprintedcomments)"></td>
           </tr>
         </tbody>
       </table>
@@ -103,14 +105,10 @@
         }
       },
       computed: {
-        deliveryMethods() {
-          const unique = [...new Set(this.courses.flatMap(c => c.secinstrmethods || []))];
-          return unique.sort();
-        },
         filteredCourses() {
           return this.courses.filter(c => {
-            const deliveryCategory = this.getDeliveryCategory(c.secinstrmethods || []);
-            const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory || (c.secinstrmethods || []).includes(this.selectedDelivery);
+            const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
+            const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
             const search = this.searchQuery.toLowerCase();
             const matchesSearch = !search || c.secname.toLowerCase().includes(search) || c.secshorttitle.toLowerCase().includes(search);
             return matchesDelivery && matchesSearch;
@@ -136,14 +134,20 @@
         },
         formatNotes(notes) {
           if (!notes || notes.length === 0) return '';
-          return notes.join(' ');
+          const text = notes.join(' ');
+          return text.replace(/(https?:\/\/\S+|www\.\S+)/gi, match => {
+            const url = match.startsWith('http') ? match : `https://${match}`;
+            return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
+          });
         },
-        getDeliveryCategory(methods) {
-          const text = (methods || []).join(',').toLowerCase();
-          if (text.includes('internet') || text.includes('online') || text.includes('asynchronous') || text.includes('web')) return 'Online';
-          if (text.includes('hybrid') || text.includes('blend')) return 'Hybrid';
-          if (text.includes('face') || text.includes('class') || text.includes('campus') || text.includes('traditional') || text.includes('in-person')) return 'Traditional';
-          return '';
+        getDeliveryCategoryFromSection(sectionName) {
+          if (!sectionName) return '';
+          const match = sectionName.match(/-(\d{3,})$/);
+          if (!match) return '';
+          const num = parseInt(match[1]);
+          if (num >= 800 && num <= 829) return 'Online';
+          if (num >= 830 && num <= 874) return 'Hybrid';
+          return 'Traditional';
         }
       },
       mounted() {
