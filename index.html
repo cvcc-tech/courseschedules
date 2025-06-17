@@ -15,10 +15,12 @@
     thead th {
       position: sticky;
       top: 0;
-      background-color: #212529; /* Bootstrap dark header bg */
+      background-color: #212529;
       color: white;
       z-index: 2;
     }
+    th.section-col { min-width: 140px; }
+    th.notes-col, td.notes-col { max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   </style>
 </head>
 <body class="bg-light">
@@ -53,7 +55,7 @@
       <table class="table table-bordered table-striped">
         <thead class="table-dark">
           <tr>
-            <th>Section</th>
+            <th class="section-col">Section</th>
             <th>Title</th>
             <th>Credits</th>
             <th>Delivery</th>
@@ -63,12 +65,12 @@
             <th>Seats Available</th>
             <th>Instructor</th>
             <th>Status</th>
-            <th>Description/Notes</th>
+            <th class="notes-col">Description/Notes</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="course in filteredCourses" :key="course.secsynonym">
-            <td>{{ course.secname }}</td>
+            <td class="section-col">{{ course.secname }}</td>
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ course.secinstrmethods[0] || 'N/A' }}</td>
@@ -78,7 +80,7 @@
             <td>{{ course.xcrssecseatavail[0] || 'N/A' }}</td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
-            <td>{{ formatNotes(course.secprintedcomments) }}</td>
+            <td class="notes-col">{{ formatNotes(course.secprintedcomments) }}</td>
           </tr>
         </tbody>
       </table>
@@ -138,9 +140,9 @@
         },
         getDeliveryCategory(methods) {
           const text = (methods || []).join(',').toLowerCase();
-          if (text.includes('internet') || text.includes('online') || text.includes('asynchronous')) return 'Online';
-          if (text.includes('hybrid')) return 'Hybrid';
-          if (text.includes('class') || text.includes('in-person') || text.includes('face-to-face')) return 'Traditional';
+          if (text.includes('internet') || text.includes('online') || text.includes('asynchronous') || text.includes('web')) return 'Online';
+          if (text.includes('hybrid') || text.includes('blend')) return 'Hybrid';
+          if (text.includes('face') || text.includes('class') || text.includes('campus') || text.includes('traditional') || text.includes('in-person')) return 'Traditional';
           return '';
         }
       },
