@@ -1,0 +1,10171 @@
+[{
+	"secsynonym": "129975",
+	"secname": "ACA-111-800",
+	"secshorttitle": "College Student Success",
+	"xcrssecfacultyxname": [
+		"Houser, Janice H."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/26/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "1",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "129976",
+	"secname": "ACA-122-800",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Craven, Ashley Hutcheson"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "129977",
+	"secname": "ACA-122-801",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Farmer, Michael Dwayne"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"31"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "129978",
+	"secname": "ACA-122-802",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Craven, Ashley Hutcheson"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"31"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "129979",
+	"secname": "ACC-120-800",
+	"secshorttitle": "Prin of Financial Accounting",
+	"xcrssecfacultyxname": [
+		"Robertson, Sharon Dyanne"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"32"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "129980",
+	"secname": "ACC-121-800",
+	"secshorttitle": "Prin of Managerial Accounting",
+	"xcrssecfacultyxname": [
+		"Robertson, Sharon Dyanne"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129981",
+	"secname": "ACC-150-800",
+	"secshorttitle": "Accounting Software Appl",
+	"xcrssecfacultyxname": [
+		"Robertson, Sharon Dyanne"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "129985",
+	"secname": "ANT-220-800",
+	"secshorttitle": "Cultural Anthropology",
+	"xcrssecfacultyxname": [
+		"Mode, Heather Mariel Smith"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"18"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "129986",
+	"secname": "ART-111-800",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Kiefer, Jeffery"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129987",
+	"secname": "ART-111-801",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Kiefer, Jeffery"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129988",
+	"secname": "ART-111-802",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Martin, Kendall Joy"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129989",
+	"secname": "ART-111-815",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Kiefer, Jeffery"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129990",
+	"secname": "ART-111-816",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Kiefer, Jeffery"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"5"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129991",
+	"secname": "AST-151-800",
+	"secshorttitle": "General Astronomy I",
+	"xcrssecfacultyxname": [
+		"Gugsa, Solomon A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129992",
+	"secname": "AST-151A-800",
+	"secshorttitle": "General Astronomy I Lab",
+	"xcrssecfacultyxname": [
+		"Gugsa, Solomon A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129993",
+	"secname": "ATR-212-850",
+	"secshorttitle": "Industrial Robots",
+	"xcrssecfacultyxname": [
+		"Thomas, James David"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"WSC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"1097",
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "129994",
+	"secname": "AUT-141-100",
+	"secshorttitle": "Suspension & Steering Sys",
+	"xcrssecfacultyxname": [
+		"Hartley, Dustin"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"10:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC",
+		"WSC"
+	],
+	"xsecRoom": [
+		"1037",
+		"1038"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Automotive Systems Technology program. ",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129995",
+	"secname": "AUT-141A-100",
+	"secshorttitle": "Suspension & Steering Lab",
+	"xcrssecfacultyxname": [
+		"Hartley, Dustin"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"10:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC"
+	],
+	"xsecRoom": [
+		"1038"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Automotive Systems Technology program. ",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129996",
+	"secname": "AUT-163-200",
+	"secshorttitle": "Adv Auto Electricity",
+	"xcrssecfacultyxname": [
+		"Roane, James E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"6:50:00 PM",
+		"8:20:00 PM"
+	],
+	"secBldgmv": [
+		"WSC",
+		"WSC"
+	],
+	"xsecRoom": [
+		"1037",
+		"1038"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Automotive Systems Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129997",
+	"secname": "AUT-163A-200",
+	"secshorttitle": "Adv Auto Electricity Lab",
+	"xcrssecfacultyxname": [
+		"Roane, James E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:30:00 PM"
+	],
+	"secendtime": [
+		"9:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC"
+	],
+	"xsecRoom": [
+		"1038"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Automotive Systems Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129998",
+	"secname": "BIO-110-800",
+	"secshorttitle": "Principles of Biology",
+	"xcrssecfacultyxname": [
+		"Dougherty, Mary Lydia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"15"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "129999",
+	"secname": "BIO-111-800",
+	"secshorttitle": "General Biology I",
+	"xcrssecfacultyxname": [
+		"McCrary, Caroline Crouse"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130000",
+	"secname": "BIO-111-801",
+	"secshorttitle": "General Biology I",
+	"xcrssecfacultyxname": [
+		"Smith, Sarah Bright"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/26/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"10"
+	],
+	"xcrssecseatavail": [
+		"20"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131702",
+	"secname": "BIO-111-850",
+	"secshorttitle": "General Biology I",
+	"xcrssecfacultyxname": [
+		"Hatchett, Cody Jared"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"411",
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [
+		"Lab will require animal dissections.",
+		"",
+		"",
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130001",
+	"secname": "BIO-112-800",
+	"secshorttitle": "General Biology II",
+	"xcrssecfacultyxname": [
+		"Smith, Sarah Bright"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130002",
+	"secname": "BIO-155-800",
+	"secshorttitle": "Nutrition",
+	"xcrssecfacultyxname": [
+		"Kale, Susan J."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130003",
+	"secname": "BIO-168-800",
+	"secshorttitle": "Anatomy and Physiology I",
+	"xcrssecfacultyxname": [
+		"Rosenlind, Anna Maria"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130004",
+	"secname": "BIO-168-801",
+	"secshorttitle": "Anatomy and Physiology I",
+	"xcrssecfacultyxname": [
+		"Heise, Colleen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131629",
+	"secname": "BIO-168-802",
+	"secshorttitle": "Anatomy and Physiology I",
+	"xcrssecfacultyxname": [
+		"Bojko, Lynn Winters"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130005",
+	"secname": "BIO-168-815",
+	"secshorttitle": "Anatomy and Physiology I",
+	"xcrssecfacultyxname": [
+		"Whiteley, Emily C."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130006",
+	"secname": "BIO-168-850",
+	"secshorttitle": "Anatomy and Physiology I",
+	"xcrssecfacultyxname": [
+		"Abernethy, Aaron Randall"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"416",
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130007",
+	"secname": "BIO-169-800",
+	"secshorttitle": "Anatomy and Physiology II",
+	"xcrssecfacultyxname": [
+		"Morin, Kirsten Keller"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130008",
+	"secname": "BIO-169-801",
+	"secshorttitle": "Anatomy and Physiology II",
+	"xcrssecfacultyxname": [
+		"Morin, Kirsten Keller"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130009",
+	"secname": "BIO-169-815",
+	"secshorttitle": "Anatomy and Physiology II",
+	"xcrssecfacultyxname": [
+		"Whiteley, Emily C."
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130010",
+	"secname": "BIO-169-850",
+	"secshorttitle": "Anatomy and Physiology II",
+	"xcrssecfacultyxname": [
+		"Bojko, Lynn Winters"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"412",
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"15"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130011",
+	"secname": "BIO-275-800",
+	"secshorttitle": "Microbiology",
+	"xcrssecfacultyxname": [
+		"Whiteley, Emily C."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132060",
+	"secname": "BIO-275-801",
+	"secshorttitle": "Microbiology",
+	"xcrssecfacultyxname": [
+		"Whiteley, Emily C."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132247",
+	"secname": "BIO-275-802",
+	"secshorttitle": "Microbiology",
+	"xcrssecfacultyxname": [
+		"Smith, Sarah Bright"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130012",
+	"secname": "BIO-275-850",
+	"secshorttitle": "Microbiology",
+	"xcrssecfacultyxname": [
+		"Dougherty, Mary Lydia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"426",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130013",
+	"secname": "BUS-110-800",
+	"secshorttitle": "Introduction to Business",
+	"xcrssecfacultyxname": [
+		"Sykes, Carrie E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130014",
+	"secname": "BUS-110-815",
+	"secshorttitle": "Introduction to Business",
+	"xcrssecfacultyxname": [
+		"Dellinger, Brooklyn"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130015",
+	"secname": "BUS-115-800",
+	"secshorttitle": "Business Law I",
+	"xcrssecfacultyxname": [
+		"Dellinger, Brooklyn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130016",
+	"secname": "BUS-116-815",
+	"secshorttitle": "Business Law II",
+	"xcrssecfacultyxname": [
+		"Sykes, Carrie E"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130017",
+	"secname": "BUS-137-800",
+	"secshorttitle": "Principles of Management",
+	"xcrssecfacultyxname": [
+		"Sykes, Carrie E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130018",
+	"secname": "CHM-130-800",
+	"secshorttitle": "Gen, Org, & Biochemistry",
+	"xcrssecfacultyxname": [
+		"Dulin, Constance Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130019",
+	"secname": "CHM-130-801",
+	"secshorttitle": "Gen, Org, & Biochemistry",
+	"xcrssecfacultyxname": [
+		"Dulin, Constance Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"5"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130020",
+	"secname": "CHM-130A-800",
+	"secshorttitle": "Gen, Org, & Biochem Lab",
+	"xcrssecfacultyxname": [
+		"Dulin, Constance Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130021",
+	"secname": "CHM-130A-801",
+	"secshorttitle": "Gen, Org, & Biochem Lab",
+	"xcrssecfacultyxname": [
+		"Dulin, Constance Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"5"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130022",
+	"secname": "CHM-131-800",
+	"secshorttitle": "Introduction to Chemistry",
+	"xcrssecfacultyxname": [
+		"Giesbrecht, Heath E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130023",
+	"secname": "CHM-131A-800",
+	"secshorttitle": "Intro to Chemistry Lab",
+	"xcrssecfacultyxname": [
+		"Giesbrecht, Heath E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130024",
+	"secname": "CHM-151-100",
+	"secshorttitle": "General Chemistry I",
+	"xcrssecfacultyxname": [
+		"Moore, Alvin W"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		"12:00:00 PM"
+	],
+	"secendtime": [
+		"11:20:00 AM",
+		"2:50:00 PM"
+	],
+	"secBldgmv": [
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"444",
+		"443"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130025",
+	"secname": "CHM-151-800",
+	"secshorttitle": "General Chemistry I",
+	"xcrssecfacultyxname": [
+		"Kiser, John R"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. ",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132416",
+	"secname": "CHM-151-801",
+	"secshorttitle": "General Chemistry I",
+	"xcrssecfacultyxname": [
+		"Giesbrecht, Heath E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. ",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131959",
+	"secname": "CHM-152-800",
+	"secshorttitle": "General Chemistry II",
+	"xcrssecfacultyxname": [
+		"Kiser, John R"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130026",
+	"secname": "CIS-110-800",
+	"secshorttitle": "Introduction to Computers",
+	"xcrssecfacultyxname": [
+		"Fountain, Rory Shawn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130027",
+	"secname": "CIS-110-801",
+	"secshorttitle": "Introduction to Computers",
+	"xcrssecfacultyxname": [
+		"Barnes, Ricky A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130028",
+	"secname": "CIS-110-815",
+	"secshorttitle": "Introduction to Computers",
+	"xcrssecfacultyxname": [
+		"Barnes, Ricky A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130030",
+	"secname": "CIS-110-850",
+	"secshorttitle": "Introduction to Computers",
+	"xcrssecfacultyxname": [
+		"Fountain, Rory Shawn"
+	],
+	"secstartdate": "6/9/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"",
+		""
+	],
+	"secBldgmv": [
+		"WSC",
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"1070",
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130031",
+	"secname": "CIS-115-800",
+	"secshorttitle": "Intro to Prog & Logic",
+	"xcrssecfacultyxname": [
+		"Richard, Fred A."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"18"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130032",
+	"secname": "CJC-111-800",
+	"secshorttitle": "Intro to Criminal Justice",
+	"xcrssecfacultyxname": [
+		"Herman, Sherry Osborne"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130033",
+	"secname": "COM-120-800",
+	"secshorttitle": "Intro Interpersonal Com",
+	"xcrssecfacultyxname": [
+		"Hamilton, Ariel E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130034",
+	"secname": "COM-120-801",
+	"secshorttitle": "Intro Interpersonal Com",
+	"xcrssecfacultyxname": [
+		"Petree, William Wade"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130035",
+	"secname": "COM-120-802",
+	"secshorttitle": "Intro Interpersonal Com",
+	"xcrssecfacultyxname": [
+		"Petree, William Wade"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130036",
+	"secname": "COM-120-803",
+	"secshorttitle": "Intro Interpersonal Com",
+	"xcrssecfacultyxname": [
+		"Abernethy, Tracy Hill"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130037",
+	"secname": "COM-120-804",
+	"secshorttitle": "Intro Interpersonal Com",
+	"xcrssecfacultyxname": [
+		"Abernethy, Tracy Hill"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130038",
+	"secname": "COM-231-800",
+	"secshorttitle": "Public Speaking",
+	"xcrssecfacultyxname": [
+		"Hamilton, Ariel E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132144",
+	"secname": "COM-231-801",
+	"secshorttitle": "Public Speaking",
+	"xcrssecfacultyxname": [
+		"Hamilton, Ariel E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131721",
+	"secname": "COS-113AB-850",
+	"secshorttitle": "Cosmetology Concepts II",
+	"xcrssecfacultyxname": [
+		"Huffman, Hailey Michelle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:20:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"COS",
+		"INTE"
+	],
+	"xsecRoom": [
+		"104",
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students in the Cosmetology",
+		"Program. Please contact Donna Vann (4108) for additional",
+		"information.",
+		"",
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130040",
+	"secname": "COS-114AB-425",
+	"secshorttitle": "Salon II",
+	"xcrssecfacultyxname": [
+		"Huffman, Hailey Michelle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "12",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"10:30:00 AM",
+		"12:30:00 PM",
+		"8:30:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"3:30:00 PM",
+		"12:00:00 PM"
+	],
+	"secBldgmv": [
+		"COS",
+		"COS",
+		"COS"
+	],
+	"xsecRoom": [
+		"104",
+		"104",
+		"104"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students in the Cosmetology",
+		"Program.  Please contact Donna Vann (4108) for additional",
+		"information.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131722",
+	"secname": "COS-115-850",
+	"secshorttitle": "Cosmetology Concepts III",
+	"xcrssecfacultyxname": [
+		"Daniels, Judy McDowell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:20:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"COS",
+		"INTE"
+	],
+	"xsecRoom": [
+		"104",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students in the Cosmetology",
+		"Program. Please contact Donna Vann (4108) for additional",
+		"information.",
+		"",
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130042",
+	"secname": "COS-116-425",
+	"secshorttitle": "Salon III",
+	"xcrssecfacultyxname": [
+		"Daniels, Judy McDowell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "12",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"10:30:00 AM",
+		"12:30:00 PM",
+		"8:30:00 AM"
+	],
+	"secendtime": [
+		"11:30:00 AM",
+		"3:00:00 PM",
+		"11:30:00 AM"
+	],
+	"secBldgmv": [
+		"COS",
+		"COS",
+		"COS"
+	],
+	"xsecRoom": [
+		"104",
+		"104",
+		"104"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students in the Cosmetology",
+		"Program.  Please contact Donna Vann (4108) for additional",
+		"information.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130043",
+	"secname": "CSC-134-800",
+	"secshorttitle": "C++ Programming",
+	"xcrssecfacultyxname": [
+		"Richard, Fred A."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130044",
+	"secname": "CTS-130-800",
+	"secshorttitle": "Spreadsheet",
+	"xcrssecfacultyxname": [
+		"Barnes, Ricky A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130045",
+	"secname": "DEN-123-850",
+	"secshorttitle": "Nutrition/Dental Health",
+	"xcrssecfacultyxname": [
+		"Erwin, Kayla Fulbright"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"WW",
+		"WW",
+		"INTE"
+	],
+	"xsecRoom": [
+		"120",
+		"120",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Registration for DEN courses is restricted to students",
+		"officially enrolled in the Dental Hygiene program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130046",
+	"secname": "DEN-140-850",
+	"secshorttitle": "Dental Hygiene Theory II",
+	"xcrssecfacultyxname": [
+		"Mladin, Gabriela"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"9:50:00 AM",
+		"11:50:00 AM",
+		"4:50:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"WW",
+		"WW",
+		"DEN",
+		"DEN",
+		"INTE"
+	],
+	"xsecRoom": [
+		"120",
+		"120",
+		"809",
+		"809",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Registration for DEN courses is restricted to students",
+		"officially enrolled in the Dental Hygiene program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130048",
+	"secname": "DEN-141-100",
+	"secshorttitle": "Dental Hygiene Clinic II",
+	"xcrssecfacultyxname": [
+		"Erwin, Kayla Fulbright"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"secBldgmv": [
+		"DEN",
+		"DEN"
+	],
+	"xsecRoom": [
+		"809",
+		"809"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Registration for DEN courses is restricted to students",
+		"officially enrolled in the Dental Hygiene program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130050",
+	"secname": "DFT-151-850",
+	"secshorttitle": "CAD I",
+	"xcrssecfacultyxname": [
+		"Wilson, Ryan Steven"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"WSC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"1070",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130051",
+	"secname": "DRA-111-800",
+	"secshorttitle": "Theatre Appreciation",
+	"xcrssecfacultyxname": [
+		"Waszak, Maxwell B"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131698",
+	"secname": "DRA-126-800",
+	"secshorttitle": "Storytelling",
+	"xcrssecfacultyxname": [
+		"Stinson, Kimberly Christine"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Class will be available online through CVCC's Learning ",
+		"Management System, Blackboard, on the start date of the ",
+		"course at http://cvcc.blackboard.com."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130053",
+	"secname": "ECO-251-800",
+	"secshorttitle": "Prin of Microeconomics",
+	"xcrssecfacultyxname": [
+		"Partapurwala, Mohammed S"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"31"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130054",
+	"secname": "ECO-251-801",
+	"secshorttitle": "Prin of Microeconomics",
+	"xcrssecfacultyxname": [
+		"Vegter, Sam E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130055",
+	"secname": "ECO-251-802",
+	"secshorttitle": "Prin of Microeconomics",
+	"xcrssecfacultyxname": [
+		"Crump, Kathleen B."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130056",
+	"secname": "ECO-252-800",
+	"secshorttitle": "Prin of Macroeconomics",
+	"xcrssecfacultyxname": [
+		"Vegter, Sam E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"31"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130057",
+	"secname": "ECO-252-801",
+	"secshorttitle": "Prin of Macroeconomics",
+	"xcrssecfacultyxname": [
+		"Vegter, Sam E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131682",
+	"secname": "EDU-119-800",
+	"secshorttitle": "Intro to Early Child Education",
+	"xcrssecfacultyxname": [
+		"Ingle, Alexandra E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130058",
+	"secname": "EDU-261-800",
+	"secshorttitle": "Early Childhood Admin I",
+	"xcrssecfacultyxname": [
+		"Ingle, Alexandra E."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/26/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"23"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130059",
+	"secname": "EDU-262-800",
+	"secshorttitle": "Early Childhood Admin II",
+	"xcrssecfacultyxname": [
+		"Ingle, Alexandra E."
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130060",
+	"secname": "EMS-140-800",
+	"secshorttitle": "Rescue Scene Management",
+	"xcrssecfacultyxname": [
+		"Albright, Adam Alexander"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Emergency Medical Science program.  Please contact Kendra Lowman",
+		"(ext. 4372) for additional information."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130061",
+	"secname": "EMS-220-850",
+	"secshorttitle": "Cardiology II",
+	"xcrssecfacultyxname": [
+		"Frady, Kaleb"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"12:50:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"306",
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Emergency Medical Science program.  Please contact Kendra Lowman",
+		"(ext. 4372) for additional information."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130062",
+	"secname": "EMS-221-500",
+	"secshorttitle": "EMS Clinical Practicum II",
+	"xcrssecfacultyxname": [
+		"Frady, Kaleb"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"EMSB"
+	],
+	"xsecRoom": [
+		"1/HOSP"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Emergency Medical Science program.  Please contact Kendra Lowman",
+		"(ext. 4372) for additional information."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130063",
+	"secname": "EMS-260-850",
+	"secshorttitle": "Trauma Emergencies",
+	"xcrssecfacultyxname": [
+		"Frady, Kaleb"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"1:30:00 PM",
+		""
+	],
+	"secendtime": [
+		"4:20:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Emergency Medical Science program.  Please contact Kendra Lowman",
+		"(ext. 4372) for additional information."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130064",
+	"secname": "ENG-011-800",
+	"secshorttitle": "Writing and Inquiry Support",
+	"xcrssecfacultyxname": [
+		"Likin, Amelia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-011-801 must also",
+		"enroll in the associated section of the co-requisite",
+		"ENG-111-801RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130065",
+	"secname": "ENG-011-801",
+	"secshorttitle": "Writing and Inquiry Support",
+	"xcrssecfacultyxname": [
+		"Braun, Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-011-801 must also",
+		"enroll in the associated section of the co-requisite",
+		"ENG-111-801RS course."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132535",
+	"secname": "ENG-011-802",
+	"secshorttitle": "Writing and Inquiry Support",
+	"xcrssecfacultyxname": [
+		"Haugh, Amy Janine"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-011-802 must also",
+		"enroll in the associated section of the co-requisite",
+		"ENG-111-806RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130066",
+	"secname": "ENG-111-800RS",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Likin, Amelia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-111-800RS must also",
+		"enroll in the associated section of the co-requisite ENG-011-800",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130067",
+	"secname": "ENG-111-801RS",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Braun, Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-111-801RS must also",
+		"enroll in the associated section of the co-requisite ENG-011-801",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130068",
+	"secname": "ENG-111-802",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Harbinson, Justin T"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130069",
+	"secname": "ENG-111-803",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Lewallen, Courtney Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130070",
+	"secname": "ENG-111-804",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Harbinson, Justin T"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130071",
+	"secname": "ENG-111-805",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Blevins, Hailey E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132534",
+	"secname": "ENG-111-806RS",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Haugh, Amy Janine"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-111-806RS must also",
+		"enroll in the associated section of the co-requisite ENG-011-802",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130072",
+	"secname": "ENG-112-800",
+	"secshorttitle": "Writing/Research in the Disc",
+	"xcrssecfacultyxname": [
+		"Samamra, Elizabeth Prestwood"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130073",
+	"secname": "ENG-112-801",
+	"secshorttitle": "Writing/Research in the Disc",
+	"xcrssecfacultyxname": [
+		"Samamra, Elizabeth Prestwood"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130074",
+	"secname": "ENG-112-802",
+	"secshorttitle": "Writing/Research in the Disc",
+	"xcrssecfacultyxname": [
+		"Moose, Anna Scarlet"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132406",
+	"secname": "ENG-112-803",
+	"secshorttitle": "Writing/Research in the Disc",
+	"xcrssecfacultyxname": [
+		"Lewallen, Courtney Elizabeth"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130075",
+	"secname": "ENG-232-800",
+	"secshorttitle": "American Literature II",
+	"xcrssecfacultyxname": [
+		"Gomez, Samantha I"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132057",
+	"secname": "ENG-232-801",
+	"secshorttitle": "American Literature II",
+	"xcrssecfacultyxname": [
+		"Gomez, Samantha I"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132341",
+	"secname": "EPT-120-800",
+	"secshorttitle": "Sociology of Disaster",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132342",
+	"secname": "EPT-130-800",
+	"secshorttitle": "Mitigation & Preparedness",
+	"xcrssecfacultyxname": [
+		"Scott, Marcus Nowell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130076",
+	"secname": "EPT-150-800",
+	"secshorttitle": "Incident Management",
+	"xcrssecfacultyxname": [
+		"Davis, Rickey E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"28"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132672",
+	"secname": "EPT-150-801",
+	"secshorttitle": "Incident Management",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [
+		"Career & College Promise designated course. For additional",
+		"information, visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130077",
+	"secname": "FIP-220-800",
+	"secshorttitle": "Fire Fighting Strategies",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "132340",
+	"secname": "FIP-228-800",
+	"secshorttitle": "Local Govt Finance",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"29"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130078",
+	"secname": "GEL-111-800",
+	"secshorttitle": "Geology",
+	"xcrssecfacultyxname": [
+		"Abernethy, Aaron Randall"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130080",
+	"secname": "HEA-110-800",
+	"secshorttitle": "Personal Health/Wellness",
+	"xcrssecfacultyxname": [
+		"Wendt, Hilda Hale"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/26/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130081",
+	"secname": "HEA-110-801",
+	"secshorttitle": "Personal Health/Wellness",
+	"xcrssecfacultyxname": [
+		"Wendt, Hilda Hale"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130082",
+	"secname": "HFS-218-800",
+	"secshorttitle": "Lifestyle Chng & Wellness",
+	"xcrssecfacultyxname": [
+		"Wilkins, Charles Gardner"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"5"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130083",
+	"secname": "HIS-111-800",
+	"secshorttitle": "World Civilizations I",
+	"xcrssecfacultyxname": [
+		"Wilson, Jeremy Ryan"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130084",
+	"secname": "HIS-112-800",
+	"secshorttitle": "World Civilizations II",
+	"xcrssecfacultyxname": [
+		"Brooks-Livingston, Ethan S."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of ENG-111-801RS must also",
+		"enroll in the associated section of the co-requisite ENG-011-801",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130085",
+	"secname": "HIS-131-800",
+	"secshorttitle": "American History I",
+	"xcrssecfacultyxname": [
+		"Martinat, Stacey Eckard"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132346",
+	"secname": "HIS-131-801",
+	"secshorttitle": "American History I",
+	"xcrssecfacultyxname": [
+		"Martinat, Stacey Eckard"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130086",
+	"secname": "HIS-132-800",
+	"secshorttitle": "American History II",
+	"xcrssecfacultyxname": [
+		"Moore, Christopher C"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp"
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130087",
+	"secname": "HIT-122-500",
+	"secshorttitle": "Prof Practice Exp I",
+	"xcrssecfacultyxname": [
+		"Beatty, Barbara Lineberger"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"HOSP"
+	],
+	"xsecRoom": [
+		"167",
+		"HOSP"
+	],
+	"xcrssecused": [
+		"4"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students enrolled in the Health",
+		"Information Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130088",
+	"secname": "HMT-110-800",
+	"secshorttitle": "Intro to Healthcare Mgt",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130089",
+	"secname": "HUM-115-800",
+	"secshorttitle": "Critical Thinking",
+	"xcrssecfacultyxname": [
+		"Hamby, Joseph Shane"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "132122",
+	"secname": "HUM-115-801",
+	"secshorttitle": "Critical Thinking",
+	"xcrssecfacultyxname": [
+		"Hamby, Joseph Shane"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130090",
+	"secname": "ISC-112-850",
+	"secshorttitle": "Industrial Safety",
+	"xcrssecfacultyxname": [
+		"Wilson, Ryan Steven"
+	],
+	"secstartdate": "6/9/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"WSC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"1070",
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Apprenticeship Catawba program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130091",
+	"secname": "ISC-121-800",
+	"secshorttitle": "Envir Health & Safety",
+	"xcrssecfacultyxname": [
+		"McGuire, Andrew Scott"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"23"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130092",
+	"secname": "MAC-241-100",
+	"secshorttitle": "Jigs & Fixtures I",
+	"xcrssecfacultyxname": [
+		"Whitlock, John Paul"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"10:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"3:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC",
+		"WSC"
+	],
+	"xsecRoom": [
+		"1067",
+		"1068"
+	],
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130093",
+	"secname": "MAT-010-800",
+	"secshorttitle": "Math Measurement & Literacy Su",
+	"xcrssecfacultyxname": [
+		"Weber, Stephanie Dawn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-010-800 must also",
+		"enroll in the associated section of the co-requisite MAT",
+		"110-800RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130094",
+	"secname": "MAT-043-800",
+	"secshorttitle": "Quantitative Literacy Support",
+	"xcrssecfacultyxname": [
+		"Knies, Angelina Y"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-043-800 must also",
+		"enroll in the associated section of the co-requisite",
+		"MAT-143-800RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130095",
+	"secname": "MAT-052-800",
+	"secshorttitle": "Statistical Methods I Support",
+	"xcrssecfacultyxname": [
+		"Steele, Troyie Dannielle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-052-800 must also",
+		"enroll in the associated section of the co-requisite MAT",
+		"152-800RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130096",
+	"secname": "MAT-071-800",
+	"secshorttitle": "Precalculus Algebra Suppor",
+	"xcrssecfacultyxname": [
+		"Townsend, Tessa Marie"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-071-800 must also",
+		"enroll in the associated section of the co-requisite MAT",
+		"171-800RS course."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130097",
+	"secname": "MAT-110-800",
+	"secshorttitle": "Math Measurement & Literacy",
+	"xcrssecfacultyxname": [
+		"Weber, Stephanie Dawn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130098",
+	"secname": "MAT-110-800RS",
+	"secshorttitle": "Math Measurement & Literacy",
+	"xcrssecfacultyxname": [
+		"Weber, Stephanie Dawn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-110-800RS must also",
+		"enroll in the associated section of the co-requisite MAT-010-800",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130099",
+	"secname": "MAT-110-801",
+	"secshorttitle": "Math Measurement & Literacy",
+	"xcrssecfacultyxname": [
+		"Eichberg, Kenneth L"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130100",
+	"secname": "MAT-143-800",
+	"secshorttitle": "Quantitative Literacy",
+	"xcrssecfacultyxname": [
+		"Knies, Angelina Y"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130101",
+	"secname": "MAT-143-800RS",
+	"secshorttitle": "Quantitative Literacy",
+	"xcrssecfacultyxname": [
+		"Knies, Angelina Y"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-143-800RS must also",
+		"enroll in the associated section of the co-requisite MAT-043-800",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130102",
+	"secname": "MAT-143-801",
+	"secshorttitle": "Quantitative Literacy",
+	"xcrssecfacultyxname": [
+		"Knies, Angelina Y"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130103",
+	"secname": "MAT-152-800",
+	"secshorttitle": "Statistical Methods I",
+	"xcrssecfacultyxname": [
+		"Steele, Troyie Dannielle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130104",
+	"secname": "MAT-152-800RS",
+	"secshorttitle": "Statistical Methods I",
+	"xcrssecfacultyxname": [
+		"Steele, Troyie Dannielle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-152-800RS must also",
+		"enroll in the associated section of the co-requisite MAT-052-800",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130105",
+	"secname": "MAT-152-801",
+	"secshorttitle": "Statistical Methods I",
+	"xcrssecfacultyxname": [
+		"Mabe, Jessica Page"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132141",
+	"secname": "MAT-152-802",
+	"secshorttitle": "Statistical Methods I",
+	"xcrssecfacultyxname": [
+		"Walsh, Luke T"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"32"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130106",
+	"secname": "MAT-171-800",
+	"secshorttitle": "Precalculus Algebra",
+	"xcrssecfacultyxname": [
+		"Townsend, Tessa Marie"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"-1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130107",
+	"secname": "MAT-171-800RS",
+	"secshorttitle": "Precalculus Algebra",
+	"xcrssecfacultyxname": [
+		"Townsend, Tessa Marie"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Students who enroll in this section of MAT-171-800RS must also",
+		"enroll in the associated section of the co-requisite MAT-071-800",
+		"course.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130108",
+	"secname": "MAT-171-801",
+	"secshorttitle": "Precalculus Algebra",
+	"xcrssecfacultyxname": [
+		"Baker, Kelly C"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"33"
+	],
+	"xcrssecseatavail": [
+		"-1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130109",
+	"secname": "MAT-172-800",
+	"secshorttitle": "Precalculus Trigonometry",
+	"xcrssecfacultyxname": [
+		"Carr, Joshua A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"23"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130110",
+	"secname": "MAT-263-800",
+	"secshorttitle": "Brief Calculus",
+	"xcrssecfacultyxname": [
+		"Mabe, Jessica Page"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132559",
+	"secname": "MAT-263-801",
+	"secshorttitle": "Brief Calculus",
+	"xcrssecfacultyxname": [
+		"Mabe, Jessica Page"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130111",
+	"secname": "MAT-271-800",
+	"secshorttitle": "Calculus I",
+	"xcrssecfacultyxname": [
+		"Williams, Tiffany Nicole"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132337",
+	"secname": "MAT-271-801",
+	"secshorttitle": "Calculus I",
+	"xcrssecfacultyxname": [
+		"Williams, Tiffany Nicole"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130112",
+	"secname": "MAT-272-800",
+	"secshorttitle": "Calculus II",
+	"xcrssecfacultyxname": [
+		"Knowlen, Mathew"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132142",
+	"secname": "MAT-272-801",
+	"secshorttitle": "Calculus II",
+	"xcrssecfacultyxname": [
+		"Knowlen, Mathew"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132558",
+	"secname": "MAT-272-802",
+	"secshorttitle": "Calculus II",
+	"xcrssecfacultyxname": [
+		"King, Dustin C"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"23"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130113",
+	"secname": "MED-118-800",
+	"secshorttitle": "Medical Law and Ethics",
+	"xcrssecfacultyxname": [
+		"Ford, Kimberly J."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130114",
+	"secname": "MED-121-800",
+	"secshorttitle": "Medical Terminology I",
+	"xcrssecfacultyxname": [
+		"Beatty, Barbara Lineberger"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/26/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130115",
+	"secname": "MED-122-800",
+	"secshorttitle": "Medical Terminology II",
+	"xcrssecfacultyxname": [
+		"Huffman, Dana C."
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130116",
+	"secname": "MKT-120-800",
+	"secshorttitle": "Principles of Marketing",
+	"xcrssecfacultyxname": [
+		"Dellinger, Brooklyn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130117",
+	"secname": "MUS-110-800",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Simyon, Caroline Cogdell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130118",
+	"secname": "MUS-110-801",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Holt, Paul"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130119",
+	"secname": "MUS-110-815",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Simyon, Caroline Cogdell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130120",
+	"secname": "MUS-110-816",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Simyon, Caroline Cogdell"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130121",
+	"secname": "MUS-110-850",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Weldon, Cheryl C."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ELS",
+		"INTE"
+	],
+	"xsecRoom": [
+		"705",
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131717",
+	"secname": "NUR-112-100EV",
+	"secshorttitle": "Health-Illness Concepts",
+	"xcrssecfacultyxname": [
+		"Hatch, Michaela Bustle"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"CLINC"
+	],
+	"secmincred": "5",
+	"xsecTotalContactHours": "9",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"M",
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"4:30:00 PM",
+		"4:30:00 PM",
+		"7:30:00 PM"
+	],
+	"secendtime": [
+		"7:20:00 PM",
+		"9:30:00 PM",
+		"8:30:00 PM"
+	],
+	"secBldgmv": [
+		"CAD",
+		"HOSP",
+		"CAD"
+	],
+	"xsecRoom": [
+		"582",
+		"HOSP",
+		"582"
+	],
+	"xcrssecused": [
+		"10"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students enrolled in the Associate",
+		"Degree in Nursing program.",
+		"",
+		"An additional lab (simulation) fee of $15.00 is required for",
+		"NUR-112-100EV."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130122",
+	"secname": "NUR-212-850",
+	"secshorttitle": "Health System Concepts",
+	"xcrssecfacultyxname": [
+		"Geymont, Katy Childers"
+	],
+	"secstartdate": "5/19/2025",
+	"secenddate": "6/24/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"CLINC"
+	],
+	"secmincred": "5",
+	"xsecTotalContactHours": "9",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		"",
+		""
+	],
+	"secendtime": [
+		"12:20:00 PM",
+		"",
+		""
+	],
+	"secBldgmv": [
+		"CAD",
+		"INTE",
+		"HOSP"
+	],
+	"xsecRoom": [
+		"582",
+		"RNET",
+		"HOSP"
+	],
+	"xcrssecused": [
+		"32"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Registration is restricted to students enrolled in the Associate",
+		"Degree in Nursing program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130123",
+	"secname": "OST-243-800",
+	"secshorttitle": "Med Office Simulation",
+	"xcrssecfacultyxname": [
+		"Ford, Kimberly J."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"21"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130124",
+	"secname": "OST-263-800",
+	"secshorttitle": "Healthcare Customer Relations",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130125",
+	"secname": "PAD-151-800",
+	"secshorttitle": "Intro to Public Admin",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132709",
+	"secname": "PAD-254-801",
+	"secshorttitle": "Grant Writing",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130129",
+	"secname": "PED-120-800",
+	"secshorttitle": "Walking for Fitness",
+	"xcrssecfacultyxname": [
+		"Wilkins, Charles Gardner"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130130",
+	"secname": "PHI-240-800",
+	"secshorttitle": "Introduction to Ethics",
+	"xcrssecfacultyxname": [
+		"Wooster, Benjamin"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132397",
+	"secname": "PHI-240-801",
+	"secshorttitle": "Introduction to Ethics",
+	"xcrssecfacultyxname": [
+		"Wooster, Benjamin"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130131",
+	"secname": "PHY-110-800",
+	"secshorttitle": "Conceptual Physics",
+	"xcrssecfacultyxname": [
+		"Panchal, Krishna Jigar"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130132",
+	"secname": "PHY-110A-800",
+	"secshorttitle": "Conceptual Physics Lab",
+	"xcrssecfacultyxname": [
+		"Panchal, Krishna Jigar"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130133",
+	"secname": "PHY-151-800",
+	"secshorttitle": "College Physics I",
+	"xcrssecfacultyxname": [
+		"Gugsa, Solomon A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132103",
+	"secname": "PHY-151-801",
+	"secshorttitle": "College Physics I",
+	"xcrssecfacultyxname": [
+		"Elhady, Yasmene W"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132104",
+	"secname": "PHY-151-802",
+	"secshorttitle": "College Physics I",
+	"xcrssecfacultyxname": [
+		"Elhady, Yasmene W"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132143",
+	"secname": "PHY-151-803",
+	"secshorttitle": "College Physics I",
+	"xcrssecfacultyxname": [
+		"Panchal, Krishna Jigar"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132349",
+	"secname": "PHY-151-804",
+	"secshorttitle": "College Physics I",
+	"xcrssecfacultyxname": [
+		"Gugsa, Solomon A"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130134",
+	"secname": "PHY-152-800",
+	"secshorttitle": "College Physics II",
+	"xcrssecfacultyxname": [
+		"Sanders, James"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132105",
+	"secname": "PHY-152-801",
+	"secshorttitle": "College Physics II",
+	"xcrssecfacultyxname": [
+		"Sanders, James"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"23"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130135",
+	"secname": "PHY-251-800",
+	"secshorttitle": "General Physics I",
+	"xcrssecfacultyxname": [
+		"Gilani, Syed Saqib Ali"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132106",
+	"secname": "PHY-251-801",
+	"secshorttitle": "General Physics I",
+	"xcrssecfacultyxname": [
+		"Gilani, Syed Saqib Ali"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132269",
+	"secname": "PHY-251-802",
+	"secshorttitle": "General Physics I",
+	"xcrssecfacultyxname": [
+		"Rahman, Md. Habibur"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132336",
+	"secname": "PHY-251-803",
+	"secshorttitle": "General Physics I",
+	"xcrssecfacultyxname": [
+		"Rahman, Md. Habibur"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130136",
+	"secname": "PHY-252-800",
+	"secshorttitle": "General Physics II",
+	"xcrssecfacultyxname": [
+		"Holder, Heidi E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130137",
+	"secname": "PHY-252-801",
+	"secshorttitle": "General Physics II",
+	"xcrssecfacultyxname": [
+		"Holder, Heidi E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132107",
+	"secname": "PHY-252-802",
+	"secshorttitle": "General Physics II",
+	"xcrssecfacultyxname": [
+		"Holder, Heidi E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132218",
+	"secname": "PHY-252-803",
+	"secshorttitle": "General Physics II",
+	"xcrssecfacultyxname": [
+		"Holder, Heidi E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130139",
+	"secname": "POL-120-800",
+	"secshorttitle": "American Government",
+	"xcrssecfacultyxname": [
+		"Blanshei, Matthew"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130140",
+	"secname": "PRN-155-100",
+	"secshorttitle": "Screen Printing I",
+	"xcrssecfacultyxname": [
+		"Carroll, Millicent Hope"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"8:50:00 AM",
+		"11:50:00 AM"
+	],
+	"secBldgmv": [
+		"REP",
+		"REP"
+	],
+	"xsecRoom": [
+		"123",
+		"123"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130141",
+	"secname": "PSY-150-800",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Swier, Sarah Asia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130142",
+	"secname": "PSY-150-801",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Singletary, Elliot R"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130143",
+	"secname": "PSY-150-802",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Streater, David W."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130144",
+	"secname": "PSY-150-803",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Zealy-Wright, David McKee"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130145",
+	"secname": "PSY-150-804",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Swier, Sarah Asia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130146",
+	"secname": "PSY-150-805",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Streater, David W."
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131630",
+	"secname": "PSY-150-807",
+	"secshorttitle": "General Psychology",
+	"xcrssecfacultyxname": [
+		"Zealy-Wright, David McKee"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132077",
+	"secname": "PSY-241-802",
+	"secshorttitle": "Developmental Psych",
+	"xcrssecfacultyxname": [
+		"Singletary, Elliot R"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132357",
+	"secname": "PSY-241-803",
+	"secshorttitle": "Developmental Psych",
+	"xcrssecfacultyxname": [
+		"Singletary, Elliot R"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"15"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130150",
+	"secname": "PSY-263-800",
+	"secshorttitle": "Educational Psychology",
+	"xcrssecfacultyxname": [
+		"Swier, Sarah Asia"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130152",
+	"secname": "RAD-122-850",
+	"secshorttitle": "Image Production II",
+	"xcrssecfacultyxname": [
+		"Vandevander, Scott Allen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"REP",
+		"INTE"
+	],
+	"xsecRoom": [
+		"147",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Radiography Technology program."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130153",
+	"secname": "RAD-141-100",
+	"secshorttitle": "Radiation Safety",
+	"xcrssecfacultyxname": [
+		"Moore, Morgan Wicker"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"2:50:00 PM"
+	],
+	"secBldgmv": [
+		"REP"
+	],
+	"xsecRoom": [
+		"136"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Radiography Technology program."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130154",
+	"secname": "RAD-171-500",
+	"secshorttitle": "RAD Clinical Ed III",
+	"xcrssecfacultyxname": [
+		"Moore, Morgan Wicker"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "9",
+	"secmeetingdays": [
+		[
+			"M",
+			"W",
+			"F"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"12:30:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"3:30:00 PM"
+	],
+	"secBldgmv": [
+		"HOSP",
+		"HOSP"
+	],
+	"xsecRoom": [
+		"HOSP",
+		"HOSP"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Radiography Technology program.",
+		"",
+		"An additional radiation monitoring device fee of $35 is required",
+		"for RAD-171."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130155",
+	"secname": "RCP-123-100",
+	"secshorttitle": "Special Practice Lab",
+	"xcrssecfacultyxname": [
+		"Howard, Amy Warren"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/24/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"T"
+		],
+		[
+			"M",
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		"11:30:00 AM"
+	],
+	"secendtime": [
+		"11:20:00 AM",
+		"2:20:00 PM"
+	],
+	"secBldgmv": [
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"548",
+		"548"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Respiratory Care program."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130157",
+	"secname": "RCP-152-500",
+	"secshorttitle": "RCP Clinical Practice III",
+	"xcrssecfacultyxname": [
+		"Howard, Amy Warren"
+	],
+	"secstartdate": "6/4/2025",
+	"secenddate": "7/1/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"W",
+			"TH"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"M",
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:30:00 AM",
+		"12:30:00 PM",
+		"6:30:00 AM",
+		"12:30:00 PM"
+	],
+	"secendtime": [
+		"11:30:00 AM",
+		"5:06:00 PM",
+		"11:30:00 AM",
+		"5:06:00 PM"
+	],
+	"secBldgmv": [
+		"HOSP",
+		"HOSP",
+		"HOSP",
+		"HOSP"
+	],
+	"xsecRoom": [
+		"HOSP",
+		"HOSP",
+		"HOSP",
+		"HOSP"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Respiratory Care program."
+	],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130159",
+	"secname": "REL-110-800",
+	"secshorttitle": "World Religions",
+	"xcrssecfacultyxname": [
+		"Deboever, Keely Harris"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130160",
+	"secname": "SEC-110-850",
+	"secshorttitle": "Security Concepts",
+	"xcrssecfacultyxname": [
+		"Fountain, Rory Shawn"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		"",
+		""
+	],
+	"secBldgmv": [
+		"WSC",
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"1018",
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130161",
+	"secname": "SOC-210-800",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Stroupe, John Russell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"29"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130162",
+	"secname": "SOC-210-801",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Joyner, Sarah Agatha"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"24"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130163",
+	"secname": "SOC-210-802",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Stroupe, John Russell"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"23"
+	],
+	"xcrssecseatavail": [
+		"7"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132356",
+	"secname": "SOC-210-804",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Greer, Brenda W"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130165",
+	"secname": "SOC-213-800",
+	"secshorttitle": "Sociology of the Family",
+	"xcrssecfacultyxname": [
+		"Joyner, Sarah Agatha"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130166",
+	"secname": "SOC-220-800",
+	"secshorttitle": "Social Problems",
+	"xcrssecfacultyxname": [
+		"Brown, Ashley King"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131689",
+	"secname": "SOC-234-800",
+	"secshorttitle": "Sociology of Gender",
+	"xcrssecfacultyxname": [
+		"Joyner, Sarah Agatha"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130167",
+	"secname": "SOC-242-800",
+	"secshorttitle": "Sociology of Deviance",
+	"xcrssecfacultyxname": [
+		"Brown, Ashley King"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130168",
+	"secname": "SPA-111-800",
+	"secshorttitle": "Elementary Spanish I",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"28"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "132078",
+	"secname": "SPA-111-801",
+	"secshorttitle": "Elementary Spanish I",
+	"xcrssecfacultyxname": [
+		"Westmoreland, Wendy"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130169",
+	"secname": "SPA-111-815",
+	"secshorttitle": "Elementary Spanish I",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132478",
+	"secname": "SPA-111-816",
+	"secshorttitle": "Elementary Spanish I",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "6/30/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130170",
+	"secname": "SPA-112-800",
+	"secshorttitle": "Elementary Spanish II",
+	"xcrssecfacultyxname": [
+		"Hortal, Laura Woosley"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"26"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130171",
+	"secname": "SPA-112-815",
+	"secshorttitle": "Elementary Spanish II",
+	"xcrssecfacultyxname": [
+		"Hortal, Laura Woosley"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"30"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED"
+},{
+	"secsynonym": "132479",
+	"secname": "SPA-112-816",
+	"secshorttitle": "Elementary Spanish II",
+	"xcrssecfacultyxname": [
+		"Hortal, Laura Woosley"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/29/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "130172",
+	"secname": "SPA-211-800",
+	"secshorttitle": "Intermediate Spanish I",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"31"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED"
+},{
+	"secsynonym": "130173",
+	"secname": "SUR-134-100",
+	"secshorttitle": "Surgical Procedures II",
+	"xcrssecfacultyxname": [
+		"Hayes, Sarah Godfrey"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "5",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"M",
+			"T"
+		],
+		[
+			"M",
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"11:20:00 AM",
+		"3:20:00 PM"
+	],
+	"secBldgmv": [
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"324",
+		"324"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Surgical Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130174",
+	"secname": "SUR-135-500",
+	"secshorttitle": "SUR Clinical Practice II",
+	"xcrssecfacultyxname": [
+		"Clark, Melissa Jean"
+	],
+	"secstartdate": "6/4/2025",
+	"secenddate": "7/25/2025",
+	"secinstrmethods": [
+		"CLINC"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "12",
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		]
+	],
+	"secStartTime": [
+		"6:30:00 AM"
+	],
+	"secendtime": [
+		"3:31:00 PM"
+	],
+	"secBldgmv": [
+		"HOSP"
+	],
+	"xsecRoom": [
+		"HOSP"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students enrolled in",
+		"the Surgical Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130175",
+	"secname": "TRN-111-100",
+	"secshorttitle": "Chassis Maint/Light Repair",
+	"xcrssecfacultyxname": [
+		"Blackwelder, Jerry Bryan"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"10:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"VSL",
+		"VSL"
+	],
+	"xsecRoom": [
+		"209",
+		"208"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Registration for this class is restricted to students in the",
+		"Automotive Systems Technology program."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130176",
+	"secname": "WBL-111-300",
+	"secshorttitle": "Work-Based Learning I",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "5/27/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"10"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted. ",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132621",
+	"secname": "WBL-111-301",
+	"secshorttitle": "Work-Based Learning I",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "6/9/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted.",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130177",
+	"secname": "WBL-112-300",
+	"secshorttitle": "Work-Based Learning I",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "5/27/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "20",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"4"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted. ",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130178",
+	"secname": "WBL-121-300",
+	"secshorttitle": "Work-Based Learning II",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "5/27/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted. ",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132553",
+	"secname": "WBL-122-300",
+	"secshorttitle": "Work-Based Learning II",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "5/27/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "20",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted.",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "132477",
+	"secname": "WBL-132-300",
+	"secshorttitle": "Work-Based Learning III",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secstartdate": "5/27/2025",
+	"secenddate": "8/7/2025",
+	"secinstrmethods": [
+		"WORK"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "20",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"TBD"
+	],
+	"xsecRoom": [
+		"TBD"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Registration for Work-Based Learning classes is restricted.",
+		"Please contact Laura Ricahrd at 828-327-7000, ext. 4523 for",
+		"additional information and approval to register."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130179",
+	"secname": "WLD-110-440A",
+	"secshorttitle": "Cutting Processes",
+	"xcrssecfacultyxname": [
+		"Johnson, John Ray"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"5:50:00 PM",
+		"8:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"4"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131690",
+	"secname": "WLD-115AB-750A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"1:50:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "130181",
+	"secname": "WLD-115BB-440A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222"
+	],
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131691",
+	"secname": "WLD-116-440A",
+	"secshorttitle": "SMAW (stick) Plate/Pipe",
+	"xcrssecfacultyxname": [
+		"Pharr, Jessica E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"8:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131694",
+	"secname": "WLD-132-200",
+	"secshorttitle": "GTAW (TIG) Plate/Pipe",
+	"xcrssecfacultyxname": [
+		"Box, Jessy Michael"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "7",
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM",
+		"8:00:00 PM"
+	],
+	"secendtime": [
+		"7:50:00 PM",
+		"8:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC",
+		"WSC"
+	],
+	"xsecRoom": [
+		"1021",
+		"1027"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN"
+},{
+	"secsynonym": "131695",
+	"secname": "WLD-143-100",
+	"secshorttitle": "Welding Metallurgy",
+	"xcrssecfacultyxname": [
+		"Barnes, Daniel"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		"3:00:00 PM"
+	],
+	"secendtime": [
+		"2:50:00 PM",
+		"4:50:00 PM"
+	],
+	"secBldgmv": [
+		"WSC",
+		"WSC"
+	],
+	"xsecRoom": [
+		"1020",
+		"1020"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED"
+},{
+	"secsynonym": "131693",
+	"secname": "WLD-215-440A",
+	"secshorttitle": "SMAW (stick) Pipe",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"8:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN"
+},{
+	"secsynonym": "132403",
+	"secname": "WLD-261-440A",
+	"secshorttitle": "Certification Practices",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"8:50:00 AM",
+		"11:50:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"222"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED"
+}]
