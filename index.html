@@ -11,19 +11,31 @@
       --cvcc-primary: #ac1a2f;
       --cvcc-secondary: #58595b;
       --cvcc-light: #f4f4f4;
-      --cvcc-grey-row: #f9f9f9;
+      --cvcc-grey-row: #f0f0f0;
     }
     body {
-      background-color: var(--cvcc-light);
+      background-color: #eaeaea;
       color: #333;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     h1 {
       color: var(--cvcc-primary);
+      font-weight: 700;
     }
-    .filter-bar { margin-bottom: 1rem; }
+    .filter-bar {
+      margin-bottom: 1rem;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
     .table-wrapper {
       max-height: 70vh;
       overflow-y: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
     thead th {
       position: sticky;
@@ -31,6 +43,7 @@
       background-color: var(--cvcc-primary);
       color: white;
       z-index: 2;
+      font-weight: 600;
     }
     th.section-col { min-width: 140px; }
     td.notes-col {
@@ -39,7 +52,10 @@
       word-wrap: break-word;
     }
     tbody tr:nth-child(odd) {
-      background-color: #f0f0f0;
+      background-color: var(--cvcc-grey-row);
+    }
+    tbody td {
+      border-top: 1px solid #ddd;
     }
     a {
       color: var(--cvcc-primary);
