@@ -161,9 +161,9 @@
           courses: [],
           selectedDelivery: '',
           searchQuery: '',
-          selectedTerm: 'https://cvcc.edu/schedules/summerSemesterSchedule.json', // Updated URL
+          selectedTerm: '2025summer.json', // Reverted to local file
           termFiles: {
-            'Summer 2025': 'https://cvcc.edu/schedules/summerSemesterSchedule.json', // Updated URL
+            'Summer 2025': '2025summer.json', // Reverted to local file
             'Fall 2025': '2025faintercession.json'
           },
           loading: false
@@ -198,7 +198,12 @@
             })
             .catch(error => {
               console.error('Error loading courses:', error);
-              alert('Failed to load courses. Please try again later.');
+              // Display a more specific error message if the URL is external and blocked by CORS
+              if (this.selectedTerm.startsWith('http') && error.message.includes('Failed to fetch')) {
+                 alert('Failed to load courses from external source. This might be due to security restrictions (CORS). Please ensure the JSON file is hosted on the same domain as the page, or that the server allows cross-origin requests.');
+              } else {
+                 alert('Failed to load courses. Please try again later.');
+              }
             })
             .finally(() => {
               this.loading = false;
