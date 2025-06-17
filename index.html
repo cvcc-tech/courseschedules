@@ -58,9 +58,15 @@
     .table > tbody > tr:nth-child(even) > td {
       background-color: #ffffff !important;
     }
-    tbody td {
-      border-top: 1px solid #ddd;
+    .table > tbody > tr:nth-child(odd) > td {
+      background-color: #f8f9fa !important;
     }
+
+    .table > tbody > tr:nth-child(even) > td {
+      background-color: #ffffff !important;
+    }
+
+    tbody td {
     a {
       color: var(--cvcc-primary);
       text-decoration: underline;
@@ -93,7 +99,7 @@
       </div>
     </div>
 
-    <div class="table-wrapper">
+    <div class="table-wrapper" style="width: 100%;">
       <table class="table table-bordered">
         <thead>
           <tr>
