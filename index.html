@@ -67,13 +67,9 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - CORRECTED, applied to TR */
-    .table > tbody > tr:nth-child(odd) {
-      background-color: #ededed !important; /* Lighter, more visible grey */
-    }
-
-    .table > tbody > tr:nth-child(even) {
-      background-color: #ffffff !important; /* Explicitly set even rows to white */
+    /* Alternating row colors - using custom class */
+    .bg-light-grey-row {
+      background-color: #f0f0f0 !important; /* A slightly more pronounced light grey */
     }
 
     /* Text color for links */
@@ -147,7 +143,7 @@
         </thead>
         <tbody>
           <tr v-for="(course, index) in filteredCourses" :key="course.secsynonym"
-              :style="{ 'background-color': index % 2 === 0 ? '#ffffff' : '#ededed' }">
+              :class="{'bg-white': index % 2 === 0, 'bg-light-grey-row': index % 2 !== 0}">
             <td class="section-col">{{ course.secname }}</td>
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
