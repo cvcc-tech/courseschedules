@@ -74,14 +74,7 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - CORRECTED, applied to TR */
-    .table > tbody > tr:nth-child(odd) {
-      background-color: #ededed !important; /* Lighter, more visible grey */
-    }
-
-    .table > tbody > tr:nth-child(even) {
-      background-color: #ffffff !important; /* Explicitly set even rows to white */
-    }
+    /* No alternating row CSS here */
 
     /* Text color for links */
     a {
@@ -154,17 +147,17 @@
         </thead>
         <tbody>
           <tr v-for="(course, rowIndex) in filteredCourses" :key="course.secsynonym">
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }" class="section-col">{{ course.secname }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.secshorttitle }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.secmincred }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.secstartdate }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.secenddate }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }">{{ course.status }}</td>
-            <td :style="{ 'background-color': rowIndex % 2 === 0 ? '#ffffff' : '#f0f0f0' }" class="notes-col" v-html="formatNotes(course.secprintedcomments)"></td>
+            <td class="section-col">{{ course.secname }}</td>
+            <td>{{ course.secshorttitle }}</td>
+            <td>{{ course.secmincred }}</td>
+            <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
+            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ course.secstartdate }}</td>
+            <td>{{ course.secenddate }}</td>
+            <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
+            <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
+            <td>{{ course.status }}</td>
+            <td class="notes-col" v-html="formatNotes(course.secprintedcomments)"></td>
           </tr>
         </tbody>
       </table>
