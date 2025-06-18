@@ -41,15 +41,12 @@
       border-radius: 8px;
       padding: 1rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      /* No specific width, let Bootstrap's col-md-10 handle it within the row */
     }
     .table-wrapper {
       max-height: 70vh;
       overflow-y: auto;
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      /* No specific width, let Bootstrap's default table behavior handle it */
+      border-radius: 8禮士box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
     .table {
       width: 100%; /* Make the table itself full width of its parent */
@@ -69,7 +66,14 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Removed previous alternating row CSS rules, now handled inline */
+    /* Alternating row colors - CORRECTED, applied to TR */
+    .table > tbody > tr:nth-child(odd) {
+      background-color: #ededed !important; /* Lighter, more visible grey */
+    }
+
+    .table > tbody > tr:nth-child(even) {
+      background-color: #ffffff !important; /* Explicitly set even rows to white */
+    }
 
     /* Text color for links */
     a {
@@ -89,7 +93,7 @@
       <div class="col-md-3">
         <label class="form-label">Term</label>
         <select v-model="selectedTerm" @change="loadCourses" class="form-select">
-          <option v-for="(file, label) in termFiles" :value="file">{{ label }}</option>
+          <option v-for="term in termOptions" :value="term.value">{{ term.label }}</option>
         </select>
       </div>
       <div class="col-md-3">
@@ -101,8 +105,21 @@
           <option value="Traditional">Traditional</option>
         </select>
       </div>
-      <div class="col-md-4">
-        <label class="form-label">Search</label>
+      <div class="col-md-3">
+        <label class="form-label">Location</label>
+        <select v-model="selectedLocation" class="form-select">
+          <option value="">All</option>
+          <option v-for="location in uniqueLocations" :value="location">{{ location }}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Status</label>
+        <select v-model="selectedStatus" class="form-select">
+          <option value="">All</option>
+          <option v-for="status in uniqueStatuses" :value="status">{{ status }}</option>
+        </select>
+      </div>
+      <div class="col-md-4 mt-3"> <label class="form-label">Search</label>
         <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
       </div>
     </div>
@@ -154,12 +171,17 @@
         return {
           courses: [],
           selectedDelivery: '',
+          selectedLocation: '', // New filter data property
+          selectedStatus: '',   // New filter data property
           searchQuery: '',
-          selectedTerm: '2025summer.json',
-          termFiles: {
-            'Summer 2025': '2025summer.json',
-            'Fall 2025': '2025faintercession.json'
-          },
+          selectedTerm: '',
+          termOptions: [],
+          // LIST YOUR JSON FILENAMES HERE - MAKE SURE INFORMER EXPORTS USE THESE NAMES EXACTLY
+          jsonFilesToLoad: [
+            '2025summer.json',
+            '2025faintercession.json',
+            // Add more files here as they are exported, e.g., 'spring_2026.json'
+          ],
           loading: false
         }
       },
@@ -168,52 +190,136 @@
           return this.courses.filter(c => {
             const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
             const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
+
+            // Location Filter Logic
+            let courseLocationIdentifier = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
+            let derivedLocationForFilter = courseLocationIdentifier;
+            if (derivedLocationForFilter === 'INTE') derivedLocationForFilter = 'Internet';
+            else if (derivedLocationForFilter === 'HOSP') derivedLocationForFilter = 'Hospital';
+            else if (derivedLocationForFilter === 'TBD') derivedLocationForFilter = 'TBD';
+            // For other building codes, it uses the code directly.
+
+            const matchesLocation = !this.selectedLocation || derivedLocationForFilter === this.selectedLocation;
+
+            // Status Filter Logic
+            const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
+
+            // Search Filter Logic
             const search = this.searchQuery.toLowerCase();
             const matchesSearch = !search || c.secname.toLowerCase().includes(search) || c.secshorttitle.toLowerCase().includes(search);
-            return matchesDelivery && matchesSearch;
+
+            return matchesDelivery && matchesLocation && matchesStatus && matchesSearch;
           });
+        },
+        uniqueLocations() {
+          const locations = new Set();
+          this.courses.forEach(c => {
+            if (c.secBldgmv && c.secBldgmv.length > 0) {
+              const buildingCode = c.secBldgmv[0];
+              if (buildingCode === 'INTE') {
+                locations.add('Internet');
+              } else if (buildingCode === 'HOSP') {
+                locations.add('Hospital');
+              } else if (buildingCode === 'TBD') {
+                locations.add('TBD');
+              } else {
+                locations.add(buildingCode); // Use building code directly for others
+              }
+            }
+          });
+          const sortedLocations = Array.from(locations).sort();
+          // Optional: Put "Internet" first if desired
+          const internetIndex = sortedLocations.indexOf('Internet');
+          if (internetIndex > -1) {
+            const internet = sortedLocations.splice(internetIndex, 1);
+            sortedLocations.unshift(internet[0]);
+          }
+          return sortedLocations;
+        },
+        uniqueStatuses() {
+          const statuses = new Set();
+          this.courses.forEach(c => {
+            if (c.status) {
+              statuses.add(c.status);
+            }
+          });
+          return Array.from(statuses).sort();
         }
       },
       methods: {
-        loadCourses() {
+        async loadTermOptions() {
+          this.loading = true;
+          const loadedTerms = [];
+          for (const filename of this.jsonFilesToLoad) {
+            let displayName = filename.replace('.json', '');
+            displayName = displayName.replace(/_/g, ' ');
+            displayName = displayName.split(' ').map(word => {
+                if (word.toLowerCase() === 'intercession') return 'Intercession';
+                return word.charAt(0).toUpperCase() + word.slice(1);
+            }).join(' ');
+
+            loadedTerms.push({
+              label: displayName,
+              value: filename
+            });
+          }
+          loadedTerms.sort((a, b) => {
+            const getSortKey = (label) => {
+                const parts = label.split(' ');
+                const year = parseInt(parts[parts.length - 1]);
+                let semesterOrder = 0;
+                const semesterPart = parts[0].toLowerCase();
+                if (semesterPart === 'spring') semesterOrder = 1;
+                else if (semesterPart === 'summer') semesterOrder = 2;
+                else if (semesterPart === 'fall') semesterOrder = 3;
+                else if (semesterPart === 'intercession' && parts[parts.length - 2].toLowerCase() === 'fall') semesterOrder = 3.5;
+                return year * 10 + semesterOrder;
+            };
+            return getSortKey(a.label) - getSortKey(b.label);
+          });
+
+          this.termOptions = loadedTerms;
+          if (this.termOptions.length > 0) {
+            this.selectedTerm = this.termOptions[0].value;
+          }
+          this.loadCourses();
+        },
+        async loadCourses() {
+          if (!this.selectedTerm) {
+              this.courses = [];
+              this.loading = false;
+              return;
+          }
           this.loading = true;
           this.courses = [];
-          fetch(this.selectedTerm)
-            .then(res => {
-              if (!res.ok) {
-                throw new Error(`HTTP error! status: ${res.status}`);
-              }
-              return res.json();
-            })
-            .then(data => {
-              this.courses = data;
-              this.selectedDelivery = '';
-              this.searchQuery = '';
-            })
-            .catch(error => {
-              console.error('Error loading courses:', error);
-              // Display a more specific error message if the URL is external and blocked by CORS
-              if (this.selectedTerm.startsWith('http') && error.message.includes('Failed to fetch')) {
-                 alert('Failed to load courses from external source. This might be due to security restrictions (CORS). Please ensure the JSON file is hosted on the same domain as the page, or that the server allows cross-origin requests.');
-              } else {
-                 alert('Failed to load courses. Please try again later.');
-              }
-            })
-            .finally(() => {
-              this.loading = false;
-            });
+          try {
+            const res = await fetch(this.selectedTerm);
+            if (!res.ok) {
+              throw new Error(`HTTP error! status: ${res.status}`);
+            }
+            const data = await res.json();
+            this.courses = data;
+            // Reset new filters when courses load to ensure a fresh view
+            this.selectedLocation = '';
+            this.selectedStatus = '';
+            this.searchQuery = '';
+          } catch (error) {
+            console.error('Error loading courses:', error);
+            alert('Failed to load courses. Please ensure the JSON file exists and is accessible. Check the browser console for details.');
+          } finally {
+            this.loading = false;
+          }
         },
         formatInstructor(names) {
           if (!names || names.length === 0) return 'N/A';
           return names.map(name => {
             const parts = name.split(',').map(p => p.trim());
-            // Reconstruct the name to ensure "Last, First Middle" format if a comma exists
             if (parts.length > 1) {
               const lastName = parts[0];
-              const firstNameAndMiddle = parts.slice(1).join(' '); // Joins all parts after the first comma
+              const firstNameAndMiddle = parts.slice(1).join(' ');
               return `${lastName}, ${firstNameAndMiddle}`;
             }
-            return name; // Return name as is if no comma or single part
+            return name;
           }).join('; ');
         },
         formatNotes(notes) {
@@ -229,14 +335,14 @@
           const match = sectionName.match(/-(\d{3,})$/);
           if (!match) return '';
           const num = parseInt(match?.[1]);
-          if (isNaN(num)) return ''; // Handle cases where parseInt might fail
+          if (isNaN(num)) return '';
           if (num >= 800 && num <= 829) return 'Online';
           if (num >= 830 && num <= 874) return 'Hybrid';
           return 'Traditional';
         }
       },
       mounted() {
-        this.loadCourses();
+        this.loadTermOptions();
       }
     }).mount('#app');
   </script>
