@@ -46,7 +46,8 @@
       max-height: 70vh;
       overflow-y: auto;
       background: white;
-      border-radius: 8禮士box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
     .table {
       width: 100%; /* Make the table itself full width of its parent */
@@ -109,7 +110,7 @@
         <label class="form-label">Location</label>
         <select v-model="selectedLocation" class="form-select">
           <option value="">All</option>
-          <option v-for="location in uniqueLocations" :value="location">{{ location }}</option>
+          <option v-for="location in uniqueLocations" :value="location.value">{{ location.label }}</option>
         </select>
       </div>
       <div class="col-md-3">
@@ -192,14 +193,8 @@
             const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
 
             // Location Filter Logic
-            let courseLocationIdentifier = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
-            let derivedLocationForFilter = courseLocationIdentifier;
-            if (derivedLocationForFilter === 'INTE') derivedLocationForFilter = 'Internet';
-            else if (derivedLocationForFilter === 'HOSP') derivedLocationForFilter = 'Hospital';
-            else if (derivedLocationForFilter === 'TBD') derivedLocationForFilter = 'TBD';
-            // For other building codes, it uses the code directly.
-
-            const matchesLocation = !this.selectedLocation || derivedLocationForFilter === this.selectedLocation;
+            const courseBuildingCode = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
+            const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
 
             // Status Filter Logic
             const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
@@ -212,29 +207,49 @@
           });
         },
         uniqueLocations() {
-          const locations = new Set();
+          const buildingNameMap = {
+            'INTE': 'Internet',
+            'WW': 'West Wing',
+            'VSL': 'Red Hall',
+            'CAD': 'Cuyler A. Dunbar Building',
+            'ELS': 'Music Building',
+            'REP': 'Robert E. Paap Building',
+            'DEN': 'Dental Hygiene',
+            'WSC': 'Workforce Solutions Complex',
+            'COS': 'Cosmetology Center',
+            // General external/special locations (not in the provided building list, but exist in data)
+            'HOSP': 'Hospital/Clinical Site',
+            'ATEC': 'Advanced Technology Education Center', // Keeping this, as it's in data but not your list
+            'TBD': 'To Be Determined'
+            // Codes from your list not found in typical JSON data (EW, SS, MPC, TMB) are not added to map yet.
+          };
+
+          const locationsSet = new Set();
           this.courses.forEach(c => {
             if (c.secBldgmv && c.secBldgmv.length > 0) {
-              const buildingCode = c.secBldgmv[0];
-              if (buildingCode === 'INTE') {
-                locations.add('Internet');
-              } else if (buildingCode === 'HOSP') {
-                locations.add('Hospital');
-              } else if (buildingCode === 'TBD') {
-                locations.add('TBD');
-              } else {
-                locations.add(buildingCode); // Use building code directly for others
-              }
+              const code = c.secBldgmv[0];
+              const fullName = buildingNameMap[code] || code; // Fallback to code if not mapped
+              locationsSet.add(JSON.stringify({ // Stringify to store objects in Set correctly
+                label: `${fullName} (${code})`,
+                value: code
+              }));
             }
           });
-          const sortedLocations = Array.from(locations).sort();
-          // Optional: Put "Internet" first if desired
-          const internetIndex = sortedLocations.indexOf('Internet');
-          if (internetIndex > -1) {
-            const internet = sortedLocations.splice(internetIndex, 1);
-            sortedLocations.unshift(internet[0]);
-          }
-          return sortedLocations;
+
+          const uniqueLocationsArray = Array.from(locationsSet).map(str => JSON.parse(str));
+
+          // Sort them
+          uniqueLocationsArray.sort((a, b) => {
+            // Keep 'Internet' at the very top
+            if (a.value === 'INTE') return -1;
+            if (b.value === 'INTE') return 1;
+            // Keep 'TBD' always at the bottom if desired, or sort alphabetically by label
+            if (a.value === 'TBD') return 1;
+            if (b.value === 'TBD') return -1;
+            return a.label.localeCompare(b.label); // Sort alphabetically by the full label
+          });
+
+          return uniqueLocationsArray;
         },
         uniqueStatuses() {
           const statuses = new Set();
@@ -299,8 +314,9 @@
             }
             const data = await res.json();
             this.courses = data;
-            // Reset new filters when courses load to ensure a fresh view
+            // Reset filters when courses load to ensure a fresh view for the new term
             this.selectedLocation = '';
+            this.selectedDelivery = '';
             this.selectedStatus = '';
             this.searchQuery = '';
           } catch (error) {
