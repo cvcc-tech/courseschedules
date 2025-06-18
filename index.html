@@ -24,6 +24,8 @@
       justify-content: space-between; /* Pushes items to opposite ends */
       align-items: flex-end; /* ALIGNS ITEMS TO THE BOTTOM */
       margin-bottom: 1.5rem; /* Space below header */
+      padding-left: 1rem; /* Added padding for visual alignment with content */
+      padding-right: 1rem; /* Added padding for visual alignment with content */
     }
     h1 {
       color: var(--cvcc-primary);
@@ -67,9 +69,13 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - using custom class */
-    .bg-light-grey-row {
-      background-color: #f0f0f0 !important; /* A slightly more pronounced light grey */
+    /* Alternating row colors - CORRECTED, applied to TR */
+    .table > tbody > tr:nth-child(odd) {
+      background-color: #ededed !important; /* Lighter, more visible grey */
+    }
+
+    .table > tbody > tr:nth-child(even) {
+      background-color: #ffffff !important; /* Explicitly set even rows to white */
     }
 
     /* Text color for links */
@@ -80,8 +86,7 @@
   </style>
 </head>
 <body>
-  <div id="app" class="container py-4">
-    <div class="app-header">
+  <div id="app" class="container-fluid py-4"> <div class="app-header">
       <h1>Course Schedules</h1>
       <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
