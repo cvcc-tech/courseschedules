@@ -69,14 +69,7 @@
       white-space: normal;
       word-wrap: break-word;
     }
-    /* Alternating row colors - CORRECTED, applied to TR */
-    .table > tbody > tr:nth-child(odd) {
-      background-color: #ededed !important; /* Lighter, more visible grey */
-    }
-
-    .table > tbody > tr:nth-child(even) {
-      background-color: #ffffff !important; /* Explicitly set even rows to white */
-    }
+    /* Removed previous alternating row CSS rules, now handled inline */
 
     /* Text color for links */
     a {
@@ -135,7 +128,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="course in filteredCourses" :key="course.secsynonym">
+          <tr v-for="(course, index) in filteredCourses" :key="course.secsynonym"
+              :style="{ 'background-color': index % 2 === 0 ? '#ffffff' : '#ededed' }">
             <td class="section-col">{{ course.secname }}</td>
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
@@ -161,9 +155,9 @@
           courses: [],
           selectedDelivery: '',
           searchQuery: '',
-          selectedTerm: '2025summer.json', // Reverted to local file
+          selectedTerm: '2025summer.json',
           termFiles: {
-            'Summer 2025': '2025summer.json', // Reverted to local file
+            'Summer 2025': '2025summer.json',
             'Fall 2025': '2025faintercession.json'
           },
           loading: false
