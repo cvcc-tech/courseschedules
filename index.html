@@ -19,6 +19,12 @@
       background-color: #eaeaea;
       color: #333;
       font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex; /* Flex container for sticky footer */
+      flex-direction: column; /* Stack children vertically */
+      min-height: 100vh; /* Ensure body takes at least full viewport height */
+    }
+    #app {
+      flex-grow: 1; /* Allow main app content to grow and push footer down */
     }
     /* Header area for logo and title */
     .app-header {
@@ -94,7 +100,14 @@
       font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; /* Default Material Symbols settings */
     }
 
-    /* No alternating row CSS here */
+    /* Footer Styling */
+    .app-footer {
+      background-color: var(--cvcc-primary);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem; /* Space above footer */
+    }
 
     /* Text color for links */
     a {
@@ -187,7 +200,8 @@
             <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
-            <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td> <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
+            <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
+            <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
             <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
           </tr>
@@ -195,6 +209,12 @@
       </table>
     </div>
   </div>
+
+  <footer class="app-footer">
+    <div class="container-fluid">
+      Designed and developed by CVCC Technology & Innovation
+    </div>
+  </footer>
 
   <script>
     const { createApp } = Vue;
