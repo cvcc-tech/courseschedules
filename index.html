@@ -159,14 +159,15 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ safeFormat(formatMeetingDays, course.secmeetingdays) }}</td> <td>{{ safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ safeFormat(formatMeetingDays, course.secmeetingdays) }}</td>
+            <td>{{ safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime) }}</td>
+            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
-            <td class="notes-col" v-html="formatNotes(course.secprintedcomments)"></td>
-          </tr>
+            <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td> </tr>
         </tbody>
       </table>
     </div>
@@ -271,7 +272,7 @@
             try {
                 return formatter(...args);
             } catch (e) {
-                console.error("Formatting error:", e, "Arguments:", args);
+                console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
                 return 'Error'; // Display "Error" in the cell
             }
         },
@@ -362,6 +363,14 @@
             }
             return name;
           }).join('; ');
+        },
+        formatNotes(notes) {
+          if (!notes || notes.length === 0) return '';
+          const text = notes.join(' ');
+          return text.replace(/(https?:\/\/\S+|www\.\S+)/gi, match => {
+            const url = match.startsWith('http') ? match : `https://${match}`;
+            return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
+          });
         },
         formatMeetingDays(daysArray) {
           if (!daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
