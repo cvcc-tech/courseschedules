@@ -128,8 +128,16 @@
           <option v-for="status in uniqueStatuses" :value="status">{{ status }}</option>
         </select>
       </div>
-      <div class="col-md-4 mt-3"> <label class="form-label">Search</label>
+      <div class="col-md-6 mt-3">
+        <label class="form-label">Search</label>
         <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
+      </div>
+      <div class="col-md-6 mt-3">
+        <label class="form-label">Days</label>
+        <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
+          <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
+          <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
+        </div>
       </div>
     </div>
 
@@ -144,7 +152,9 @@
             <th scope="col">Title</th>
             <th scope="col">Credits</th>
             <th scope="col">Delivery</th>
-            <th scope="col">Days</th> <th scope="col">Time</th> <th scope="col">Location</th>
+            <th scope="col">Days</th>
+            <th scope="col">Time</th>
+            <th scope="col">Location</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
             <th scope="col">Seats Available</th>
@@ -159,15 +169,16 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ safeFormat(formatMeetingDays, course.secmeetingdays) }}</td>
-            <td>{{ safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime) }}</td>
-            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ safeFormat(formatMeetingDays, course.secmeetingdays, course.secBldgmv) }}</td>
+            <td>{{ safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.secBldgmv) }}</td>
+            <td>{{ formatLocationDisplay(course.xsecRoom, course.secBldgmv) }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
-            <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td> </tr>
+            <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -180,17 +191,17 @@
         return {
           courses: [],
           selectedDelivery: '',
-          selectedLocation: '', // Filter data property
-          selectedStatus: '',   // Filter data property
+          selectedLocation: '',
+          selectedStatus: '',
           searchQuery: '',
+          selectedDays: [], // New data property for selected days
+          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'U'], // All possible days
           selectedTerm: '',
           termOptions: [],
-          lastUpdated: '', // Data property for the timestamp
-          // LIST YOUR JSON FILENAMES HERE - MAKE SURE INFORMER EXPORTS USE THESE NAMES EXACTLY
+          lastUpdated: '',
           jsonFilesToLoad: [
             '2025summer.json',
             '2025faintercession.json',
-            // Add more files here as they are exported, e.g., 'spring_2026.json'
           ],
           loading: false
         }
@@ -201,18 +212,37 @@
             const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
             const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
 
-            // Location Filter Logic
             const courseBuildingCode = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
             const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
 
-            // Status Filter Logic
             const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
 
-            // Search Filter Logic
             const search = this.searchQuery.toLowerCase();
             const matchesSearch = !search || c.secname.toLowerCase().includes(search) || c.secshorttitle.toLowerCase().includes(search);
 
-            return matchesDelivery && matchesLocation && matchesStatus && matchesSearch;
+            // New: Days Filter Logic
+            const matchesDays = (() => {
+                if (!this.selectedDays.length) return true; // No specific days selected, so no filtering by day
+
+                const courseDaysSet = new Set();
+                const rawDays = c.secmeetingdays;
+                if (rawDays && Array.isArray(rawDays)) {
+                    rawDays.forEach(subArray => {
+                        if (Array.isArray(subArray)) {
+                            subArray.forEach(day => {
+                                if (typeof day === 'string' && day.trim() !== '') {
+                                    courseDaysSet.add(day.trim());
+                                }
+                            });
+                        }
+                    });
+                }
+                // Course matches if it meets on AT LEAST ONE of the selected days
+                return this.selectedDays.some(selectedDay => courseDaysSet.has(selectedDay));
+            })();
+
+
+            return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
           });
         },
         uniqueLocations() {
@@ -226,7 +256,6 @@
             'DEN': 'Dental Hygiene',
             'WSC': 'Workforce Solutions Complex',
             'COS': 'Cosmetology Center',
-            // General external/special locations (not in the provided building list, but exist in data)
             'HOSP': 'Hospital/Clinical Site',
             'ATEC': 'Advanced Technology Education Center',
             'TBD': 'To Be Determined'
@@ -267,13 +296,12 @@
         }
       },
       methods: {
-        // New helper function to safely call other formatting methods
         safeFormat(formatter, ...args) {
             try {
-                return formatter(...args);
+                return formatter.apply(this, args); // Use .apply to pass 'this' context if needed
             } catch (e) {
                 console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
-                return 'Error'; // Display "Error" in the cell
+                return 'Error';
             }
         },
         async loadTermOptions() {
@@ -321,7 +349,7 @@
           }
           this.loading = true;
           this.courses = [];
-          this.lastUpdated = ''; // Clear previous update time
+          this.lastUpdated = '';
 
           try {
             const res = await fetch(this.selectedTerm);
@@ -331,23 +359,22 @@
             const data = await res.json();
             this.courses = data;
 
-            // Extract exportTime from the first object, safely and robustly
             if (data.length > 0 && data[0].exportTime) {
-                const exportedTime = String(data[0].exportTime).trim(); // Ensure it's a string and trim
-                this.lastUpdated = exportedTime || 'N/A'; // If after trim it's empty, still show N/A
+                const exportedTime = String(data[0].exportTime).trim();
+                this.lastUpdated = exportedTime || 'N/A';
             } else {
                 this.lastUpdated = 'N/A';
             }
 
-            // Reset filters when courses load to ensure a fresh view for the new term
             this.selectedLocation = '';
             this.selectedDelivery = '';
             this.selectedStatus = '';
+            this.selectedDays = []; // Reset days filter
             this.searchQuery = '';
           } catch (error) {
             console.error('Error loading courses:', error);
             alert('Failed to load courses. Please ensure the JSON file exists and is accessible. Check the browser console for details.');
-            this.lastUpdated = 'Error loading data.'; // Show error in timestamp area
+            this.lastUpdated = 'Error loading data.';
           } finally {
             this.loading = false;
           }
@@ -372,14 +399,17 @@
             return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
           });
         },
-        formatMeetingDays(daysArray) {
+        formatMeetingDays(daysArray, secBldgmv) { // Added secBldgmv for context
+          if (secBldgmv && secBldgmv.includes('INTE')) {
+            return '🌐'; // Online course, show globe
+          }
           if (!daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
-            return 'N/A';
+            return '🌐'; // Default to globe if no days explicitly listed (e.g., for online)
           }
 
-          const allDays = new Set(); // Use a Set to get unique days and prevent duplicates
+          const allDays = new Set();
           daysArray.forEach(subArray => {
-            if (Array.isArray(subArray)) { // Ensure subArray is actually an array
+            if (Array.isArray(subArray)) {
               subArray.forEach(day => {
                 if (typeof day === 'string' && day.trim() !== '') {
                   allDays.add(day.trim());
@@ -389,10 +419,9 @@
           });
 
           if (allDays.size === 0) {
-            return 'N/A';
+            return '🌐';
           }
 
-          // Define a custom order for days of the week to ensure consistent display
           const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'U'];
           const sortedDays = Array.from(allDays).sort((a, b) => {
             return dayOrder.indexOf(a) - dayOrder.indexOf(b);
@@ -400,19 +429,21 @@
 
           return sortedDays.join(', ');
         },
-        formatMeetingTimes(startTimes, endTimes) {
+        formatMeetingTimes(startTimes, endTimes, secBldgmv) { // Added secBldgmv for context
+          if (secBldgmv && secBldgmv.includes('INTE')) {
+            return '🌐'; // Online course, show globe
+          }
           if (!startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
               !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
-            return 'N/A';
+            return '🌐'; // Default to globe if no times explicitly listed
           }
 
           const timeRanges = [];
           for (let i = 0; i < startTimes.length; i++) {
-            const startTime = startTimes[i]?.trim(); // Use optional chaining just in case
-            const endTime = endTimes[i]?.trim();     // Use optional chaining just in case
+            const startTime = startTimes[i]?.trim();
+            const endTime = endTimes[i]?.trim();
 
-            if (startTime && endTime) { // Ensure both start and end times exist for a pair
-              // Remove seconds part (e.g., "9:00:00 AM" -> "9:00 AM")
+            if (startTime && endTime) {
               const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
               const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
               timeRanges.push(`${formattedStartTime} - ${formattedEndTime}`);
@@ -420,10 +451,18 @@
           }
 
           if (timeRanges.length === 0) {
-            return 'N/A';
+            return '🌐';
           }
 
           return timeRanges.join('; ');
+        },
+        formatLocationDisplay(xsecRoom, secBldgmv) {
+          const buildingCode = secBldgmv && secBldgmv.length > 0 ? secBldgmv[0] : '';
+          if (buildingCode === 'INTE') {
+            return '🌐'; // Replace INTE with globe
+          }
+          const room = xsecRoom && xsecRoom.length > 0 ? xsecRoom.join(', ') : '';
+          return `${room} ${buildingCode}`.trim(); // Combine room and building, trim if one is empty
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
