@@ -23,7 +23,7 @@
       display: flex;
       justify-content: space-between; /* Pushes items to opposite ends */
       align-items: flex-end; /* ALIGNS ITEMS TO THE BOTTOM */
-      margin-bottom: 1.5rem; /* Space below header */
+      margin-bottom: 0.5rem; /* Reduced margin for timestamp */
       padding-left: 1rem; /* Added padding for visual alignment with content */
       padding-right: 1rem; /* Added padding for visual alignment with content */
     }
@@ -35,6 +35,13 @@
     .logo {
       max-width: 200px; /* Reduced logo size */
       height: auto;
+    }
+    .last-updated { /* Added styling for timestamp */
+      text-align: right;
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 1rem;
+      padding-right: 1rem; /* Align with content padding */
     }
     .filter-bar {
       margin-bottom: 1rem;
@@ -89,8 +96,7 @@
       <h1>Course Schedules</h1>
       <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
-
-    <div class="row filter-bar">
+    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div> <div class="row filter-bar">
       <div class="col-md-3">
         <label class="form-label">Term</label>
         <select v-model="selectedTerm" @change="loadCourses" class="form-select">
@@ -171,11 +177,12 @@
         return {
           courses: [],
           selectedDelivery: '',
-          selectedLocation: '', // New filter data property
-          selectedStatus: '',   // New filter data property
+          selectedLocation: '', // Filter data property
+          selectedStatus: '',   // Filter data property
           searchQuery: '',
           selectedTerm: '',
           termOptions: [],
+          lastUpdated: '', // New data property for the timestamp
           // LIST YOUR JSON FILENAMES HERE - MAKE SURE INFORMER EXPORTS USE THESE NAMES EXACTLY
           jsonFilesToLoad: [
             '2025summer.json',
@@ -218,17 +225,16 @@
             'COS': 'Cosmetology Center',
             // General external/special locations (not in the provided building list, but exist in data)
             'HOSP': 'Hospital/Clinical Site',
-            'ATEC': 'Advanced Technology Education Center', // Keeping this, as it's in data but not your list
+            'ATEC': 'Advanced Technology Education Center',
             'TBD': 'To Be Determined'
-            // Codes from your list not found in typical JSON data (EW, SS, MPC, TMB) are not added to map yet.
           };
 
           const locationsSet = new Set();
           this.courses.forEach(c => {
             if (c.secBldgmv && c.secBldgmv.length > 0) {
               const code = c.secBldgmv[0];
-              const fullName = buildingNameMap[code] || code; // Fallback to code if not mapped
-              locationsSet.add(JSON.stringify({ // Stringify to store objects in Set correctly
+              const fullName = buildingNameMap[code] || code;
+              locationsSet.add(JSON.stringify({
                 label: `${fullName} (${code})`,
                 value: code
               }));
@@ -237,15 +243,12 @@
 
           const uniqueLocationsArray = Array.from(locationsSet).map(str => JSON.parse(str));
 
-          // Sort them
           uniqueLocationsArray.sort((a, b) => {
-            // Keep 'Internet' at the very top
             if (a.value === 'INTE') return -1;
             if (b.value === 'INTE') return 1;
-            // Keep 'TBD' always at the bottom if desired, or sort alphabetically by label
             if (a.value === 'TBD') return 1;
             if (b.value === 'TBD') return -1;
-            return a.label.localeCompare(b.label); // Sort alphabetically by the full label
+            return a.label.localeCompare(b.label);
           });
 
           return uniqueLocationsArray;
@@ -306,6 +309,8 @@
           }
           this.loading = true;
           this.courses = [];
+          this.lastUpdated = ''; // Clear previous update time
+
           try {
             const res = await fetch(this.selectedTerm);
             if (!res.ok) {
@@ -313,6 +318,14 @@
             }
             const data = await res.json();
             this.courses = data;
+
+            // Extract exportTime from the first object, safely
+            if (data.length > 0 && data[0].exportTime) {
+                this.lastUpdated = data[0].exportTime;
+            } else {
+                this.lastUpdated = 'N/A';
+            }
+
             // Reset filters when courses load to ensure a fresh view for the new term
             this.selectedLocation = '';
             this.selectedDelivery = '';
@@ -321,6 +334,7 @@
           } catch (error) {
             console.error('Error loading courses:', error);
             alert('Failed to load courses. Please ensure the JSON file exists and is accessible. Check the browser console for details.');
+            this.lastUpdated = 'Error loading data.'; // Show error in timestamp area
           } finally {
             this.loading = false;
           }
