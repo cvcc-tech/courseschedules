@@ -96,7 +96,9 @@
       <h1>Course Schedules</h1>
       <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
-    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div> <div class="row filter-bar">
+    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
+
+    <div class="row filter-bar">
       <div class="col-md-3">
         <label class="form-label">Term</label>
         <select v-model="selectedTerm" @change="loadCourses" class="form-select">
@@ -142,7 +144,7 @@
             <th scope="col">Title</th>
             <th scope="col">Credits</th>
             <th scope="col">Delivery</th>
-            <th scope="col">Location</th>
+            <th scope="col">Days</th> <th scope="col">Time</th> <th scope="col">Location</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
             <th scope="col">Seats Available</th>
@@ -157,7 +159,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ formatMeetingDays(course.secmeetingdays) }}</td> <td>{{ formatMeetingTimes(course.secStartTime, course.secendtime) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
@@ -182,7 +184,7 @@
           searchQuery: '',
           selectedTerm: '',
           termOptions: [],
-          lastUpdated: '', // New data property for the timestamp
+          lastUpdated: '', // Data property for the timestamp
           // LIST YOUR JSON FILENAMES HERE - MAKE SURE INFORMER EXPORTS USE THESE NAMES EXACTLY
           jsonFilesToLoad: [
             '2025summer.json',
@@ -319,9 +321,10 @@
             const data = await res.json();
             this.courses = data;
 
-            // Extract exportTime from the first object, safely
+            // Extract exportTime from the first object, safely and robustly
             if (data.length > 0 && data[0].exportTime) {
-                this.lastUpdated = data[0].exportTime;
+                const exportedTime = String(data[0].exportTime).trim(); // Ensure it's a string and trim
+                this.lastUpdated = exportedTime || 'N/A'; // If after trim it's empty, still show N/A
             } else {
                 this.lastUpdated = 'N/A';
             }
@@ -351,13 +354,57 @@
             return name;
           }).join('; ');
         },
-        formatNotes(notes) {
-          if (!notes || notes.length === 0) return '';
-          const text = notes.join(' ');
-          return text.replace(/(https?:\/\/\S+|www\.\S+)/gi, match => {
-            const url = match.startsWith('http') ? match : `https://${match}`;
-            return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
+        formatMeetingDays(daysArray) {
+          if (!daysArray || daysArray.length === 0) {
+            return 'N/A';
+          }
+
+          const allDays = new Set(); // Use a Set to get unique days and prevent duplicates
+          daysArray.forEach(subArray => {
+            if (Array.isArray(subArray)) {
+              subArray.forEach(day => {
+                if (typeof day === 'string' && day.trim() !== '') {
+                  allDays.add(day.trim());
+                }
+              });
+            }
           });
+
+          if (allDays.size === 0) {
+            return 'N/A';
+          }
+
+          // Define a custom order for days of the week to ensure consistent display
+          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'U'];
+          const sortedDays = Array.from(allDays).sort((a, b) => {
+            return dayOrder.indexOf(a) - dayOrder.indexOf(b);
+          });
+
+          return sortedDays.join(', ');
+        },
+        formatMeetingTimes(startTimes, endTimes) {
+          if (!startTimes || !endTimes || startTimes.length === 0 || endTimes.length === 0) {
+            return 'N/A';
+          }
+
+          const timeRanges = [];
+          for (let i = 0; i < startTimes.length; i++) {
+            const startTime = startTimes[i]?.trim();
+            const endTime = endTimes[i]?.trim();
+
+            if (startTime && endTime) {
+              // Remove seconds part (e.g., "9:00:00 AM" -> "9:00 AM")
+              const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
+              const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
+              timeRanges.push(`${formattedStartTime} - ${formattedEndTime}`);
+            }
+          }
+
+          if (timeRanges.length === 0) {
+            return 'N/A';
+          }
+
+          return timeRanges.join('; ');
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
