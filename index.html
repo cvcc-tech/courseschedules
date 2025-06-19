@@ -23,7 +23,7 @@
       display: flex;
       justify-content: space-between; /* Pushes items to opposite ends */
       align-items: flex-end; /* ALIGNS ITEMS TO THE BOTTOM */
-      margin-bottom: 0.5rem; /* Reduced margin for timestamp */
+      margin-bottom: 1.5rem; /* Space below header */
       padding-left: 1rem; /* Added padding for visual alignment with content */
       padding-right: 1rem; /* Added padding for visual alignment with content */
     }
@@ -35,13 +35,6 @@
     .logo {
       max-width: 200px; /* Reduced logo size */
       height: auto;
-    }
-    .last-updated {
-      text-align: right;
-      font-size: 0.9em;
-      color: #555;
-      margin-bottom: 1rem;
-      padding-right: 1rem; /* Align with content padding */
     }
     .filter-bar {
       margin-bottom: 1rem;
@@ -96,7 +89,6 @@
       <h1>Course Schedules</h1>
       <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
     </div>
-    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
 
     <div class="row filter-bar">
       <div class="col-md-3">
@@ -144,7 +136,7 @@
             <th scope="col">Title</th>
             <th scope="col">Credits</th>
             <th scope="col">Delivery</th>
-            <th scope="col">Days</th> <th scope="col">Location</th>
+            <th scope="col">Location</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
             <th scope="col">Seats Available</th>
@@ -159,7 +151,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ formatMeetingDays(course.secmeetingdays) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
@@ -184,7 +176,6 @@
           searchQuery: '',
           selectedTerm: '',
           termOptions: [],
-          lastUpdated: '', // New data property for the timestamp
           // LIST YOUR JSON FILENAMES HERE - MAKE SURE INFORMER EXPORTS USE THESE NAMES EXACTLY
           jsonFilesToLoad: [
             '2025summer.json',
@@ -315,8 +306,6 @@
           }
           this.loading = true;
           this.courses = [];
-          this.lastUpdated = ''; // Clear previous update time
-
           try {
             const res = await fetch(this.selectedTerm);
             if (!res.ok) {
@@ -324,14 +313,6 @@
             }
             const data = await res.json();
             this.courses = data;
-
-            // Extract exportTime from the first object
-            if (data.length > 0 && data[0].exportTime) {
-                this.lastUpdated = data[0].exportTime;
-            } else {
-                this.lastUpdated = 'N/A';
-            }
-
             // Reset filters when courses load to ensure a fresh view for the new term
             this.selectedLocation = '';
             this.selectedDelivery = '';
@@ -340,7 +321,6 @@
           } catch (error) {
             console.error('Error loading courses:', error);
             alert('Failed to load courses. Please ensure the JSON file exists and is accessible. Check the browser console for details.');
-            this.lastUpdated = 'Error loading data.';
           } finally {
             this.loading = false;
           }
@@ -357,34 +337,13 @@
             return name;
           }).join('; ');
         },
-        // New method to format meeting days
-        formatMeetingDays(daysArray) {
-          if (!daysArray || daysArray.length === 0) {
-            return 'N/A';
-          }
-
-          const allDays = new Set(); // Use a Set to get unique days and prevent duplicates
-          daysArray.forEach(subArray => {
-            if (Array.isArray(subArray)) {
-              subArray.forEach(day => {
-                if (typeof day === 'string' && day.trim() !== '') {
-                  allDays.add(day.trim());
-                }
-              });
-            }
+        formatNotes(notes) {
+          if (!notes || notes.length === 0) return '';
+          const text = notes.join(' ');
+          return text.replace(/(https?:\/\/\S+|www\.\S+)/gi, match => {
+            const url = match.startsWith('http') ? match : `https://${match}`;
+            return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
           });
-
-          if (allDays.size === 0) {
-            return 'N/A';
-          }
-
-          // Define a custom order for days of the week to ensure consistent display
-          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'U'];
-          const sortedDays = Array.from(allDays).sort((a, b) => {
-            return dayOrder.indexOf(a) - dayOrder.indexOf(b);
-          });
-
-          return sortedDays.join(', ');
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
