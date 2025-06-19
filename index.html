@@ -159,7 +159,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ formatMeetingDays(course.secmeetingdays) }}</td> <td>{{ formatMeetingTimes(course.secStartTime, course.secendtime) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ course.secmeetingdays ? formatMeetingDays(course.secmeetingdays) : 'N/A' }}</td> <td>{{ (course.secStartTime && course.secendtime) ? formatMeetingTimes(course.secStartTime, course.secendtime) : 'N/A' }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
@@ -361,7 +361,7 @@
 
           const allDays = new Set(); // Use a Set to get unique days and prevent duplicates
           daysArray.forEach(subArray => {
-            if (Array.isArray(subArray)) {
+            if (Array.isArray(subArray)) { // Ensure subArray is actually an array
               subArray.forEach(day => {
                 if (typeof day === 'string' && day.trim() !== '') {
                   allDays.add(day.trim());
@@ -389,10 +389,10 @@
 
           const timeRanges = [];
           for (let i = 0; i < startTimes.length; i++) {
-            const startTime = startTimes[i]?.trim();
-            const endTime = endTimes[i]?.trim();
+            const startTime = startTimes[i]?.trim(); // Use optional chaining just in case
+            const endTime = endTimes[i]?.trim();     // Use optional chaining just in case
 
-            if (startTime && endTime) {
+            if (startTime && endTime) { // Ensure both start and end times exist for a pair
               // Remove seconds part (e.g., "9:00:00 AM" -> "9:00 AM")
               const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
               const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
