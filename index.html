@@ -159,7 +159,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ course.secmeetingdays ? formatMeetingDays(course.secmeetingdays) : 'N/A' }}</td> <td>{{ (course.secStartTime && course.secendtime) ? formatMeetingTimes(course.secStartTime, course.secendtime) : 'N/A' }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ safeFormat(formatMeetingDays, course.secmeetingdays) }}</td> <td>{{ safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
@@ -266,6 +266,15 @@
         }
       },
       methods: {
+        // New helper function to safely call other formatting methods
+        safeFormat(formatter, ...args) {
+            try {
+                return formatter(...args);
+            } catch (e) {
+                console.error("Formatting error:", e, "Arguments:", args);
+                return 'Error'; // Display "Error" in the cell
+            }
+        },
         async loadTermOptions() {
           this.loading = true;
           const loadedTerms = [];
@@ -355,7 +364,7 @@
           }).join('; ');
         },
         formatMeetingDays(daysArray) {
-          if (!daysArray || daysArray.length === 0) {
+          if (!daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
             return 'N/A';
           }
 
@@ -383,7 +392,8 @@
           return sortedDays.join(', ');
         },
         formatMeetingTimes(startTimes, endTimes) {
-          if (!startTimes || !endTimes || startTimes.length === 0 || endTimes.length === 0) {
+          if (!startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
+              !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
             return 'N/A';
           }
 
