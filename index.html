@@ -146,7 +146,8 @@
         <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
       </div>
       <div class="col-md-6 mt-3">
-        <label class="form-label">Days</label><br> <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
+        <label class="form-label">Days</label><br>
+        <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
           <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
           <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
         </div>
@@ -207,7 +208,7 @@
           selectedStatus: '',
           searchQuery: '',
           selectedDays: [],
-          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'], // Changed 'U' to 'Su'
+          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'],
           selectedTerm: '',
           termOptions: [],
           lastUpdated: '',
@@ -220,105 +221,123 @@
       },
       computed: {
         filteredCourses() {
-          return this.courses.filter(c => {
-            const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
-            const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
+          try {
+            return this.courses.filter(c => {
+              const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
+              const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
 
-            const courseBuildingCode = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
-            const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
+              const courseBuildingCode = (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) ? c.secBldgmv[0] : '';
+              const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
 
-            const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus); // Corrected this comparison
+              const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
 
-            const search = this.searchQuery.toLowerCase();
-            const matchesSearch = !search || c.secname.toLowerCase().includes(search) || c.secshorttitle.toLowerCase().includes(search);
+              const search = String(this.searchQuery || '').toLowerCase(); // Ensure search query is string
+              const matchesSearch = !search || String(c.secname || '').toLowerCase().includes(search) || String(c.secshorttitle || '').toLowerCase().includes(search);
 
-            const matchesDays = (() => {
-                if (!this.selectedDays.length) return true;
+              const matchesDays = (() => {
+                  if (!this.selectedDays.length) return true;
 
-                const courseDaysSet = new Set();
-                const rawDays = c.secmeetingdays;
-                if (rawDays && Array.isArray(rawDays)) {
-                    rawDays.forEach(subArray => {
-                        if (Array.isArray(subArray)) {
-                            subArray.forEach(day => {
-                                if (typeof day === 'string' && day.trim() !== '') {
-                                    courseDaysSet.add(day.trim());
-                                }
-                            });
-                        }
-                    });
-                }
-                return this.selectedDays.some(selectedDay => courseDaysSet.has(selectedDay));
-            })();
+                  const courseDaysSet = new Set();
+                  const rawDays = c.secmeetingdays;
+                  if (rawDays && Array.isArray(rawDays)) {
+                      rawDays.forEach(subArray => {
+                          if (Array.isArray(subArray)) {
+                              subArray.forEach(day => {
+                                  if (typeof day === 'string' && day.trim() !== '') {
+                                      courseDaysSet.add(day.trim());
+                                  }
+                              });
+                          }
+                      });
+                  }
+                  return this.selectedDays.some(selectedDay => courseDaysSet.has(selectedDay));
+              })();
 
-
-            return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
-          });
+              return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
+            });
+          } catch (e) {
+            console.error("Error in filteredCourses computed property:", e, "Courses data:", this.courses);
+            return [];
+          }
         },
         uniqueLocations() {
-          const buildingNameMap = {
-            'INTE': 'Internet',
-            'WW': 'West Wing',
-            'VSL': 'Red Hall',
-            'CAD': 'Cuyler A. Dunbar Building',
-            'ELS': 'Music Building',
-            'REP': 'Robert E. Paap Building',
-            'DEN': 'Dental Hygiene',
-            'WSC': 'Workforce Solutions Complex',
-            'COS': 'Cosmetology Center',
-            'HOSP': 'Hospital/Clinical Site',
-            'ATEC': 'Advanced Technology Education Center',
-            'TBD': 'To Be Determined'
-          };
+          try {
+            const buildingNameMap = {
+              'INTE': 'Internet',
+              'WW': 'West Wing',
+              'VSL': 'Red Hall',
+              'CAD': 'Cuyler A. Dunbar Building',
+              'ELS': 'Music Building',
+              'REP': 'Robert E. Paap Building',
+              'DEN': 'Dental Hygiene',
+              'WSC': 'Workforce Solutions Complex',
+              'COS': 'Cosmetology Center',
+              'HOSP': 'Hospital/Clinical Site',
+              'ATEC': 'Advanced Technology Education Center',
+              'TBD': 'To Be Determined'
+            };
 
-          const locationsSet = new Set();
-          this.courses.forEach(c => {
-            if (c.secBldgmv && c.secBldgmv.length > 0) {
-              const code = c.secBldgmv[0];
-              const fullName = buildingNameMap[code] || code;
-              locationsSet.add(JSON.stringify({
-                label: `${fullName} (${code})`,
-                value: code
-              }));
-            }
-          });
+            const locationsSet = new Set();
+            this.courses.forEach(c => {
+              if (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) {
+                const code = c.secBldgmv[0];
+                const fullName = buildingNameMap[code] || code;
+                locationsSet.add(JSON.stringify({
+                  label: `${fullName} (${code})`,
+                  value: code
+                }));
+              }
+            });
 
-          const uniqueLocationsArray = Array.from(locationsSet).map(str => JSON.parse(str));
+            const uniqueLocationsArray = Array.from(locationsSet).map(str => JSON.parse(str));
 
-          uniqueLocationsArray.sort((a, b) => {
-            if (a.value === 'INTE') return -1;
-            if (b.value === 'INTE') return 1;
-            if (a.value === 'TBD') return 1;
-            if (b.value === 'TBD') return -1;
-            return a.label.localeCompare(b.label);
-          });
+            uniqueLocationsArray.sort((a, b) => {
+              if (a.value === 'INTE') return -1;
+              if (b.value === 'INTE') return 1;
+              if (a.value === 'TBD') return 1;
+              if (b.value === 'TBD') return -1;
+              return a.label.localeCompare(b.label);
+            });
 
-          return uniqueLocationsArray;
+            return uniqueLocationsArray;
+          } catch (e) {
+            console.error("Error in uniqueLocations computed property:", e, "Courses data:", this.courses);
+            return [];
+          }
         },
         uniqueStatuses() {
-          const statuses = new Set();
-          this.courses.forEach(c => {
-            if (c.status) {
-              statuses.add(c.status);
-            }
-          });
-          return Array.from(statuses).sort();
+          try {
+            const statuses = new Set();
+            this.courses.forEach(c => {
+              if (c.status) {
+                statuses.add(c.status);
+              }
+            });
+            return Array.from(statuses).sort();
+          } catch (e) {
+            console.error("Error in uniqueStatuses computed property:", e, "Courses data:", this.courses);
+            return [];
+          }
         }
       },
       methods: {
-        // Helper to determine if a location is considered 'online' for icon display purposes
         isOnlineLocation(xsecRoom, secBldgmv) {
-            const roomCode = xsecRoom && xsecRoom.length > 0 ? xsecRoom[0] : '';
-            const buildingCode = secBldgmv && secBldgmv.length > 0 ? secBldgmv[0] : '';
-            return buildingCode === 'INTE' || roomCode === 'RNET';
+            // Check if any of the provided room or building codes explicitly indicate an online component
+            const roomCodes = (xsecRoom && Array.isArray(xsecRoom)) ? xsecRoom.map(r => String(r || '').trim().toLowerCase()) : [];
+            const buildingCodes = (secBldgmv && Array.isArray(secBldgmv)) ? secBldgmv.map(b => String(b || '').trim().toLowerCase()) : [];
+
+            const containsInte = buildingCodes.includes('inte');
+            const containsRnet = roomCodes.includes('rnet');
+
+            return containsInte || containsRnet;
         },
         safeFormat(formatter, ...args) {
             try {
                 return formatter.apply(this, args);
             } catch (e) {
                 console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
-                // Return icon on error, implies data issue for online-type display
-                return '<span class="material-symbols-outlined online-icon">error</span>'; // Using 'error' icon for formatting issues
+                // Return an error icon for a formatting issue
+                return '<span class="material-symbols-outlined online-icon" title="Formatting Error">error</span>';
             }
         },
         async loadTermOptions() {
@@ -419,7 +438,6 @@
         formatMeetingDays(daysArray, xsecRoom, secBldgmv) {
           const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
 
-          // Check for online course (INTE building or RNET room) or explicit lack of days
           if (this.isOnlineLocation(xsecRoom, secBldgmv) || !daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
             return globeIconHtml;
           }
@@ -439,7 +457,7 @@
             return globeIconHtml;
           }
 
-          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su']; // Corrected 'U' to 'Su'
+          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'];
           const sortedDays = Array.from(allDays).sort((a, b) => {
             return dayOrder.indexOf(a) - dayOrder.indexOf(b);
           });
@@ -449,7 +467,6 @@
         formatMeetingTimes(startTimes, endTimes, xsecRoom, secBldgmv) {
           const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
 
-          // Check for online course (INTE building or RNET room) or explicit lack of times
           if (this.isOnlineLocation(xsecRoom, secBldgmv) || !startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
               !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
             return globeIconHtml;
@@ -475,12 +492,52 @@
         },
         formatLocationDisplay(xsecRoom, secBldgmv) {
           const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
-          if (this.isOnlineLocation(xsecRoom, secBldgmv)) { // Use helper for INTE/RNET check
-            return globeIconHtml;
+
+          // Collect all location parts, filtered for valid strings and converted to lowercase for robust checking
+          const allLocationPartsLower = new Set();
+          if (xsecRoom && Array.isArray(xsecRoom)) {
+              xsecRoom.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allLocationPartsLower.add(part.trim().toLowerCase()); });
           }
-          const room = xsecRoom && xsecRoom.length > 0 ? xsecRoom.join(', ') : '';
-          const building = secBldgmv && secBldgmv.length > 0 ? secBldgmv.join(', ') : '';
-          return `${room} ${building}`.trim();
+          if (secBldgmv && Array.isArray(secBldgmv)) {
+              secBldgmv.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allLocationPartsLower.add(part.trim().toLowerCase()); });
+          }
+
+          // Determine if any part explicitly signifies an online component (case-insensitive substring check)
+          const hasOnlineComponent = Array.from(allLocationPartsLower).some(part => part.includes('inte') || part.includes('rnet'));
+
+          // Build the physical location string, excluding online identifiers.
+          // Need to use the ORIGINAL case parts for display, but filter using lowercase
+          let physicalLocationDisplayParts = [];
+          const allOriginalLocationParts = []; // Collect original case parts
+          if (xsecRoom && Array.isArray(xsecRoom)) { xsecRoom.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allOriginalLocationParts.push(part.trim()); }); }
+          if (secBldgmv && Array.isArray(secBldgmv)) { secBldgmv.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allOriginalLocationParts.push(part.trim()); }); }
+
+          const uniqueOriginalParts = Array.from(new Set(allOriginalLocationParts)); // Deduplicate original parts
+
+          uniqueOriginalParts.forEach(part => {
+              if (!(part.toLowerCase().includes('inte') || part.toLowerCase().includes('rnet'))) {
+                  physicalLocationDisplayParts.push(part);
+              }
+          });
+
+          const physicalLocationString = physicalLocationDisplayParts.sort().join(' ').trim();
+
+          if (hasOnlineComponent) {
+              if (physicalLocationString) {
+                  // Hybrid: Physical location + Icon
+                  return `${physicalLocationString} ${globeIconHtml}`;
+              } else {
+                  // Pure Online: Only Icon
+                  return globeIconHtml;
+              }
+          } else {
+              // Pure Seated: Just physical location
+              if (physicalLocationString) {
+                  return physicalLocationString;
+              } else {
+                  return 'N/A'; // Fallback if no location data at all
+              }
+          }
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
