@@ -187,8 +187,7 @@
             <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
-            <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
-            <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
+            <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td> <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
             <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
           </tr>
@@ -231,7 +230,7 @@
 
               const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
 
-              const search = String(this.searchQuery || '').toLowerCase(); // Ensure search query is string
+              const search = String(this.searchQuery || '').toLowerCase();
               const matchesSearch = !search || String(c.secname || '').toLowerCase().includes(search) || String(c.secshorttitle || '').toLowerCase().includes(search);
 
               const matchesDays = (() => {
@@ -252,6 +251,7 @@
                   }
                   return this.selectedDays.some(selectedDay => courseDaysSet.has(selectedDay));
               })();
+
 
               return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
             });
@@ -322,7 +322,6 @@
       },
       methods: {
         isOnlineLocation(xsecRoom, secBldgmv) {
-            // Check if any of the provided room or building codes explicitly indicate an online component
             const roomCodes = (xsecRoom && Array.isArray(xsecRoom)) ? xsecRoom.map(r => String(r || '').trim().toLowerCase()) : [];
             const buildingCodes = (secBldgmv && Array.isArray(secBldgmv)) ? secBldgmv.map(b => String(b || '').trim().toLowerCase()) : [];
 
@@ -336,7 +335,6 @@
                 return formatter.apply(this, args);
             } catch (e) {
                 console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
-                // Return an error icon for a formatting issue
                 return '<span class="material-symbols-outlined online-icon" title="Formatting Error">error</span>';
             }
         },
@@ -494,25 +492,31 @@
           const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
 
           // Collect all location parts, filtered for valid strings and converted to lowercase for robust checking
-          const allLocationPartsLower = new Set();
+          const allLocationParts = new Set();
+          const originalLocationParts = []; // To preserve original casing for display
+
           if (xsecRoom && Array.isArray(xsecRoom)) {
-              xsecRoom.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allLocationPartsLower.add(part.trim().toLowerCase()); });
+              xsecRoom.forEach(part => {
+                  if (typeof part === 'string' && part.trim() !== '') {
+                      allLocationParts.add(part.trim().toLowerCase());
+                      originalLocationParts.push(part.trim());
+                  }
+              });
           }
           if (secBldgmv && Array.isArray(secBldgmv)) {
-              secBldgmv.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allLocationPartsLower.add(part.trim().toLowerCase()); });
+              secBldgmv.forEach(part => {
+                  if (typeof part === 'string' && part.trim() !== '') {
+                      allLocationParts.add(part.trim().toLowerCase());
+                      originalLocationParts.push(part.trim());
+                  }
+              });
           }
 
-          // Determine if any part explicitly signifies an online component (case-insensitive substring check)
-          const hasOnlineComponent = Array.from(allLocationPartsLower).some(part => part.includes('inte') || part.includes('rnet'));
+          const hasOnlineComponent = allLocationParts.has('inte') || allLocationParts.has('rnet');
 
-          // Build the physical location string, excluding online identifiers.
-          // Need to use the ORIGINAL case parts for display, but filter using lowercase
+          // Build the physical location string, explicitly excluding online identifiers (case-insensitive check)
           let physicalLocationDisplayParts = [];
-          const allOriginalLocationParts = []; // Collect original case parts
-          if (xsecRoom && Array.isArray(xsecRoom)) { xsecRoom.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allOriginalLocationParts.push(part.trim()); }); }
-          if (secBldgmv && Array.isArray(secBldgmv)) { secBldgmv.forEach(part => { if (typeof part === 'string' && part.trim() !== '') allOriginalLocationParts.push(part.trim()); }); }
-
-          const uniqueOriginalParts = Array.from(new Set(allOriginalLocationParts)); // Deduplicate original parts
+          const uniqueOriginalParts = Array.from(new Set(originalLocationParts)); // Deduplicate original parts
 
           uniqueOriginalParts.forEach(part => {
               if (!(part.toLowerCase().includes('inte') || part.toLowerCase().includes('rnet'))) {
@@ -524,8 +528,8 @@
 
           if (hasOnlineComponent) {
               if (physicalLocationString) {
-                  // Hybrid: Physical location + Icon
-                  return `${physicalLocationString} ${globeIconHtml}`;
+                  // Hybrid: Physical location & Icon
+                  return `${physicalLocationString} & ${globeIconHtml}`;
               } else {
                   // Pure Online: Only Icon
                   return globeIconHtml;
@@ -538,6 +542,31 @@
                   return 'N/A'; // Fallback if no location data at all
               }
           }
+        },
+        formatSeatsDisplay(seatsAvailableArray, seatsUsedArray) {
+            let available = 'N/A';
+            let used = 0; // Default to 0 if not found
+
+            if (seatsAvailableArray && Array.isArray(seatsAvailableArray) && seatsAvailableArray.length > 0) {
+                const val = parseInt(seatsAvailableArray[0]);
+                if (!isNaN(val)) {
+                    available = val;
+                }
+            }
+
+            if (seatsUsedArray && Array.isArray(seatsUsedArray) && seatsUsedArray.length > 0) {
+                const val = parseInt(seatsUsedArray[0]);
+                if (!isNaN(val)) {
+                    used = val;
+                }
+            }
+
+            if (available === 'N/A') {
+                return 'N/A';
+            }
+
+            const total = available + used;
+            return `${available} (of ${total})`;
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
