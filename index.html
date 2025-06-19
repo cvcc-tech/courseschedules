@@ -144,8 +144,7 @@
             <th scope="col">Title</th>
             <th scope="col">Credits</th>
             <th scope="col">Delivery</th>
-            <th scope="col">Days</th>
-            <th scope="col">Time</th> <th scope="col">Location</th>
+            <th scope="col">Days</th> <th scope="col">Location</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
             <th scope="col">Seats Available</th>
@@ -160,8 +159,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td>{{ formatMeetingDays(course.secmeetingdays) }}</td>
-            <td>{{ formatMeetingTimes(course.secStartTime, course.secendtime) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
+            <td>{{ formatMeetingDays(course.secmeetingdays) }}</td> <td>{{ (course.xsecRoom.length > 0 ? course.xsecRoom.join(', ') : '') + ' ' + (course.secBldgmv.length > 0 ? course.secBldgmv.join(', ') : '') }}</td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td>{{ course.xcrssecseatavail.length > 0 ? course.xcrssecseatavail.join(', ') : 'N/A' }}</td>
@@ -359,6 +357,7 @@
             return name;
           }).join('; ');
         },
+        // New method to format meeting days
         formatMeetingDays(daysArray) {
           if (!daysArray || daysArray.length === 0) {
             return 'N/A';
@@ -386,31 +385,6 @@
           });
 
           return sortedDays.join(', ');
-        },
-        // New method to format meeting times
-        formatMeetingTimes(startTimes, endTimes) {
-          if (!startTimes || !endTimes || startTimes.length === 0 || endTimes.length === 0) {
-            return 'N/A';
-          }
-
-          const timeRanges = [];
-          for (let i = 0; i < startTimes.length; i++) {
-            const startTime = startTimes[i]?.trim();
-            const endTime = endTimes[i]?.trim();
-
-            if (startTime && endTime) {
-              // Remove seconds part (e.g., "9:00:00 AM" -> "9:00 AM")
-              const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              timeRanges.push(`${formattedStartTime} - ${formattedEndTime}`);
-            }
-          }
-
-          if (timeRanges.length === 0) {
-            return 'N/A';
-          }
-
-          return timeRanges.join('; ');
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
