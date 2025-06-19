@@ -7,12 +7,13 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <style>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <style>
     :root {
       --cvcc-primary: #BA0C2F; /* Red Hawk Red */
       --cvcc-secondary: #505759; /* CVCC Classic Grey */
       --cvcc-red-text: #A6192E; /* CVCC Classic Red, used for general red text */
-      --cvcc-be-blue: #00a3e0; /* PANTONE 299 BE Blue  */
+      --cvcc-be-blue: #00a3e0; /* PANTONE 299 BE Blue */
     }
     body {
       background-color: #eaeaea;
@@ -84,12 +85,13 @@
     }
     /* Material Icon Styling */
     .online-icon {
-      font-family: 'Material Icons';
+      font-family: 'Material Symbols Outlined'; /* Changed font-family */
       color: var(--cvcc-be-blue); /* Apply the blue color */
       font-size: 1.2em; /* Slightly larger than default text */
       vertical-align: middle; /* Align with text baseline */
       line-height: 1; /* Ensure it doesn't add extra line height */
       display: inline-block; /* Helps with alignment */
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; /* Default Material Symbols settings */
     }
 
     /* No alternating row CSS here */
@@ -144,8 +146,7 @@
         <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
       </div>
       <div class="col-md-6 mt-3">
-        <label class="form-label">Days</label>
-        <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
+        <label class="form-label">Days</label><br> <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
           <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
           <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
         </div>
@@ -180,8 +181,8 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.secBldgmv)"></td>
-            <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.secBldgmv)"></td>
+            <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.xsecRoom, course.secBldgmv)"></td>
+            <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
             <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
@@ -206,7 +207,7 @@
           selectedStatus: '',
           searchQuery: '',
           selectedDays: [],
-          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'U'],
+          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'], // Changed 'U' to 'Su'
           selectedTerm: '',
           termOptions: [],
           lastUpdated: '',
@@ -226,7 +227,7 @@
             const courseBuildingCode = c.secBldgmv && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '';
             const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
 
-            const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
+            const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus); // Corrected this comparison
 
             const search = this.searchQuery.toLowerCase();
             const matchesSearch = !search || c.secname.toLowerCase().includes(search) || c.secshorttitle.toLowerCase().includes(search);
@@ -305,12 +306,19 @@
         }
       },
       methods: {
+        // Helper to determine if a location is considered 'online' for icon display purposes
+        isOnlineLocation(xsecRoom, secBldgmv) {
+            const roomCode = xsecRoom && xsecRoom.length > 0 ? xsecRoom[0] : '';
+            const buildingCode = secBldgmv && secBldgmv.length > 0 ? secBldgmv[0] : '';
+            return buildingCode === 'INTE' || roomCode === 'RNET';
+        },
         safeFormat(formatter, ...args) {
             try {
                 return formatter.apply(this, args);
             } catch (e) {
                 console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
-                return 'Error';
+                // Return icon on error, implies data issue for online-type display
+                return '<span class="material-symbols-outlined online-icon">error</span>'; // Using 'error' icon for formatting issues
             }
         },
         async loadTermOptions() {
@@ -378,7 +386,7 @@
             this.selectedLocation = '';
             this.selectedDelivery = '';
             this.selectedStatus = '';
-            this.selectedDays = []; // Reset days filter
+            this.selectedDays = [];
             this.searchQuery = '';
           } catch (error) {
             console.error('Error loading courses:', error);
@@ -408,10 +416,12 @@
             return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
           });
         },
-        formatMeetingDays(daysArray, secBldgmv) {
-          // Check for online course (INTE building) or explicit lack of days
-          if ((secBldgmv && secBldgmv.includes('INTE')) || !daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
-            return '<span class="material-icons online-icon">public</span>'; // Globe icon
+        formatMeetingDays(daysArray, xsecRoom, secBldgmv) {
+          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
+
+          // Check for online course (INTE building or RNET room) or explicit lack of days
+          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
+            return globeIconHtml;
           }
 
           const allDays = new Set();
@@ -426,21 +436,23 @@
           });
 
           if (allDays.size === 0) {
-            return '<span class="material-icons online-icon">public</span>'; // Globe icon
+            return globeIconHtml;
           }
 
-          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'U'];
+          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su']; // Corrected 'U' to 'Su'
           const sortedDays = Array.from(allDays).sort((a, b) => {
             return dayOrder.indexOf(a) - dayOrder.indexOf(b);
           });
 
           return sortedDays.join(', ');
         },
-        formatMeetingTimes(startTimes, endTimes, secBldgmv) {
-          // Check for online course (INTE building) or explicit lack of times
-          if ((secBldgmv && secBldgmv.includes('INTE')) || !startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
+        formatMeetingTimes(startTimes, endTimes, xsecRoom, secBldgmv) {
+          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
+
+          // Check for online course (INTE building or RNET room) or explicit lack of times
+          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
               !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
-            return '<span class="material-icons online-icon">public</span>'; // Globe icon
+            return globeIconHtml;
           }
 
           const timeRanges = [];
@@ -456,18 +468,19 @@
           }
 
           if (timeRanges.length === 0) {
-            return '<span class="material-icons online-icon">public</span>'; // Globe icon
+            return globeIconHtml;
           }
 
           return timeRanges.join('; ');
         },
         formatLocationDisplay(xsecRoom, secBldgmv) {
-          const buildingCode = secBldgmv && secBldgmv.length > 0 ? secBldgmv[0] : '';
-          if (buildingCode === 'INTE') {
-            return '<span class="material-icons online-icon">public</span>'; // Globe icon for Internet location
+          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
+          if (this.isOnlineLocation(xsecRoom, secBldgmv)) { // Use helper for INTE/RNET check
+            return globeIconHtml;
           }
           const room = xsecRoom && xsecRoom.length > 0 ? xsecRoom.join(', ') : '';
-          return `${room} ${buildingCode}`.trim(); // Combine room and building, trim if one is empty
+          const building = secBldgmv && secBldgmv.length > 0 ? secBldgmv.join(', ') : '';
+          return `${room} ${building}`.trim();
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
