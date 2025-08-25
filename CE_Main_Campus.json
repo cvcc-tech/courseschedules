@@ -1,0 +1,4057 @@
+[{
+	"id": "136758",
+	"secname": "BAR-8605-871",
+	"secshorttitle": "Barbering Block 3",
+	"secstartdate": "10/24/2025",
+	"secenddate": "11/20/2025",
+	"xcrssecfacultyxname": [
+		"Williams, David L"
+	],
+	"secmeetingdays": [
+		[
+			"F"
+		],
+		[],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 AM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PKBC",
+		"PKBC",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/24/2025",
+		"10/24/2025",
+		"10/24/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/24/2025",
+		"11/20/2025",
+		"11/20/2025"
+	],
+	"seccontacthours": [
+		"150"
+	],
+	"seccapacity": "14",
+	"secminenroll": "1",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "No Online Reg",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to provide the necessary",
+		"skills to work to meet the instructional",
+		"requirements to become a registered barber as",
+		"established by the NC Board of Barber Examiners.",
+		"Schools must be approved by the NC Board of",
+		"Barber Examiners to provide training G.S. 86A-1."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137303",
+	"secname": "COS-8611-850",
+	"secshorttitle": "Esthetician Block 2",
+	"secstartdate": "9/29/2025",
+	"secenddate": "12/16/2025",
+	"xcrssecfacultyxname": [
+		"Carey, Bryce Raymond"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"11:30:00 AM",
+		"8:00:00 AM",
+		"11:30:00 AM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"11:00:00 AM",
+		"3:30:00 PM",
+		"11:00:00 AM",
+		"2:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"COS",
+		"COS",
+		"COS",
+		"COS",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"119",
+		"119",
+		"119",
+		"119",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/29/2025",
+		"9/29/2025",
+		"10/20/2025",
+		"10/20/2025",
+		"9/29/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/9/2025",
+		"10/9/2025",
+		"12/16/2025",
+		"12/16/2025",
+		"12/16/2025"
+	],
+	"seccontacthours": [
+		"330"
+	],
+	"seccapacity": "10",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "No Online Reg",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course covers more comprehensive esthetics",
+		"concepts. Topics include nutrition, business",
+		"management, makeup, and color analysis. In",
+		"addition this course provides experience in a",
+		"simulated esthetics setting. Topics include",
+		"machine facials, aromatherapy, surface",
+		"manipulation in relation to skin care,",
+		"electricity, and apparatus. Upon completion,",
+		"students should be able to demonstrate competence",
+		"in program requirements and the areas covered on",
+		"the Cosmetology licensing examination for",
+		"Estheticians. In addition, students should be able",
+		"to demonstrate an understanding of the advanced",
+		"esthetics concepts and meet course requirements."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Donna Vann Email: dvann@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137304",
+	"secname": "COS-8611-851",
+	"secshorttitle": "Esthetician Block 2",
+	"secstartdate": "9/29/2025",
+	"secenddate": "12/17/2025",
+	"xcrssecfacultyxname": [
+		"Emmerton, Katie Dawn"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"2:30:00 PM",
+		"5:00:00 PM",
+		"9:00:00 AM",
+		"12:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"4:30:00 PM",
+		"9:00:00 PM",
+		"12:00:00 PM",
+		"4:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"COS",
+		"COS",
+		"COS",
+		"COS",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"119",
+		"119",
+		"119",
+		"119",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/29/2025",
+		"9/29/2025",
+		"10/3/2025",
+		"10/3/2025",
+		"9/29/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/17/2025",
+		"12/17/2025",
+		"12/12/2025",
+		"12/12/2025",
+		"12/17/2025"
+	],
+	"seccontacthours": [
+		"330"
+	],
+	"seccapacity": "10",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "No Online Reg",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course covers more comprehensive esthetics",
+		"concepts. Topics include nutrition, business",
+		"management, makeup, and color analysis. In",
+		"addition this course provides experience in a",
+		"simulated esthetics setting. Topics include",
+		"machine facials, aromatherapy, surface",
+		"manipulation in relation to skin care,",
+		"electricity, and apparatus. Upon completion,",
+		"students should be able to demonstrate competence",
+		"in program requirements and the areas covered on",
+		"the Cosmetology licensing examination for",
+		"Estheticians. In addition, students should be able",
+		"to demonstrate an understanding of the advanced",
+		"esthetics concepts and meet course requirements."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Donna Vann Email: dvann@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136915",
+	"secname": "CSP-4719-100",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "9/9/2025",
+	"secenddate": "10/28/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"4:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WW"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"121"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/9/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/28/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 125.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136918",
+	"secname": "CSP-4719-101",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "11/4/2025",
+	"secenddate": "12/9/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"4:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WW"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"121"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/4/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/9/2025"
+	],
+	"seccontacthours": [
+		"15"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"18"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 80.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136916",
+	"secname": "CSP-4719-200",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "9/10/2025",
+	"secenddate": "10/29/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WW"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"121"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/10/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/29/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"20"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 125.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136919",
+	"secname": "CSP-4719-201",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "11/5/2025",
+	"secenddate": "12/10/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WW"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"121"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/5/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025"
+	],
+	"seccontacthours": [
+		"15"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"20"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 80.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136917",
+	"secname": "CSP-4719-500",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "9/10/2025",
+	"secenddate": "10/29/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"4:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WHKY"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"SEN"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/10/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/29/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 125.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136920",
+	"secname": "CSP-4719-501",
+	"secshorttitle": "Get Your Brushes Wet",
+	"secstartdate": "11/5/2025",
+	"secenddate": "12/10/2025",
+	"xcrssecfacultyxname": [
+		"Gansrow, Tracy E"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"4:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WHKY"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"SEN"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/5/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025"
+	],
+	"seccontacthours": [
+		"15"
+	],
+	"seccapacity": "20",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"4"
+	],
+	"xcrssecseatavail": [
+		"16"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 80.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137143",
+	"secname": "CSP-7000-101",
+	"secshorttitle": "DEFENSIVE DRIVING",
+	"secstartdate": "9/20/2025",
+	"secenddate": "9/20/2025",
+	"xcrssecfacultyxname": [
+		"Walker, Larry Eugene"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/20/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/20/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "4",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137144",
+	"secname": "CSP-7000-102",
+	"secshorttitle": "DEFENSIVE DRIVING",
+	"secstartdate": "10/18/2025",
+	"secenddate": "10/18/2025",
+	"xcrssecfacultyxname": [
+		"Walker, Larry Eugene"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/18/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/18/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "4",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137145",
+	"secname": "CSP-7000-103",
+	"secshorttitle": "DEFENSIVE DRIVING",
+	"secstartdate": "11/15/2025",
+	"secenddate": "11/15/2025",
+	"xcrssecfacultyxname": [
+		"Walker, Larry Eugene"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/15/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/15/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "4",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137146",
+	"secname": "CSP-7000-104",
+	"secshorttitle": "DEFENSIVE DRIVING",
+	"secstartdate": "12/13/2025",
+	"secenddate": "12/13/2025",
+	"xcrssecfacultyxname": [
+		"Walker, Larry Eugene"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"12/13/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/13/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "4",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137258",
+	"secname": "CSP-7001-100",
+	"secshorttitle": "ALIVE AT 25",
+	"secstartdate": "9/6/2025",
+	"secenddate": "9/6/2025",
+	"xcrssecfacultyxname": [
+		"Moore, Dane Andre"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/6/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  *a",
+		"4-hour Alive @ 25 class for 16-21 year olds *a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or *an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137261",
+	"secname": "CSP-7001-101",
+	"secshorttitle": "ALIVE AT 25",
+	"secstartdate": "10/4/2025",
+	"secenddate": "10/4/2025",
+	"xcrssecfacultyxname": [
+		"Moore, Dane Andre"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/4/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/4/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  *a",
+		"4-hour Alive @ 25 class for 16-21 year olds *a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or *an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137262",
+	"secname": "CSP-7001-102",
+	"secshorttitle": "ALIVE AT 25",
+	"secstartdate": "11/1/2025",
+	"secenddate": "11/1/2025",
+	"xcrssecfacultyxname": [
+		"Moore, Dane Andre"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/1/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/1/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  *a",
+		"4-hour Alive @ 25 class for 16-21 year olds *a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or *an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137263",
+	"secname": "CSP-7001-103",
+	"secshorttitle": "ALIVE AT 25",
+	"secstartdate": "12/6/2025",
+	"secenddate": "12/6/2025",
+	"xcrssecfacultyxname": [
+		"Moore, Dane Andre"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"115"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"12/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/6/2025"
+	],
+	"seccontacthours": [
+		"4"
+	],
+	"seccapacity": "18",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"18"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  *a",
+		"4-hour Alive @ 25 class for 16-21 year olds *a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or *an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 60.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136922",
+	"secname": "CSP-8639-200",
+	"secshorttitle": "Pottery on the Wheel",
+	"secstartdate": "9/10/2025",
+	"secenddate": "10/29/2025",
+	"xcrssecfacultyxname": [
+		"Tolbert, Carl Preston"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VSL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"213"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/10/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/29/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "12",
+	"secminenroll": "7",
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This class is designed for the beginner. In this",
+		"course, students will become familiar with",
+		"turning methods, and materials used in creating",
+		"basic forms with the potters' wheel. Topics",
+		"include clay preparation, turning techniques, and",
+		"basic glaze application. Upon completion,",
+		"students should be able to center, turn basic",
+		"forms such as bowls and mugs, apply basic glazes,",
+		"and be familiar with loading and firing an",
+		"electric kiln."
+	],
+	"tuition_": "$ 135.00",
+	"otherFees_": "$ 81.25",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136924",
+	"secname": "CSP-8639-201",
+	"secshorttitle": "Pottery on the Wheel",
+	"secstartdate": "11/5/2025",
+	"secenddate": "12/10/2025",
+	"xcrssecfacultyxname": [
+		"Tolbert, Carl Preston"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VSL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"213"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/5/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025"
+	],
+	"seccontacthours": [
+		"15"
+	],
+	"seccapacity": "12",
+	"secminenroll": "8",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This class is designed for the beginner. In this",
+		"course, students will become familiar with",
+		"turning methods, and materials used in creating",
+		"basic forms with the potters' wheel. Topics",
+		"include clay preparation, turning techniques, and",
+		"basic glaze application. Upon completion,",
+		"students should be able to center, turn basic",
+		"forms such as bowls and mugs, apply basic glazes,",
+		"and be familiar with loading and firing an",
+		"electric kiln."
+	],
+	"tuition_": "$ 85.00",
+	"otherFees_": "$ 81.25",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137168",
+	"secname": "CSP-8673-101",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "9/6/2025",
+	"secenddate": "9/6/2025",
+	"xcrssecfacultyxname": [
+		"Cook, Cecil H."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/6/2025",
+		"9/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/6/2025",
+		"9/6/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137169",
+	"secname": "CSP-8673-102",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "9/20/2025",
+	"secenddate": "9/20/2025",
+	"xcrssecfacultyxname": [
+		"Beach, Michael L."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/20/2025",
+		"9/20/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/20/2025",
+		"9/20/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137170",
+	"secname": "CSP-8673-103",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "10/4/2025",
+	"secenddate": "10/4/2025",
+	"xcrssecfacultyxname": [
+		"Cook, Cecil H."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/4/2025",
+		"10/4/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/4/2025",
+		"10/4/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137171",
+	"secname": "CSP-8673-104",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "10/18/2025",
+	"secenddate": "10/18/2025",
+	"xcrssecfacultyxname": [
+		"Beach, Michael L."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/18/2025",
+		"10/18/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/18/2025",
+		"10/18/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137172",
+	"secname": "CSP-8673-105",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "11/1/2025",
+	"secenddate": "11/1/2025",
+	"xcrssecfacultyxname": [
+		"Cook, Cecil H."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/1/2025",
+		"11/1/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/1/2025",
+		"11/1/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137173",
+	"secname": "CSP-8673-106",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "11/15/2025",
+	"secenddate": "11/15/2025",
+	"xcrssecfacultyxname": [
+		"Beach, Michael L."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"12:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/15/2025",
+		"11/15/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/15/2025",
+		"11/15/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137174",
+	"secname": "CSP-8673-107",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "12/6/2025",
+	"secenddate": "12/6/2025",
+	"xcrssecfacultyxname": [
+		"Cook, Cecil H."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"12/6/2025",
+		"12/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/6/2025",
+		"12/6/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137175",
+	"secname": "CSP-8673-108",
+	"secshorttitle": "Defensive Driving for DA Off.",
+	"secstartdate": "12/13/2025",
+	"secenddate": "12/13/2025",
+	"xcrssecfacultyxname": [
+		"Beach, Michael L."
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"114",
+		"114"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"12/13/2025",
+		"12/13/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/13/2025",
+		"12/13/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "25",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"25"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.tech/defensivedriving\">Pre-Reg Form</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"If you have been charged with a traffic violation",
+		"in the 36th Judicial District, which consist of",
+		"Burke, Caldwell or Catawba counties or any other",
+		"county that participates with the Defensive",
+		"Driving program, you may elect to have it reduced",
+		"by completing one of the following classes:  * a",
+		"4-hour Alive @ 25 class for 16-21 year olds * a",
+		"4-hour Defensive Driving class for those 22 years",
+		"old and older or * an 8-hour court ordered",
+		"Defensive Driving Course  This program is",
+		"available through Catawba Valley Community",
+		"College and the Safety and Health Council of",
+		"North Carolina to train motorists in the",
+		"principles of defensive driving.  Contact Cheri",
+		"Toney at ctoney@cvcc.edu if you are interested.",
+		"Please register at least three days before the",
+		"class starts."
+	],
+	"tuition_": "$ 100.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136921",
+	"secname": "CSP-8685-100",
+	"secshorttitle": "Hand Built Pottery I",
+	"secstartdate": "9/10/2025",
+	"secenddate": "10/29/2025",
+	"xcrssecfacultyxname": [
+		"Smith, Pamela Bolick"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VSL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"213"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/10/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/29/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "12",
+	"secminenroll": "9",
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 120.00",
+	"otherFees_": "$ 80.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136923",
+	"secname": "CSP-8685-101",
+	"secshorttitle": "Hand Built Pottery I",
+	"secstartdate": "11/5/2025",
+	"secenddate": "12/10/2025",
+	"xcrssecfacultyxname": [
+		"Smith, Pamela Bolick"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"9:00:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VSL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"213"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/5/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025"
+	],
+	"seccontacthours": [
+		"15"
+	],
+	"seccapacity": "12",
+	"secminenroll": "9",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"Community Service Programs provides courses,",
+		"seminars, and community activities that contribute",
+		"to an individual's cultural, civic, and/or",
+		"personal growth. These programs are",
+		"self-supporting and are not reported to the state",
+		"for budget FTE."
+	],
+	"tuition_": "$ 75.00",
+	"otherFees_": "$ 80.00",
+	"classContact_2": "Jeffery Kiefer Email: jkiefer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136005",
+	"secname": "DEN-3300-866",
+	"secshorttitle": "Dental Assisting",
+	"secstartdate": "8/25/2025",
+	"secenddate": "3/1/2026",
+	"xcrssecfacultyxname": [
+		"McCoy-Stewart, Taiasha J"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"DEN",
+		"DEN",
+		"DEN",
+		"DEN",
+		"TBD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"805",
+		"805",
+		"805",
+		"805",
+		"TBD",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"8/25/2025",
+		"10/13/2025",
+		"11/10/2025",
+		"11/24/2025",
+		"1/6/2026",
+		"8/25/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025",
+		"10/13/2025",
+		"11/10/2025",
+		"11/24/2025",
+		"2/26/2026",
+		"3/1/2026"
+	],
+	"seccontacthours": [
+		"304"
+	],
+	"seccapacity": "12",
+	"secminenroll": "8",
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to teach students the",
+		"necessary skills to become a Dental Assistant I in",
+		"the State of N.C.  Coursework includes instruction",
+		"in general studies, biomedical sciences, dental",
+		"sciences, clinical sciences, and clinical",
+		"practice.  A combination of lecture, laboratory,",
+		"and clinical experiences provide students with",
+		"knowledge in infection/hazard control,",
+		"radiography, dental materials, preventive",
+		"dentistry, and clinical procedures.  Graduates may",
+		"be eligible to sit for the Certified Dental",
+		"Assistant (CDA) exam through the Dental Assisting",
+		"National Board once all requirements are met,",
+		"including 3000 hours of chairside assisting."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 749.25",
+	"classContact_2": "Latanya Hicks Email: lhicks@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137247",
+	"secname": "DEN-3300-867",
+	"secshorttitle": "Dental Assisting",
+	"secstartdate": "8/25/2025",
+	"secenddate": "3/1/2026",
+	"xcrssecfacultyxname": [
+		"McCoy-Stewart, Taiasha J"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"DEN",
+		"DEN",
+		"DEN",
+		"DEN",
+		"TBD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"805",
+		"805",
+		"805",
+		"805",
+		"TBD",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"8/25/2025",
+		"10/13/2025",
+		"11/10/2025",
+		"11/24/2025",
+		"1/6/2026",
+		"8/25/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/10/2025",
+		"10/13/2025",
+		"11/10/2025",
+		"11/24/2025",
+		"2/26/2026",
+		"3/1/2026"
+	],
+	"seccontacthours": [
+		"304"
+	],
+	"seccapacity": "12",
+	"secminenroll": "8",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to teach students the",
+		"necessary skills to become a Dental Assistant I in",
+		"the State of N.C.  Coursework includes instruction",
+		"in general studies, biomedical sciences, dental",
+		"sciences, clinical sciences, and clinical",
+		"practice.  A combination of lecture, laboratory,",
+		"and clinical experiences provide students with",
+		"knowledge in infection/hazard control,",
+		"radiography, dental materials, preventive",
+		"dentistry, and clinical procedures.  Graduates may",
+		"be eligible to sit for the Certified Dental",
+		"Assistant (CDA) exam through the Dental Assisting",
+		"National Board once all requirements are met,",
+		"including 3000 hours of chairside assisting."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 26.25",
+	"classContact_2": "Latanya Hicks Email: lhicks@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137104",
+	"secname": "DMV-8601-100",
+	"secshorttitle": "DMV Vehicle Safety Inspection",
+	"secstartdate": "9/6/2025",
+	"secenddate": "9/6/2025",
+	"xcrssecfacultyxname": [
+		"Sides, Gregory Link"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WSC",
+		"WSC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"1054",
+		"1054"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/6/2025",
+		"9/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/6/2025",
+		"9/6/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "20",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"10"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This 8-hour class is offered for certification or",
+		"renewal to be able to inspect vehicles in North",
+		"Carolina according to the NC DMV regulations.",
+		"After completion of this class, the student will",
+		"be certified as a NC Safety Inspector. Students",
+		"must bring a LT-310 Form (Action form for",
+		"Inspector/Mechanic Certification) to class."
+	],
+	"tuition_": "$ 70.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137103",
+	"secname": "DMV-8602-101",
+	"secshorttitle": "DMV OBDII Emissions Inspectio",
+	"secstartdate": "9/20/2025",
+	"secenddate": "9/20/2025",
+	"xcrssecfacultyxname": [
+		"Sides, Gregory Link"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		],
+		[
+			"S"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"WSC",
+		"WSC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"1054",
+		"1054"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/20/2025",
+		"9/20/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/20/2025",
+		"9/20/2025"
+	],
+	"seccontacthours": [
+		"8"
+	],
+	"seccapacity": "20",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"In this 8-hour class, information and training",
+		"will be covered to be certified in the OBDII",
+		"emission inspection according to the NCDMV",
+		"guidelines. Students must bring a LT-310 Form",
+		"(Action form for Inspector/Mechanic Certification)",
+		"along with a NC driver's license to class."
+	],
+	"tuition_": "$ 70.00",
+	"otherFees_": "$ 18.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137191",
+	"secname": "EPT-8645-800",
+	"secshorttitle": "Telecommunicator Liability",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"xcrssecfacultyxname": [
+		"Rhodarmer, Steven C"
+	],
+	"secmeetingdays": [],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/1/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/30/2025"
+	],
+	"seccontacthours": [
+		"3"
+	],
+	"seccapacity": "100",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"100"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This class will review materials covered in",
+		"EME-3500. This class is not for certification"
+	],
+	"tuition_": "$ 70.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Steven Rhodarmer Email: srhodarmer@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136467",
+	"secname": "HEA-3121-865",
+	"secshorttitle": "NC Community Health Worker",
+	"secstartdate": "9/2/2025",
+	"secenddate": "12/16/2025",
+	"xcrssecfacultyxname": [
+		"Elder, Crystal G"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VIRT",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"CLSRM",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/2/2025",
+		"9/2/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/16/2025",
+		"12/16/2025"
+	],
+	"seccontacthours": [
+		"144"
+	],
+	"seccapacity": "25",
+	"secminenroll": "12",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to provide individuals",
+		"with the required knowledge, tools, and resources",
+		"to become recognized as a certified Community",
+		"Health Worker (CHW) in North Carolina working in a",
+		"variety of healthcare and community settings",
+		"(Health Departments, Hospitals, Federally",
+		"Qualified Health Centers, Clinics, Faith-based",
+		"Organizations, etc.).  Instruction is designed to",
+		"cover the nine core competencies essential to",
+		"working as a certified CHW which include",
+		"communication, capacity building, service",
+		"coordination, interpersonal, advocacy, outreach,",
+		"personal/professional skills.  The knowledge base",
+		"competencies will cover health and social issues",
+		"that disproportionately impact clients including",
+		"but not limited to chronic diseases such as",
+		"diabetes, asthma and cancer.  Some of the social",
+		"issues covered will include safety, emergency",
+		"preparedness, social isolation and adverse",
+		"childhood experiences (ACES).  Students will also",
+		"learn about the changing health care landscape in",
+		"North Carolina and how to work with their clients",
+		"in connecting them to resources through NCCARES",
+		"360 and others.  Upon completion of this training",
+		"students will be eligible for listing as a NC",
+		"Certified Community Health Worker.  Course",
+		"facilitators must complete a train-the-trainer",
+		"course prior to providing certification",
+		"instruction."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Laura Richard Email: lrichard@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137287",
+	"secname": "MLS-8606-850",
+	"secshorttitle": "Human Resources Institute",
+	"secstartdate": "9/3/2025",
+	"secenddate": "1/21/2026",
+	"xcrssecfacultyxname": [
+		"Jarvis, Cynthia G."
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"5:00:00 PM",
+		"5:00:00 PM",
+		"5:00:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CVFA",
+		"CVFA",
+		"CVFA",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"100D",
+		"100D",
+		"100D",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/3/2025",
+		"10/15/2025",
+		"11/5/2025",
+		"9/3/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/1/2025",
+		"10/22/2025",
+		"1/21/2026",
+		"1/21/2026"
+	],
+	"seccontacthours": [
+		"96"
+	],
+	"seccapacity": "25",
+	"secminenroll": "11",
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"22"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course introduces the functions of",
+		"personnel/human resource management within an",
+		"organization. Topics include equal opportunity and",
+		"the legal environment, recruitment and selection,",
+		"performance appraisal, employee development,",
+		"compensation planning, and employee relations.",
+		"Upon completion, students should be able to",
+		"anticipate and resolve human resource concerns."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 370.00",
+	"classContact_2": "Julessa Scofield Email: jscofield819@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136873",
+	"secname": "NAS-3240-101",
+	"secshorttitle": "Nurse Aide Level I",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/9/2025",
+	"xcrssecfacultyxname": [
+		"Heindl, Jillian Beacham"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"7:30:00 AM",
+		"12:00:00 PM",
+		"7:30:00 AM",
+		"12:00:00 PM",
+		"7:30:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"11:30:00 AM",
+		"2:00:00 PM",
+		"11:30:00 AM",
+		"2:00:00 PM",
+		"11:30:00 AM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"561",
+		"561",
+		"561",
+		"561",
+		"561"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/20/2025",
+		"10/20/2025",
+		"12/2/2025",
+		"12/1/2025",
+		"12/8/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/25/2025",
+		"11/25/2025",
+		"12/4/2025",
+		"12/4/2025",
+		"12/9/2025"
+	],
+	"seccontacthours": [
+		"152"
+	],
+	"seccapacity": "20",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to prepare graduates to",
+		"provide personal care and perform basic nursing",
+		"skills for the elderly and other adults. Emphasis",
+		"on aging process including mental, social and",
+		"physical needs of the elderly, patient's rights,",
+		"nutrition management, elimination procedures, safe",
+		"environment, restorative services, personal and",
+		"special care procedures and activities, human body",
+		"structure and function and related common",
+		"disease/disorders, communication and",
+		"documentation, death and dying, and roles of the",
+		"nursing assistant and health team members. A",
+		"skill/competency evaluation is required. The",
+		"course includes class, laboratory and clinical",
+		"learning experiences. Upon satisfactory completion",
+		"of the course and skill/competency evaluation, the",
+		"graduate is eligible to apply for listing as a",
+		"Nurse Aide I by the N.C. Division of Facility",
+		"Services."
+	],
+	"tuition_": "�",
+	"otherFees_": "$ 67.25",
+	"classContact_2": "Kelly Kistler Email: kkistler@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "135987",
+	"secname": "NAS-3240-501",
+	"secshorttitle": "Nurse Aide Level I",
+	"secstartdate": "10/13/2025",
+	"secenddate": "12/2/2025",
+	"xcrssecfacultyxname": [
+		"Sigmon, Jana P."
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T",
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"12:30:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"4:30:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"GOOD",
+		"GOOD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"WILL",
+		"WILL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/13/2025",
+		"10/13/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/2/2025",
+		"12/1/2025"
+	],
+	"seccontacthours": [
+		"152"
+	],
+	"seccapacity": "10",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to prepare graduates to",
+		"provide personal care and perform basic nursing",
+		"skills for the elderly and other adults. Emphasis",
+		"on aging process including mental, social and",
+		"physical needs of the elderly, patient's rights,",
+		"nutrition management, elimination procedures, safe",
+		"environment, restorative services, personal and",
+		"special care procedures and activities, human body",
+		"structure and function and related common",
+		"disease/disorders, communication and",
+		"documentation, death and dying, and roles of the",
+		"nursing assistant and health team members. A",
+		"skill/competency evaluation is required. The",
+		"course includes class, laboratory and clinical",
+		"learning experiences. Upon satisfactory completion",
+		"of the course and skill/competency evaluation, the",
+		"graduate is eligible to apply for listing as a",
+		"Nurse Aide I by the N.C. Division of Facility",
+		"Services."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 67.25",
+	"classContact_2": "Kelly Kistler Email: kkistler@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137118",
+	"secname": "NAS-3240-503",
+	"secshorttitle": "Nurse Aide Level I",
+	"secstartdate": "9/12/2025",
+	"secenddate": "11/2/2025",
+	"xcrssecfacultyxname": [
+		"Sigmon, Jana P."
+	],
+	"secmeetingdays": [
+		[
+			"F",
+			"S",
+			"SU"
+		],
+		[
+			"F",
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"12:30:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"4:30:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"GOOD",
+		"GOOD"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"WILL",
+		"WILL"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/12/2025",
+		"9/12/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/2/2025",
+		"11/1/2025"
+	],
+	"seccontacthours": [
+		"152"
+	],
+	"seccapacity": "10",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to prepare graduates to",
+		"provide personal care and perform basic nursing",
+		"skills for the elderly and other adults. Emphasis",
+		"on aging process including mental, social and",
+		"physical needs of the elderly, patient's rights,",
+		"nutrition management, elimination procedures, safe",
+		"environment, restorative services, personal and",
+		"special care procedures and activities, human body",
+		"structure and function and related common",
+		"disease/disorders, communication and",
+		"documentation, death and dying, and roles of the",
+		"nursing assistant and health team members. A",
+		"skill/competency evaluation is required. The",
+		"course includes class, laboratory and clinical",
+		"learning experiences. Upon satisfactory completion",
+		"of the course and skill/competency evaluation, the",
+		"graduate is eligible to apply for listing as a",
+		"Nurse Aide I by the N.C. Division of Facility",
+		"Services."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 67.25",
+	"classContact_2": "Kelly Kistler Email: kkistler@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136515",
+	"secname": "NAS-3240-865",
+	"secshorttitle": "Nurse Aide Level I",
+	"secstartdate": "9/2/2025",
+	"secenddate": "2/10/2026",
+	"xcrssecfacultyxname": [
+		"Stillion, Patricia Justice"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:30:00 PM",
+		"9:30:00 PM",
+		"9:30:00 PM",
+		"9:30:00 PM",
+		"9:30:00 PM",
+		"9:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"561",
+		"561",
+		"561",
+		"561",
+		"561",
+		"561",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/2/2025",
+		"11/20/2025",
+		"12/2/2025",
+		"1/6/2026",
+		"1/20/2026",
+		"1/27/2026",
+		"9/2/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/13/2025",
+		"11/20/2025",
+		"12/16/2025",
+		"1/8/2026",
+		"1/20/2026",
+		"2/10/2026",
+		"2/10/2026"
+	],
+	"seccontacthours": [
+		"152"
+	],
+	"seccapacity": "20",
+	"secminenroll": "7",
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to prepare graduates to",
+		"provide personal care and perform basic nursing",
+		"skills for the elderly and other adults. Emphasis",
+		"on aging process including mental, social and",
+		"physical needs of the elderly, patient's rights,",
+		"nutrition management, elimination procedures, safe",
+		"environment, restorative services, personal and",
+		"special care procedures and activities, human body",
+		"structure and function and related common",
+		"disease/disorders, communication and",
+		"documentation, death and dying, and roles of the",
+		"nursing assistant and health team members. A",
+		"skill/competency evaluation is required. The",
+		"course includes class, laboratory and clinical",
+		"learning experiences. Upon satisfactory completion",
+		"of the course and skill/competency evaluation, the",
+		"graduate is eligible to apply for listing as a",
+		"Nurse Aide I by the N.C. Division of Facility",
+		"Services."
+	],
+	"tuition_": "�",
+	"otherFees_": "$ 67.25",
+	"classContact_2": "Kelly Kistler Email: kkistler@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136375",
+	"secname": "OST-8602-865",
+	"secshorttitle": "Medical Administrative Assist",
+	"secstartdate": "9/8/2025",
+	"secenddate": "4/13/2026",
+	"xcrssecfacultyxname": [
+		"Richard, Laura D."
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"7:00:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VIRT",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"CLSRM",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/8/2025",
+		"9/8/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/8/2025",
+		"4/13/2026"
+	],
+	"seccontacthours": [
+		"390"
+	],
+	"seccapacity": "25",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"5"
+	],
+	"xcrssecseatavail": [
+		"20"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The focus of the Medical Administrative Assistant",
+		"program is to prepare students for entry-level",
+		"employment as medical office receptionists,",
+		"medical billing clerks, medical records clerks and",
+		"other administrative positions in a variety of",
+		"settings. Through the program, students gain",
+		"knowledge of medical terminology, general medical",
+		"office procedures and acquire the skills necessary",
+		"to deliver effective customer service and perform",
+		"important administrative duties. Courses are",
+		"designed to equip students with the skills needed",
+		"to perform medical transcription and develop and",
+		"maintain patient files and records. Additionally,",
+		"students become familiar with basic procedural and",
+		"diagnostic coding systems and processes, medical",
+		"records management, coding applications,",
+		"reimbursement, medical ethics and compliance and",
+		"HIPAA rules and regulations related to the privacy",
+		"and security of patient information. Upon",
+		"completion, the student will have the knowledge to",
+		"sit for industry-recognized certifications."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Laura Richard Email: lrichard@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137131",
+	"secname": "PBT-3022-865",
+	"secshorttitle": "Phlebotomy Experience",
+	"secstartdate": "1/13/2026",
+	"secenddate": "6/9/2026",
+	"xcrssecfacultyxname": [
+		"Sigmon, Briana Danielle"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"7:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"ATEC",
+		"ATEC",
+		"TBD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"226",
+		"226",
+		"TBD",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"1/13/2026",
+		"6/9/2026",
+		"5/11/2026",
+		"1/13/2026"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"5/7/2026",
+		"6/9/2026",
+		"6/5/2026",
+		"6/9/2026"
+	],
+	"seccontacthours": [
+		"215"
+	],
+	"seccapacity": "10",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course provides theory and clinical",
+		"experiences needed for the proper collection of",
+		"blood and other specimens used for diagnostic",
+		"testing. Emphasis is placed on ethics,",
+		"legalities, medical terminology, safety and",
+		"universal precautions, health care delivery",
+		"systems, patient relations, anatomy and",
+		"physiology, and specimen collection. Upon",
+		"completion, students should be able to safely",
+		"perform procedures necessary for specimen",
+		"collections on patients in various health",
+		"care settings and may be eligible for national",
+		"certification as phlebotomy technicians.",
+		"",
+		"Course may include a clinical component"
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 136.25",
+	"classContact_2": "Laura Richard Email: lrichard@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137300",
+	"secname": "PBT-3022-866",
+	"secshorttitle": "Phlebotomy Experience",
+	"secstartdate": "3/3/2026",
+	"secenddate": "7/28/2026",
+	"xcrssecfacultyxname": [
+		"Jacumin, Thea Evan"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"7:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD",
+		"TBD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"148",
+		"148",
+		"TBD",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"3/3/2026",
+		"7/28/2026",
+		"6/29/2026",
+		"3/3/2026"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"6/25/2026",
+		"7/28/2026",
+		"7/24/2026",
+		"7/28/2026"
+	],
+	"seccontacthours": [
+		"215"
+	],
+	"seccapacity": "20",
+	"secminenroll": "12",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"20"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course provides theory and clinical",
+		"experiences needed for the proper collection of",
+		"blood and other specimens used for diagnostic",
+		"testing. Emphasis is placed on ethics,",
+		"legalities, medical terminology, safety and",
+		"universal precautions, health care delivery",
+		"systems, patient relations, anatomy and",
+		"physiology, and specimen collection. Upon",
+		"completion, students should be able to safely",
+		"perform procedures necessary for specimen",
+		"collections on patients in various health",
+		"care settings and may be eligible for national",
+		"certification as phlebotomy technicians.",
+		"",
+		"Course may include a clinical component"
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 136.25",
+	"classContact_2": "Laura Richard Email: lrichard@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136510",
+	"secname": "PHM-8602-865",
+	"secshorttitle": "Central Sterile Processing",
+	"secstartdate": "10/1/2025",
+	"secenddate": "12/8/2025",
+	"xcrssecfacultyxname": [
+		"Fox, Tiffany Lashea"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:00:00 PM",
+		"5:00:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"8:30:00 PM",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"CAD",
+		"CAD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"331",
+		"331",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/1/2025",
+		"12/1/2025",
+		"10/1/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/19/2025",
+		"12/8/2025",
+		"12/8/2025"
+	],
+	"seccontacthours": [
+		"220"
+	],
+	"seccapacity": "17",
+	"secminenroll": "10",
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"status": "<div name='Clsd' style='color:red'><b>CLOSED</b></div>",
+	"calculatedColumn2": "",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed to introduce the primary",
+		"responsibilities of a central sterile technician.",
+		"The course includes practical applications of",
+		"learned concepts and procedures. Topics include",
+		"preparation, storage, distribution of instruments,",
+		"supplies and equipment, quality assurance and",
+		"inventory management. Upon completion, students",
+		"should be able to apply the principles of",
+		"sterilization/disinfection in the workplace, as",
+		"well as the principles of distribution of",
+		"instruments/supplies/equipment."
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 6.25",
+	"classContact_2": "Robin Cornett Email: rcornett@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137154",
+	"secname": "SEF-9153-475",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "9/6/2025",
+	"secenddate": "9/7/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/6/2025",
+		"9/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/7/2025",
+		"9/7/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137155",
+	"secname": "SEF-9153-476",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "9/20/2025",
+	"secenddate": "9/21/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/20/2025",
+		"9/20/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/21/2025",
+		"9/21/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137156",
+	"secname": "SEF-9153-477",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "10/4/2025",
+	"secenddate": "10/5/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/4/2025",
+		"10/4/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/5/2025",
+		"10/5/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "6",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137157",
+	"secname": "SEF-9153-478",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "10/18/2025",
+	"secenddate": "10/19/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/18/2025",
+		"10/18/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/19/2025",
+		"10/19/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137158",
+	"secname": "SEF-9153-479",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "11/15/2025",
+	"secenddate": "11/16/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/15/2025",
+		"11/15/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/16/2025",
+		"11/16/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137159",
+	"secname": "SEF-9153-480",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "11/22/2025",
+	"secenddate": "11/23/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"11/22/2025",
+		"11/22/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/23/2025",
+		"11/23/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "137160",
+	"secname": "SEF-9153-481",
+	"secshorttitle": "Basic Rider Course BRC",
+	"secstartdate": "12/6/2025",
+	"secenddate": "12/7/2025",
+	"xcrssecfacultyxname": [
+		"Mallo, Randy"
+	],
+	"secmeetingdays": [
+		[
+			"S",
+			"SU"
+		],
+		[
+			"S",
+			"SU"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"12:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"PSTC",
+		"PSTC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"MU1",
+		"MU1"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"12/6/2025",
+		"12/6/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"12/7/2025",
+		"12/7/2025"
+	],
+	"seccontacthours": [
+		"18"
+	],
+	"seccapacity": "12",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"The Basic Rider Course is designed for beginner",
+		"riders 16 years of age and older. Included in the",
+		"program is five hours of classroom",
+		"instruction/online training before attending the",
+		"first formal classroom session and 13 hours of",
+		"riding and 3 hours of E-course. Motorcycles are",
+		"included in the price of registration. No permit",
+		"is required to take class but valid NC driver's",
+		"license is required."
+	],
+	"tuition_": "$ 215.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Cheryl Toney Email: ctoney@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+},{
+	"id": "136227",
+	"secname": "SEF-9165-200",
+	"secshorttitle": "SHRM-CP/SCP Exam Prep",
+	"secstartdate": "10/1/2025",
+	"secenddate": "11/19/2025",
+	"xcrssecfacultyxname": [
+		"Whitehead, Nicole"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"9:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"VIRT"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"CLSRM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/1/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"11/19/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "20",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"17"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course is designed for SHRM credential",
+		"candidates who are eligible to sit for and take",
+		"either the SHRM-Certified Professional (CP) or",
+		"SHRM-Senior Certified Professional.  Course will",
+		"help you expand and test your knowledge with",
+		"practical, real-life competencies in areas",
+		"critical for HR career success. This intensive",
+		"program combines expert instruction with the SHRM",
+		"Learning System® for SHRM-CP/SHRM-SCP, so you will",
+		"learn faster, retain more knowledge and stay on",
+		"track for success on the exam."
+	],
+	"tuition_": "$ 990.00",
+	"otherFees_": "$ 615.00",
+	"classContact_2": "Julessa Scofield Email: jscofield819@cvcc.edu",
+	"exportTime": "08-21-2025  01:12 PM"
+}]

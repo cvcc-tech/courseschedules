@@ -1,0 +1,255 @@
+[{
+	"id": "136945",
+	"secname": "FIP-8971-440",
+	"secshorttitle": "FF Fireground Ops 1 (FF 2019)",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/25/2025",
+	"xcrssecfacultyxname": [
+		"Sprinkle, Eric Christopher"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"ATEC",
+		"ATEC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"215",
+		"215"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"9/2/2025",
+		"9/18/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"9/9/2025",
+		"9/25/2025"
+	],
+	"seccontacthours": [
+		"24"
+	],
+	"seccapacity": "30",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course includes instructional content for",
+		"Firefighter Health & Safety.  This course will",
+		"present the candidate with the knowledge, skills,",
+		"and ability to satisfy the requirements of NFPA",
+		"1001: Standard for Firefighter Professional",
+		"Qualifications (2019 edition). This course should",
+		"be offered consistent with the most current NC",
+		"Fire and Rescue Commission guidelines; contact the",
+		"Office of State Fire Marshal (OSFM) for details.",
+		"Effective date July 1, 2020/2019 Edition NFPA",
+		"Standard."
+	],
+	"tuition_": "$ 70.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Steven Rhodarmer Email: srhodarmer@cvcc.edu",
+	"exportTime": "08-21-2025  01:04 PM"
+},{
+	"id": "137196",
+	"secname": "FIP-8972-440",
+	"secshorttitle": "FF Fireground Ops 2 (FF 2019)",
+	"secstartdate": "10/7/2025",
+	"secenddate": "10/28/2025",
+	"xcrssecfacultyxname": [
+		"Smith, Anthony Michael"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"F"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"T"
+		]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"10:00:00 PM",
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"215",
+		"215",
+		"215"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"10/7/2025",
+		"10/16/2025",
+		"10/28/2025"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"10/14/2025",
+		"10/23/2025",
+		"10/28/2025"
+	],
+	"seccontacthours": [
+		"28"
+	],
+	"seccapacity": "30",
+	"secminenroll": "6",
+	"xcrssecused": [
+		"0"
+	],
+	"xcrssecseatavail": [
+		"30"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course includes instructional content for",
+		"Personal Protective Equipment (PPE).  This course",
+		"will present the candidate with the knowledge,",
+		"skills, and ability to satisfy the requirements of",
+		"NFPA 1001: Standard for Firefighter Professional",
+		"Qualifications (2019 edition). This course should",
+		"be offered consistent with the most current NC",
+		"Fire and Rescue Commission guidelines; contact the",
+		"Office of State Fire Marshal (OSFM) for details.",
+		"Effective date July 1, 2020/2019 Edition NFPA",
+		"Standard."
+	],
+	"tuition_": "$ 125.00",
+	"otherFees_": "$ 0.00",
+	"classContact_2": "Steven Rhodarmer Email: srhodarmer@cvcc.edu",
+	"exportTime": "08-21-2025  01:04 PM"
+},{
+	"id": "137131",
+	"secname": "PBT-3022-865",
+	"secshorttitle": "Phlebotomy Experience",
+	"secstartdate": "1/13/2026",
+	"secenddate": "6/9/2026",
+	"xcrssecfacultyxname": [
+		"Sigmon, Briana Danielle"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[],
+		[]
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime": [
+		"8:30:00 PM",
+		"7:30:00 PM",
+		"",
+		""
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg": [
+		"ATEC",
+		"ATEC",
+		"TBD",
+		"INTE"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom": [
+		"226",
+		"226",
+		"TBD",
+		"RNET"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartDate": [
+		"1/13/2026",
+		"6/9/2026",
+		"5/11/2026",
+		"1/13/2026"
+	],
+	"cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndDate": [
+		"5/7/2026",
+		"6/9/2026",
+		"6/5/2026",
+		"6/9/2026"
+	],
+	"seccontacthours": [
+		"215"
+	],
+	"seccapacity": "10",
+	"secminenroll": "5",
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"status": "<div name='Open' style='color:black'><b>OPEN</b></div>",
+	"calculatedColumn2": "<a href=\"https://cvcc.edu/continuing-education-registration/\">Register</a>",
+	"linkCOURSESECTIONSToBOOKS_assoc_bookTitle": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookIsbn": [],
+	"linkCOURSESECTIONSToBOOKS_assoc_bookEdition": [],
+	"linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc": [
+		"This course provides theory and clinical",
+		"experiences needed for the proper collection of",
+		"blood and other specimens used for diagnostic",
+		"testing. Emphasis is placed on ethics,",
+		"legalities, medical terminology, safety and",
+		"universal precautions, health care delivery",
+		"systems, patient relations, anatomy and",
+		"physiology, and specimen collection. Upon",
+		"completion, students should be able to safely",
+		"perform procedures necessary for specimen",
+		"collections on patients in various health",
+		"care settings and may be eligible for national",
+		"certification as phlebotomy technicians.",
+		"",
+		"Course may include a clinical component"
+	],
+	"tuition_": "$ 180.00",
+	"otherFees_": "$ 136.25",
+	"classContact_2": "Laura Richard Email: lrichard@cvcc.edu",
+	"exportTime": "08-21-2025  01:04 PM"
+}]
