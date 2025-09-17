@@ -1,0 +1,2309 @@
+[{
+	"secsynonym": "128025",
+	"secname": "ACA-122-440A",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Bumgarner, Ashley Vaughn"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:05:00 AM"
+	],
+	"secendtime": [
+		"8:55:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC"
+	],
+	"xsecRoom": [
+		"00231B"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128026",
+	"secname": "ACA-122-441A",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Bumgarner, Ashley Vaughn"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC"
+	],
+	"xsecRoom": [
+		"00231B"
+	],
+	"xcrssecused": [
+		"23"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128069",
+	"secname": "ART-111-750A",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Martin, Kendall Joy"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"00231B",
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128070",
+	"secname": "ART-111-751A",
+	"secshorttitle": "Art Appreciation",
+	"xcrssecfacultyxname": [
+		"Martin, Kendall Joy"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"00231B",
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128134",
+	"secname": "BIO-112-750A",
+	"secshorttitle": "General Biology II",
+	"xcrssecfacultyxname": [
+		"Campbell, Malcolm David"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		"9:00:00 AM",
+		"",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		"9:50:00 AM",
+		"",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"226",
+		"226",
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"-3"
+	],
+	"secprintedcomments": [
+		"Lab will require animal dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýMNýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "129813",
+	"secname": "BPR-111-440A",
+	"secshorttitle": "Print Reading",
+	"xcrssecfacultyxname": [
+		"Sigmon, Mark Oland"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"3:50:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"218",
+		"RNET"
+	],
+	"xcrssecused": [
+		"14"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128152",
+	"secname": "BUS-110-750A",
+	"secshorttitle": "Introduction to Business",
+	"xcrssecfacultyxname": [
+		"Dellinger, Brooklyn"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"215",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128237",
+	"secname": "COM-231-750A",
+	"secshorttitle": "Public Speaking",
+	"xcrssecfacultyxname": [
+		"Hamilton, Ariel E"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"215",
+		"RNET"
+	],
+	"xcrssecused": [
+		"25"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128238",
+	"secname": "COM-231-751A",
+	"secshorttitle": "Public Speaking",
+	"xcrssecfacultyxname": [
+		"Hamilton, Ariel E"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"215",
+		"RNET"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"15"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "129756",
+	"secname": "ELC-113-865A",
+	"secshorttitle": "Residential Wiring",
+	"xcrssecfacultyxname": [
+		"Petree, Derrick Lee"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"5:30:00 PM",
+		""
+	],
+	"secendtime": [
+		"8:20:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"228",
+		"RNET"
+	],
+	"xcrssecused": [
+		"8"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128341",
+	"secname": "ELC-117-750A",
+	"secshorttitle": "Motors and Controls",
+	"xcrssecfacultyxname": [
+		"Poteet, Elijah Alexander"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		"",
+		""
+	],
+	"secendtime": [
+		"4:20:00 PM",
+		"",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"00231B",
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"-1"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMNýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128375",
+	"secname": "ENG-011-750A",
+	"secshorttitle": "Writing and Inquiry Support",
+	"xcrssecfacultyxname": [
+		"Blevins, Hailey E"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"1:45:00 PM",
+		"1:45:00 PM",
+		""
+	],
+	"secendtime": [
+		"2:35:00 PM",
+		"2:35:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"216",
+		"216",
+		"RNET"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"15"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128384",
+	"secname": "ENG-111-750A",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Blevins, Hailey E"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"216",
+		"RNET"
+	],
+	"xcrssecused": [
+		"23"
+	],
+	"xcrssecseatavail": [
+		"5"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128385",
+	"secname": "ENG-111-751A",
+	"secshorttitle": "Writing and Inquiry",
+	"xcrssecfacultyxname": [
+		"Blevins, Hailey E"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"216",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128421",
+	"secname": "ENG-231-750A",
+	"secshorttitle": "American Literature I",
+	"xcrssecfacultyxname": [
+		"Harbinson, Justin T"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"216",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128422",
+	"secname": "ENG-231-751A",
+	"secshorttitle": "American Literature I",
+	"xcrssecfacultyxname": [
+		"Harbinson, Justin T"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"216",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128493",
+	"secname": "HIS-131-750A",
+	"secshorttitle": "American History I",
+	"xcrssecfacultyxname": [
+		"Brooks-Livingston, Ethan S."
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"227",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128494",
+	"secname": "HIS-131-751A",
+	"secshorttitle": "American History I",
+	"xcrssecfacultyxname": [
+		"Brooks-Livingston, Ethan S."
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"227",
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128572",
+	"secname": "MAT-172-750A",
+	"secshorttitle": "Precalculus Trigonometry",
+	"xcrssecfacultyxname": [
+		"Baker, Kelly C"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"2:23:00 PM",
+		"1:30:00 PM",
+		""
+	],
+	"secendtime": [
+		"2:50:00 PM",
+		"2:22:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"215",
+		"215",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128931",
+	"secname": "MAT-272-750A",
+	"secshorttitle": "Calculus II",
+	"xcrssecfacultyxname": [
+		"Baker, Kelly C"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"12:20:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"215",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "130198",
+	"secname": "MEC-130-750A",
+	"secshorttitle": "Mechanisms",
+	"xcrssecfacultyxname": [
+		"Wagoner, Jordan Kyle"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		"2:55:00 PM",
+		""
+	],
+	"secendtime": [
+		"2:50:00 PM",
+		"3:20:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"00231B",
+		"00231B",
+		"RNET"
+	],
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128601",
+	"secname": "MNT-110-750A",
+	"secshorttitle": "Intro to Maint Procedures",
+	"xcrssecfacultyxname": [
+		"Wagoner, Jordan Kyle"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"3:20:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"00231B",
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128604",
+	"secname": "MUS-110-750A",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Gray, Stephanie Marie"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ALCO",
+		"INTE"
+	],
+	"xsecRoom": [
+		"106",
+		"RNET"
+	],
+	"xcrssecused": [
+		"21"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128605",
+	"secname": "MUS-110-751A",
+	"secshorttitle": "Music Appreciation",
+	"xcrssecfacultyxname": [
+		"Holt, Paul"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ALCO",
+		"INTE"
+	],
+	"xsecRoom": [
+		"106",
+		"RNET"
+	],
+	"xcrssecused": [
+		"19"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "130629",
+	"secname": "MUS-131-400AE",
+	"secshorttitle": "Chorus I",
+	"xcrssecfacultyxname": [
+		"Gray, Stephanie Marie"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM"
+	],
+	"secBldgmv": [
+		"ALCO"
+	],
+	"xsecRoom": [
+		"106"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "CLOSED",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "129815",
+	"secname": "MUS-132-750A",
+	"secshorttitle": "Chorus II",
+	"xcrssecfacultyxname": [
+		"Gray, Stephanie Marie"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"9:50:00 AM"
+	],
+	"secBldgmv": [
+		"ALCO"
+	],
+	"xsecRoom": [
+		"106"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "MN"
+},{
+	"secsynonym": "128773",
+	"secname": "PSY-241-750A",
+	"secshorttitle": "Developmental Psych",
+	"xcrssecfacultyxname": [
+		"Singletary, Elliot R"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"218",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128774",
+	"secname": "PSY-241-751A",
+	"secshorttitle": "Developmental Psych",
+	"xcrssecfacultyxname": [
+		"Singletary, Elliot R"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"218",
+		"RNET"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128809",
+	"secname": "SOC-210-750A",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Stroupe, John Russell"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"226",
+		"RNET"
+	],
+	"xcrssecused": [
+		"22"
+	],
+	"xcrssecseatavail": [
+		"6"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128810",
+	"secname": "SOC-210-751A",
+	"secshorttitle": "Introduction to Sociology",
+	"xcrssecfacultyxname": [
+		"Stroupe, John Russell"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"10:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"10:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"226",
+		"RNET"
+	],
+	"xcrssecused": [
+		"18"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128841",
+	"secname": "SPA-112-750A",
+	"secshorttitle": "Elementary Spanish II",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:05:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:55:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"227",
+		"RNET"
+	],
+	"xcrssecused": [
+		"16"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128842",
+	"secname": "SPA-112-751A",
+	"secshorttitle": "Elementary Spanish II",
+	"xcrssecfacultyxname": [
+		"Lee, Timothy Allen"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:50:00 AM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"227",
+		"RNET"
+	],
+	"xcrssecused": [
+		"17"
+	],
+	"xcrssecseatavail": [
+		"11"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "129765",
+	"secname": "WLD-110-440A",
+	"secshorttitle": "Cutting Processes",
+	"xcrssecfacultyxname": [
+		"Barnes, Daniel"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"2:00:00 PM",
+		"3:00:00 PM",
+		"2:00:00 PM"
+	],
+	"secendtime": [
+		"2:50:00 PM",
+		"3:50:00 PM",
+		"3:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222",
+		"222"
+	],
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128883",
+	"secname": "WLD-115AB-440A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Pharr, Jessica E"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"12:15:00 PM",
+		"1:10:00 PM"
+	],
+	"secendtime": [
+		"1:05:00 PM",
+		"3:00:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"222"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128885",
+	"secname": "WLD-115BB-440A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Harris, David Michael"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM"
+	],
+	"secendtime": [
+		"7:20:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128898",
+	"secname": "WLD-122-440A",
+	"secshorttitle": "GMAW (MIG) Plate/Pipe",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "7",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		"10:50:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"7"
+	],
+	"xcrssecseatavail": [
+		"8"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course. For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "129820",
+	"secname": "WLD-131-750A",
+	"secshorttitle": "GTAW (TIG) Plate",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"12:15:00 PM",
+		"12:45:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:40:00 PM",
+		"3:45:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"218",
+		"222",
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128919",
+	"secname": "WLD-151-440A",
+	"secshorttitle": "Fabrication I",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"11:50:00 AM",
+		"10:50:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128920",
+	"secname": "WLD-151-441A",
+	"secshorttitle": "Fabrication I",
+	"xcrssecfacultyxname": [
+		"Thornburg, Timothy Lee"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "8",
+	"secmeetingdays": [
+		[
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM",
+		"5:00:00 PM",
+		"5:00:00 PM"
+	],
+	"secendtime": [
+		"8:50:00 PM",
+		"8:50:00 PM",
+		"6:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222",
+		"222"
+	],
+	"xcrssecused": [
+		"9"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128923",
+	"secname": "WLD-251-440A",
+	"secshorttitle": "Fabrication II",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "1/13/2025",
+	"secenddate": "5/12/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "7",
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 PM",
+		"5:00:00 PM"
+	],
+	"secendtime": [
+		"8:50:00 PM",
+		"7:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128927",
+	"secname": "WLD-261-440A",
+	"secshorttitle": "Certification Practices",
+	"xcrssecfacultyxname": [
+		"Sigmon, Mark Oland"
+	],
+	"secstartdate": "1/16/2025",
+	"secenddate": "5/8/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"TH"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"5:50:00 PM",
+		"8:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"13"
+	],
+	"xcrssecseatavail": [
+		"2"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "128928",
+	"secname": "WLD-262-440A",
+	"secshorttitle": "Inspection & Testing",
+	"xcrssecfacultyxname": [
+		"Barnes, Daniel"
+	],
+	"secstartdate": "1/14/2025",
+	"secenddate": "5/13/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM",
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"6:50:00 PM",
+		"8:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"218"
+	],
+	"xcrssecused": [
+		"15"
+	],
+	"xcrssecseatavail": [
+		"1"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"secSchedCapacity": "",
+	"secTerm": "2025SP",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+}]

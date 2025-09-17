@@ -1,0 +1,359 @@
+[{
+	"secsynonym": "130179",
+	"secname": "WLD-110-440A",
+	"secshorttitle": "Cutting Processes",
+	"xcrssecfacultyxname": [
+		"Johnson, John Ray"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"5:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"5:50:00 PM",
+		"8:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"12"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "131690",
+	"secname": "WLD-115AB-750A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"1:50:00 PM",
+		""
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"RNET"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"14"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "ALýALýMN",
+	"secLocation": "AL"
+},{
+	"secsynonym": "130181",
+	"secname": "WLD-115BB-440A",
+	"secshorttitle": "SMAW (Stick) Plate",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/3/2025",
+	"secenddate": "7/24/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "5",
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222"
+	],
+	"xcrssecused": [
+		"2"
+	],
+	"xcrssecseatavail": [
+		"13"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "AL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "131691",
+	"secname": "WLD-116-440A",
+	"secshorttitle": "SMAW (stick) Plate/Pipe",
+	"xcrssecfacultyxname": [
+		"Pharr, Jessica E"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"8:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"3"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "ALýALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "131693",
+	"secname": "WLD-215-440A",
+	"secshorttitle": "SMAW (stick) Pipe",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "10",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:50:00 PM",
+		"8:50:00 AM",
+		"12:50:00 PM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"218",
+		"222"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"9"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "ALýALýAL",
+	"secLocation": "AL"
+},{
+	"secsynonym": "132403",
+	"secname": "WLD-261-440A",
+	"secshorttitle": "Certification Practices",
+	"xcrssecfacultyxname": [
+		"Filip, David Johnathon"
+	],
+	"secstartdate": "6/2/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "2",
+	"xsecTotalContactHours": "4",
+	"secmeetingdays": [
+		[
+			"M",
+			"W"
+		],
+		[
+			"M",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"8:50:00 AM",
+		"11:50:00 AM"
+	],
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"222",
+		"222"
+	],
+	"xcrssecused": [
+		"1"
+	],
+	"xcrssecseatavail": [
+		"0"
+	],
+	"secprintedcomments": [],
+	"status": "CLOSED",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "ALýAL",
+	"secLocation": "AL"
+}]

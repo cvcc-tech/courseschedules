@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CVCC Course Schedule</title>
+
+  <!-- Vue + Bootstrap -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --cvcc-primary: #BA0C2F;
+      --cvcc-secondary: #505759;
+      --cvcc-red-text: #A6192E;
+      --cvcc-be-blue: #00a3e0;
+      --badge-green: #28a745;
+      --badge-red: #dc3545;
+    }
+
+    /* Page: table-only scroll */
+    html, body { height: 100%; }
+    body {
+      height: 100vh;
+      overflow: hidden;
+      background-color: #eaeaea;
+      color: #333;
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #app { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+
+    .main-content {
+      flex: 1 1 auto;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      padding-top: .75rem;   /* compact header */
+      padding-bottom: 0;
+    }
+
+    .app-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: .125rem; padding: 0 1rem; }
+    h1 { color: var(--cvcc-primary); font-weight: 700; margin-bottom: 0; }
+    .logo { max-width: 200px; height: auto; }
+
+    .meta-row { display: flex; justify-content: space-between; align-items: center; padding: 0 .75rem .25rem .75rem; }
+    .counts { font-weight: 600; color: #444; }
+    .badge-open, .badge-closed { display: inline-block; padding: .35rem .6rem; border-radius: 999px; font-weight: 700; font-size: .85rem; color: #fff; vertical-align: middle; }
+    .badge-open { background: var(--badge-green); }
+    .badge-closed { background: var(--badge-red); }
+    .last-updated { text-align: right; font-size: 0.9em; color: #555; }
+    .legend { padding: 0 .9rem .25rem .9rem; font-size: .9rem; color: #555; }
+
+    .filter-bar {
+      margin: 0 0 .75rem 0;
+      background: #fff; border: 1px solid #ccc; border-radius: 8px;
+      padding: .75rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .filter-bar .form-label { font-weight: 600; color: var(--cvcc-secondary); }
+
+    .table-wrapper {
+      flex: 1 1 auto;
+      min-height: 220px;
+      overflow-y: auto;
+      background: #fff; border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .table { width: 100%; margin-bottom: 0; }
+    thead th { position: sticky; top: 0; background-color: var(--cvcc-primary) !important; color: #fff !important; z-index: 2; font-weight: 600; }
+    th.section-col { min-width: 140px; }
+    td.notes-col { max-width: 420px; white-space: normal; word-wrap: break-word; }
+
+    .online-icon {
+      font-family: 'Material Symbols Outlined';
+      color: var(--cvcc-be-blue); font-size: 1.2em; vertical-align: middle; line-height: 1; display: inline-block;
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .app-footer { flex: 0 0 auto; background-color: var(--cvcc-primary); color: #fff; text-align: center; padding: .5rem; font-size: .9rem; }
+
+    a { color: var(--cvcc-red-text); text-decoration: underline; }
+
+    /* CE expanded notes */
+    .notes-toggle { white-space: nowrap; }
+    tr.notes-row > td { background: #fffdf7; }
+    .notes-expanded { padding: 12px 16px; border-top: 1px solid #eee; }
+
+    /* Help buttons & popovers */
+    .help-container { position: relative; display: inline-flex; align-items: center; gap: .4rem; }
+    .help-btn {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 0; cursor: pointer; line-height: 22px;
+      background: var(--cvcc-be-blue); color: #fff; font-weight: 800; font-size: 14px;
+      display: inline-flex; align-items: center; justify-content: center;
+    }
+    .help-btn:focus { outline: 2px solid #004f6b; outline-offset: 2px; }
+    .help-pop {
+      position: absolute; top: 100%; left: 0; margin-top: .4rem;
+      width: min(380px, 92vw); max-height: 60vh; overflow: auto;
+      background: #fff; color: #333;
+      border: 1px solid #dcdcdc; border-radius: 8px; padding: .75rem .9rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,.12); z-index: 20;
+    }
+    .help-pop::before { content: ""; position: absolute; top: -6px; left: 10px; border-width: 6px; border-style: solid; border-color: transparent transparent #dcdcdc transparent; }
+    .help-pop::after  { content: ""; position: absolute; top: -5px; left: 11px; border-width: 5px; border-style: solid; border-color: transparent transparent #fff transparent; }
+    .help-pop h6 { margin: 0 0 .25rem 0; font-weight: 700; color: var(--cvcc-secondary); }
+    .help-list { margin: .25rem 0 0; padding-left: 1.1rem; }
+    .help-list li { margin: .15rem 0; }
+
+    /* Short screens: allow page scroll */
+    @media (max-height: 700px){
+      body { overflow: auto; }
+      .table-wrapper { overflow-y: visible; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="container-fluid">
+    <div class="main-content">
+      <div class="app-header">
+        <h1>Course Schedules</h1>
+        <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+      </div>
+
+      <div class="meta-row">
+        <div class="counts">
+          Showing: {{ filteredCourses.length }}
+          <span class="badge-open ms-2">Open: {{ statusSummary.open }}</span>
+          <span class="badge-closed ms-2">Closed: {{ statusSummary.closed }}</span>
+        </div>
+        <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
+      </div>
+
+      <div class="legend">
+        <span class="material-symbols-outlined online-icon">language</span>
+        = Online Course Component
+      </div>
+
+      <div class="row filter-bar">
+        <!-- Term + Help -->
+        <div class="col-md-3">
+          <div class="d-flex align-items-center justify-content-between">
+            <label class="form-label mb-0">Term</label>
+            <div class="help-container">
+              <button type="button" class="help-btn"
+                aria-label="Help about term list"
+                :aria-expanded="helpOpenTerm.toString()"
+                @click="toggleHelp('term')"
+                @keydown.enter.prevent="toggleHelp('term')"
+                @keydown.space.prevent="toggleHelp('term')"
+                ref="helpBtnTerm">?</button>
+              <div class="help-pop" v-show="helpOpenTerm" ref="helpPopTerm" role="dialog" aria-live="polite">
+                <h6>Which list should I choose?</h6>
+                <p><strong>Continuing Education</strong> (labeled “Continuing Education – …”) lists short, non-credit classes for workforce or personal enrichment.</p>
+                <p class="mt-2"><strong>Curriculum</strong> terms (e.g., “Fall 2025”) list for-credit courses that count toward degrees/certificates.</p>
+                <p class="mt-2">You can switch anytime—search & filters apply to whichever list you select.</p>
+              </div>
+            </div>
+          </div>
+          <select v-model="selectedTerm" @change="loadCourses" class="form-select mt-2">
+            <option v-for="term in termOptions" :key="term.value" :value="term.value">
+              {{ term.label }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Delivery + Help -->
+        <div class="col-md-3">
+          <div class="d-flex align-items-center justify-content-between">
+            <label class="form-label mb-0">Delivery Method</label>
+            <div class="help-container">
+              <button type="button" class="help-btn"
+                aria-label="Help about delivery methods"
+                :aria-expanded="helpOpenDelivery.toString()"
+                @click="toggleHelp('delivery')"
+                @keydown.enter.prevent="toggleHelp('delivery')"
+                @keydown.space.prevent="toggleHelp('delivery')"
+                ref="helpBtnDel">?</button>
+              <div class="help-pop" v-show="helpOpenDelivery" ref="helpPopDel" role="dialog" aria-live="polite">
+                <h6>Delivery methods explained</h6>
+                <p><strong>Online</strong>: Coursework happens online. Some classes may still require proctored tests or specific due dates.</p>
+                <p class="mt-2"><strong>Hybrid</strong>: A mix of online work and in-person meetings on set days/times.</p>
+                <p class="mt-2"><strong>Traditional</strong>: Fully in-person, meeting on campus at scheduled days/times.</p>
+                <p class="mt-2">Tip: The <span class="material-symbols-outlined online-icon" style="font-size:1em; vertical-align:baseline;">language</span> icon indicates an online component.</p>
+              </div>
+            </div>
+          </div>
+          <select v-model="selectedDelivery" class="form-select mt-2">
+            <option value="">All</option>
+            <option value="Online">Online</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="Traditional">Traditional</option>
+          </select>
+        </div>
+
+        <!-- Location + Help -->
+        <div class="col-md-3">
+          <div class="d-flex align-items-center justify-content-between">
+            <label class="form-label mb-0">Location</label>
+            <div class="help-container">
+              <button type="button" class="help-btn"
+                aria-label="Help about locations"
+                :aria-expanded="helpOpenLocation.toString()"
+                @click="toggleHelp('location')"
+                @keydown.enter.prevent="toggleHelp('location')"
+                @keydown.space.prevent="toggleHelp('location')"
+                ref="helpBtnLoc">?</button>
+              <div class="help-pop" v-show="helpOpenLocation" ref="helpPopLoc" role="dialog" aria-live="polite">
+                <h6>Location codes</h6>
+                <ul class="help-list">
+                  <li><strong>ALCO</strong> – Alexander County</li>
+                  <li><strong>ATEC</strong> – Alexander Technology Education Center</li>
+                  <li><strong>CAD</strong> – Cuyler A. Dunbar Building</li>
+                  <li><strong>CDC</strong> – Corporate Development Center</li>
+                  <li><strong>COS</strong> – Cosmetology Center</li>
+                  <li><strong>CVFA</strong> – Catawba Valley Furniture Academy</li>
+                  <li><strong>EC</strong> – East Campus</li>
+                  <li><strong>EW</strong> – East Wing (Main Campus)</li>
+                  <li><strong>MPC</strong> – Tarlton Complex (Main Campus)</li>
+                  <li><strong>NCCET</strong> – NC Center for Engineering Technologies</li>
+                  <li><strong>NWTN REC</strong> – Newton Recreation Center (off campus)</li>
+                  <li><strong>PKBC</strong> – Plush Cut Barbering College (off campus)</li>
+                  <li><strong>REP</strong> – Robert E. Paap (Main Campus)</li>
+                  <li><strong>TRNS</strong> – TransTech (off campus)</li>
+                  <li><strong>VIRT</strong> – Virtual</li>
+                  <li><strong>VSL</strong> – Vocational Shops & Labs (Main Campus)</li>
+                  <li><strong>WHKY SEN</strong> – West Hickory Senior Center (off campus)</li>
+                  <li><strong>WSC</strong> – Workforce Solutions Complex</li>
+                  <li><strong>WW</strong> – West Wing (Main Campus)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <select v-model="selectedLocation" class="form-select mt-2">
+            <option value="">All</option>
+            <option v-for="location in uniqueLocations" :key="location.value" :value="location.value">
+              {{ location.label }}
+            </option>
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <label class="form-label">Status</label>
+          <select v-model="selectedStatus" class="form-select">
+            <option value="">All</option>
+            <option v-for="status in uniqueStatuses" :key="status" :value="status">{{ status }}</option>
+          </select>
+        </div>
+
+        <div class="col-md-6 mt-3">
+          <label class="form-label">Search</label>
+          <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
+        </div>
+
+        <div class="col-md-6 mt-3">
+          <label class="form-label">Days</label><br>
+          <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
+            <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
+            <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="loading" class="alert alert-info">Loading courses...</div>
+      <div v-else-if="filteredCourses.length === 0" class="alert alert-warning">No courses found matching your criteria.</div>
+
+      <div class="table-wrapper">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col" class="section-col">Section</th>
+              <th scope="col">Title</th>
+              <th scope="col">{{ isCurrentCE ? 'Credits / Hours' : 'Credits' }}</th>
+              <th scope="col">Delivery</th>
+              <th scope="col">Days</th>
+              <th scope="col">Time</th>
+              <th scope="col">Location</th>
+              <th scope="col">Start</th>
+              <th scope="col">End</th>
+              <th scope="col">Seats Available</th>
+              <th scope="col">Instructor</th>
+              <th scope="col">Status</th>
+              <th scope="col">{{ isCurrentCE ? 'Notes' : 'Description/Notes' }}</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- CE -->
+            <template v-if="isCurrentCE">
+              <template v-for="course in filteredCourses" :key="getCourseId(course)">
+                <tr>
+                  <td class="section-col">{{ course.secname }}</td>
+                  <td>{{ course.secshorttitle }}</td>
+                  <td>{{ formatCredits(course) }}</td>
+                  <td>{{ getDeliveryCategory(course) }}</td>
+                  <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.xsecRoom, course.secBldgmv)"></td>
+                  <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
+                  <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
+                  <td>{{ course.secstartdate }}</td>
+                  <td>{{ course.secenddate }}</td>
+                  <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
+                  <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
+                  <td>{{ course.status }}</td>
+                  <td class="notes-col notes-toggle">
+                    <button class="btn btn-sm btn-outline-secondary" @click="toggleNotes(course)">{{ isExpanded(course) ? 'Hide' : 'Show' }} notes</button>
+                  </td>
+                </tr>
+                <tr v-if="isExpanded(course)" class="notes-row">
+                  <td :colspan="13">
+                    <div class="notes-expanded" v-html="safeFormat(formatNotes, course.secprintedcomments)"></div>
+                  </td>
+                </tr>
+              </template>
+            </template>
+
+            <!-- Curriculum -->
+            <template v-else>
+              <tr v-for="course in filteredCourses" :key="getCourseId(course)">
+                <td class="section-col">{{ course.secname }}</td>
+                <td>{{ course.secshorttitle }}</td>
+                <td>{{ formatCredits(course) }}</td>
+                <td>{{ getDeliveryCategory(course) }}</td>
+                <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.xsecRoom, course.secBldgmv)"></td>
+                <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
+                <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
+                <td>{{ course.secstartdate }}</td>
+                <td>{{ course.secenddate }}</td>
+                <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
+                <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
+                <td>{{ course.status }}</td>
+                <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <div class="container-fluid">Designed and developed by CVCC Technology &amp; Innovation</div>
+  </footer>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          courses: [],
+          selectedDelivery: '',
+          selectedLocation: '',
+          selectedStatus: '',
+          searchQuery: '',
+          selectedDays: [],
+          allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'],
+
+          selectedTerm: '',
+          termOptions: [],
+          lastUpdated: '',
+          loading: false,
+
+          expanded: new Set(),
+
+          /* Help popovers */
+          helpOpenTerm: false,
+          helpOpenDelivery: false,
+          helpOpenLocation: false
+        };
+      },
+
+      computed: {
+        isCurrentCE() { return /^CE_/i.test(this.selectedTerm || ''); },
+
+        filteredCourses() {
+          try {
+            return this.courses.filter(c => {
+              const matchesDelivery = !this.selectedDelivery || this.getDeliveryCategory(c) === this.selectedDelivery;
+
+              const buildingCode = (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0)
+                ? String(c.secBldgmv[0] || '')
+                : '';
+
+              const matchesLocation = !this.selectedLocation || buildingCode === this.selectedLocation;
+              const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
+
+              const q = String(this.searchQuery || '').toLowerCase();
+              const matchesSearch = !q
+                || String(c.secname || '').toLowerCase().includes(q)
+                || String(c.secshorttitle || '').toLowerCase().includes(q);
+
+              const matchesDays = (() => {
+                if (!this.selectedDays.length) return true;
+                const set = new Set();
+                const rawDays = c.secmeetingdays;
+                if (rawDays && Array.isArray(rawDays)) {
+                  rawDays.forEach(sub => {
+                    if (Array.isArray(sub)) {
+                      sub.forEach(d => { if (typeof d === 'string' && d.trim() !== '') set.add(this.normalizeDay(d.trim())); });
+                    }
+                  });
+                }
+                return this.selectedDays.some(d => set.has(d));
+              })();
+
+              return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
+            });
+          } catch (e) {
+            console.error('Error in filteredCourses:', e, this.courses);
+            return [];
+          }
+        },
+
+        uniqueLocations() {
+          try {
+            const map = this.buildingNameMap();
+            const set = new Set();
+            this.courses.forEach(c => {
+              if (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) {
+                const code = String(c.secBldgmv[0] || '').trim();
+                const full = map[code] || code;
+                set.add(JSON.stringify({ label: `${full} (${code})`, value: code }));
+              }
+            });
+            const arr = Array.from(set).map(s => JSON.parse(s));
+            arr.sort((a, b) => a.label.localeCompare(b.label));
+            return arr;
+          } catch (e) {
+            console.error('Error in uniqueLocations:', e, this.courses);
+            return [];
+          }
+        },
+
+        uniqueStatuses() {
+          try {
+            const s = new Set();
+            this.courses.forEach(c => { if (c.status) s.add(c.status); });
+            return Array.from(s).sort();
+          } catch (e) {
+            console.error('Error in uniqueStatuses:', e, this.courses);
+            return [];
+          }
+        },
+
+        statusSummary() {
+          const out = { open: 0, closed: 0 };
+          this.filteredCourses.forEach(c => {
+            const s = String(c.status || '').toUpperCase();
+            if (s.includes('CLOSED')) out.closed++;
+            else if (s.includes('OPEN')) out.open++;
+          });
+          return out;
+        }
+      },
+
+      methods: {
+        /* ---------- Friendly labels for Curriculum files ---------- */
+        toTitle(s) { return s.replace(/\b\w/g, c => c.toUpperCase()); },
+        makeCurriculumLabel(fileOrName) {
+          // normalize: strip extension & underscores
+          let base = String(fileOrName || '').replace(/\.json$/i,'').replace(/_/g,' ').trim();
+
+          // Some servers may already send a pretty name like "2025 Fall CU Alexander"
+          // Parse tokens robustly:
+          const lower = base.toLowerCase();
+          const yearMatch = lower.match(/(20\d{2})/);
+          const year = yearMatch ? yearMatch[1] : '';
+
+          const season = /spring/.test(lower) ? 'Spring'
+                        : /summer/.test(lower) ? 'Summer'
+                        : /fall/.test(lower)   ? 'Fall'
+                        : '';
+
+          const inter = /intercession|intersession/.test(lower);
+          const campus =
+            /alexander/.test(lower) ? 'Alexander'
+            : /flex/.test(lower)     ? 'Flex'
+            : '';
+
+          // Build "Fall 2025 (Curriculum – Alexander)" etc.
+          const head = inter
+            ? (season ? `${season} Intercession` : 'Intercession')
+            : (season || this.toTitle(base.replace(/\b(cu|curriculum)\b/gi,'').replace(/\b20\d{2}\b/,'').trim()));
+
+          const tail = year || '';
+          const qual = campus ? ` (Curriculum – ${campus})` : ' (Curriculum)';
+
+          let label = head;
+          if (tail) label += ` ${tail}`;
+          label += qual;
+
+          // Sort key: year + seasonal order
+          let order = 0;
+          if (/^spring/i.test(head)) order = 1;
+          else if (/^summer/i.test(head)) order = 2;
+          else if (/^fall intercession/i.test(head)) order = 3.5;
+          else if (/^fall/i.test(head)) order = 3;
+          else if (/^intercession/i.test(head)) order = 4;
+          const sortKey = `${(year || '0000').padStart(4,'0')}-${String(order).padStart(3,'0')}-${head.toLowerCase()}`;
+
+          return { label, sortKey };
+        },
+
+        async loadTermOptions() {
+          this.loading = true;
+          try {
+            const res = await fetch('get_schedules.php' + '?_=' + Date.now());
+            const files = await res.json();
+            const options = [];
+            (files || []).forEach(raw => {
+              const fn = String(raw || '').trim();
+              if (!/\.json$/i.test(fn)) return;
+              const isCE = /^CE_/i.test(fn);
+              if (isCE) {
+                const label = this.labelForCE(fn);
+                options.push({ label, value: fn, sortKey: `1-${label.toLowerCase()}` });
+              } else {
+                const { label, sortKey } = this.makeCurriculumLabel(fn);
+                options.push({ label, value: fn, sortKey: `0-${sortKey}` });
+              }
+            });
+            options.sort((a,b) => a.sortKey.localeCompare(b.sortKey));
+            this.termOptions = options;
+            if (this.termOptions.length) { this.selectedTerm = this.termOptions[0].value; await this.loadCourses(); }
+          } catch (e) {
+            console.error('Failed to load schedule list from get_schedules.php', e);
+            alert('Could not load the schedule list. Make sure get_schedules.php is in the same folder and your server runs PHP.');
+          } finally { this.loading = false; }
+        },
+
+        labelForCE(filename) {
+          const core = filename.replace(/\.json$/i, '').replace(/^CE_/i, '');
+          const campus = core.replace(/_/g, ' ').replace(/\b\w/g, ch => ch.toUpperCase());
+          return `Continuing Education – ${campus}`;
+        },
+
+        /* ---------- helpers ---------- */
+        getCourseId(course) { return course.secsynonym || course.id || course.secname || Math.random().toString(36).slice(2); },
+        toggleNotes(course) { const id = this.getCourseId(course); const next = new Set(this.expanded); next.has(id) ? next.delete(id) : next.add(id); this.expanded = next; },
+        isExpanded(course) { return this.expanded.has(this.getCourseId(course)); },
+
+        normalizeDay(d) {
+          const up = d.toUpperCase();
+          if (up === 'SU' || up === 'SUN') return 'Su';
+          if (up === 'TH' || up === 'R') return 'TH';
+          if (up === 'M') return 'M';
+          if (up === 'T') return 'T';
+          if (up === 'W') return 'W';
+          if (up === 'F') return 'F';
+          if (up === 'S' || up === 'SAT') return 'S';
+          return d;
+        },
+        ensureArray(v) { return Array.isArray(v) ? v : (v == null ? [] : [v]); },
+        stripHtmlStatus(s) { if (!s) return ''; const m = String(s).match(/>([^<]+)</); return (m && m[1]) ? m[1].trim().toUpperCase() : String(s).trim(); },
+
+        isOnlineLocation(xsecRoom, secBldgmv) {
+          const rooms = this.ensureArray(xsecRoom).map(r => String(r||'').trim().toUpperCase());
+          const bldgs = this.ensureArray(secBldgmv).map(b => String(b||'').trim().toUpperCase());
+          return rooms.includes('RNET') || bldgs.includes('INTE') || bldgs.includes('VIRT');
+        },
+
+        /* ---------- data loading ---------- */
+        async loadCourses() {
+          if (!this.selectedTerm) { this.courses = []; this.lastUpdated = ''; return; }
+          this.loading = true; this.courses = []; this.lastUpdated = ''; this.expanded = new Set();
+
+          try {
+            const res = await fetch(this.selectedTerm + '?_=' + Date.now());
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const raw = await res.json();
+            const isCE = /^CE_/i.test(this.selectedTerm);
+            this.courses = (raw || []).map(item => this.normalizeCourse(item, isCE));
+            const firstExport = (raw || []).map(r => r.exportTime).find(Boolean);
+            this.lastUpdated = firstExport ? this.formatExportTime(String(firstExport).trim()) : 'N/A';
+          } catch (e) {
+            console.error('Error loading courses:', e);
+            alert('Failed to load courses. Please ensure the JSON file exists and is accessible.');
+            this.lastUpdated = 'Error loading data.';
+          } finally {
+            this.loading = false;
+            this.selectedLocation = '';
+            this.selectedDelivery = '';
+            this.selectedStatus = '';
+            this.selectedDays = [];
+            this.searchQuery = '';
+          }
+        },
+
+        normalizeCourse(item, isCE) {
+          const out = { ...item };
+          out.secsynonym = item.secsynonym || item.id || item.secname;
+
+          out.secStartTime = this.ensureArray(item.secStartTime).length ? this.ensureArray(item.secStartTime) : this.ensureArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime);
+          out.secendtime  = this.ensureArray(item.secendtime).length  ? this.ensureArray(item.secendtime)  : this.ensureArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime);
+          out.secBldgmv   = this.ensureArray(item.secBldgmv).length   ? this.ensureArray(item.secBldgmv)   : this.ensureArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg);
+          out.xsecRoom    = this.ensureArray(item.xsecRoom).length    ? this.ensureArray(item.xsecRoom)    : this.ensureArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom);
+
+          const days = Array.isArray(item.secmeetingdays) ? item.secmeetingdays : [];
+          out.secmeetingdays = days.map(arr => Array.isArray(arr) ? arr.map(d => this.normalizeDay(d)) : []);
+
+          out.status = isCE ? this.stripHtmlStatus(item.status) : (item.status || '');
+          out.secmincred = item.secmincred || (isCE ? (item.seccontacthours || item.xsecTotalContactHours || '') : '');
+
+          if (!Array.isArray(item.secprintedcomments) || item.secprintedcomments.length === 0) {
+            const notes = [];
+            const descArr = this.ensureArray(item.linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc);
+            if (descArr.length) notes.push(descArr.join(' '));
+            if (item.tuition_ || item.otherFees_) {
+              const t = item.tuition_ ? `Tuition: ${item.tuition_}` : '';
+              const f = item.otherFees_ ? `Fees: ${item.otherFees_}` : '';
+              notes.push([t, f].filter(Boolean).join(' | '));
+            }
+            if (item.classContact_2) notes.push(item.classContact_2);
+            if (item.calculatedColumn2) notes.push(item.calculatedColumn2);
+            out.secprintedcomments = notes;
+          } else {
+            out.secprintedcomments = item.secprintedcomments;
+          }
+
+          return out;
+        },
+
+        /* ---------- notes/link cleanup ---------- */
+        sanitizeNoteChunk(chunk) {
+          const src = String(chunk ?? '');
+          const temp = document.createElement('div'); temp.innerHTML = src;
+
+          const escapeHtml = (s) => { const d = document.createElement('div'); d.textContent = String(s ?? ''); return d.innerHTML; };
+          const normalizeHref = (h) => {
+            if (!h) return null;
+            if (/^mailto:/i.test(h)) return h;
+            if (/^https?:\/\//i.test(h)) return h;
+            if (/^www\./i.test(h)) return 'https://' + h;
+            return null;
+          };
+          const linkifyText = (t) => {
+            const emailRx = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi;
+            const urlRx = /(https?:\/\/[^\s<>'"]+|www\.[^\s<>'"]+)/gi;
+            let html = escapeHtml(t);
+            html = html.replace(emailRx, (m) => `<a href="mailto:${m}">${m}</a>`);
+            html = html.replace(urlRx, (m) => {
+              let href = m; if (!/^https?:\/\//i.test(href)) href = 'https://' + href;
+              return `<a href="${href}" target="_blank" rel="noopener">${m}</a>`;
+            });
+            return html;
+          };
+
+          let out = '';
+          const walk = (node) => {
+            if (node.nodeType === 3) { out += linkifyText(node.nodeValue || ''); return; }
+            if (node.nodeType === 1) {
+              const tag = node.tagName.toLowerCase();
+              if (tag === 'a') {
+                const href = normalizeHref(node.getAttribute('href'));
+                const text = node.textContent || '';
+                if (href) out += `<a href="${href}" target="_blank" rel="noopener">${escapeHtml(text)}</a>`;
+                else out += linkifyText(text);
+                return;
+              }
+              if (tag === 'br') { out += '<br>'; return; }
+              Array.from(node.childNodes).forEach(walk);
+            }
+          };
+          Array.from(temp.childNodes).forEach(walk);
+          return out.trim();
+        },
+        formatNotes(notes) { if (!notes || !notes.length) return ''; return notes.map(n => this.sanitizeNoteChunk(n)).filter(Boolean).join(' '); },
+
+        /* ---------- display helpers ---------- */
+        formatInstructor(names) {
+          if (!names || names.length === 0) return 'N/A';
+          return names.map(n => {
+            const parts = String(n).split(',').map(p => p.trim());
+            if (parts.length > 1) { const last = parts[0]; const firstRest = parts.slice(1).join(' '); return `${last}, ${firstRest}`; }
+            return n;
+          }).join('; ');
+        },
+        formatCredits(course) {
+          const v = course.secmincred;
+          const val = Array.isArray(v) ? (v[0] ?? '') : v;
+          return String(val ?? '').trim();
+        },
+
+        buildingNameMap() {
+          return {
+            'ALCO':'Alexander County',
+            'ATEC':'Alexander Technology Education Center',
+            'CAD':'Cuyler A. Dunbar Building',
+            'CDC':'Corporate Development Center',
+            'COS':'Cosmetology Center',
+            'CVFA':'Catawba Valley Furniture Academy',
+            'EC':'East Campus',
+            'EW':'East Wing (Main Campus)',
+            'MPC':'Tarlton Complex (Main Campus)',
+            'NCCET':'NC Center for Engineering Technologies',
+            'NWTN REC':'Newton Recreation Center (off campus)',
+            'PKBC':'Plush Cut Barbering College (off campus)',
+            'REP':'Robert E. Paap (Main Campus)',
+            'TRNS':'TransTech (off campus)',
+            'VIRT':'Virtual',
+            'VSL':'Vocational Shops & Labs (Main Campus)',
+            'WHKY SEN':'West Hickory Senior Center (off campus)',
+            'WSC':'Workforce Solutions Complex',
+            'WW':'West Wing (Main Campus)',
+            'HOSP':'Hospital/Clinical Site',
+            'INTE':'Internet',           /* kept for mapping, not displayed alone */
+            'TBD':'To Be Determined'
+          };
+        },
+
+        formatMeetingDays(daysArray, xsecRoom, secBldgmv) {
+          const globe = '<span class="material-symbols-outlined online-icon">language</span>';
+          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !Array.isArray(daysArray) || daysArray.length === 0) return globe;
+          const set = new Set();
+          daysArray.forEach(sub => { if (Array.isArray(sub)) sub.forEach(d => { if (typeof d === 'string' && d.trim() !== '') set.add(this.normalizeDay(d.trim())); }); });
+          if (set.size === 0) return globe;
+          const order = ['M','T','W','TH','F','S','Su'];
+          return Array.from(set).sort((a,b) => order.indexOf(a) - order.indexOf(b)).join(', ');
+        },
+
+        formatMeetingTimes(startTimes, endTimes, xsecRoom, secBldgmv) {
+          const globe = '<span class="material-symbols-outlined online-icon">language</span>';
+          if (this.isOnlineLocation(xsecRoom, secBldgmv)) return globe;
+          const sArr = this.ensureArray(startTimes), eArr = this.ensureArray(endTimes);
+          if (!sArr.length || !eArr.length) return globe;
+          const nice = (t) => {
+            if (!t) return '';
+            const m = String(t).trim().match(/^(\d{1,2})(?::(\d{2}))?(?::\d{2})?\s*([AP]M)$/i);
+            if (!m) return String(t).trim();
+            const h = m[1], mm = m[2] || '00', ap = m[3].toUpperCase();
+            return mm === '00' ? `${h} ${ap}` : `${h}:${mm} ${ap}`;
+          };
+          const ranges = [];
+          for (let i = 0; i < Math.max(sArr.length, eArr.length); i++) {
+            const s = nice(sArr[i] || ''), e = nice(eArr[i] || '');
+            if (s && e) ranges.push(`${s} - ${e}`);
+          }
+          return ranges.length ? ranges.join('; ') : globe;
+        },
+
+        /* Show full building name + room; never show RNET/INTE/VIRT. Append globe if any online. */
+        formatLocationDisplay(xsecRoom, secBldgmv) {
+          const map = this.buildingNameMap();
+          const globe = '<span class="material-symbols-outlined online-icon">language</span>';
+
+          const rooms = this.ensureArray(xsecRoom)
+            .map(r => String(r||'').trim())
+            .filter(r => r && !/^RNET$/i.test(r));
+
+          const codes = this.ensureArray(secBldgmv)
+            .map(c => String(c||'').trim().toUpperCase())
+            .filter(c => c && !/^(INTE|VIRT)$/i.test(c));
+
+          const full = codes.length ? (map[codes[0]] || codes[0]) : '';
+          const room = rooms.length ? rooms[0] : '';
+
+          let phys = '';
+          if (full && room) phys = `${full} ${room}`;
+          else if (full) phys = full;
+          else if (room) phys = room;
+
+          const hasOnline = this.isOnlineLocation(xsecRoom, secBldgmv);
+
+          if (!phys && hasOnline) return globe;       // fully online
+          if (phys && hasOnline)   return `${phys} & ${globe}`; // hybrid
+          return phys || 'N/A';
+        },
+
+        formatSeatsDisplay(seatAvailArr, seatUsedArr) {
+          let available = 'N/A', used = 0;
+          const avail = this.ensureArray(seatAvailArr)[0];
+          const usedRaw = this.ensureArray(seatUsedArr)[0];
+          if (!isNaN(parseInt(avail))) available = parseInt(avail);
+          if (!isNaN(parseInt(usedRaw))) used = parseInt(usedRaw);
+          if (available === 'N/A') return 'N/A';
+          const total = available + used;
+          return `${available} (of ${total})`;
+        },
+
+        getDeliveryCategory(course) {
+          const sn = String(course.secname || '');
+          const match = sn.match(/-(\d{3,})$/);
+          if (match && !isNaN(parseInt(match[1], 10))) {
+            const num = parseInt(match[1], 10);
+            if (num >= 800 && num <= 829) return 'Online';
+            if (num >= 830 && num <= 874) return 'Hybrid';
+          }
+          const hasOnline = this.isOnlineLocation(course.xsecRoom, course.secBldgmv);
+          const physicalPieces = this.ensureArray(course.xsecRoom).concat(this.ensureArray(course.secBldgmv))
+            .some(p => p && !/^(inte|rnet|virt)$/i.test(String(p).trim()));
+          if (hasOnline && physicalPieces) return 'Hybrid';
+          if (hasOnline) return 'Online';
+          return 'Traditional';
+        },
+
+        formatExportTime(s) {
+          const d = new Date(s);
+          if (isNaN(d.getTime())) return s;
+          const pad = n => String(n).padStart(2, '0');
+          let hh = d.getHours(); const am = hh >= 12 ? 'PM' : 'AM';
+          hh = hh % 12; if (hh === 0) hh = 12;
+          const mm = pad(d.getMinutes());
+          const month = pad(d.getMonth() + 1);
+          const day = pad(d.getDate());
+          const year = d.getFullYear();
+          return `${month}-${day}-${year} ${hh}:${mm} ${am}`;
+        },
+
+        /* Help popovers */
+        toggleHelp(which) {
+          if (which === 'term') {
+            this.helpOpenTerm = !this.helpOpenTerm; if (this.helpOpenTerm) { this.helpOpenDelivery = false; this.helpOpenLocation = false; }
+          } else if (which === 'delivery') {
+            this.helpOpenDelivery = !this.helpOpenDelivery; if (this.helpOpenDelivery) { this.helpOpenTerm = false; this.helpOpenLocation = false; }
+          } else if (which === 'location') {
+            this.helpOpenLocation = !this.helpOpenLocation; if (this.helpOpenLocation) { this.helpOpenTerm = false; this.helpOpenDelivery = false; }
+          }
+        },
+        handleGlobalClick(e) {
+          const t = e.target;
+          const inside = (el) => el && el.contains && el.contains(t);
+          if (inside(this.$refs.helpPopTerm) || inside(this.$refs.helpBtnTerm) ||
+              inside(this.$refs.helpPopDel)  || inside(this.$refs.helpBtnDel)  ||
+              inside(this.$refs.helpPopLoc)  || inside(this.$refs.helpBtnLoc)) return;
+          this.helpOpenTerm = this.helpOpenDelivery = this.helpOpenLocation = false;
+        },
+        handleEsc(e) { if (e.key === 'Escape' && (this.helpOpenTerm || this.helpOpenDelivery || this.helpOpenLocation)) { this.helpOpenTerm = this.helpOpenDelivery = this.helpOpenLocation = false; } }
+      },
+
+      mounted() {
+        this.loadTermOptions();
+        window.addEventListener('click', this.handleGlobalClick, true);
+        window.addEventListener('keydown', this.handleEsc, true);
+      },
+      beforeUnmount() {
+        window.removeEventListener('click', this.handleGlobalClick, true);
+        window.removeEventListener('keydown', this.handleEsc, true);
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

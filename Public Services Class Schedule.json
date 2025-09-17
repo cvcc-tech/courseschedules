@@ -1,0 +1,8651 @@
+[{
+	"sectioncoursename": "CJC-3941",
+	"secshorttitle": "Detention Officer Cert.",
+	"secno": "100",
+	"secstartdate": "8/4/2025",
+	"secenddate": "9/5/2025",
+	"secBldgmv": [
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CCSO",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"MPC",
+		"MPC",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"114",
+		"004",
+		"114",
+		"114",
+		"114",
+		"004",
+		"114",
+		"048",
+		"048",
+		"114",
+		"114",
+		"TRACK",
+		"048",
+		"114",
+		"114",
+		"114",
+		"TRNRM",
+		"TRACK",
+		"114",
+		"114",
+		"114",
+		"048",
+		"114",
+		"114",
+		"114",
+		"TRACK",
+		"004",
+		"048",
+		"114",
+		"114"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Catawba County Sheriff Office",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"T"
+		],
+		[
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"M",
+			"T",
+			"TH"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"F"
+		],
+		[
+			"W"
+		],
+		[
+			"F"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"W",
+			"F"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"2:15:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"4:15:00 PM",
+		"7:00:00 AM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"9:00:00 AM",
+		"1:00:00 PM",
+		"4:15:00 PM",
+		"4:15:00 PM",
+		"10:00:00 AM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"4:15:00 PM",
+		"8:00:00 AM",
+		"12:00:00 PM",
+		"8:00:00 AM",
+		"4:15:00 PM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"3:30:00 PM",
+		"5:10:00 PM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"12:00:00 PM"
+	],
+	"secendtime": [
+		"1:00:00 PM",
+		"5:15:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"4:00:00 PM",
+		"5:15:00 PM",
+		"12:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"4:00:00 PM",
+		"5:15:00 PM",
+		"5:15:00 PM",
+		"12:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"3:00:00 PM",
+		"5:15:00 PM",
+		"11:00:00 AM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:15:00 PM",
+		"4:00:00 PM",
+		"5:00:00 PM",
+		"3:00:00 PM",
+		"4:30:00 PM",
+		"6:10:00 PM",
+		"4:00:00 PM",
+		"11:00:00 AM",
+		"3:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Young",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus CAD Room 114~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2111",
+	"secshorttitle": "Intro to Criminal Justice",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Turk",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2115",
+	"secshorttitle": "Crime Scene Photography",
+	"secno": "865",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"MPC",
+		"INTE"
+	],
+	"xsecRoom": [
+		"078",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"7:30:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~CVCC Main Campus Tarlton MPC Room 078 & Online/Blackboard~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2121",
+	"secshorttitle": "Law Enforcement Operations",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2170",
+	"secshorttitle": "Critical Incident Mgmt Pub Saf",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:red'><b>CLOSED</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2231",
+	"secshorttitle": "Constitutional Law",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:red'><b>CLOSED</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "500",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/2/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "500",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/2/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "501",
+	"secstartdate": "9/4/2025",
+	"secenddate": "9/4/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "501",
+	"secstartdate": "9/4/2025",
+	"secenddate": "9/4/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8784",
+	"secshorttitle": "CI:Interview & Interrogation",
+	"secno": "100",
+	"secstartdate": "9/8/2025",
+	"secenddate": "9/12/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"086",
+		"086"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 086~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8849",
+	"secshorttitle": "Telecommunicator Certification",
+	"secno": "100",
+	"secstartdate": "9/8/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"114",
+		"114",
+		"114",
+		"114"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"F"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"4:00:00 PM",
+		"11:00:00 AM"
+	],
+	"xsecleadinstrlastname": "Boston",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus CAD Room 114~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "100",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "108",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8881",
+	"secshorttitle": "RADAR Recertification",
+	"secno": "100",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"078",
+		"078"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "502",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "502",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "101",
+	"secstartdate": "9/10/2025",
+	"secenddate": "9/10/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8847",
+	"secshorttitle": "RADAR/LIDAR Recertification",
+	"secno": "100",
+	"secstartdate": "9/10/2025",
+	"secenddate": "9/10/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"078",
+		"078"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "102",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"12:30:00 PM"
+	],
+	"secendtime": [
+		"4:30:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "109",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "503",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "503",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "103",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "504",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "504",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "104",
+	"secstartdate": "9/17/2025",
+	"secenddate": "9/17/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "105",
+	"secstartdate": "9/18/2025",
+	"secenddate": "9/18/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8956",
+	"secshorttitle": "Compliance & Control Technique",
+	"secno": "505",
+	"secstartdate": "9/18/2025",
+	"secenddate": "9/18/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8957",
+	"secshorttitle": "Less Than Lethal Training",
+	"secno": "505",
+	"secstartdate": "9/18/2025",
+	"secenddate": "9/18/2025",
+	"secBldgmv": [
+		"HPDA"
+	],
+	"xsecRoom": [
+		"TRNRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Police Dept Annex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Walker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~Hickory Police Department Annex~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "106",
+	"secstartdate": "9/23/2025",
+	"secenddate": "9/23/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8843",
+	"secshorttitle": "OC Spray,Baton,&Handcuffing",
+	"secno": "107",
+	"secstartdate": "9/25/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"MPC"
+	],
+	"xsecRoom": [
+		"048"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Yoder",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 048~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8819",
+	"secshorttitle": "Basic RADAR Operator",
+	"secno": "100",
+	"secstartdate": "10/6/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC",
+		"BURK",
+		"BURK"
+	],
+	"xsecRoom": [
+		"078",
+		"078",
+		"PRKLOT",
+		"PRKLOT"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Burke Mortuary",
+		"Burke Mortuary"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"TH"
+		],
+		[
+			"W",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078 & Burke Mortuary~",
+		"NO WEB",
+		"",
+		"Monday at 8:00 am thru Wednesday till 12:00 pm, they will be in",
+		"the classroom. From Wednesday at 1:00 pm thru Thursday at 5:00",
+		"pm, they will be at Burke Mortuary 2516 N. Main Ave, Newton, NC",
+		"28658 for field testing."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2113",
+	"secshorttitle": "Juvenile Justice",
+	"secno": "800",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2131",
+	"secshorttitle": "Criminal Law",
+	"secno": "800",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2132",
+	"secshorttitle": "Court Procedure & Evidence",
+	"secno": "800",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2160",
+	"secshorttitle": "Terrorism",
+	"secno": "800",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~CVCC Online/Blackboard~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-2215",
+	"secshorttitle": "Organization & Administration",
+	"secno": "800",
+	"secstartdate": "10/20/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Herman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~Online/Blackboard class~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8903",
+	"secshorttitle": "Basic LIDAR Certification",
+	"secno": "100",
+	"secstartdate": "11/3/2025",
+	"secenddate": "11/3/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"086",
+		"086"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"7:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8881",
+	"secshorttitle": "RADAR Recertification",
+	"secno": "101",
+	"secstartdate": "11/4/2025",
+	"secenddate": "11/4/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"078",
+		"078"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "CJC-8847",
+	"secshorttitle": "RADAR/LIDAR Recertification",
+	"secno": "101",
+	"secstartdate": "11/5/2025",
+	"secenddate": "11/5/2025",
+	"secBldgmv": [
+		"MPC",
+		"MPC"
+	],
+	"xsecRoom": [
+		"086",
+		"078"
+	],
+	"xsecBldgsDesc": [
+		"The Tarlton Complex",
+		"The Tarlton Complex"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Vickery",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Gene Walker - (828) 327-7000 ext. 4583|",
+		"~CVCC Main Campus Tarton Complex MPC 078~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "DEN-3300",
+	"secshorttitle": "Dental Assisting",
+	"secno": "865",
+	"secstartdate": "5/5/2025",
+	"secenddate": "10/19/2025",
+	"secBldgmv": [
+		"DEN",
+		"TBD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"805",
+		"TBD",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Dental Hygiene Facility",
+		"To Be Determined",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"secendtime": [
+		"8:30:00 PM",
+		"",
+		""
+	],
+	"xsecleadinstrlastname": "McCoy-Stewart",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"High School Diploma or GED required. Total seated/lab hours are",
+		"96, 80 Online hours, and 128 seated/clinical hours. The lab days",
+		"are Tuesdays and Wednesdays from 5:30-8:30 (96 hours). The",
+		"students are on rotation for 8 hours a day from 08/25/2025 to",
+		"10/19/2025 (for a total of 128 hours). They have online classes",
+		"Mon-Sun from  05/05/2025-10/19/2025 (for a total of 80 hours)."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "DEN-3300",
+	"secshorttitle": "Dental Assisting",
+	"secno": "866",
+	"secstartdate": "8/25/2025",
+	"secenddate": "3/1/2026",
+	"secBldgmv": [
+		"DEN",
+		"DEN",
+		"DEN",
+		"DEN",
+		"TBD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"805",
+		"805",
+		"805",
+		"805",
+		"TBD",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"To Be Determined",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"secendtime": [
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"",
+		""
+	],
+	"xsecleadinstrlastname": "McCoy-Stewart",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"High School Diploma or GED required. Total seated/lab hours are",
+		"96, 80 Online hours, and 128 seated/clinical hours. The lab days",
+		"are Tuesdays and Wednesdays from 5:30-8:30 (96 hours). Lab days",
+		"will be on Monday and Tuesday the following days 10/13/2025,",
+		"10/14/2025, 11/24/2025, and 11/25/2025. The students are on",
+		"rotation for 8 hours a day from 1/5/2026 to 3/1/2026 (for a total",
+		"of 128 hours). They have online classes Mon-Sun from ",
+		"8/25/2025-3/1/2026 (for a total of 80 hours)."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "DEN-3300",
+	"secshorttitle": "Dental Assisting",
+	"secno": "867",
+	"secstartdate": "8/25/2025",
+	"secenddate": "3/1/2026",
+	"secBldgmv": [
+		"DEN",
+		"DEN",
+		"DEN",
+		"DEN",
+		"TBD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"805",
+		"805",
+		"805",
+		"805",
+		"TBD",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"Dental Hygiene Facility",
+		"To Be Determined",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[]
+	],
+	"secStartTime": [
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"5:30:00 PM",
+		"",
+		""
+	],
+	"secendtime": [
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"8:30:00 PM",
+		"",
+		""
+	],
+	"xsecleadinstrlastname": "McCoy-Stewart",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"High School Diploma or GED required. Total seated/lab hours are",
+		"96, 80 Online hours, and 128 seated/clinical hours. The lab days",
+		"are Tuesdays and Wednesdays from 5:30-8:30 (96 hours). Lab days",
+		"will be on Monday and Tuesday the following days 10/13/2025,",
+		"10/14/2025, 11/24/2025, and 11/25/2025. The students are on",
+		"rotation for 8 hours a day from 1/5/2026 to 3/1/2026 (for a total",
+		"of 128 hours). They have online classes Mon-Sun from ",
+		"8/25/2025-3/1/2026 (for a total of 80 hours)."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8845",
+	"secshorttitle": "Special Health Care Needs",
+	"secno": "800",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Online/Blackboard class~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-4200",
+	"secshorttitle": "Emergency Med Tech Initial",
+	"secno": "871",
+	"secstartdate": "8/11/2025",
+	"secenddate": "12/15/2025",
+	"secBldgmv": [
+		"PROP",
+		"PROP",
+		"PROP",
+		"PROP",
+		"PROP",
+		"PROP",
+		"PROP",
+		"TBD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"FD",
+		"FD",
+		"FD",
+		"FD",
+		"FD",
+		"FD",
+		"FD",
+		"TBD",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"Propst Cr Fd",
+		"To Be Determined",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"TH"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[],
+		[]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"",
+		""
+	],
+	"secendtime": [
+		"10:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"",
+		""
+	],
+	"xsecleadinstrlastname": "Weaver",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Propst Crossroads Fire Department~",
+		"NO WEB",
+		"",
+		"This course meets the requirements for NC Office of EMS",
+		"Certification. Class Hours: Monday and Thursday 6pm-10pm,",
+		"Saturday 8am-12pm and 1pm-5pm on 10/11, 10/25, and 11/8. No class",
+		"9/1 and 11/27. Hybrid class from 8/14-12/15 with supplemental",
+		"online activities. Class 288 total hours: 164 hours seated, 76",
+		"hours online, and 48 hours of clinical field observation.",
+		"Students will be eligible for clinicals after they reach 60% of",
+		"the class."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-3163",
+	"secshorttitle": "Basic Anat & Physiology",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"416",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"1:30:00 PM",
+		""
+	],
+	"secendtime": [
+		"3:30:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD 416 & Online/Blackboard~",
+		"NO WEB",
+		"",
+		"This course provides a basic study of the structure and function",
+		"of the human body. Topics include a basic study of the body",
+		"systems as well as an introduction to homeostasis, cells,",
+		"tissues, nutrition, acid-base balance, and electrolytes. Upon",
+		"completion, students should be able to demonstrate a basic",
+		"understanding of the fundamental principles of anatomy and",
+		"physiology and their interrelationships. This course must meet or",
+		"exceed the specific guidelines of the NC Office of Emergency",
+		"Medical Services (NCOEMS), including all content, lab, and",
+		"instructor requirements. ",
+		"Hybrid class: Online from 08/14/2025 to 12/17/2025 with inperson",
+		"class on Thursdays 13:30-15:30 in CAD 416. No class on 10/16 and",
+		"11/27.",
+		"",
+		"32 hours in person and 83 hours online"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-4200",
+	"secshorttitle": "Emergency Med Tech Initial",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"TBD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"310",
+		"TBD",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"To Be Determined",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F",
+			"S",
+			"SU"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM",
+		"",
+		""
+	],
+	"secendtime": [
+		"12:30:00 PM",
+		"",
+		""
+	],
+	"xsecleadinstrlastname": "Albright",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Fire Department~",
+		"NO WEB",
+		"",
+		"This course meets the requirements for NC Office of EMS",
+		"Certification. Class Hours: Tuesday Wednesday and Thursday",
+		"09:30am-12:30pm. No class 10/14-10/16, 11/11, 11/26, 11/27.",
+		"Hybrid class from 8/14-12/17 with supplemental online activities.",
+		"Class 288 total hours: 168 hours seated, 72 hours online, and 48",
+		"hours of clinical field observation. Students will be eligible",
+		"for clinicals after they reach 60% of the class."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9006",
+	"secshorttitle": " EMS Patients-Spec Challenges",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:30:00 AM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD Room 306~",
+		"",
+		"This course includes concepts of crisis intervention and",
+		"techniques of interacting with patients with special challenges",
+		"and is required for paramedic certification. Topics include",
+		"appropriate intervention and interaction for neglected, abused,",
+		"terminally ill, chronically ill, technology assisted, bariatric,",
+		"physically challenged, mentally challenged, or assaulted patients",
+		"as well as behavioral emergencies. Upon completion, students",
+		"should be able to recognize and manage the care of patients with",
+		"special challenges. Class meets in person on 8/19 and has 48",
+		"hours of online instruction."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9007",
+	"secshorttitle": "EMS Medical Emergencies",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"9:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"11:00:00 AM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD Room 306~",
+		"",
+		"This course provides an in-depth study of medical conditions",
+		"frequently encountered in the prehospital setting and is required",
+		"for paramedic certification. Topics include appropriate",
+		"interventions/treatments for disorders/diseases/injuries",
+		"affecting the following systems: respiratory, neurological,",
+		"abdominal/gastrointestinal, endocrine, genitourinary,",
+		"musculoskeletal, and immunological as well as toxicology,",
+		"infectious diseases and diseases of the eyes, ears, nose and",
+		"throat. Upon completion, students should be able to recognize,",
+		"assess and manage the care of frequently encountered medical",
+		"conditions based upon initial patient assessment. Class meets in",
+		"person on Tuesday and Thursday 09:30-11:00, no class on 10/14,",
+		"10/16, 11/11, and 11/27. 48 Hours in person and 48 Hours online."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9008",
+	"secshorttitle": "EMS Life Span Emergencies",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"11:00:00 AM",
+		""
+	],
+	"secendtime": [
+		"1:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD Room 306~",
+		"",
+		"This course covers medical/ethical/legal issues and the spectrum",
+		"of age-specific emergencies from conception through death",
+		"required for paramedic certification. Topics include",
+		"gynecological, obstetrical, neonatal, pediatric, and geriatric",
+		"emergencies and pharmacological therapeutics. Upon completion,",
+		"students should be able to recognize and treat age-specific",
+		"emergencies. Class meets in person on Tuesday and Thursday",
+		"11:00-13:00, no class on 10/14, 10/16, 11/11, and 11/27. 64 Hours",
+		"in person and 32 Hours online."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9009",
+	"secshorttitle": "EMS Clinical Practicum 3",
+	"secno": "500",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"TBD"
+	],
+	"xsecRoom": [
+		"306",
+		"TBD"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"To Be Determined"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"9:30:00 AM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD Room 306 & Clinic site~",
+		"",
+		"This course provides clinical experiences in the hospital and/or",
+		"field. Emphasis is placed on enhancing the students' skills and",
+		"abilities in providing advanced-level care. Upon completion,",
+		"students should be able to demonstrate continued progress in",
+		"advanced-level patient care. Class meets on 8/14 from 08:30-09:30",
+		"with 157 hours of clinical experience."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9010",
+	"secshorttitle": "EMS Management",
+	"secno": "850",
+	"secstartdate": "8/14/2025",
+	"secenddate": "12/17/2025",
+	"secBldgmv": [
+		"CAD",
+		"INTE"
+	],
+	"xsecRoom": [
+		"306",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[]
+	],
+	"secStartTime": [
+		"7:30:00 AM",
+		""
+	],
+	"secendtime": [
+		"8:30:00 AM",
+		""
+	],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~CVCC Main Campus CAD Room 306~",
+		"",
+		"This course stresses the principles of managing a modern",
+		"emergency medical service system. Topics include structure and",
+		"function of municipal governments, EMS grantsmanship, finance,",
+		"regulatory agencies, system management, legal issues, and other",
+		"topics relevant to the EMS manager. Upon completion, students",
+		"should be able to understand the principles of managing emergency",
+		"medical service delivery systems. Class meets on 8/14 from",
+		"07:30-08:30 with 32 hours of online work."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8845",
+	"secshorttitle": "Special Health Care Needs",
+	"secno": "504",
+	"secstartdate": "8/28/2025",
+	"secenddate": "8/28/2025",
+	"secBldgmv": [
+		"CLRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Claremont Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Martin",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Claremont Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8912",
+	"secshorttitle": "Airway Management/Oxygenation",
+	"secno": "800",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Online/Blackboard class~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "504",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/2/2025",
+	"secBldgmv": [
+		"SFTF"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Swing",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Sherrills Ford Terrell Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8612",
+	"secshorttitle": "Emergency Childbirth Scenarios",
+	"secno": "500",
+	"secstartdate": "9/4/2025",
+	"secenddate": "9/4/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Stony Point Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "500",
+	"secstartdate": "9/4/2025",
+	"secenddate": "9/4/2025",
+	"secBldgmv": [
+		"CFD2"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Conover Fire Department St 2"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Conover Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9011",
+	"secshorttitle": "Epi 1:1000 Admin &IGEL Insert",
+	"secno": "500",
+	"secstartdate": "9/5/2025",
+	"secenddate": "9/5/2025",
+	"secBldgmv": [
+		"MVFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Mountain View Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"F"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Albright",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Mountain View Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "506",
+	"secstartdate": "9/6/2025",
+	"secenddate": "9/6/2025",
+	"secBldgmv": [
+		"SFTF"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire"
+	],
+	"secmeetingdays": [
+		[
+			"S"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Swing",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Sherrills Ford Terrell Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "501",
+	"secstartdate": "9/8/2025",
+	"secenddate": "9/8/2025",
+	"secBldgmv": [
+		"MDRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Maiden Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Maiden Rescue~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "502",
+	"secstartdate": "9/8/2025",
+	"secenddate": "9/8/2025",
+	"secBldgmv": [
+		"PROP"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Propst Cr Fd"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Propst Crossroads~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8612",
+	"secshorttitle": "Emergency Childbirth Scenarios",
+	"secno": "501",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Alexander Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "503",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"MVFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Mountain View Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Mt View FD~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "507",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Newton Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8882",
+	"secshorttitle": "Airway/Ventilation/Oxygenation",
+	"secno": "508",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"STFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Delete"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~ St. Stephens Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9011",
+	"secshorttitle": "Epi 1:1000 Admin &IGEL Insert",
+	"secno": "501",
+	"secstartdate": "9/12/2025",
+	"secenddate": "9/12/2025",
+	"secBldgmv": [
+		"MVFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Mountain View Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"F"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"9:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Albright",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Mountain View Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8612",
+	"secshorttitle": "Emergency Childbirth Scenarios",
+	"secno": "502",
+	"secstartdate": "9/22/2025",
+	"secenddate": "9/22/2025",
+	"secBldgmv": [
+		"HIDD"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Hiddenite"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Hiddenite Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "800",
+	"secstartdate": "10/1/2025",
+	"secenddate": "10/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Online/Blackboard class~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8746",
+	"secshorttitle": "HAZMAT review",
+	"secno": "500",
+	"secstartdate": "10/2/2025",
+	"secenddate": "10/2/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Stony Point Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "500",
+	"secstartdate": "10/2/2025",
+	"secenddate": "10/2/2025",
+	"secBldgmv": [
+		"CFD2"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Conover Fire Department St 2"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Conover Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "501",
+	"secstartdate": "10/6/2025",
+	"secenddate": "10/6/2025",
+	"secBldgmv": [
+		"PROP"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Propst Cr Fd"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Propst Crossroads~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "502",
+	"secstartdate": "10/7/2025",
+	"secenddate": "10/7/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Newton Fire HQ Station 1~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "503",
+	"secstartdate": "10/8/2025",
+	"secenddate": "10/8/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Newton Fire HQ Station 1~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "504",
+	"secstartdate": "10/9/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Newton Fire HQ Station 1~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "505",
+	"secstartdate": "10/13/2025",
+	"secenddate": "10/13/2025",
+	"secBldgmv": [
+		"MDRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Maiden Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Maiden Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8746",
+	"secshorttitle": "HAZMAT review",
+	"secno": "501",
+	"secstartdate": "10/14/2025",
+	"secenddate": "10/14/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Alexander Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "506",
+	"secstartdate": "10/14/2025",
+	"secenddate": "10/14/2025",
+	"secBldgmv": [
+		"MVFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Mountain View Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Mountain View Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "507",
+	"secstartdate": "10/14/2025",
+	"secenddate": "10/14/2025",
+	"secBldgmv": [
+		"STSF"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"St Stephfd"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~St Stephens Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "508",
+	"secstartdate": "10/15/2025",
+	"secenddate": "10/15/2025",
+	"secBldgmv": [
+		"BAND"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Bandy's Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Bandys Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "509",
+	"secstartdate": "10/15/2025",
+	"secenddate": "10/15/2025",
+	"secBldgmv": [
+		"CBRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Catawba Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Catawba Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "510",
+	"secstartdate": "10/21/2025",
+	"secenddate": "10/21/2025",
+	"secBldgmv": [
+		"MFD2"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Maiden Fire Dept 2"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Maiden Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "511",
+	"secstartdate": "10/21/2025",
+	"secenddate": "10/21/2025",
+	"secBldgmv": [
+		"STSF"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"St Stephfd"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~St Stephens Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8887",
+	"secshorttitle": "Neuro/Seizures/Endo/Diabetes",
+	"secno": "512",
+	"secstartdate": "10/23/2025",
+	"secenddate": "10/23/2025",
+	"secBldgmv": [
+		"CLRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Claremont Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Claremont Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8746",
+	"secshorttitle": "HAZMAT review",
+	"secno": "502",
+	"secstartdate": "10/27/2025",
+	"secenddate": "10/27/2025",
+	"secBldgmv": [
+		"HIDD"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Hiddenite"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Hiddenite Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8886",
+	"secshorttitle": "Field Triage/Mass Casualty",
+	"secno": "800",
+	"secstartdate": "11/1/2025",
+	"secenddate": "11/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Online/Blackboard class~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8886",
+	"secshorttitle": "Field Triage/Mass Casualty",
+	"secno": "500",
+	"secstartdate": "11/3/2025",
+	"secenddate": "11/3/2025",
+	"secBldgmv": [
+		"SFTF"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Swing",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Sherrills Ford Terrell Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8886",
+	"secshorttitle": "Field Triage/Mass Casualty",
+	"secno": "501",
+	"secstartdate": "11/4/2025",
+	"secenddate": "11/4/2025",
+	"secBldgmv": [
+		"SFTF"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Swing",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Sherrills Ford Terrell Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8886",
+	"secshorttitle": "Field Triage/Mass Casualty",
+	"secno": "502",
+	"secstartdate": "11/6/2025",
+	"secenddate": "11/6/2025",
+	"secBldgmv": [
+		"SFTF"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Swing",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Sherrills Ford Terrell Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9004",
+	"secshorttitle": "TIMS & Extrication Review",
+	"secno": "500",
+	"secstartdate": "11/6/2025",
+	"secenddate": "11/6/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Stony Point Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9004",
+	"secshorttitle": "TIMS & Extrication Review",
+	"secno": "501",
+	"secstartdate": "11/11/2025",
+	"secenddate": "11/11/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Alexander Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-9004",
+	"secshorttitle": "TIMS & Extrication Review",
+	"secno": "502",
+	"secstartdate": "11/24/2025",
+	"secenddate": "11/24/2025",
+	"secBldgmv": [
+		"HIDD"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Hiddenite"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Hiddenite Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8977",
+	"secshorttitle": "BBP/OSHA Update",
+	"secno": "800",
+	"secstartdate": "12/1/2025",
+	"secenddate": "1/15/2026",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Online/Blackboard class~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8993",
+	"secshorttitle": "Infect Disease/Decom/TSOPS",
+	"secno": "500",
+	"secstartdate": "12/4/2025",
+	"secenddate": "12/4/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Earp",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Stony Point Fire Department~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EMS-8993",
+	"secshorttitle": "Infect Disease/Decom/TSOPS",
+	"secno": "501",
+	"secstartdate": "12/9/2025",
+	"secenddate": "12/9/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"11:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Instructor",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Kendra Lowman - (828) 327-7000 ext. 4372|",
+		"~Alexander Rescue Squad~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-8644",
+	"secshorttitle": "Radio Etiquette",
+	"secno": "800",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2130",
+	"secshorttitle": "Mitigation & Preparedness",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for EPT-130.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2140",
+	"secshorttitle": "Emergency Management",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for EPT-140.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2151",
+	"secshorttitle": "Intro to Public Admin",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for PAD-121.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2151",
+	"secshorttitle": "Intro to Public Admin",
+	"secno": "801",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for PAD-121.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2151",
+	"secshorttitle": "Intro to Public Admin",
+	"secno": "802",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Davis",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for PAD-121.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2210",
+	"secshorttitle": "Response & Recovery",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for EPT-210.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2252",
+	"secshorttitle": "Public Policy Analysis",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for PAD-252.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-2275",
+	"secshorttitle": "Emergency Ops Center Mgt",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Foxx",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for EPT-275.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "EPT-8645",
+	"secshorttitle": "Telecommunicator Liability",
+	"secno": "800",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-3030",
+	"secshorttitle": "FF 2019 - Firefighter Series",
+	"secno": "500",
+	"secstartdate": "6/6/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"HFD7",
+		"HFD7",
+		"HFD5",
+		"HFD5"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Hickory Fire Station #7",
+		"Hickory Fire Station #7",
+		"Hickory Fire Dept 5",
+		"Hickory Fire Dept 5"
+	],
+	"secmeetingdays": [
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		]
+	],
+	"secStartTime": [
+		"8:30:00 AM",
+		"12:30:00 PM",
+		"8:30:00 AM",
+		"12:30:00 PM"
+	],
+	"secendtime": [
+		"11:30:00 AM",
+		"4:30:00 PM",
+		"11:30:00 AM",
+		"4:30:00 PM"
+	],
+	"xsecleadinstrlastname": "Rogers",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Hickory Fire Department Station 5~",
+		"NO Web",
+		"",
+		"This is a closed class for Hickory Fire Department",
+		"Class Schedule is: 06/06, 06/13, 06/20, 06/27, 07/11, 07/18,",
+		"07/25, 07/28-08/01, 08/04-08/08, 08/11-08/15, 08/18-08/22,",
+		"08/25-08/28, 09/02-09/05, 09/08-09/12, 09/15-09/19, 09/22,",
+		"09/29-10/03, 10/06-10/09 (8:30a-11:30p & 12:30p-4:30p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9029",
+	"secshorttitle": "Confined Space Refresher",
+	"secno": "800",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FRC-1207."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9029",
+	"secshorttitle": "Confined Space Refresher",
+	"secno": "801",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FRC-1207."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9049",
+	"secshorttitle": "Search Refresher",
+	"secno": "800",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rogers",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This class is 15 year old eligible via FIP-3030. This is an",
+		"online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9049",
+	"secshorttitle": "Search Refresher",
+	"secno": "801",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rogers",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This class is 15 year old eligible via FIP-3030. This is an",
+		"online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9105",
+	"secshorttitle": "Master Streams Review",
+	"secno": "800",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FIP-3048"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9105",
+	"secshorttitle": "Master Streams Review",
+	"secno": "801",
+	"secstartdate": "8/1/2025",
+	"secenddate": "8/31/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FIP-3048"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8743",
+	"secshorttitle": "1583 FF Fitness",
+	"secno": "475",
+	"secstartdate": "8/4/2025",
+	"secenddate": "10/16/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"RANGE"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		]
+	],
+	"secStartTime": [
+		"6:50:00 AM"
+	],
+	"secendtime": [
+		"7:50:00 AM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Driving Range~",
+		"NO Web",
+		"This is a closed class. Class will meet Monday - Friday and be",
+		"off on 08/29 and 09/01.",
+		"This class is part of the CVCC Fire Academy"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8767",
+	"secshorttitle": "Firefighter Series (FireAcad)",
+	"secno": "100",
+	"secstartdate": "8/4/2025",
+	"secenddate": "10/16/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"333",
+		"333",
+		"333",
+		"333",
+		"333",
+		"333"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Main Campus CAD Room 333~",
+		"NO Web",
+		"This class is part of the CVCC Fire Academy.",
+		"This is a closed class. Class will meet Monday - Friday with",
+		"being off on 08/29, 09/02, 10/13, 10/14, & 10/15."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9014",
+	"secshorttitle": "FF Fireground Ops 4 (FF 2019)",
+	"secno": "100",
+	"secstartdate": "8/4/2025",
+	"secenddate": "8/28/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"333",
+		"333",
+		"333"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM",
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Sherrill",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Main Campus CAD Room 333~",
+		"NO Web",
+		"",
+		"Class Schedule: 08/04, 08/06, 08/07, 08/12, 08/13, 08/19, 08/21,",
+		"08/28 (6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2120",
+	"secshorttitle": "Intro to Fire Protection",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Hullett",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-120.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2124",
+	"secshorttitle": "Fire Prevention & Public Ed",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Carbajal",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-124.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2124",
+	"secshorttitle": "Fire Prevention & Public Ed",
+	"secno": "801",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lowrance",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-124.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2152",
+	"secshorttitle": "Fire Protection Law",
+	"secno": "801",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-152.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2220",
+	"secshorttitle": "Fire Fighting Strategies",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-220.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2220",
+	"secshorttitle": "Fire Fighting Strategies",
+	"secno": "801",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Lynch",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-220.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2228",
+	"secshorttitle": "Local Govt Finance",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-228.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2229",
+	"secshorttitle": "Fire Dynamics and Combust",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Pharr",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-229.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-2276",
+	"secshorttitle": "Managing Fire Services",
+	"secno": "800",
+	"secstartdate": "8/14/2025",
+	"secenddate": "10/9/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"Students who successfully complete this course will get credit",
+		"for FIP-276.  Pre-registration is required by emailing",
+		"rgraham911@cvcc.edu.  This is an online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9014",
+	"secshorttitle": "FF Fireground Ops 4 (FF 2019)",
+	"secno": "500",
+	"secstartdate": "8/18/2025",
+	"secenddate": "9/15/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Clontz",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Stony Point Department HQ~",
+		"NO Web",
+		"",
+		"Class Schedule: 08/18, 08/19, 08/25, 08/26, 09/02, 09/08, 09/09,",
+		"09/15 (6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9020",
+	"secshorttitle": "Flse Educator Level 2",
+	"secno": "850",
+	"secstartdate": "8/18/2025",
+	"secenddate": "9/5/2025",
+	"secBldgmv": [
+		"CFD2",
+		"CFD2",
+		"CFD2",
+		"CFD2",
+		"INTE"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Raper",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Conover Fire Department~",
+		"",
+		"This class is a hybrid class with the first and last day in",
+		"person and the remainder of the class will be via Blackboard.",
+		"Pre-registration required by emailing srhodarmer@cvcc.edu ",
+		"In-person class dates are:  08/18/25 & 09/05/25 (8a-12p & 1p-6p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9018",
+	"secshorttitle": "Fire Instructor II",
+	"secno": "850",
+	"secstartdate": "8/25/2025",
+	"secenddate": "9/8/2025",
+	"secBldgmv": [
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"INTE"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Sherrills Ford/Terrell Fire Department~",
+		"",
+		"This class is a hybrid class with 3 days (first day, last day,",
+		"and 1 day in between) in person and the remainder of the class",
+		"will be via Blackboard. Pre-registration required by emailing",
+		"srhodarmer@cvcc.edu  In-person class dates are:  08/25/25,",
+		"09/03/25, & 09/08/25 (8a-12p & 1p-5p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9029",
+	"secshorttitle": "Confined Space Refresher",
+	"secno": "500",
+	"secstartdate": "8/28/2025",
+	"secenddate": "8/28/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Foxx",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Alexander Rescue Squad~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9087",
+	"secshorttitle": "Hose Review",
+	"secno": "481",
+	"secstartdate": "8/28/2025",
+	"secenddate": "8/28/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9087",
+	"secshorttitle": "Hose Review",
+	"secno": "482",
+	"secstartdate": "8/28/2025",
+	"secenddate": "8/28/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9032",
+	"secshorttitle": "Company Level Train - Officer",
+	"secno": "800",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FIP-3718."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9032",
+	"secshorttitle": "Company Level Train - Officer",
+	"secno": "801",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"NO Web",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FIP-3718."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9108",
+	"secshorttitle": "Ladders Refresher",
+	"secno": "800",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rogers",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This class is 15 year old eligible via FIP-3030. This is an",
+		"online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9108",
+	"secshorttitle": "Ladders Refresher",
+	"secno": "801",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rogers",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This class is 15 year old eligible via FIP-3030. This is an",
+		"online course via Blackboard."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9109",
+	"secshorttitle": "Man Vs Machine Review",
+	"secno": "800",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FRC-1207"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9109",
+	"secshorttitle": "Man Vs Machine Review",
+	"secno": "801",
+	"secstartdate": "9/1/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Internet/Online"
+	],
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Online/Blackboard class~",
+		"",
+		"This is an online course via Blackboard. This class is 15 year",
+		"old eligible via FRC-1207"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8945",
+	"secshorttitle": "FF Fireground Ops 5 (FF 2019)",
+	"secno": "100",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"333",
+		"333",
+		"333"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"TH",
+			"F"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"M",
+			"TH",
+			"F"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM",
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Smith",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Main Campus CAD Room 333~",
+		"NO Web",
+		"",
+		"Class Schedule: 09/02, 09/04, 09/05, 09/08, 09/11, 09/16, 09/19,",
+		"09/22, 09/25 (6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8971",
+	"secshorttitle": "FF Fireground Ops 1 (FF 2019)",
+	"secno": "440",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"215",
+		"215"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Applied Technologies",
+		"Alexander Applied Technologies"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"TH"
+		],
+		[
+			"T",
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Sprinkle",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Alexander Campus Room 215~",
+		"NO Web",
+		"",
+		"Class Schedule: 09/02, 09/04, 09/09, 09/18, 09/23, & 09/25",
+		"(6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8993",
+	"secshorttitle": "Fire Ops 5 Refresher",
+	"secno": "475",
+	"secstartdate": "9/2/2025",
+	"secenddate": "9/2/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Lail",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web",
+		"",
+		"This class is 15 year old eligible via FIP-3045."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8714",
+	"secshorttitle": "Extrication/Stabilize Review",
+	"secno": "500",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"MFD2"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Maiden Fire Dept 2"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Brown",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Maiden Fire Department Station 2~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "477",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "478",
+	"secstartdate": "9/9/2025",
+	"secenddate": "9/9/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9110",
+	"secshorttitle": "DOI Updates",
+	"secno": "500",
+	"secstartdate": "9/10/2025",
+	"secenddate": "9/10/2025",
+	"secBldgmv": [
+		"MSC"
+	],
+	"xsecRoom": [
+		"138"
+	],
+	"xsecBldgsDesc": [
+		"Manufacturing Solution Center"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Scott",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Manufacturing Solutions Center~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "475",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "476",
+	"secstartdate": "9/11/2025",
+	"secenddate": "9/11/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Graham",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-4905",
+	"secshorttitle": "HAZMAT: Chemistry",
+	"secno": "500",
+	"secstartdate": "9/15/2025",
+	"secenddate": "9/26/2025",
+	"secBldgmv": [
+		"CFD2",
+		"CFD2"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH",
+			"F"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Bateman",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Conover Fire Department~",
+		"NO Web",
+		"",
+		"Pre-registration is required via NC TERMS."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8895",
+	"secshorttitle": "Elevator Access & Control",
+	"secno": "500",
+	"secstartdate": "9/15/2025",
+	"secenddate": "9/17/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Fox",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Alexander Rescue Squad~",
+		"NO Web",
+		"",
+		"Class dates are: 09/15, 09/16, 09/17 (7p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8918",
+	"secshorttitle": "Ladder Evolutions",
+	"secno": "500",
+	"secstartdate": "9/15/2025",
+	"secenddate": "9/15/2025",
+	"secBldgmv": [
+		"HIDD"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Hiddenite"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Townsend",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Hiddenite Fire Department~",
+		"NO Web",
+		"",
+		"This class is 15 year old eligible via FIP-3045."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9009",
+	"secshorttitle": "Fire Officer I-2020 Ed",
+	"secno": "871",
+	"secstartdate": "9/15/2025",
+	"secenddate": "9/29/2025",
+	"secBldgmv": [
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"INTE"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Ross",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Sherrills Ford Terrel Fire Department & Online/Blackboard~",
+		"NO Web",
+		"",
+		"This class is a hybrid class with 2 days (first day and last day)",
+		"in person and the remainder of the class will be via Blackboard.",
+		"Pre-registration required by emailing srhodarmer@cvcc.edu ",
+		"In-person class dates are:  09/15/25 & 09/29/25 (8a-12p & 1p-6p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8918",
+	"secshorttitle": "Ladder Evolutions",
+	"secno": "501",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"PROP"
+	],
+	"xsecRoom": [
+		"FD"
+	],
+	"xsecBldgsDesc": [
+		"Propst Cr Fd"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Townsend",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Propst Crossroads Fire Department~",
+		"NO Web",
+		"",
+		"This class is 15 year old eligible via FIP-3045."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "479",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "480",
+	"secstartdate": "9/16/2025",
+	"secenddate": "9/16/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8945",
+	"secshorttitle": "FF Fireground Ops 5 (FF 2019)",
+	"secno": "500",
+	"secstartdate": "9/16/2025",
+	"secenddate": "10/21/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Clontz",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Stony Point Fire Department~",
+		"NO Web",
+		"",
+		"Class Schedule: 09/16, 09/22, 09/23, 09/30, 10/07, 10/13, 10/14,",
+		"10/20, & 10/21 (6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "481",
+	"secstartdate": "9/18/2025",
+	"secenddate": "9/18/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "482",
+	"secstartdate": "9/18/2025",
+	"secenddate": "9/18/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8602",
+	"secshorttitle": "Ventilation Refresher",
+	"secno": "500",
+	"secstartdate": "9/23/2025",
+	"secenddate": "9/23/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Baker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Newton Fire Department HQ~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "483",
+	"secstartdate": "9/23/2025",
+	"secenddate": "9/23/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "484",
+	"secstartdate": "9/23/2025",
+	"secenddate": "9/23/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8602",
+	"secshorttitle": "Ventilation Refresher",
+	"secno": "501",
+	"secstartdate": "9/24/2025",
+	"secenddate": "9/24/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Baker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Newton Fire Department HQ~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8602",
+	"secshorttitle": "Ventilation Refresher",
+	"secno": "502",
+	"secstartdate": "9/25/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"NFHQ"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Newton Fire HQ Station 1"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Baker",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Newton Fire Department HQ~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "485",
+	"secstartdate": "9/25/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"9:00:00 AM"
+	],
+	"secendtime": [
+		"12:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8926",
+	"secshorttitle": "RIC Refresher",
+	"secno": "486",
+	"secstartdate": "9/25/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"PSTC"
+	],
+	"xsecRoom": [
+		"PROP"
+	],
+	"xsecBldgsDesc": [
+		"Public Safety Training Complex"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"4:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Rhodarmer",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC PSTC Prop Burn Structure~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9079",
+	"secshorttitle": "UTV/ATV Public Safety Review",
+	"secno": "500",
+	"secstartdate": "9/25/2025",
+	"secenddate": "9/25/2025",
+	"secBldgmv": [
+		"ALRS"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Rescue Squad"
+	],
+	"secmeetingdays": [
+		[
+			"TH"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Foxx",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Alexander Rescue Squad~"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9021",
+	"secshorttitle": "FLSE Educator Level III",
+	"secno": "850",
+	"secstartdate": "9/29/2025",
+	"secenddate": "10/17/2025",
+	"secBldgmv": [
+		"CFD2",
+		"CFD2",
+		"CFD2",
+		"CFD2",
+		"INTE"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Conover Fire Department St 2",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Raper",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Conover Fire Department~",
+		"",
+		"This class is a hybrid class with the first and last day in",
+		"person and the remainder of the class will be via Blackboard.",
+		"Pre-registration required by emailing srhodarmer@cvcc.edu ",
+		"In-person class dates are: 09/29/25 & 10/17/25 (8a-12p & 1p-6p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8918",
+	"secshorttitle": "Ladder Evolutions",
+	"secno": "502",
+	"secstartdate": "9/30/2025",
+	"secenddate": "9/30/2025",
+	"secBldgmv": [
+		"SLFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Sugarloaf Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Townsend",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Sugar Loaf Fire Department~",
+		"NO Web",
+		"",
+		"This class is 15 year old eligible via FIP-3045."
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8972",
+	"secshorttitle": "FF Fireground Ops 2 (FF 2019)",
+	"secno": "440",
+	"secstartdate": "10/7/2025",
+	"secenddate": "10/28/2025",
+	"secBldgmv": [
+		"ATEC",
+		"ATEC",
+		"ATEC"
+	],
+	"xsecRoom": [
+		"215",
+		"215",
+		"215"
+	],
+	"xsecBldgsDesc": [
+		"Alexander Applied Technologies",
+		"Alexander Applied Technologies",
+		"Alexander Applied Technologies"
+	],
+	"secmeetingdays": [
+		[
+			"T",
+			"F"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM",
+		"10:00:00 PM",
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Smith",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Alexander Campus ATEC Room 215~",
+		"NO Web"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8939",
+	"secshorttitle": "Rapid Intervention Crew 2020",
+	"secno": "100",
+	"secstartdate": "10/13/2025",
+	"secenddate": "10/15/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"333",
+		"333"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T",
+			"W"
+		]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Sherrill",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~CVCC Main Campus CAD 333~",
+		"NO Web",
+		"",
+		"Class Dates Are: 10/13, 10/14, & 10/15 (8a-12p & 1p-5p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"70.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-9010",
+	"secshorttitle": "Fire Officer II-2020 Ed",
+	"secno": "871",
+	"secstartdate": "10/13/2025",
+	"secenddate": "10/27/2025",
+	"secBldgmv": [
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"SFTF",
+		"INTE"
+	],
+	"xsecRoom": [
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"CLSRM",
+		"RNET"
+	],
+	"xsecBldgsDesc": [
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Sherrills Ford - Terrell Fire",
+		"Internet/Online"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[]
+	],
+	"secStartTime": [
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		""
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		""
+	],
+	"xsecleadinstrlastname": "Ross",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Sherrills Ford Terrel Fire Department & Online/Blackboard~",
+		"NO Web",
+		"",
+		"This class is a hybrid class with 2 days (first day and last day)",
+		"in person and the remainder of the class will be via Blackboard.",
+		"Pre-registration required by emailing srhodarmer@cvcc.edu ",
+		"In-person class dates are:  10/13/25 & 10/27/25 (8a-12p & 1p-5p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "FIP-8973",
+	"secshorttitle": "FF Fireground Ops 6 (FF 2019)",
+	"secno": "500",
+	"secstartdate": "10/27/2025",
+	"secenddate": "11/24/2025",
+	"secBldgmv": [
+		"SPFD"
+	],
+	"xsecRoom": [
+		"CLSRM"
+	],
+	"xsecBldgsDesc": [
+		"Stony Point Fire Department"
+	],
+	"secmeetingdays": [
+		[
+			"M"
+		],
+		[
+			"T"
+		]
+	],
+	"secStartTime": [
+		"6:00:00 PM"
+	],
+	"secendtime": [
+		"10:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Clontz",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Steven Rhodarmer - (828) 327-7000 ext. 4423|",
+		"~Stony Point Fire Department~",
+		"NO Web",
+		"",
+		"Class Schedule: 10/27, 10/28, 11/04, 11/10, 11/17, 11/18, & 11/24",
+		"(6p-10p)"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"125.00"
+	],
+	"calculatedColumn": "<a href=\"https://ss-prod-cloud.cvcc.edu/student/InstantEnrollment\">Register</a>",
+	"exportTime": "08-27-2025  04:51 PM"
+},{
+	"sectioncoursename": "LET-3110",
+	"secshorttitle": "Basic Law Enforcement Training",
+	"secno": "100",
+	"secstartdate": "6/17/2025",
+	"secenddate": "12/3/2025",
+	"secBldgmv": [
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"NEIL",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"HPDR",
+		"HPDR",
+		"CAD",
+		"CAD",
+		"MPC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"FBCH",
+		"FBCH",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"MPC",
+		"MPC",
+		"CAD",
+		"MPC",
+		"MPC",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"NEIL",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"MPC",
+		"FBCH",
+		"FBCH",
+		"FBCH",
+		"CAD",
+		"HPDR",
+		"HPDR",
+		"HPDR",
+		"CAD",
+		"CAD",
+		"MPC",
+		"MPC",
+		"CAD",
+		"CAD",
+		"PSTC",
+		"PSTC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"PSTC",
+		"PSTC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"MPC",
+		"PSTC",
+		"CAD",
+		"CCJC",
+		"CCJC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CCJC",
+		"CAD",
+		"CAD",
+		"MPC",
+		"NEIL",
+		"CAD",
+		"CAD",
+		"CAD",
+		"CAD",
+		"PSTC",
+		"CAD",
+		"MPC",
+		"CAD",
+		"CAD",
+		"CAD",
+		"NEIL",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"PSTC",
+		"CAD",
+		"CAD"
+	],
+	"xsecRoom": [
+		"114",
+		"114",
+		"114",
+		"114",
+		"004",
+		"114",
+		"114",
+		"004",
+		"114",
+		"TRACK",
+		"114",
+		"114",
+		"004",
+		"CLARK",
+		"MU1",
+		"MU1",
+		"MU1",
+		"MU1",
+		"048",
+		"115",
+		"115",
+		"TRACK",
+		"115",
+		"115",
+		"115",
+		"004",
+		"115",
+		"115",
+		"115",
+		"TRACK",
+		"115",
+		"004",
+		"115",
+		"115",
+		"115",
+		"048",
+		"115",
+		"115",
+		"TRACK",
+		"MU1",
+		"MU1",
+		"MU1",
+		"MU1",
+		"004",
+		"115",
+		"115",
+		"RANGE",
+		"RANGE",
+		"115",
+		"115",
+		"TRACK",
+		"048",
+		"115",
+		"115",
+		"115",
+		"MEETRM",
+		"MEETRM",
+		"115",
+		"115",
+		"115",
+		"TRACK",
+		"115",
+		"004",
+		"048",
+		"TRACK",
+		"115",
+		"004",
+		"048",
+		"115",
+		"TRACK",
+		"115",
+		"004",
+		"CLARK",
+		"115",
+		"115",
+		"048",
+		"115",
+		"115",
+		"115",
+		"004",
+		"115",
+		"TRACK",
+		"MEETRM",
+		"MEETRM",
+		"MEETRM",
+		"115",
+		"RANGE",
+		"RANGE",
+		"RANGE",
+		"115",
+		"115",
+		"004",
+		"048",
+		"115",
+		"115",
+		"MU1",
+		"MU1",
+		"115",
+		"115",
+		"115",
+		"MU1",
+		"MU1",
+		"115",
+		"115",
+		"115",
+		"004",
+		"115",
+		"115",
+		"048",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"TRACK",
+		"MU1",
+		"MU1",
+		"MU1",
+		"004",
+		"MU1",
+		"115",
+		"CLSRM",
+		"CLSRM",
+		"115",
+		"115",
+		"048",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"115",
+		"004",
+		"115",
+		"115",
+		"115",
+		"CLSRM",
+		"115",
+		"115",
+		"004",
+		"CLARK",
+		"115",
+		"115",
+		"115",
+		"115",
+		"MU1",
+		"115",
+		"TRACK",
+		"115",
+		"115",
+		"115",
+		"CLARK",
+		"MU1",
+		"MU1",
+		"MU1",
+		"MU1",
+		"115",
+		"115"
+	],
+	"xsecBldgsDesc": [
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Neil Clark Park",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Hickory PD Range",
+		"Hickory PD Range",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"First Baptist Church Hildebran",
+		"First Baptist Church Hildebran",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Neil Clark Park",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"First Baptist Church Hildebran",
+		"First Baptist Church Hildebran",
+		"First Baptist Church Hildebran",
+		"Cuyler A. Dunbar Building",
+		"Hickory PD Range",
+		"Hickory PD Range",
+		"Hickory PD Range",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"The Tarlton Complex",
+		"Public Safety Training Complex",
+		"Cuyler A. Dunbar Building",
+		"Catawba Co Justice Ctr",
+		"Catawba Co Justice Ctr",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Catawba Co Justice Ctr",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Neil Clark Park",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Public Safety Training Complex",
+		"Cuyler A. Dunbar Building",
+		"The Tarlton Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building",
+		"Neil Clark Park",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Public Safety Training Complex",
+		"Cuyler A. Dunbar Building",
+		"Cuyler A. Dunbar Building"
+	],
+	"secmeetingdays": [
+		[
+			"M",
+			"T"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		],
+		[
+			"M"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T",
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"M",
+			"W",
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[
+			"T"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"M",
+			"W",
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"M",
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"M",
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"T",
+			"TH"
+		],
+		[
+			"W"
+		],
+		[
+			"F"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"W",
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"M",
+			"T",
+			"W",
+			"TH"
+		],
+		[
+			"T",
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"M",
+			"T"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"M",
+			"TH"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"S"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"TH"
+		],
+		[
+			"TH"
+		],
+		[
+			"F"
+		],
+		[
+			"F"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"F"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"S"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		],
+		[
+			"M"
+		],
+		[
+			"M"
+		],
+		[
+			"T"
+		],
+		[
+			"T"
+		],
+		[
+			"W"
+		],
+		[
+			"W"
+		]
+	],
+	"secStartTime": [
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"9:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"5:10:00 PM",
+		"1:00:00 PM",
+		"5:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"9:00:00 AM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"3:15:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"5:10:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"11:10:00 AM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"5:15:00 PM",
+		"5:15:00 PM",
+		"8:00:00 AM",
+		"5:15:00 PM",
+		"7:00:00 AM",
+		"12:30:00 PM",
+		"1:00:00 PM",
+		"5:15:00 PM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"5:15:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"2:00:00 PM",
+		"3:10:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"4:10:00 PM",
+		"4:10:00 PM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"1:00:00 PM",
+		"5:00:00 PM",
+		"4:30:00 PM",
+		"5:00:00 PM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"5:00:00 PM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"9:00:00 AM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"5:10:00 PM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"11:30:00 AM",
+		"3:45:00 PM",
+		"7:00:00 AM",
+		"5:10:00 PM",
+		"12:30:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"12:00:00 PM",
+		"7:00:00 PM",
+		"12:00:00 PM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"5:00:00 PM",
+		"5:00:00 PM",
+		"7:00:00 AM",
+		"12:00:00 PM",
+		"12:00:00 PM",
+		"7:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"5:10:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"5:30:00 PM",
+		"7:00:00 AM",
+		"12:30:00 PM",
+		"5:10:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"5:10:00 PM",
+		"11:00:00 AM",
+		"6:00:00 PM",
+		"9:00:00 AM",
+		"2:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"8:00:00 AM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"4:30:00 PM",
+		"7:00:00 AM",
+		"12:00:00 PM",
+		"7:00:00 AM",
+		"12:30:00 PM",
+		"7:00:00 AM",
+		"12:30:00 PM",
+		"5:15:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"8:00:00 AM",
+		"12:30:00 PM",
+		"7:00:00 AM",
+		"12:30:00 PM",
+		"7:00:00 AM",
+		"12:00:00 PM",
+		"4:30:00 PM",
+		"8:30:00 AM",
+		"1:00:00 PM",
+		"9:30:00 AM",
+		"8:00:00 AM",
+		"1:00:00 PM",
+		"6:00:00 PM",
+		"8:00:00 AM",
+		"9:00:00 AM",
+		"1:00:00 PM",
+		"5:00:00 PM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"7:00:00 AM",
+		"9:30:00 AM",
+		"7:00:00 AM",
+		"1:00:00 PM",
+		"1:00:00 PM",
+		"6:00:00 PM",
+		"10:00:00 AM",
+		"1:00:00 PM"
+	],
+	"secendtime": [
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"4:30:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"11:00:00 PM",
+		"12:00:00 PM",
+		"3:00:00 PM",
+		"4:15:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"11:00:00 AM",
+		"12:10:00 PM",
+		"12:30:00 PM",
+		"5:00:00 PM",
+		"6:15:00 PM",
+		"6:15:00 PM",
+		"12:00:00 PM",
+		"6:15:00 PM",
+		"12:00:00 PM",
+		"5:30:00 PM",
+		"5:00:00 PM",
+		"6:15:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"6:15:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"1:00:00 PM",
+		"3:00:00 PM",
+		"4:10:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"5:00:00 PM",
+		"10:00:00 PM",
+		"12:00:00 PM",
+		"4:00:00 PM",
+		"5:10:00 PM",
+		"5:10:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"4:30:00 PM",
+		"6:00:00 PM",
+		"5:30:00 PM",
+		"6:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"6:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"5:00:00 PM",
+		"5:30:00 PM",
+		"12:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"6:00:00 PM",
+		"11:00:00 AM",
+		"3:30:00 PM",
+		"6:45:00 PM",
+		"12:00:00 PM",
+		"6:10:00 PM",
+		"5:30:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"10:00:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"4:30:00 PM",
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"11:00:00 AM",
+		"6:00:00 PM",
+		"6:00:00 PM",
+		"10:00:00 PM",
+		"12:30:00 PM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"6:30:00 PM",
+		"11:30:00 AM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"6:10:00 PM",
+		"5:00:00 PM",
+		"10:00:00 PM",
+		"1:00:00 PM",
+		"8:00:00 PM",
+		"12:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"12:00:00 PM",
+		"12:00:00 PM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"11:00:00 AM",
+		"6:30:00 PM",
+		"12:00:00 PM",
+		"5:30:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"6:15:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"12:30:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"1:30:00 PM",
+		"12:00:00 PM",
+		"5:30:00 PM",
+		"11:00:00 AM",
+		"4:00:00 PM",
+		"5:30:00 PM",
+		"12:30:00 PM",
+		"4:00:00 PM",
+		"12:30:00 PM",
+		"12:00:00 PM",
+		"5:00:00 PM",
+		"10:00:00 PM",
+		"8:30:00 AM",
+		"12:00:00 PM",
+		"4:30:00 PM",
+		"6:00:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"9:00:00 AM",
+		"12:30:00 PM",
+		"12:00:00 PM",
+		"6:00:00 PM",
+		"5:00:00 PM",
+		"10:00:00 PM",
+		"12:30:00 PM",
+		"5:00:00 PM"
+	],
+	"xsecleadinstrlastname": "Deal",
+	"status": "<div name='+secavailstatus+' style='color:black'><b>OPEN</b></div>",
+	"seccomments": [
+		"|Clyde Deal - (828) 327-7000 ext. 4573|",
+		"~CVCC Main Campus CAD Room 114~",
+		"NO WEB"
+	],
+	"rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt": [
+		"180.00"
+	],
+	"calculatedColumn": "No Online Reg",
+	"exportTime": "08-27-2025  04:51 PM"
+}]

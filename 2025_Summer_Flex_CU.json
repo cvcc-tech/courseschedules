@@ -1,0 +1,248 @@
+[{
+	"secsynonym": "129978",
+	"secname": "ACA-122-802",
+	"secshorttitle": "College Transfer Success",
+	"xcrssecfacultyxname": [
+		"Craven, Ashley Hutcheson"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"LAB"
+	],
+	"secmincred": "1",
+	"xsecTotalContactHours": "2",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"27"
+	],
+	"xcrssecseatavail": [
+		"4"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MN",
+	"secLocation": "MN"
+},{
+	"secsynonym": "130001",
+	"secname": "BIO-112-800",
+	"secshorttitle": "General Biology II",
+	"xcrssecfacultyxname": [
+		"Smith, Sarah Bright"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS",
+		"LAB"
+	],
+	"secmincred": "4",
+	"xsecTotalContactHours": "6",
+	"secmeetingdays": [
+		[],
+		[]
+	],
+	"secStartTime": [
+		"",
+		""
+	],
+	"secendtime": [
+		"",
+		""
+	],
+	"secBldgmv": [
+		"INTE",
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET",
+		"RNET"
+	],
+	"xcrssecused": [
+		"12"
+	],
+	"xcrssecseatavail": [
+		"18"
+	],
+	"secprintedcomments": [
+		"This course requires a science laboratory kit. The kit must be",
+		"purchased through the CVCC Bookstore. Lab will require animal",
+		"dissections.",
+		"",
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MNýMN",
+	"secLocation": "MN"
+},{
+	"secsynonym": "130059",
+	"secname": "EDU-262-800",
+	"secshorttitle": "Early Childhood Admin II",
+	"xcrssecfacultyxname": [
+		"Ingle, Alexandra E."
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"6"
+	],
+	"xcrssecseatavail": [
+		"24"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MN",
+	"secLocation": "MN"
+},{
+	"secsynonym": "130081",
+	"secname": "HEA-110-801",
+	"secshorttitle": "Personal Health/Wellness",
+	"xcrssecfacultyxname": [
+		"Wendt, Hilda Hale"
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"20"
+	],
+	"xcrssecseatavail": [
+		"10"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MN",
+	"secLocation": "MN"
+},{
+	"secsynonym": "130115",
+	"secname": "MED-122-800",
+	"secshorttitle": "Medical Terminology II",
+	"xcrssecfacultyxname": [
+		"Huffman, Dana C."
+	],
+	"secstartdate": "6/30/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"11"
+	],
+	"xcrssecseatavail": [
+		"19"
+	],
+	"secprintedcomments": [
+		"Career & College Promise",
+		"designated course.  For",
+		"additional information,",
+		"visit www.cvcc.edu/ccp."
+	],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "777",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MN",
+	"secLocation": "MN"
+},{
+	"secsynonym": "132709",
+	"secname": "PAD-254-801",
+	"secshorttitle": "Grant Writing",
+	"xcrssecfacultyxname": [
+		"Graham, Rusty Nolan"
+	],
+	"secstartdate": "7/1/2025",
+	"secenddate": "7/28/2025",
+	"secinstrmethods": [
+		"CLASS"
+	],
+	"secmincred": "3",
+	"xsecTotalContactHours": "3",
+	"secmeetingdays": [],
+	"secStartTime": [],
+	"secendtime": [],
+	"secBldgmv": [
+		"INTE"
+	],
+	"xsecRoom": [
+		"RNET"
+	],
+	"xcrssecused": [
+		"3"
+	],
+	"xcrssecseatavail": [
+		"27"
+	],
+	"secprintedcomments": [],
+	"status": "OPEN",
+	"exportTime": "08-28-2025  10:44 AM",
+	"secSchedCapacity": "",
+	"secTerm": "2025SU",
+	"xsecBuildingLocation": "MN",
+	"secLocation": "MN"
+}]
