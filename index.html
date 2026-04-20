@@ -550,7 +550,9 @@
               variantDisplay = ' Intercession';
             }
           } else if (variantParts.length > 0) {
-            variantDisplay = ' ' + variantParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            variantDisplay = ' ' + variantParts
+              .map(p => p.toLowerCase() === 'flex' ? 'Late Start' : p.charAt(0).toUpperCase() + p.slice(1).toLowerCase())
+              .join(' ');
           }
 
           const suffixLabel = suffixParts.length > 0
