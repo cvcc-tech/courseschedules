@@ -353,7 +353,9 @@
             if (res.ok) {
               const files = await res.json();
               if (Array.isArray(files) && files.length > 0) {
-                this.jsonFilesToLoad = files.filter(f => f.endsWith('.json'));
+                this.jsonFilesToLoad = files.filter(f =>
+                  f.endsWith('.json') && !f.toLowerCase().startsWith('importantdates')
+                );
               }
             }
           } catch (e) {
@@ -361,32 +363,12 @@
           }
           const loadedTerms = [];
           for (const filename of this.jsonFilesToLoad) {
-            let displayName = filename.replace('.json', '');
-            displayName = displayName.replace(/_/g, ' ');
-            displayName = displayName.split(' ').map(word => {
-                if (word.toLowerCase() === 'intercession') return 'Intercession';
-                return word.charAt(0).toUpperCase() + word.slice(1);
-            }).join(' ');
-
             loadedTerms.push({
-              label: displayName,
+              label: this.formatTermDisplayName(filename),
               value: filename
             });
           }
-          loadedTerms.sort((a, b) => {
-            const getSortKey = (label) => {
-                const parts = label.split(' ');
-                const year = parseInt(parts[parts.length - 1]);
-                let semesterOrder = 0;
-                const semesterPart = parts[0].toLowerCase();
-                if (semesterPart === 'spring') semesterOrder = 1;
-                else if (semesterPart === 'summer') semesterOrder = 2;
-                else if (semesterPart === 'fall') semesterOrder = 3;
-                else if (semesterPart === 'intercession' && parts[parts.length - 2].toLowerCase() === 'fall') semesterOrder = 3.5;
-                return year * 10 + semesterOrder;
-            };
-            return getSortKey(a.label) - getSortKey(b.label);
-          });
+          loadedTerms.sort((a, b) => this.getTermStartDate(a.label) - this.getTermStartDate(b.label));
 
           this.termOptions = loadedTerms;
           if (this.termOptions.length > 0) {
@@ -534,6 +516,50 @@
 
             const total = available + used;
             return `${available} (of ${total})`;
+        },
+        formatTermDisplayName(filename) {
+          const base = filename.replace('.json', '');
+          const parts = base.split('_').filter(p => p.length > 0);
+          const yearIdx = parts.findIndex(p => /^20\d\d$/.test(p));
+
+          if (yearIdx < 0) {
+            if (parts[0] && parts[0].toUpperCase() === 'CE') {
+              return 'CE - ' + parts.slice(1).map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            }
+            return base.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').trim()
+              .split(/\s+/).map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
+          }
+
+          const year = parts[yearIdx];
+          const cuIdx = parts.findIndex(p => p.toUpperCase() === 'CU');
+          const semPart = parts[yearIdx + 1] || '';
+          const semester = semPart.charAt(0).toUpperCase() + semPart.slice(1).toLowerCase();
+
+          const variantParts = parts.slice(yearIdx + 2, cuIdx >= 0 ? cuIdx : parts.length);
+          const suffixParts = cuIdx >= 0 ? parts.slice(cuIdx + 1) : [];
+
+          let variantDisplay = '';
+          const isInter = variantParts.some(p => /^inter(session|cession)$/i.test(p));
+          if (isInter) {
+            const numPart = variantParts.find(p => /^\d+$/.test(p));
+            if (numPart) {
+              const ROMAN = ['I', 'II', 'III', 'IV', 'V'];
+              const n = parseInt(numPart);
+              variantDisplay = ' ' + (ROMAN[n - 1] !== undefined ? ROMAN[n - 1] : n);
+            } else {
+              variantDisplay = ' Intercession';
+            }
+          } else if (variantParts.length > 0) {
+            variantDisplay = ' ' + variantParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+          }
+
+          const suffixLabel = suffixParts.length > 0
+            ? suffixParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ')
+            : '';
+          const cuPart = cuIdx >= 0 ? (suffixLabel ? `CU - ${suffixLabel}` : 'CU') : suffixLabel;
+          const parenPart = cuPart ? ` (${cuPart})` : '';
+
+          return `${semester}${variantDisplay} ${year}${parenPart}`.trim();
         },
         getTermStartDate(label) {
           const yearMatch = label.match(/\b(20\d\d)\b/);
