@@ -402,7 +402,7 @@
               throw new Error(`HTTP error! status: ${res.status}`);
             }
             const data = await res.json();
-            this.courses = data;
+            this.courses = data.map(c => this.normalizeCourse(c));
 
             if (data.length > 0 && data[0].exportTime) {
                 const exportedTime = String(data[0].exportTime).trim();
@@ -516,6 +516,52 @@
 
             const total = available + used;
             return `${available} (of ${total})`;
+        },
+        normalizeCourse(course) {
+          // Strip HTML from status (CE stores "<div...><b>OPEN</b></div>", PS stores unfilled template)
+          if (course.status && course.status.includes('<')) {
+            course.status = course.status.replace(/<[^>]*>/g, '').trim();
+          }
+
+          // Public Services: build secname from sectioncoursename + secno
+          if (!course.secname && course.sectioncoursename) {
+            course.secname = course.secno
+              ? `${course.sectioncoursename}-${course.secno}`
+              : course.sectioncoursename;
+          }
+
+          // Public Services: normalize instructor to standard array field
+          if ((!course.xcrssecfacultyxname || !course.xcrssecfacultyxname.length) && course.xsecleadinstrlastname) {
+            course.xcrssecfacultyxname = [course.xsecleadinstrlastname];
+          }
+
+          // Public Services: normalize comments to standard notes field
+          if ((!course.secprintedcomments || !course.secprintedcomments.length) && Array.isArray(course.seccomments)) {
+            course.secprintedcomments = course.seccomments;
+          }
+
+          // CE: map long meeting-link field names to standard field names
+          const csm = 'cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csm';
+          if (course[`${csm}StartTime`]) {
+            const startTimes = course[`${csm}StartTime`] || [];
+            const endTimes   = course[`${csm}EndTime`]   || [];
+            const bldgs      = course[`${csm}Bldg`]      || [];
+            const rooms      = course[`${csm}Room`]      || [];
+
+            // CE splits days across sub-arrays but shares one time slot per pattern;
+            // flatten day sub-arrays to match the number of time entries
+            if (Array.isArray(course.secmeetingdays) && course.secmeetingdays.length > startTimes.length) {
+              const flatDays = [...new Set(course.secmeetingdays.flat().filter(d => d && d.trim()))];
+              course.secmeetingdays = Array.from({ length: Math.max(startTimes.length, 1) }, () => [...flatDays]);
+            }
+
+            course.secStartTime = startTimes;
+            course.secendtime   = endTimes;
+            course.secBldgmv    = bldgs;
+            course.xsecRoom     = rooms;
+          }
+
+          return course;
         },
         formatTermDisplayName(filename) {
           const base = filename.replace('.json', '');
