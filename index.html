@@ -132,11 +132,34 @@
 
     /* Result counter */
     .result-counter {
-      font-size: 0.85em;
-      color: #666;
-      margin-bottom: 0.4rem;
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 0.5rem;
       padding-left: 0.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
     }
+    .result-counter .count-open {
+      background: #d4edda;
+      color: #155724;
+      font-weight: 600;
+      padding: 1px 10px;
+      border-radius: 12px;
+      font-size: 0.9em;
+    }
+    .result-counter .count-closed {
+      background: #f8d7da;
+      color: #721c24;
+      font-weight: 600;
+      padding: 1px 10px;
+      border-radius: 12px;
+      font-size: 0.9em;
+    }
+    body.dark-mode .result-counter { color: #aaa; }
+    body.dark-mode .result-counter .count-open { background: #0d3320; color: #75e0a0; }
+    body.dark-mode .result-counter .count-closed { background: #3d0f13; color: #f1908a; }
 
     /* Header action buttons */
     .header-actions {
@@ -318,7 +341,11 @@
 
     <div v-if="loading" class="alert alert-info">Loading courses...</div>
     <div v-else-if="filteredCourses.length === 0 && !loading" class="alert alert-warning">No courses found matching your criteria.</div>
-    <div v-else class="result-counter">Showing: {{ filteredCourses.length }} &nbsp;|&nbsp; Open: {{ statusSummary.open }} &nbsp;|&nbsp; Closed: {{ statusSummary.closed }}</div>
+    <div v-else class="result-counter">
+      Showing: {{ filteredCourses.length }}
+      <span class="count-open">Open: {{ statusSummary.open }}</span>
+      <span class="count-closed">Closed: {{ statusSummary.closed }}</span>
+    </div>
 
     <div class="table-wrapper">
       <table class="table table-bordered">
