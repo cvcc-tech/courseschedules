@@ -390,7 +390,17 @@
 
           this.termOptions = loadedTerms;
           if (this.termOptions.length > 0) {
-            this.selectedTerm = this.termOptions[0].value;
+            const today = new Date();
+            let defaultTerm = this.termOptions[this.termOptions.length - 1];
+            let closestDiff = Infinity;
+            for (const term of this.termOptions) {
+              const diff = this.getTermStartDate(term.label) - today;
+              if (diff >= 0 && diff < closestDiff) {
+                closestDiff = diff;
+                defaultTerm = term;
+              }
+            }
+            this.selectedTerm = defaultTerm.value;
           }
           this.loadCourses();
         },
@@ -524,6 +534,18 @@
 
             const total = available + used;
             return `${available} (of ${total})`;
+        },
+        getTermStartDate(label) {
+          const yearMatch = label.match(/\b(20\d\d)\b/);
+          const year = yearMatch ? parseInt(yearMatch[1]) : 0;
+          const lower = label.toLowerCase();
+          const isIntercession = lower.includes('intercession') || lower.includes('intersession');
+          if (lower.includes('summer')) return new Date(year, 4, 15);
+          if (lower.includes('fall') && isIntercession) return new Date(year, 11, 10);
+          if (lower.includes('fall')) return new Date(year, 7, 18);
+          if (lower.includes('spring') && isIntercession) return new Date(year, 0, 5);
+          if (lower.includes('spring')) return new Date(year, 0, 10);
+          return new Date(year, 0, 1);
         },
         getDeliveryCategoryFromSection(sectionName) {
           if (!sectionName) return '';
