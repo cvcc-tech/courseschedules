@@ -178,9 +178,7 @@
             <th scope="col">Title</th>
             <th scope="col">Credits</th>
             <th scope="col">Delivery</th>
-            <th scope="col">Days</th>
-            <th scope="col">Time</th>
-            <th scope="col">Location</th>
+            <th scope="col">Schedule</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
             <th scope="col">Seats Available</th>
@@ -195,9 +193,7 @@
             <td>{{ course.secshorttitle }}</td>
             <td>{{ course.secmincred }}</td>
             <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.xsecRoom, course.secBldgmv)"></td>
-            <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
-            <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
+            <td v-html="safeFormat(formatSchedule, course.secmeetingdays, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
             <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
@@ -217,6 +213,21 @@
   </footer>
 
   <script>
+    const BUILDING_NAME_MAP = {
+      'INTE': 'Internet',
+      'WW': 'West Wing',
+      'VSL': 'Red Hall',
+      'CAD': 'Cuyler A. Dunbar Building',
+      'ELS': 'Music Building',
+      'REP': 'Robert E. Paap Building',
+      'DEN': 'Dental Hygiene',
+      'WSC': 'Workforce Solutions Complex',
+      'COS': 'Cosmetology Center',
+      'HOSP': 'Hospital/Clinical Site',
+      'ATEC': 'Advanced Technology Education Center',
+      'TBD': 'To Be Determined'
+    };
+
     const { createApp } = Vue;
     createApp({
       data() {
@@ -251,7 +262,8 @@
               const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
 
               const search = String(this.searchQuery || '').toLowerCase();
-              const matchesSearch = !search || String(c.secname || '').toLowerCase().includes(search) || String(c.secshorttitle || '').toLowerCase().includes(search);
+              const instructorString = Array.isArray(c.xcrssecfacultyxname) ? c.xcrssecfacultyxname.join(' ').toLowerCase() : '';
+              const matchesSearch = !search || String(c.secname || '').toLowerCase().includes(search) || String(c.secshorttitle || '').toLowerCase().includes(search) || instructorString.includes(search);
 
               const matchesDays = (() => {
                   if (!this.selectedDays.length) return true;
@@ -282,26 +294,11 @@
         },
         uniqueLocations() {
           try {
-            const buildingNameMap = {
-              'INTE': 'Internet',
-              'WW': 'West Wing',
-              'VSL': 'Red Hall',
-              'CAD': 'Cuyler A. Dunbar Building',
-              'ELS': 'Music Building',
-              'REP': 'Robert E. Paap Building',
-              'DEN': 'Dental Hygiene',
-              'WSC': 'Workforce Solutions Complex',
-              'COS': 'Cosmetology Center',
-              'HOSP': 'Hospital/Clinical Site',
-              'ATEC': 'Advanced Technology Education Center',
-              'TBD': 'To Be Determined'
-            };
-
             const locationsSet = new Set();
             this.courses.forEach(c => {
               if (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) {
                 const code = c.secBldgmv[0];
-                const fullName = buildingNameMap[code] || code;
+                const fullName = BUILDING_NAME_MAP[code] || code;
                 locationsSet.add(JSON.stringify({
                   label: `${fullName} (${code})`,
                   value: code
@@ -341,15 +338,6 @@
         }
       },
       methods: {
-        isOnlineLocation(xsecRoom, secBldgmv) {
-            const roomCodes = (xsecRoom && Array.isArray(xsecRoom)) ? xsecRoom.map(r => String(r || '').trim().toLowerCase()) : [];
-            const buildingCodes = (secBldgmv && Array.isArray(secBldgmv)) ? secBldgmv.map(b => String(b || '').trim().toLowerCase()) : [];
-
-            const containsInte = buildingCodes.includes('inte');
-            const containsRnet = roomCodes.includes('rnet');
-
-            return containsInte || containsRnet;
-        },
         safeFormat(formatter, ...args) {
             try {
                 return formatter.apply(this, args);
@@ -453,115 +441,53 @@
             return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
           });
         },
-        formatMeetingDays(daysArray, xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
-
-          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
-            return globeIconHtml;
-          }
-
-          const allDays = new Set();
-          daysArray.forEach(subArray => {
-            if (Array.isArray(subArray)) {
-              subArray.forEach(day => {
-                if (typeof day === 'string' && day.trim() !== '') {
-                  allDays.add(day.trim());
-                }
-              });
-            }
-          });
-
-          if (allDays.size === 0) {
-            return globeIconHtml;
-          }
-
+        formatSchedule(daysArray, startTimes, endTimes, xsecRoom, secBldgmv) {
+          const globeIconHtml = '<span class="material-symbols-outlined online-icon" title="Online">language</span>';
           const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'];
-          const sortedDays = Array.from(allDays).sort((a, b) => {
-            return dayOrder.indexOf(a) - dayOrder.indexOf(b);
-          });
+          const fmtTime = t => {
+            const m = t.match(/^(\d+:\d+):\d+\s*(AM|PM)$/i);
+            return m ? `${m[1]} ${m[2]}` : t;
+          };
 
-          return sortedDays.join(', ');
-        },
-        formatMeetingTimes(startTimes, endTimes, xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
+          const numSlots = Math.max(
+            Array.isArray(daysArray) ? daysArray.length : 0,
+            Array.isArray(startTimes) ? startTimes.length : 0,
+            Array.isArray(xsecRoom) ? xsecRoom.length : 0,
+            Array.isArray(secBldgmv) ? secBldgmv.length : 0,
+          );
 
-          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
-              !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
-            return globeIconHtml;
-          }
+          if (numSlots === 0) return globeIconHtml;
 
-          const timeRanges = [];
-          for (let i = 0; i < startTimes.length; i++) {
-            const startTime = startTimes[i]?.trim();
-            const endTime = endTimes[i]?.trim();
+          const parts = [];
+          let hasGlobe = false;
 
-            if (startTime && endTime) {
-              const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              timeRanges.push(`${formattedStartTime} - ${formattedEndTime}`);
+          for (let i = 0; i < numSlots; i++) {
+            const slotDays = Array.isArray(daysArray) && Array.isArray(daysArray[i]) ? daysArray[i] : [];
+            const startTime = (Array.isArray(startTimes) ? startTimes[i] || '' : '').trim();
+            const endTime = (Array.isArray(endTimes) ? endTimes[i] || '' : '').trim();
+            const room = (Array.isArray(xsecRoom) ? xsecRoom[i] || '' : '').trim();
+            const building = (Array.isArray(secBldgmv) ? secBldgmv[i] || '' : '').trim();
+
+            const isOnline = building.toUpperCase() === 'INTE' || room.toUpperCase() === 'RNET';
+
+            if (isOnline) {
+              if (!hasGlobe) { parts.push(globeIconHtml); hasGlobe = true; }
+              continue;
             }
+
+            const sortedDays = slotDays
+              .filter(d => d && d.trim())
+              .sort((a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b));
+
+            const daysStr = sortedDays.join(', ');
+            const timeStr = startTime && endTime ? `${fmtTime(startTime)} \u2013 ${fmtTime(endTime)}` : '';
+            const locationStr = [building, room].filter(Boolean).join(' ');
+
+            const slotParts = [daysStr, timeStr, locationStr].filter(Boolean);
+            if (slotParts.length > 0) parts.push(slotParts.join(' &bull; '));
           }
 
-          if (timeRanges.length === 0) {
-            return globeIconHtml;
-          }
-
-          return timeRanges.join('; ');
-        },
-        formatLocationDisplay(xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
-
-          // Collect all location parts, filtered for valid strings and converted to lowercase for robust checking
-          const allLocationParts = new Set();
-          const originalLocationParts = []; // To preserve original casing for display
-
-          if (xsecRoom && Array.isArray(xsecRoom)) {
-              xsecRoom.forEach(part => {
-                  if (typeof part === 'string' && part.trim() !== '') {
-                      allLocationParts.add(part.trim().toLowerCase());
-                      originalLocationParts.push(part.trim());
-                  }
-              });
-          }
-          if (secBldgmv && Array.isArray(secBldgmv)) {
-              secBldgmv.forEach(part => {
-                  if (typeof part === 'string' && part.trim() !== '') {
-                      allLocationParts.add(part.trim().toLowerCase());
-                      originalLocationParts.push(part.trim());
-                  }
-              });
-          }
-
-          const hasOnlineComponent = allLocationParts.has('inte') || allLocationParts.has('rnet');
-
-          // Build the physical location string, explicitly excluding online identifiers (case-insensitive check)
-          let physicalLocationDisplayParts = [];
-          const uniqueOriginalParts = Array.from(new Set(originalLocationParts)); // Deduplicate original parts
-
-          uniqueOriginalParts.forEach(part => {
-              if (!(part.toLowerCase().includes('inte') || part.toLowerCase().includes('rnet'))) {
-                  physicalLocationDisplayParts.push(part);
-              }
-          });
-
-          const physicalLocationString = physicalLocationDisplayParts.sort().join(' ').trim();
-
-          if (hasOnlineComponent) {
-              if (physicalLocationString) {
-                  // Hybrid: Physical location & Icon
-                  return `${physicalLocationString} & ${globeIconHtml}`;
-              } else {
-                  // Pure Online: Only Icon
-                  return globeIconHtml;
-              }
-          } else {
-              // Pure Seated: Just physical location
-              if (physicalLocationString) {
-                  return physicalLocationString;
-              } else {
-                  return 'N/A'; // Fallback if no location data at all
-              }
-          }
+          return parts.length > 0 ? parts.join('<br>') : globeIconHtml;
         },
         formatSeatsDisplay(seatsAvailableArray, seatsUsedArray) {
             let available = 'N/A';
