@@ -188,6 +188,21 @@
     body.dark-mode .table tbody tr:hover {
       background: #333;
     }
+    body.dark-mode .table {
+      --bs-table-bg: #2a2a2a;
+      --bs-table-striped-bg: #333;
+      --bs-table-hover-bg: #363636;
+      color: #e0e0e0;
+    }
+    body.dark-mode .table > tbody > tr > td,
+    body.dark-mode .table > tbody > tr > th {
+      background-color: #2a2a2a !important;
+      border-color: #444 !important;
+      color: #e0e0e0 !important;
+    }
+    body.dark-mode .table-bordered > :not(caption) > * {
+      border-color: #444 !important;
+    }
     body.dark-mode .alert-info {
       background: #1e3a4a; color: #7dd3fc; border-color: #2a5a70;
     }
@@ -196,16 +211,37 @@
     }
     body.dark-mode .delivery-online { background: #0c2d3e; color: #7dd3fc; }
     body.dark-mode .delivery-hybrid { background: #1e133a; color: #c4b5fd; }
-    body.dark-mode .delivery-traditional { background: #2a2a2a; color: #bbb; }
+    body.dark-mode .delivery-traditional { background: #2d2d2d; color: #bbb; border: 1px solid #555; }
     body.dark-mode .result-counter { color: #999; }
     body.dark-mode .btn-icon { border-color: #555; color: #e0e0e0; }
     body.dark-mode .btn-icon:hover { background: #333; }
     body.dark-mode .last-updated { color: #999; }
+    body.dark-mode .print-panel {
+      background: #2a2a2a; border-color: #444; color: #e0e0e0;
+    }
+
+    /* Print panel */
+    .print-panel {
+      background: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      margin-top: 0.4rem;
+      font-size: 0.85em;
+    }
+    .print-panel .note {
+      color: #888;
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
 
     @media print {
-      .filter-bar, .header-actions, .app-footer, .last-updated { display: none !important; }
+      .filter-bar, .header-actions, .app-footer, .last-updated, .print-panel-wrap { display: none !important; }
       .table-wrapper { max-height: none; overflow: visible; box-shadow: none; }
       body { background: white !important; }
+      body.dark-mode { background: white !important; color: black !important; }
+      body.dark-mode .table > tbody > tr > td,
+      body.dark-mode .table > tbody > tr > th { background-color: white !important; color: black !important; border-color: #ccc !important; }
     }
   </style>
 </head>
@@ -218,14 +254,24 @@
           <span class="material-symbols-outlined">{{ darkMode ? 'light_mode' : 'dark_mode' }}</span>
           {{ darkMode ? 'Light' : 'Dark' }}
         </button>
-        <button class="btn-icon" @click="printPage" title="Print schedule">
+        <button class="btn-icon" @click="showPrintOptions = !showPrintOptions" title="Print / PDF options">
           <span class="material-symbols-outlined">print</span>
-          Print
+          Print / PDF {{ showPrintOptions ? '▴' : '▾' }}
         </button>
         <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
       </div>
     </div>
     <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
+
+    <div class="print-panel-wrap" v-if="showPrintOptions">
+      <div class="print-panel">
+        <div class="note">Only the rows currently visible after filters/search will be printed.</div>
+        <button class="btn-icon" @click="printPage">
+          <span class="material-symbols-outlined">print</span>
+          Print / PDF
+        </button>
+      </div>
+    </div>
 
     <div class="row filter-bar">
       <div class="col-md-3">
@@ -272,19 +318,20 @@
 
     <div v-if="loading" class="alert alert-info">Loading courses...</div>
     <div v-else-if="filteredCourses.length === 0 && !loading" class="alert alert-warning">No courses found matching your criteria.</div>
-    <div v-else class="result-counter">Showing {{ filteredCourses.length }} of {{ courses.length }} course{{ courses.length !== 1 ? 's' : '' }}</div>
+    <div v-else class="result-counter">Showing: {{ filteredCourses.length }} &nbsp;|&nbsp; Open: {{ statusSummary.open }} &nbsp;|&nbsp; Closed: {{ statusSummary.closed }}</div>
 
     <div class="table-wrapper">
       <table class="table table-bordered">
         <thead>
           <tr>
+            <th v-if="hasIdColumn" scope="col">ID</th>
             <th scope="col" class="section-col">Section</th>
             <th scope="col">Title</th>
-            <th scope="col">Credits</th>
+            <th v-if="hasCreditsColumn" scope="col">Credits</th>
             <th scope="col">Schedule</th>
             <th scope="col">Start</th>
             <th scope="col">End</th>
-            <th scope="col">Seats Available</th>
+            <th v-if="hasSeatsColumn" scope="col">Seats Available</th>
             <th scope="col">Instructor</th>
             <th scope="col">Status</th>
             <th scope="col">Description/Notes</th>
@@ -292,13 +339,14 @@
         </thead>
         <tbody>
           <tr v-for="(course, rowIndex) in filteredCourses" :key="course.secsynonym">
+            <td v-if="hasIdColumn">{{ course.id }}</td>
             <td class="section-col">{{ course.secname }}</td>
             <td>{{ course.secshorttitle }}</td>
-            <td>{{ course.secmincred }}</td>
+            <td v-if="hasCreditsColumn">{{ course.secmincred }}</td>
             <td v-html="scheduleWithDelivery(course)"></td>
             <td>{{ course.secstartdate }}</td>
             <td>{{ course.secenddate }}</td>
-            <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
+            <td v-if="hasSeatsColumn" v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
             <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
             <td>{{ course.status }}</td>
             <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
@@ -349,7 +397,8 @@
             '2025faintercession.json',
           ],
           loading: false,
-          darkMode: false
+          darkMode: false,
+          showPrintOptions: false
         }
       },
       computed: {
@@ -429,15 +478,27 @@
           try {
             const statuses = new Set();
             this.courses.forEach(c => {
-              if (c.status) {
-                statuses.add(c.status);
-              }
+              if (c.status) statuses.add(c.status);
             });
             return Array.from(statuses).sort();
           } catch (e) {
-            console.error("Error in uniqueStatuses computed property:", e, "Courses data:", this.courses);
+            console.error("Error in uniqueStatuses computed property:", e);
             return [];
           }
+        },
+        statusSummary() {
+          const open = this.filteredCourses.filter(c => (c.status || '').toUpperCase() === 'OPEN').length;
+          const closed = this.filteredCourses.filter(c => (c.status || '').toUpperCase() === 'CLOSED').length;
+          return { open, closed };
+        },
+        hasIdColumn() {
+          return this.courses.some(c => c.id != null && c.id !== '');
+        },
+        hasCreditsColumn() {
+          return this.courses.some(c => c.secmincred != null && c.secmincred !== '');
+        },
+        hasSeatsColumn() {
+          return this.courses.some(c => c.xcrssecseatavail != null && Array.isArray(c.xcrssecseatavail) && c.xcrssecseatavail.length > 0);
         }
       },
       methods: {
@@ -528,16 +589,18 @@
           }
         },
         formatInstructor(names) {
-          if (!names || names.length === 0) return 'N/A';
-          return names.map(name => {
-            const parts = name.split(',').map(p => p.trim());
-            if (parts.length > 1) {
-              const lastName = parts[0];
-              const firstNameAndMiddle = parts.slice(1).join(' ');
-              return `${lastName}, ${firstNameAndMiddle}`;
-            }
-            return name;
-          }).join('; ');
+          if (!names || names.length === 0) return '';
+          const formatted = names
+            .map(name => {
+              if (!name || !name.trim()) return '';
+              const parts = name.split(',').map(p => p.trim());
+              if (parts.length > 1 && parts[1]) {
+                return `${parts[0]}, ${parts.slice(1).join(' ')}`;
+              }
+              return parts[0];
+            })
+            .filter(Boolean);
+          return formatted.join('; ');
         },
         formatNotes(notes) {
           if (!notes || notes.length === 0) return '';
