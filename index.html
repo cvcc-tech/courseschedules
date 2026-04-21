@@ -39,7 +39,7 @@
     .app-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 0.4rem;
       padding-left: 1rem;
       padding-right: 1rem;
@@ -48,7 +48,18 @@
     .header-left {
       display: flex;
       flex-direction: column;
+      gap: 0.25rem;
+    }
+    .header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
       gap: 0.2rem;
+    }
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
     h1 {
       color: var(--cvcc-primary);
@@ -62,11 +73,8 @@
     }
     .last-updated {
       text-align: right;
-      font-size: 0.9em;
+      font-size: 0.8em;
       color: #555;
-      margin-bottom: 0.4rem;
-      padding-right: 1rem;
-      flex-shrink: 0;
     }
     .filter-bar {
       margin-bottom: 0.5rem;
@@ -151,7 +159,7 @@
 
     /* Result counter — lives under the h1 in the header */
     .result-counter {
-      font-size: 0.82em;
+      font-size: 1em;
       color: #555;
       display: flex;
       align-items: center;
@@ -278,7 +286,7 @@
     }
 
     @media print {
-      .filter-bar, .header-actions, .app-footer, .last-updated, .print-panel-wrap { display: none !important; }
+      .filter-bar, .header-right, .app-footer, .last-updated, .print-panel-wrap { display: none !important; }
       .table-wrapper { max-height: none; overflow: visible; box-shadow: none; }
       body { background: white !important; }
       body.dark-mode { background: white !important; color: black !important; }
@@ -298,19 +306,21 @@
           <span class="count-closed">Closed: {{ statusSummary.closed }}</span>
         </div>
       </div>
-      <div class="header-actions">
-        <button class="btn-icon" @click="toggleDarkMode" :title="darkMode ? 'Switch to light mode' : 'Switch to dark mode'">
-          <span class="material-symbols-outlined">{{ darkMode ? 'light_mode' : 'dark_mode' }}</span>
-          {{ darkMode ? 'Light' : 'Dark' }}
-        </button>
-        <button class="btn-icon" @click="showPrintOptions = !showPrintOptions" title="Print / PDF options">
-          <span class="material-symbols-outlined">print</span>
-          Print / PDF {{ showPrintOptions ? '▴' : '▾' }}
-        </button>
+      <div class="header-right">
         <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+        <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
+        <div class="header-controls">
+          <button class="btn-icon" @click="toggleDarkMode" :title="darkMode ? 'Switch to light mode' : 'Switch to dark mode'">
+            <span class="material-symbols-outlined">{{ darkMode ? 'light_mode' : 'dark_mode' }}</span>
+            {{ darkMode ? 'Light' : 'Dark' }}
+          </button>
+          <button class="btn-icon" @click="showPrintOptions = !showPrintOptions" title="Print / PDF options">
+            <span class="material-symbols-outlined">print</span>
+            Print / PDF {{ showPrintOptions ? '▴' : '▾' }}
+          </button>
+        </div>
       </div>
     </div>
-    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
 
     <div class="print-panel-wrap" v-if="showPrintOptions">
       <div class="print-panel">
@@ -659,7 +669,6 @@
           });
         },
         formatSchedule(daysArray, startTimes, endTimes, xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon" title="Online">language</span>';
           const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'];
           const fmtTime = t => {
             const m = t.match(/^(\d+:\d+):\d+\s*(AM|PM)$/i);
@@ -673,10 +682,9 @@
             Array.isArray(secBldgmv) ? secBldgmv.length : 0,
           );
 
-          if (numSlots === 0) return globeIconHtml;
+          if (numSlots === 0) return '';
 
           const parts = [];
-          let hasGlobe = false;
 
           for (let i = 0; i < numSlots; i++) {
             const slotDays = Array.isArray(daysArray) && Array.isArray(daysArray[i]) ? daysArray[i] : [];
@@ -686,11 +694,7 @@
             const building = (Array.isArray(secBldgmv) ? secBldgmv[i] || '' : '').trim();
 
             const isOnline = building.toUpperCase() === 'INTE' || room.toUpperCase() === 'RNET';
-
-            if (isOnline) {
-              if (!hasGlobe) { parts.push(globeIconHtml); hasGlobe = true; }
-              continue;
-            }
+            if (isOnline) continue; // badge in delivery column already signals this
 
             const sortedDays = slotDays
               .filter(d => d && d.trim())
@@ -704,7 +708,7 @@
             if (slotParts.length > 0) parts.push(slotParts.join(' &bull; '));
           }
 
-          return parts.length > 0 ? parts.join('<br>') : globeIconHtml;
+          return parts.join('<br>');
         },
         formatSeatsDisplay(seatsAvailableArray, seatsUsedArray) {
             let available = 'N/A';
@@ -779,49 +783,77 @@
         },
         formatTermDisplayName(filename) {
           const base = filename.replace('.json', '');
+
+          // Public Services
+          if (/^publicServices/i.test(base)) return 'Public Services (Continuing Education)';
+
+          // CE_Alexander, CE_Main_Campus, etc.
+          if (/^CE_/i.test(base)) {
+            const campus = base.slice(3).split('_')
+              .map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            return `Continuing Education \u2013 ${campus}`;
+          }
+
           const parts = base.split('_').filter(p => p.length > 0);
           const yearIdx = parts.findIndex(p => /^20\d\d$/.test(p));
 
+          // Legacy format: year+season concatenated (e.g. 2025summer, 2025faintercession)
           if (yearIdx < 0) {
-            if (parts[0] && parts[0].toUpperCase() === 'CE') {
-              return 'CE - ' + parts.slice(1).map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            const m = base.match(/^(20\d\d)(spring|fall|fa|summer|su|sp)(.*)?$/i);
+            if (m) {
+              const year = m[1];
+              const sMap = { spring: 'Spring', sp: 'Spring', fall: 'Fall', fa: 'Fall', summer: 'Summer', su: 'Summer' };
+              const season = sMap[m[2].toLowerCase()] || m[2];
+              const rest = (m[3] || '').toLowerCase();
+              if (/inter(session|cession)/.test(rest)) return `${season} ${year} \u2014 Intersession`;
+              if (/flex|late.?start/.test(rest)) return `${season} ${year} \u2014 Full Term (Curriculum \u2013 Flex)`;
+              return rest ? `${season} ${year} \u2014 ${rest}` : `${season} ${year}`;
             }
             return base.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').trim()
               .split(/\s+/).map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
           }
 
           const year = parts[yearIdx];
-          const cuIdx = parts.findIndex(p => p.toUpperCase() === 'CU');
-          const semPart = parts[yearIdx + 1] || '';
-          const semester = semPart.charAt(0).toUpperCase() + semPart.slice(1).toLowerCase();
+          const season = (parts[yearIdx + 1] || '');
+          const seasonLabel = season.charAt(0).toUpperCase() + season.slice(1).toLowerCase();
+          const cuIdx = parts.indexOf('CU');
+          const variantParts = cuIdx >= 0 ? parts.slice(yearIdx + 2, cuIdx) : parts.slice(yearIdx + 2);
+          const campusParts = cuIdx >= 0 ? parts.slice(cuIdx + 1) : [];
+          const isFlexVariant = variantParts.some(p => /^flex$/i.test(p));
 
-          const variantParts = parts.slice(yearIdx + 2, cuIdx >= 0 ? cuIdx : parts.length);
-          const suffixParts = cuIdx >= 0 ? parts.slice(cuIdx + 1) : [];
-
-          let variantDisplay = '';
-          const isInter = variantParts.some(p => /^inter(session|cession)$/i.test(p));
-          if (isInter) {
-            const numPart = variantParts.find(p => /^\d+$/.test(p));
-            if (numPart) {
-              const ROMAN = ['I', 'II', 'III', 'IV', 'V'];
-              const n = parseInt(numPart);
-              variantDisplay = ' ' + (ROMAN[n - 1] !== undefined ? ROMAN[n - 1] : n);
+          // Determine term type
+          let termType = 'Full Term';
+          if (!isFlexVariant && variantParts.length > 0) {
+            const vl = variantParts.map(p => p.toLowerCase());
+            if (vl.some(p => /^inter(session|cession)$/.test(p))) {
+              const n = variantParts.find(p => /^\d+$/.test(p));
+              termType = n ? `Intersession ${n}` : 'Intersession';
+            } else if (vl.some(p => /^\d+(st|nd|rd|th)$/.test(p))) {
+              const ord = variantParts.find(p => /^\d+(st|nd|rd|th)$/i.test(p));
+              const wk = variantParts.find(p => /^\d+wk$/i.test(p));
+              termType = wk ? `${ord} ${wk.replace(/wk$/i, '')} Week` : ord;
+            } else if (vl.some(p => /^\d+wk$/.test(p))) {
+              const wk = variantParts.find(p => /^\d+wk$/i.test(p));
+              termType = `${wk.replace(/wk$/i, '')} Week`;
             } else {
-              variantDisplay = ' Intercession';
+              termType = variantParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
             }
-          } else if (variantParts.length > 0) {
-            variantDisplay = ' ' + variantParts
-              .map(p => p.toLowerCase() === 'flex' ? 'Late Start' : p.charAt(0).toUpperCase() + p.slice(1).toLowerCase())
-              .join(' ');
           }
 
-          const suffixLabel = suffixParts.length > 0
-            ? suffixParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ')
-            : '';
-          const cuPart = cuIdx >= 0 ? (suffixLabel ? `CU - ${suffixLabel}` : 'CU') : suffixLabel;
-          const parenPart = cuPart ? ` (${cuPart})` : '';
+          // Determine campus
+          let campusDisplay = '';
+          if (isFlexVariant) {
+            campusDisplay = 'Flex';
+          } else if (campusParts.length > 0) {
+            campusDisplay = campusParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+          } else if (cuIdx >= 0) {
+            campusDisplay = 'Main Campus';
+          }
 
-          return `${semester}${variantDisplay} ${year}${parenPart}`.trim();
+          let display = `${seasonLabel} ${year} \u2014 ${termType}`;
+          if (campusDisplay) display += ` (Curriculum \u2013 ${campusDisplay})`;
+          else if (cuIdx >= 0) display += ` (Curriculum)`;
+          return display;
         },
         getTermStartDate(label) {
           const yearMatch = label.match(/\b(20\d\d)\b/);
