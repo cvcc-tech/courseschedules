@@ -617,6 +617,7 @@
           termOptions: [],
           lastUpdated: '',
           jsonFilesToLoad: ['2025summer.json', '2025faintercession.json'],
+          mergedTermFiles: {},  // populated by loadTermOptions; maps "merged:Fall-2026" → [file1, file2, ...]
           loading: false,
           darkMode: false,
           showPrintOptions: false,
@@ -1112,16 +1113,68 @@
             loadedTerms.push({ label: this.formatTermDisplayName(filename), value: filename });
           }
           loadedTerms.sort((a, b) => this.getTermStartDate(a.label) - this.getTermStartDate(b.label));
-          this.termOptions = loadedTerms;
+
+          // ── Merged "All Campuses" options ──────────────────────────────────
+          // For any season+year that has 2+ Curriculum files, insert a synthetic
+          // option that fetches and merges them all. CE/PS are never merged.
+          const isCU = label => !/Continuing\s*Education|Public\s*Services/i.test(label);
+          const extractSeasonYear = label => {
+            const m = label.match(/^(Spring|Summer|Fall)\s+(\d{4})/);
+            return m ? `${m[1]}-${m[2]}` : null; // e.g. "Fall-2026"
+          };
+
+          // Group CU terms by season-year
+          const cuGroups = {};
+          loadedTerms.forEach(t => {
+            if (!isCU(t.label)) return;
+            const key = extractSeasonYear(t.label);
+            if (!key) return;
+            (cuGroups[key] = cuGroups[key] || []).push(t);
+          });
+
+          // Build a merged option for each group with 2+ files
+          const mergedFiles = {};
+          const mergedByKey  = {};
+          Object.entries(cuGroups).forEach(([key, group]) => {
+            if (group.length < 2) return;
+            const [season, year] = key.split('-');
+            const mergedValue = `merged:${key}`;
+            mergedFiles[mergedValue] = group.map(o => o.value);
+            mergedByKey[key] = {
+              label: `${season} ${year} — All Campuses (Curriculum)`,
+              value: mergedValue
+            };
+          });
+          this.mergedTermFiles = mergedFiles;
+
+          // Insert each merged option just before its first individual member
+          const finalTerms = [];
+          const insertedKeys = new Set();
+          for (const term of loadedTerms) {
+            if (isCU(term.label)) {
+              const key = extractSeasonYear(term.label);
+              if (key && mergedByKey[key] && !insertedKeys.has(key)) {
+                finalTerms.push(mergedByKey[key]);
+                insertedKeys.add(key);
+              }
+            }
+            finalTerms.push(term);
+          }
+          this.termOptions = finalTerms;
 
           if (this.termOptions.length > 0) {
             const today = new Date();
             let defaultTerm = this.termOptions[this.termOptions.length - 1];
             let closestDiff = Infinity;
+            // First pass: find the closest upcoming individual term
             for (const term of this.termOptions) {
+              if (term.value.startsWith('merged:')) continue;
               const diff = this.getTermStartDate(term.label) - today;
               if (diff >= 0 && diff < closestDiff) { closestDiff = diff; defaultTerm = term; }
             }
+            // Prefer the merged option for that season+year if one exists
+            const defKey = extractSeasonYear(defaultTerm.label);
+            if (defKey && mergedByKey[defKey]) defaultTerm = mergedByKey[defKey];
             this.selectedTerm = defaultTerm.value;
           }
           await this.onTermChanged();
@@ -1139,18 +1192,34 @@
           this.lastUpdated = '';
           this.openNotesById = {};
           this.notesRefs = {};
+
+          // Merged terms fetch multiple files in parallel; single terms fetch one
+          const filesToLoad = this.mergedTermFiles[this.selectedTerm]
+            ? this.mergedTermFiles[this.selectedTerm]
+            : [this.selectedTerm];
+
           try {
-            const res = await fetch(this.selectedTerm);
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const headerDate = this.pickLastUpdatedFromHeaders(res.headers);
-            const data = await res.json();
-            this.courses = data.map(c => this.prepareCourse(c));
-            const dataDate = this.pickLastUpdatedFromData(data);
-            const chosen = dataDate || headerDate;
+            const responses = await Promise.all(filesToLoad.map(f => fetch(f)));
+            const allData = [];
+            let latestHeaderDate = null;
+
+            for (const res of responses) {
+              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+              const headerDate = this.pickLastUpdatedFromHeaders(res.headers);
+              if (headerDate && (!latestHeaderDate || headerDate > latestHeaderDate)) {
+                latestHeaderDate = headerDate;
+              }
+              const data = await res.json();
+              allData.push(...data);
+            }
+
+            this.courses = allData.map(c => this.prepareCourse(c));
+            const dataDate = this.pickLastUpdatedFromData(allData);
+            const chosen = dataDate || latestHeaderDate;
             if (chosen) {
               this.lastUpdated = this.fmtDate(chosen);
-            } else if (data.length > 0 && data[0].exportTime) {
-              this.lastUpdated = String(data[0].exportTime).trim() || 'N/A';
+            } else if (allData.length > 0 && allData[0].exportTime) {
+              this.lastUpdated = String(allData[0].exportTime).trim() || 'N/A';
             } else {
               this.lastUpdated = 'N/A';
             }
