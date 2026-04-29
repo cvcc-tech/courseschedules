@@ -36,7 +36,7 @@
     .app-header {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       margin-bottom: 0.4rem;
       padding-left: 1rem;
       padding-right: 1rem;
@@ -45,22 +45,26 @@
     .header-left {
       display: flex;
       flex-direction: column;
-      gap: 0.25rem;
+      gap: 0.2rem;
     }
     .header-right {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      gap: 0.2rem;
+      gap: 0.25rem;
     }
-    .header-controls {
+    /* Last Updated + action buttons share one row */
+    .header-meta {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
-    h1 { color: var(--cvcc-primary); font-weight: 700; margin-bottom: 0; line-height: 1.1; }
-    .logo { max-width: 200px; height: auto; }
-    .last-updated { text-align: right; font-size: 0.8em; color: #555; }
+    .last-updated { font-size: 0.78em; color: #555; white-space: nowrap; }
+    h1 { color: var(--cvcc-primary); font-weight: 700; margin-bottom: 0; line-height: 1.1; font-size: 1.9rem; }
+    .logo { max-width: 150px; height: auto; }
+    body.dark-mode .last-updated { color: #999; }
 
     .filter-bar {
       margin-bottom: 0.5rem;
@@ -246,7 +250,6 @@
     body.dark-mode .result-counter .count-closed { background: #3d0f13; color: #f1908a; }
     body.dark-mode .btn-icon { border-color: #555; color: #e0e0e0; }
     body.dark-mode .btn-icon:hover { background: #333; }
-    body.dark-mode .last-updated { color: #999; }
     body.dark-mode .print-panel { background: #2a2a2a; border-color: #444; color: #e0e0e0; }
     body.dark-mode .modal-card  { background: #2a2a2a; color: #e0e0e0; }
     body.dark-mode .modal-header { border-color: #444; }
@@ -278,8 +281,8 @@
       </div>
       <div class="header-right">
         <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
-        <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
-        <div class="header-controls">
+        <div class="header-meta">
+          <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
           <button class="btn-icon" @click="toggleDarkMode" :title="darkMode ? 'Switch to light mode' : 'Switch to dark mode'">
             <span class="material-symbols-outlined">{{ darkMode ? 'light_mode' : 'dark_mode' }}</span>
             {{ darkMode ? 'Light' : 'Dark' }}
