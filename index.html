@@ -980,15 +980,34 @@
             'VIRT':'Virtual','DEN':'Dental Hygiene',
             'GOOD':'Goodwill','TRIN':'Trinity','ABER':'Abernethy','PSTC':'PSTC'
           };
+          // When secBldgmv is "TBD", fall back to the campus-level code (secLocation)
+          // to give a more useful location name than "To Be Determined"
+          const campusBldgMap = {
+            'AL': { code: 'ATEC', name: 'Advanced Technology Education Center' },
+            'MN': { code: 'MN',   name: 'Main Campus' },
+            'OC': { code: 'OC',   name: 'Off Campus'  }
+          };
+          const secLocationCode = String(item.secLocation || '').trim();
+
           const uniqueLocs = new Set();
           let firstPhysCode = '';
           for (let i = 0; i < loopLen; i++) {
-            const code = rawBldg[i] || '', room = rawRoom[i] || '';
+            let code = rawBldg[i] || '', room = rawRoom[i] || '';
             const isOnlineLoc = /^(INTE|VIRT)$/.test(code) || room === 'RNET';
             if (!isOnlineLoc) {
+              // If building is TBD, try the campus fallback
+              let bldgName;
+              if (code === 'TBD' && campusBldgMap[secLocationCode]) {
+                const fallback = campusBldgMap[secLocationCode];
+                bldgName = fallback.name;
+                code     = fallback.code; // use resolved code for filter/firstPhysCode
+              } else {
+                bldgName = locMap[code] || code;
+              }
               if (!firstPhysCode) firstPhysCode = code;
-              const bldgName = locMap[code] || code;
-              let locStr = code && room ? `${bldgName} ${room}` : (code ? bldgName : room);
+              // Don't display "TBD" as a room number — it's just a placeholder
+              const displayRoom = (room && room !== 'TBD') ? room : '';
+              const locStr = displayRoom ? `${bldgName} ${displayRoom}` : bldgName;
               if (locStr) uniqueLocs.add(locStr);
             }
           }
