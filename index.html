@@ -363,7 +363,7 @@
         <div class="row g-2 mt-1">
           <div class="col-md-3">
             <label class="form-label">Search</label>
-            <input v-model="searchQuery" class="form-control form-control-sm" placeholder="Search title or section">
+            <input v-model="searchInput" @input="onSearchInput" class="form-control form-control-sm" placeholder="Search title or section">
           </div>
           <div class="col-md-4">
             <label class="form-label d-block">Days</label>
@@ -604,7 +604,9 @@
           selectedDelivery: '',
           selectedLocation: '',
           selectedStatus: '',
+          searchInput: '',
           searchQuery: '',
+          _searchDebounce: null,
           selectedDays: [],
           allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'],
           selectedTimes: [],
@@ -642,7 +644,7 @@
           if (this.selectedDelivery)       n++;
           if (this.selectedLocation)       n++;
           if (this.selectedStatus)         n++;
-          if (this.searchQuery)            n++;
+          if (this.searchInput)            n++;
           if (this.selectedDays.length)    n++;
           if (this.selectedTimes.length)   n++;
           return n;
@@ -1228,6 +1230,7 @@
             this.selectedStatus = '';
             this.selectedDays = [];
             this.selectedTimes = [];
+            this.searchInput = '';
             this.searchQuery = '';
           } catch (error) {
             console.error('Error loading courses:', error);
@@ -1350,6 +1353,14 @@
           this.datesModalOpen = true;
         },
         closeDatesModal() { this.datesModalOpen = false; this.modalCourse = null; this.modalDates = []; },
+
+        // ── Search debounce ───────────────────────────────────────────────────
+        onSearchInput() {
+          clearTimeout(this._searchDebounce);
+          this._searchDebounce = setTimeout(() => {
+            this.searchQuery = this.searchInput;
+          }, 250);
+        },
 
         // ── Dark mode / UI ────────────────────────────────────────────────────
         toggleDarkMode() {
