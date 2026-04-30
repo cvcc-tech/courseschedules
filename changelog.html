@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CVCC Course Schedule – Changelog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" title="CVCC Course Schedule Changelog" href="feed.xml">
+  <style>
+    :root {
+      --cvcc-primary: #BA0C2F;
+      --cvcc-secondary: #505759;
+      --cvcc-bg: #f4f4f5;
+      --cvcc-card: #ffffff;
+      --cvcc-border: #e2e2e5;
+      --cvcc-text: #1a1a2e;
+      --cvcc-muted: #6b7280;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background: var(--cvcc-bg);
+      color: var(--cvcc-text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* ── Header ─────────────────────────────────────────────────────── */
+    .site-header {
+      background: var(--cvcc-primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .site-header a { color: white; text-decoration: none; }
+    .site-header .logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .site-header img { height: 44px; }
+    .site-header h1 { font-size: 1.15rem; font-weight: 700; line-height: 1.2; }
+    .site-header h1 small { font-weight: 400; opacity: .85; font-size: .8em; display: block; }
+    .header-right { display: flex; align-items: center; gap: 1rem; font-size: .85rem; }
+    .header-right a {
+      background: rgba(255,255,255,.15);
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 6px;
+      padding: .35rem .75rem;
+      color: white;
+      text-decoration: none;
+      transition: background .15s;
+    }
+    .header-right a:hover { background: rgba(255,255,255,.25); }
+    /* ── Main ───────────────────────────────────────────────────────── */
+    main {
+      flex: 1;
+      max-width: 860px;
+      width: 100%;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+    .page-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--cvcc-primary);
+      margin-bottom: .35rem;
+    }
+    .page-subtitle {
+      color: var(--cvcc-muted);
+      font-size: .9rem;
+      margin-bottom: 2rem;
+    }
+    .page-subtitle a { color: var(--cvcc-primary); text-decoration: none; }
+    .page-subtitle a:hover { text-decoration: underline; }
+    /* ── Version card ───────────────────────────────────────────────── */
+    .version-group { margin-bottom: 1.75rem; }
+    .version-card {
+      background: var(--cvcc-card);
+      border: 1px solid var(--cvcc-border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    }
+    .version-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: .85rem 1.25rem;
+      border-bottom: 1px solid var(--cvcc-border);
+      background: #fafafa;
+    }
+    .version-badge {
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      background: var(--cvcc-primary);
+      color: white;
+      border-radius: 5px;
+      padding: .2rem .55rem;
+      margin-right: .6rem;
+    }
+    .version-badge.patch { background: var(--cvcc-secondary); }
+    .version-badge.major { background: #1d4ed8; }
+    .version-title { font-weight: 600; font-size: .97rem; }
+    .version-date {
+      font-size: .8rem;
+      color: var(--cvcc-muted);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .version-body { padding: 1rem 1.25rem; }
+    .change-list { list-style: none; }
+    .change-list li {
+      display: flex;
+      gap: .65rem;
+      align-items: flex-start;
+      padding: .3rem 0;
+      font-size: .89rem;
+      line-height: 1.55;
+    }
+    .change-list li + li { border-top: 1px solid #f0f0f3; }
+    .change-tag {
+      flex-shrink: 0;
+      font-size: .68rem;
+      font-weight: 700;
+      border-radius: 4px;
+      padding: .18rem .45rem;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-top: .13rem;
+    }
+    .tag-new   { background: #dcfce7; color: #166534; }
+    .tag-fix   { background: #fef9c3; color: #854d0e; }
+    .tag-perf  { background: #dbeafe; color: #1e40af; }
+    .tag-ui    { background: #f3e8ff; color: #6b21a8; }
+    .tag-break { background: #fee2e2; color: #991b1b; }
+    /* ── Footer ─────────────────────────────────────────────────────── */
+    footer {
+      background: var(--cvcc-primary);
+      color: white;
+      text-align: center;
+      padding: .85rem 1rem;
+      font-size: .82rem;
+    }
+    footer a { color: rgba(255,255,255,.8); text-decoration: none; }
+    footer a:hover { color: white; text-decoration: underline; }
+    /* ── RSS pill ───────────────────────────────────────────────────── */
+    .rss-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      font-size: .8rem;
+      color: var(--cvcc-muted);
+      text-decoration: none;
+      border: 1px solid var(--cvcc-border);
+      border-radius: 5px;
+      padding: .25rem .6rem;
+      background: white;
+      margin-bottom: 1.5rem;
+      transition: border-color .15s;
+    }
+    .rss-link:hover { border-color: #f97316; color: #ea580c; }
+    .rss-icon { color: #f97316; font-size: .95rem; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo-wrap">
+      <img src="https://www.cvcc.edu/images/cvcc-logo-white.png" alt="CVCC" onerror="this.style.display='none'">
+      <h1>Course Schedule <small>Changelog &amp; Version History</small></h1>
+    </a>
+    <div class="header-right">
+      <a href="feed.xml">&#x2325; RSS Feed</a>
+      <a href="index.html">&#x2190; Back to Schedule</a>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="page-title">Changelog</h2>
+    <p class="page-subtitle">
+      All notable changes to the CVCC Course Schedule application. &nbsp;|&nbsp;
+      <a href="feed.xml">Subscribe via RSS</a>
+    </p>
+
+    <a href="feed.xml" class="rss-link">
+      <span class="rss-icon">&#x25A3;</span> RSS Feed &mdash; subscribe to get notified of updates
+    </a>
+
+    <!-- ─────────────────────────────────────────── v2.4.1 ── -->
+    <div class="version-group" id="v2.4.1">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge patch">v2.4.1</span>
+            <span class="version-title">Search performance fix for large merged terms</span>
+          </div>
+          <span class="version-date">April 30, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-fix">Fix</span>
+              Search box now uses a 250ms debounce — table re-renders once after you stop typing instead of on every keystroke, resolving stale results when searching across 1,000+ courses in All Campuses merged terms.
+            </li>
+            <li>
+              <span class="change-tag tag-perf">Perf</span>
+              Filter badge count updates immediately while typing; the table waits for the debounce to complete.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v2.4.0 ── -->
+    <div class="version-group" id="v2.4.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge">v2.4.0</span>
+            <span class="version-title">All Campuses merged term</span>
+          </div>
+          <span class="version-date">April 29, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-new">New</span>
+              When multiple Curriculum JSON files share the same semester (e.g. Main Campus + ATEC for Fall 2026), a synthetic <strong>◆ Fall 2026 — All Campuses (Curriculum)</strong> option is automatically created and selected by default.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Both campus files are fetched in parallel via <code>Promise.all</code> and merged into a single unified course list, so all filters and search work across campuses simultaneously.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Merged options use a ◆ diamond prefix so they are visually distinct from single-campus terms in the dropdown.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v2.3.0 ── -->
+    <div class="version-group" id="v2.3.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge">v2.3.0</span>
+            <span class="version-title">Filter bar &amp; header compaction</span>
+          </div>
+          <span class="version-date">April 29, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Filter bar collapses to a single row with an animated expand/collapse toggle; an active-filter count badge appears when filters are set.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Delivery and Status dropdowns right-sized; Search, Days, and Time of Day merged onto one row.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Header tightened: smaller logo, Last Updated and action buttons consolidated into a single inline meta row, left/right sides vertically centered.
+            </li>
+            <li>
+              <span class="change-tag tag-fix">Fix</span>
+              Location column now shows the correct campus name (e.g. Advanced Technology Education Center) when <code>secBldgmv</code> is "TBD" by falling back to the <code>secLocation</code> campus code.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v2.2.0 ── -->
+    <div class="version-group" id="v2.2.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge">v2.2.0</span>
+            <span class="version-title">CE features, Time of Day filter, Important Dates</span>
+          </div>
+          <span class="version-date">April 29, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-new">New</span>
+              <strong>Time of Day</strong> filter: Morning (before noon), Afternoon (noon–5 PM), Evening (after 5 PM). Online courses always pass through; courses with no recorded times pass through as well.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              CE table layout restored with Contact Hours, Tuition &amp; Other Fees columns, and a Register button that links to the external registration URL.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Important Dates modal: click "Important dates" on any section to view add/drop, refund, and withdrawal deadlines.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Section notes use an animated expand/collapse with smooth max-height transition.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v2.1.0 ── -->
+    <div class="version-group" id="v2.1.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge">v2.1.0</span>
+            <span class="version-title">UI polish &amp; font update</span>
+          </div>
+          <span class="version-date">April 21, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Switched body font to <strong>Inter</strong> for improved readability.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Delivery method tag renamed from "Traditional" to "Blended".
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Last Updated timestamp moved under the logo; course counter enlarged; globe icon removed from counter.
+            </li>
+            <li>
+              <span class="change-tag tag-fix">Fix</span>
+              Search box placeholder text now visible in dark mode.
+            </li>
+            <li>
+              <span class="change-tag tag-ui">UI</span>
+              Term names rewritten for clarity (e.g. "Flex" → "Late Start").
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v2.0.0 ── -->
+    <div class="version-group" id="v2.0.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge major">v2.0.0</span>
+            <span class="version-title">Vue 3 SPA rewrite</span>
+          </div>
+          <span class="version-date">April 20, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-break">Major</span>
+              Complete rewrite as a <strong>Vue 3 single-page application</strong>. All course data is loaded dynamically from JSON; no page reload required when switching terms.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              <strong>Dark mode</strong> toggle persists for the session.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              <strong>Print / PDF</strong> panel with options to include or exclude notes and important dates.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Open/Closed course counters displayed as colored pill badges in the header.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Full-viewport layout: table fills remaining screen height with independent scroll; header and footer are pinned.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Delivery, Location, Status, Day-of-week, and Search filters — all reactive, no submit button needed.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Term dropdown auto-selects the nearest upcoming term on load.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              JSON file list loaded dynamically from <code>get_schedules.php</code> so no code changes are needed when new term files are added.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────── v1.0.0 ── -->
+    <div class="version-group" id="v1.0.0">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge major">v1.0.0</span>
+            <span class="version-title">Initial launch</span>
+          </div>
+          <span class="version-date">June 17, 2025</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Initial public release of the CVCC Course Schedule web application.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              HTML table view of course sections with CVCC branding, alternating row colors, and clickable links.
+            </li>
+            <li>
+              <span class="change-tag tag-new">New</span>
+              Delivery method detection, instructor column, remaining seats display, and section notes.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    Designed and developed by CVCC Technology &amp; Innovation &nbsp;&bull;&nbsp;
+    <a href="index.html">Course Schedule</a> &nbsp;&bull;&nbsp;
+    <a href="feed.xml">RSS Feed</a>
+  </footer>
+
+</body>
+</html>
