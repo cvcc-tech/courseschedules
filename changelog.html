@@ -191,6 +191,27 @@
       <span class="rss-icon">&#x25A3;</span> RSS Feed &mdash; subscribe to get notified of updates
     </a>
 
+    <!-- ─────────────────────────────────────────── v2.4.2 ── -->
+    <div class="version-group" id="v2.4.2">
+      <div class="version-card">
+        <div class="version-header">
+          <div>
+            <span class="version-badge patch">v2.4.2</span>
+            <span class="version-title">Deduplicate courses in merged All Campuses terms</span>
+          </div>
+          <span class="version-date">May 5, 2026</span>
+        </div>
+        <div class="version-body">
+          <ul class="change-list">
+            <li>
+              <span class="change-tag tag-fix">Fix</span>
+              Online course sections that appear in both campus JSON files (e.g. Main Campus and ATEC) were being displayed twice when an <strong>◆ All Campuses</strong> merged term was selected. Courses are now deduplicated by section ID after the parallel fetch, so each section appears exactly once.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <!-- ─────────────────────────────────────────── v2.4.1 ── -->
     <div class="version-group" id="v2.4.1">
       <div class="version-card">

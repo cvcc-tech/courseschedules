@@ -8,7 +8,19 @@
     <copyright>Catawba Valley Community College</copyright>
     <managingEditor>technology@cvcc.edu (CVCC Technology &amp; Innovation)</managingEditor>
     <atom:link href="https://cvcc.edu/schedules/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>v2.4.2 – Deduplicate courses in merged All Campuses terms</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.4.2</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.4.2</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Online course sections that appear in both campus JSON files were being displayed
+        twice when an ◆ All Campuses merged term was selected. Courses are now deduplicated
+        by section ID after the parallel fetch, so each section appears exactly once.</p>
+      ]]></description>
+    </item>
 
     <item>
       <title>v2.4.1 – Search performance fix for large merged terms</title>
