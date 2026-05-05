@@ -1219,7 +1219,15 @@
               allData.push(...data);
             }
 
-            this.courses = allData.map(c => this.prepareCourse(c));
+            // Deduplicate by section ID (online courses appear in both campus files)
+            const seenIds = new Set();
+            const uniqueData = allData.filter(c => {
+              const key = String(c.id ?? c.secID ?? '');
+              if (!key || seenIds.has(key)) return false;
+              seenIds.add(key);
+              return true;
+            });
+            this.courses = uniqueData.map(c => this.prepareCourse(c));
             const dataDate = this.pickLastUpdatedFromData(allData);
             const chosen = dataDate || latestHeaderDate;
             if (chosen) {
