@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CVCC Course Schedule – Changelog</title>
+    <link>https://cvcc.edu/schedules/</link>
+    <description>Version history and release notes for the CVCC Course Schedule application.</description>
+    <language>en-us</language>
+    <copyright>Catawba Valley Community College</copyright>
+    <managingEditor>technology@cvcc.edu (CVCC Technology &amp; Innovation)</managingEditor>
+    <atom:link href="https://cvcc.edu/schedules/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>v2.4.2 – Deduplicate courses in merged All Campuses terms</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.4.2</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.4.2</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Online course sections that appear in both campus JSON files were being displayed
+        twice when an ◆ All Campuses merged term was selected. Courses are now deduplicated
+        by section ID after the parallel fetch, so each section appears exactly once.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.4.1 – Search performance fix for large merged terms</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.4.1</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.4.1</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Search box now uses a 250ms debounce — the table re-renders once after you stop
+        typing instead of on every keystroke, resolving stale results when searching across
+        1,000+ courses in All Campuses merged terms. The filter badge count still updates
+        immediately while typing.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.4.0 – All Campuses merged term (◆)</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.4.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.4.0</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>When multiple Curriculum JSON files share the same semester (e.g. Main Campus + ATEC
+        for Fall 2026), a synthetic <strong>◆ Fall 2026 — All Campuses (Curriculum)</strong>
+        option is automatically created and selected by default. Both campus files are fetched
+        in parallel and merged into a single unified course list so all filters and search work
+        across campuses simultaneously. Merged options use a ◆ diamond prefix to distinguish
+        them from single-campus terms.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.3.0 – Filter bar &amp; header compaction</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.3.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.3.0</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Filter bar collapses to a single row with an animated expand/collapse toggle and
+        an active-filter count badge. Delivery and Status dropdowns right-sized; Search, Days,
+        and Time of Day merged onto one row. Header tightened with smaller logo and consolidated
+        meta row. Fixed location display for courses whose building code is "TBD" — now shows
+        the correct campus name from the secLocation field.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.2.0 – CE features, Time of Day filter, Important Dates</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.2.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.2.0</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>New Time of Day filter: Morning (before noon), Afternoon (noon–5 PM), Evening
+        (after 5 PM). CE table layout restored with Contact Hours, Tuition &amp; Other Fees
+        columns, and a Register button. Important Dates modal shows add/drop, refund, and
+        withdrawal deadlines per section. Section notes use an animated expand/collapse.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.1.0 – UI polish &amp; font update</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.1.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.1.0</guid>
+      <pubDate>Mon, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Switched to Inter font. Delivery tag renamed from "Traditional" to "Blended".
+        Last Updated timestamp moved under logo. Fixed search placeholder color in dark mode.
+        Term names rewritten for clarity (Flex → Late Start).</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v2.0.0 – Vue 3 SPA rewrite</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v2.0.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v2.0.0</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Complete rewrite as a Vue 3 single-page application. Features: dark mode, Print/PDF
+        panel, Open/Closed pill counters, full-viewport pinned layout, reactive filters
+        (Delivery, Location, Status, Days, Search), auto-select of nearest upcoming term,
+        and dynamic JSON file loading from get_schedules.php.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>v1.0.0 – Initial launch</title>
+      <link>https://cvcc.edu/schedules/changelog.html#v1.0.0</link>
+      <guid isPermaLink="true">https://cvcc.edu/schedules/changelog.html#v1.0.0</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>Initial public release. HTML table view of course sections with CVCC branding,
+        alternating row colors, clickable links, delivery method detection, instructor column,
+        remaining seats display, and section notes.</p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>

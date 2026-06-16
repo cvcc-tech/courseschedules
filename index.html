@@ -6,75 +6,130 @@
   <title>CVCC Course Schedule</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
   <style>
     :root {
-      --cvcc-primary: #BA0C2F; /* Red Hawk Red */
-      --cvcc-secondary: #505759; /* CVCC Classic Grey */
-      --cvcc-red-text: #A6192E; /* CVCC Classic Red, used for general red text */
-      --cvcc-be-blue: #00a3e0; /* PANTONE 299 BE Blue */
+      --cvcc-primary: #BA0C2F;
+      --cvcc-secondary: #505759;
+      --cvcc-red-text: #A6192E;
+      --cvcc-be-blue: #00a3e0;
     }
+    html, body { height: 100%; }
     body {
       background-color: #eaeaea;
       color: #333;
-      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex; /* Flex container for sticky footer */
-      flex-direction: column; /* Stack children vertically */
-      min-height: 100vh; /* Ensure body takes at least full viewport height */
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
     }
     #app {
-      flex-grow: 1; /* Allow main app content to grow and push footer down */
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-height: 0;
+      padding-bottom: 0.5rem !important;
     }
-    /* Header area for logo and title */
     .app-header {
       display: flex;
-      justify-content: space-between; /* Pushes items to opposite ends */
-      align-items: flex-end; /* ALIGNS ITEMS TO THE BOTTOM */
-      margin-bottom: 0.5rem; /* Reduced margin for timestamp */
-      padding-left: 1rem; /* Added padding for visual alignment with content */
-      padding-right: 1rem; /* Added padding for visual alignment with content */
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      flex-shrink: 0;
     }
-    h1 {
-      color: var(--cvcc-primary);
-      font-weight: 700;
-      margin-bottom: 0; /* Remove default bottom margin */
+    .header-left {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
     }
-    .logo {
-      max-width: 200px; /* Reduced logo size */
-      height: auto;
+    .header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.25rem;
     }
-    .last-updated { /* Added styling for timestamp */
-      text-align: right;
-      font-size: 0.9em;
-      color: #555;
-      margin-bottom: 1rem;
-      padding-right: 1rem; /* Align with content padding */
+    /* Last Updated + action buttons share one row */
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
+    .last-updated { font-size: 0.78em; color: #555; white-space: nowrap; }
+    h1 { color: var(--cvcc-primary); font-weight: 700; margin-bottom: 0; line-height: 1.1; font-size: 1.9rem; }
+    .logo { max-width: 150px; height: auto; }
+    body.dark-mode .last-updated { color: #999; }
+
     .filter-bar {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       background: white;
       border: 1px solid #ccc;
       border-radius: 8px;
-      padding: 1rem;
+      padding: 0.5rem 0.75rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      flex-shrink: 0;
     }
-    /* Style for filter/search bar labels */
-    .filter-bar .form-label {
-      font-weight: 600; /* Make labels bold */
-      color: var(--cvcc-secondary); /* Use a CVCC grey for contrast */
+    .filter-bar .form-label { font-weight: 600; color: var(--cvcc-secondary); margin-bottom: 0.2rem; font-size: 0.82em; }
+
+    /* Collapsible filter section */
+    .filter-expandable {
+      overflow: hidden;
+      transition: max-height 0.25s ease, opacity 0.2s ease;
     }
+    .filter-expandable.expanded  { max-height: 500px; opacity: 1; }
+    .filter-expandable.collapsed { max-height: 0;     opacity: 0; }
+
+    /* Filter toggle button */
+    .btn-filter-toggle {
+      background: none;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 3px 10px;
+      cursor: pointer;
+      font-size: 0.82em;
+      font-weight: 600;
+      color: var(--cvcc-secondary);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+    }
+    .btn-filter-toggle:hover { background: #f0f0f0; }
+    .btn-filter-toggle .material-symbols-outlined { font-size: 1em; }
+
+    /* Active filter count badge */
+    .filter-badge {
+      display: inline-block;
+      background: var(--cvcc-primary);
+      color: white;
+      border-radius: 10px;
+      font-size: 0.78em;
+      font-weight: 700;
+      padding: 0 6px;
+      line-height: 1.4;
+      min-width: 18px;
+      text-align: center;
+    }
+
+    body.dark-mode .btn-filter-toggle { border-color: #555; color: #bbb; }
+    body.dark-mode .btn-filter-toggle:hover { background: #333; }
+
     .table-wrapper {
-      max-height: 70vh;
+      flex: 1;
+      min-height: 0;
       overflow-y: auto;
+      overflow-x: auto;
       background: white;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
-    .table {
-      width: 100%; /* Make the table itself full width of its parent */
-      margin-bottom: 0; /* Remove default bottom margin */
-    }
+    .table { width: 100%; margin-bottom: 0; }
     thead th {
       position: sticky;
       top: 0;
@@ -83,86 +138,249 @@
       z-index: 2;
       font-weight: 600;
     }
-    th.section-col { min-width: 140px; }
-    td.notes-col {
-      max-width: 400px;
-      white-space: normal;
-      word-wrap: break-word;
+    th.section-col { min-width: 160px; }
+    th.title-col   { min-width: 200px; }
+    th.id-col      { min-width: 80px; }
+    td.notes-col   { width: 11rem; }
+
+    /* Delivery badges */
+    .delivery-badge {
+      display: inline-block;
+      font-size: 0.7em;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
-    /* Material Icon Styling */
-    .online-icon {
-      font-family: 'Material Symbols Outlined'; /* Changed font-family */
-      color: var(--cvcc-be-blue); /* Apply the blue color */
-      font-size: 1.2em; /* Slightly larger than default text */
-      vertical-align: middle; /* Align with text baseline */
-      line-height: 1; /* Ensure it doesn't add extra line height */
-      display: inline-block; /* Helps with alignment */
-      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; /* Default Material Symbols settings */
+    .delivery-online  { background: #e0f3fc; color: #0071a4; }
+    .delivery-hybrid  { background: #ede9f8; color: #5f3fa8; }
+    .delivery-blended { background: #f0f0f0; color: #444; }
+
+    /* Notes rows */
+    .notes-row > td { background: #fffdf7 !important; white-space: normal !important; overflow: visible !important; }
+    .notes-rich p { margin: 0 0 .5rem 0; }
+    .notes-container { overflow: hidden; transition: max-height .18s ease; will-change: max-height; }
+    .notes-collapsing { max-height: 0 !important; }
+    td.notes-col > * + * { margin-top: 0.375rem; }
+
+    /* Important Dates modal */
+    .overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.35);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 1050;
+      opacity: 0; pointer-events: none;
+      transition: opacity .16s ease;
+    }
+    .overlay.show { opacity: 1; pointer-events: auto; }
+    .modal-card {
+      background: #fff;
+      width: min(740px, 92vw);
+      max-height: min(80vh, 900px);
+      overflow: auto;
+      border-radius: 12px;
+      box-shadow: 0 18px 40px rgba(0,0,0,.25);
+      transform: translateY(8px) scale(.985);
+      transition: transform .16s ease;
+    }
+    .overlay.show .modal-card { transform: translateY(0) scale(1); }
+    .modal-header { padding: .85rem 1rem; border-bottom: 1px solid #eee; position: relative; }
+    .modal-title  { font-weight: 700; margin: 0; color: #222; padding-right: 2.25rem; }
+    .modal-header .btn-close { position: absolute; right: .75rem; top: .6rem; }
+    .modal-body   { padding: 1rem 1.25rem; }
+    .modal-footer { padding: .75rem 1rem; border-top: 1px solid #eee; }
+    .dates-list   { padding-left: 1.25rem; margin: 0; }
+    .dates-list li { margin: .25rem 0; }
+
+    /* Result counter */
+    .result-counter {
+      font-size: 1em; color: #555;
+      display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+    }
+    .result-counter .count-open {
+      background: #d4edda; color: #155724;
+      font-weight: 600; padding: 1px 10px; border-radius: 12px; font-size: 0.9em;
+    }
+    .result-counter .count-closed {
+      background: #f8d7da; color: #721c24;
+      font-weight: 600; padding: 1px 10px; border-radius: 12px; font-size: 0.9em;
     }
 
-    /* Footer Styling */
-    .app-footer {
-      background-color: var(--cvcc-primary);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem; /* Space above footer */
-    }
+    .alert { flex-shrink: 0; }
+    .print-panel-wrap { flex-shrink: 0; }
 
-    /* Text color for links */
-    a {
-      color: var(--cvcc-red-text);
-      text-decoration: underline;
+    /* Header buttons */
+    .btn-icon {
+      background: none; border: 1px solid #ccc; border-radius: 6px;
+      padding: 4px 10px; cursor: pointer; font-size: 0.85em;
+      display: flex; align-items: center; gap: 4px; white-space: nowrap;
+    }
+    .btn-icon:hover { background: #f0f0f0; }
+    .btn-icon .material-symbols-outlined { font-size: 1.1em; }
+
+    /* Print panel */
+    .print-panel {
+      background: #f8f8f8; border: 1px solid #ddd; border-radius: 6px;
+      padding: 0.75rem 1rem; margin-top: 0.4rem; font-size: 0.85em;
+    }
+    .print-panel .note { color: #888; font-style: italic; margin-bottom: 0.5rem; }
+
+    /* === DARK MODE === */
+    body.dark-mode { background-color: #1a1a1a; color: #e0e0e0; }
+    body.dark-mode .filter-bar { background: #2a2a2a; border-color: #444; }
+    body.dark-mode .filter-bar .form-label { color: #bbb; }
+    body.dark-mode .form-select,
+    body.dark-mode .form-control { background-color: #333; border-color: #555; color: #e0e0e0; }
+    body.dark-mode .form-control::placeholder { color: #888; }
+    body.dark-mode .table-wrapper { background: #2a2a2a; }
+    body.dark-mode .table { color: #e0e0e0; --bs-table-bg: #2a2a2a; --bs-table-striped-bg: #333; --bs-table-hover-bg: #363636; }
+    body.dark-mode .table td, body.dark-mode .table th { border-color: #444; }
+    body.dark-mode .table > tbody > tr > td,
+    body.dark-mode .table > tbody > tr > th { background-color: #2a2a2a !important; border-color: #444 !important; color: #e0e0e0 !important; }
+    body.dark-mode .table-bordered > :not(caption) > * { border-color: #444 !important; }
+    body.dark-mode .notes-row > td { background: #252015 !important; }
+    body.dark-mode .alert-info    { background: #1e3a4a; color: #7dd3fc; border-color: #2a5a70; }
+    body.dark-mode .alert-warning { background: #3a2a10; color: #fbbf24; border-color: #5a4010; }
+    body.dark-mode .delivery-online  { background: #0c2d3e; color: #7dd3fc; }
+    body.dark-mode .delivery-hybrid  { background: #1e133a; color: #c4b5fd; }
+    body.dark-mode .delivery-blended { background: #2d2d2d; color: #bbb; border: 1px solid #555; }
+    body.dark-mode .result-counter { color: #aaa; }
+    body.dark-mode .result-counter .count-open   { background: #0d3320; color: #75e0a0; }
+    body.dark-mode .result-counter .count-closed { background: #3d0f13; color: #f1908a; }
+    body.dark-mode .btn-icon { border-color: #555; color: #e0e0e0; }
+    body.dark-mode .btn-icon:hover { background: #333; }
+    body.dark-mode .print-panel { background: #2a2a2a; border-color: #444; color: #e0e0e0; }
+    body.dark-mode .modal-card  { background: #2a2a2a; color: #e0e0e0; }
+    body.dark-mode .modal-header { border-color: #444; }
+    body.dark-mode .modal-footer { border-color: #444; }
+    body.dark-mode .modal-title  { color: #e0e0e0; }
+    body.dark-mode .btn-close    { filter: invert(1); }
+
+    @media print {
+      .filter-bar, .header-right, .app-footer, .print-panel-wrap { display: none !important; }
+      .table-wrapper { max-height: none; overflow: visible; box-shadow: none; }
+      body { background: white !important; }
+      body.dark-mode { background: white !important; color: black !important; }
+      body.dark-mode .table > tbody > tr > td,
+      body.dark-mode .table > tbody > tr > th { background-color: white !important; color: black !important; border-color: #ccc !important; }
     }
   </style>
 </head>
 <body>
   <div id="app" class="container-fluid py-4">
+    <!-- Header -->
     <div class="app-header">
-      <h1>Course Schedules</h1>
-      <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+      <div class="header-left">
+        <h1>Course Schedules</h1>
+        <div v-if="!loading && filteredCourses.length > 0" class="result-counter">
+          Showing: {{ filteredCourses.length }}
+          <span class="count-open">Open: {{ statusSummary.open }}</span>
+          <span class="count-closed">Closed: {{ statusSummary.closed }}</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <img src="CVCC_Primary_Horizontal.png" alt="CVCC Logo" class="logo">
+        <div class="header-meta">
+          <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
+          <button class="btn-icon" @click="toggleDarkMode" :title="darkMode ? 'Switch to light mode' : 'Switch to dark mode'">
+            <span class="material-symbols-outlined">{{ darkMode ? 'light_mode' : 'dark_mode' }}</span>
+            {{ darkMode ? 'Light' : 'Dark' }}
+          </button>
+          <button class="btn-icon" @click="showPrintOptions = !showPrintOptions" title="Print / PDF options">
+            <span class="material-symbols-outlined">print</span>
+            Print / PDF {{ showPrintOptions ? '▴' : '▾' }}
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="last-updated" v-if="lastUpdated">Last Updated: {{ lastUpdated }}</div>
 
-    <div class="row filter-bar">
-      <div class="col-md-3">
-        <label class="form-label">Term</label>
-        <select v-model="selectedTerm" @change="loadCourses" class="form-select">
-          <option v-for="term in termOptions" :value="term.value">{{ term.label }}</option>
-        </select>
+    <!-- Print Panel -->
+    <div class="print-panel-wrap" v-if="showPrintOptions">
+      <div class="print-panel">
+        <div class="note">Only the rows currently visible after filters/search will be printed.</div>
+        <div class="d-flex align-items-center gap-3 flex-wrap">
+          <label class="mb-0">
+            <input type="checkbox" v-model="printIncludeNotes" class="me-1"> Include all notes
+          </label>
+          <label class="mb-0" :class="{'text-muted': isCESelectedTerm}" :title="isCESelectedTerm ? 'Not available for CE/PS schedules' : ''">
+            <input type="checkbox" v-model="printIncludeDates" :disabled="isCESelectedTerm" class="me-1"> Include Important Dates
+          </label>
+          <button class="btn-icon" @click="printCurrent">
+            <span class="material-symbols-outlined">print</span> Print / PDF
+          </button>
+        </div>
       </div>
-      <div class="col-md-3">
-        <label class="form-label">Delivery Method</label>
-        <select v-model="selectedDelivery" class="form-select">
-          <option value="">All</option>
-          <option value="Online">Online</option>
-          <option value="Hybrid">Hybrid</option>
-          <option value="Traditional">Traditional</option>
-        </select>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <!-- Always-visible row: Term + toggle -->
+      <div class="row g-2 align-items-end">
+        <div class="col-md-5 col-lg-4">
+          <label class="form-label">Term</label>
+          <select v-model="selectedTerm" @change="onTermChanged" class="form-select form-select-sm">
+            <option v-for="term in termOptions" :value="term.value">{{ term.label }}</option>
+          </select>
+        </div>
+        <div class="col text-end" style="padding-bottom: 1px;">
+          <button class="btn-filter-toggle" @click="filtersExpanded = !filtersExpanded" :title="filtersExpanded ? 'Hide filters' : 'Show filters'">
+            <span class="material-symbols-outlined">tune</span>
+            Filters
+            <span v-if="activeFilterCount > 0" class="filter-badge">{{ activeFilterCount }}</span>
+            {{ filtersExpanded ? '▴' : '▾' }}
+          </button>
+        </div>
       </div>
-      <div class="col-md-3">
-        <label class="form-label">Location</label>
-        <select v-model="selectedLocation" class="form-select">
-          <option value="">All</option>
-          <option v-for="location in uniqueLocations" :value="location.value">{{ location.label }}</option>
-        </select>
-      </div>
-      <div class="col-md-3">
-        <label class="form-label">Status</label>
-        <select v-model="selectedStatus" class="form-select">
-          <option value="">All</option>
-          <option v-for="status in uniqueStatuses" :value="status">{{ status }}</option>
-        </select>
-      </div>
-      <div class="col-md-6 mt-3">
-        <label class="form-label">Search</label>
-        <input v-model="searchQuery" class="form-control" placeholder="Search title or section">
-      </div>
-      <div class="col-md-6 mt-3">
-        <label class="form-label">Days</label><br>
-        <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
-          <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
-          <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
+
+      <!-- Collapsible filters -->
+      <div :class="['filter-expandable', filtersExpanded ? 'expanded' : 'collapsed']">
+        <div class="row g-2 mt-1">
+          <div class="col-md-2">
+            <label class="form-label">Delivery</label>
+            <select v-model="selectedDelivery" class="form-select form-select-sm">
+              <option value="">All</option>
+              <option value="Online">Online</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Blended">Blended</option>
+            </select>
+          </div>
+          <div class="col-md-5">
+            <label class="form-label">Location</label>
+            <select v-model="selectedLocation" class="form-select form-select-sm">
+              <option value="">All</option>
+              <option v-for="location in uniqueLocations" :value="location.value">{{ location.label }}</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Status</label>
+            <select v-model="selectedStatus" class="form-select form-select-sm">
+              <option value="">All</option>
+              <option v-for="status in uniqueStatuses" :value="status">{{ status }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="row g-2 mt-1">
+          <div class="col-md-3">
+            <label class="form-label">Search</label>
+            <input v-model="searchInput" @input="onSearchInput" class="form-control form-control-sm" placeholder="Search title or section">
+          </div>
+          <div class="col-md-4">
+            <label class="form-label d-block">Days</label>
+            <div class="form-check form-check-inline" v-for="day in allDaysOfWeek" :key="day">
+              <input class="form-check-input" type="checkbox" :id="'day-' + day" :value="day" v-model="selectedDays">
+              <label class="form-check-label" :for="'day-' + day">{{ day }}</label>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <label class="form-label d-block">Time of Day</label>
+            <div class="form-check form-check-inline" v-for="bucket in timeBuckets" :key="bucket.value">
+              <input class="form-check-input" type="checkbox" :id="'time-' + bucket.value" :value="bucket.value" v-model="selectedTimes">
+              <label class="form-check-label" :for="'time-' + bucket.value">
+                {{ bucket.label }} <small class="text-muted">{{ bucket.hint }}</small>
+              </label>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -170,54 +388,219 @@
     <div v-if="loading" class="alert alert-info">Loading courses...</div>
     <div v-else-if="filteredCourses.length === 0 && !loading" class="alert alert-warning">No courses found matching your criteria.</div>
 
+    <!-- Table -->
     <div class="table-wrapper">
       <table class="table table-bordered">
-        <thead>
+        <!-- PUBLIC SERVICES thead -->
+        <thead v-if="isPublicServicesSelectedTerm">
           <tr>
-            <th scope="col" class="section-col">Section</th>
-            <th scope="col">Title</th>
-            <th scope="col">Credits</th>
-            <th scope="col">Delivery</th>
-            <th scope="col">Days</th>
-            <th scope="col">Time</th>
-            <th scope="col">Location</th>
-            <th scope="col">Start</th>
-            <th scope="col">End</th>
-            <th scope="col">Seats Available</th>
-            <th scope="col">Instructor</th>
-            <th scope="col">Status</th>
-            <th scope="col">Description/Notes</th>
+            <th class="id-col">ID</th>
+            <th class="section-col">Section</th>
+            <th class="title-col">Title</th>
+            <th>Amount</th>
+            <th>Delivery</th>
+            <th>Days</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Instructor</th>
+            <th>Status</th>
+            <th>Notes</th>
           </tr>
         </thead>
-        <tbody>
-          <tr v-for="(course, rowIndex) in filteredCourses" :key="course.secsynonym">
-            <td class="section-col">{{ course.secname }}</td>
-            <td>{{ course.secshorttitle }}</td>
-            <td>{{ course.secmincred }}</td>
-            <td>{{ getDeliveryCategoryFromSection(course.secname) }}</td>
-            <td v-html="safeFormat(formatMeetingDays, course.secmeetingdays, course.xsecRoom, course.secBldgmv)"></td>
-            <td v-html="safeFormat(formatMeetingTimes, course.secStartTime, course.secendtime, course.xsecRoom, course.secBldgmv)"></td>
-            <td v-html="safeFormat(formatLocationDisplay, course.xsecRoom, course.secBldgmv)"></td>
-            <td>{{ course.secstartdate }}</td>
-            <td>{{ course.secenddate }}</td>
-            <td v-html="safeFormat(formatSeatsDisplay, course.xcrssecseatavail, course.xcrssecused)"></td>
-            <td>{{ formatInstructor(course.xcrssecfacultyxname) }}</td>
-            <td>{{ course.status }}</td>
-            <td class="notes-col" v-html="safeFormat(formatNotes, course.secprintedcomments)"></td>
+
+        <!-- CE thead -->
+        <thead v-else-if="isCESelectedTerm">
+          <tr>
+            <th class="id-col">ID</th>
+            <th class="section-col">Section</th>
+            <th class="title-col">Title</th>
+            <th>Contact Hours</th>
+            <th>Tuition / Other Fees</th>
+            <th>Days</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Seats Avail</th>
+            <th>Instructor</th>
+            <th>Status</th>
+            <th>Register / Notes</th>
           </tr>
+        </thead>
+
+        <!-- Curriculum thead -->
+        <thead v-else>
+          <tr>
+            <th class="id-col">ID</th>
+            <th class="section-col">Section</th>
+            <th class="title-col">Title</th>
+            <th>Credits</th>
+            <th>Delivery</th>
+            <th>Days</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Seats Available</th>
+            <th>Instructor</th>
+            <th>Status</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- PUBLIC SERVICES rows -->
+          <template v-if="isPublicServicesSelectedTerm" v-for="course in filteredCourses" :key="course._id">
+            <tr>
+              <td>{{ course.id }}</td>
+              <td class="section-col">{{ course._psSection }}</td>
+              <td class="title-col">{{ course._psTitle }}</td>
+              <td v-html="course._amountPSHtml"></td>
+              <td>
+                <span v-if="course._deliveryCategory" class="delivery-badge" :class="'delivery-' + course._deliveryCategory.toLowerCase()">{{ course._deliveryCategory }}</span>
+              </td>
+              <td v-html="course._meetingDaysHtml"></td>
+              <td v-html="course._meetingTimesHtml"></td>
+              <td v-html="course._locationHtml"></td>
+              <td>{{ course.secstartdate }}</td>
+              <td>{{ course.secenddate }}</td>
+              <td>{{ course._instructorDisplay }}</td>
+              <td>{{ course._statusDisplay }}</td>
+              <td class="notes-col">
+                <div class="d-grid gap-1">
+                  <button class="btn btn-sm btn-outline-secondary"
+                          @click.stop="toggleNotes(course)"
+                          :disabled="!course._hasNotes">
+                    {{ isNotesOpen(course) ? 'Hide notes' : 'Show notes' }}
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr v-if="isNotesOpen(course)" class="notes-row">
+              <td :colspan="notesColspan">
+                <div class="notes-container" :ref="setNotesRef(course._id)">
+                  <div class="notes-rich" v-html="course._notesHtml"></div>
+                </div>
+              </td>
+            </tr>
+          </template>
+
+          <!-- CE rows -->
+          <template v-else-if="isCESelectedTerm" v-for="course in filteredCourses" :key="course._id">
+            <tr>
+              <td>{{ course.id }}</td>
+              <td class="section-col">{{ course.secname }}</td>
+              <td class="title-col">{{ course.secshorttitle }}</td>
+              <td>{{ course._contactHours }}</td>
+              <td v-html="course._tuitionFeesHtml"></td>
+              <td v-html="course._meetingDaysHtml"></td>
+              <td v-html="course._meetingTimesHtml"></td>
+              <td v-html="course._locationHtml"></td>
+              <td>{{ course.secstartdate }}</td>
+              <td>{{ course.secenddate }}</td>
+              <td v-html="course._seatsHtml"></td>
+              <td>{{ course._instructorDisplay }}</td>
+              <td>{{ course._statusDisplay }}</td>
+              <td class="notes-col">
+                <div class="d-grid gap-1">
+                  <span v-if="course._registerBtnHtml" v-html="course._registerBtnHtml"></span>
+                  <button class="btn btn-sm btn-outline-secondary"
+                          @click.stop="toggleNotes(course)"
+                          :disabled="!course._hasNotes">
+                    {{ isNotesOpen(course) ? 'Hide notes' : 'Show notes' }}
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr v-if="isNotesOpen(course)" class="notes-row">
+              <td :colspan="notesColspan">
+                <div class="notes-container" :ref="setNotesRef(course._id)">
+                  <div class="notes-rich" v-html="course._notesHtml"></div>
+                </div>
+              </td>
+            </tr>
+          </template>
+
+          <!-- Curriculum rows -->
+          <template v-else v-for="course in filteredCourses" :key="course._id">
+            <tr>
+              <td>{{ course.id }}</td>
+              <td class="section-col">{{ course.secname }}</td>
+              <td class="title-col">{{ course.secshorttitle }}</td>
+              <td>{{ course._credits }}</td>
+              <td>
+                <span v-if="course._deliveryCategory" class="delivery-badge" :class="'delivery-' + course._deliveryCategory.toLowerCase()">{{ course._deliveryCategory }}</span>
+              </td>
+              <td v-html="course._meetingDaysHtml"></td>
+              <td v-html="course._meetingTimesHtml"></td>
+              <td v-html="course._locationHtml"></td>
+              <td>{{ course.secstartdate }}</td>
+              <td>{{ course.secenddate }}</td>
+              <td v-html="course._seatsHtml"></td>
+              <td>{{ course._instructorDisplay }}</td>
+              <td>{{ course._statusDisplay }}</td>
+              <td class="notes-col">
+                <div class="d-grid gap-1">
+                  <button class="btn btn-sm btn-outline-secondary"
+                          @click.stop="toggleNotes(course)"
+                          :disabled="!course._hasNotes">
+                    {{ isNotesOpen(course) ? 'Hide notes' : 'Show notes' }}
+                  </button>
+                  <button class="btn btn-sm btn-outline-secondary"
+                          @click.stop="openDatesModal(course)"
+                          :disabled="!maybeHasImpDates(course)">
+                    Important dates
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr v-if="isNotesOpen(course)" class="notes-row">
+              <td :colspan="notesColspan">
+                <div class="notes-container" :ref="setNotesRef(course._id)">
+                  <div class="notes-rich" v-html="course._notesHtml"></div>
+                </div>
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
     </div>
+
+    <!-- Important Dates Modal -->
+    <div class="overlay" :class="{show: datesModalOpen}" @click.self="closeDatesModal" aria-modal="true" role="dialog">
+      <div class="modal-card" role="document">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Important Dates &mdash; {{ modalCourse && modalCourse.secname }} &middot; {{ modalCourse && modalCourse.secshorttitle }}
+          </h5>
+          <button class="btn-close" aria-label="Close" @click="closeDatesModal"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="dates-list" v-if="modalDates && modalDates.length">
+            <li v-for="(d, i) in modalDates" :key="i"><strong class="me-2">{{ d.date }}</strong>{{ d.label }}</li>
+          </ul>
+          <div v-else class="text-muted">No dates available for this section.</div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" @click="closeDatesModal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <footer class="app-footer">
+  <footer class="app-footer" style="background-color: var(--cvcc-primary); color: white; text-align: center; padding: 0.6rem 1rem; flex-shrink: 0;">
     <div class="container-fluid">
-      Designed and developed by CVCC Technology & Innovation
+      Designed and developed by CVCC Technology &amp; Innovation
+      &nbsp;&bull;&nbsp;
+      <a href="changelog.html" style="color:rgba(255,255,255,.75); text-decoration:none; font-size:.8em;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,.75)'">Changelog</a>
     </div>
   </footer>
 
   <script>
-    const { createApp } = Vue;
+    const { createApp, nextTick } = Vue;
+
     createApp({
       data() {
         return {
@@ -225,380 +608,935 @@
           selectedDelivery: '',
           selectedLocation: '',
           selectedStatus: '',
+          searchInput: '',
           searchQuery: '',
+          _searchDebounce: null,
           selectedDays: [],
           allDaysOfWeek: ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'],
+          selectedTimes: [],
+          timeBuckets: [
+            { value: 'Morning',   label: 'Morning',   hint: '(before noon)' },
+            { value: 'Afternoon', label: 'Afternoon', hint: '(noon–5pm)'    },
+            { value: 'Evening',   label: 'Evening',   hint: '(after 5pm)'   }
+          ],
           selectedTerm: '',
           termOptions: [],
           lastUpdated: '',
-          jsonFilesToLoad: [
-            '2025summer.json',
-            '2025faintercession.json',
-          ],
-          loading: false
-        }
+          jsonFilesToLoad: ['2025summer.json', '2025faintercession.json'],
+          mergedTermFiles: {},  // populated by loadTermOptions; maps "merged:Fall-2026" → [file1, file2, ...]
+          loading: false,
+          darkMode: false,
+          showPrintOptions: false,
+          filtersExpanded: true,
+          printIncludeNotes: true,
+          printIncludeDates: false,
+          // Notes expand/collapse
+          openNotesById: {},
+          notesRefs: {},
+          oneOpenNotesAtATime: true,
+          // Important dates modal
+          importantBySection: {},
+          datesModalOpen: false,
+          modalCourse: null,
+          modalDates: []
+        };
       },
+
       computed: {
+        activeFilterCount() {
+          let n = 0;
+          if (this.selectedDelivery)       n++;
+          if (this.selectedLocation)       n++;
+          if (this.selectedStatus)         n++;
+          if (this.searchInput)            n++;
+          if (this.selectedDays.length)    n++;
+          if (this.selectedTimes.length)   n++;
+          return n;
+        },
+        isCESelectedTerm() {
+          const t = this.termOptions.find(o => o.value === this.selectedTerm);
+          if (!t) return false;
+          return /Continuing\s*Education/i.test(t.label) || /Public\s*Services/i.test(t.label);
+        },
+        isPublicServicesSelectedTerm() {
+          const t = this.termOptions.find(o => o.value === this.selectedTerm);
+          if (!t) return false;
+          return /Public Services/i.test(t.label);
+        },
+        notesColspan() {
+          // PS: 13 columns, CE: 14 columns, Curriculum: 14 columns
+          return this.isPublicServicesSelectedTerm ? 13 : 14;
+        },
+        impDatesSeason() {
+          const item = this.termOptions.find(o => o.value === this.selectedTerm);
+          const label = item ? (item.label || '') : '';
+          const m = label.match(/^\s*(Spring|Summer|Fall)/i);
+          return m ? (m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase()) : '';
+        },
         filteredCourses() {
           try {
             return this.courses.filter(c => {
-              const deliveryCategory = this.getDeliveryCategoryFromSection(c.secname);
-              const matchesDelivery = !this.selectedDelivery || this.selectedDelivery === deliveryCategory;
+              const matchesDelivery = !this.selectedDelivery || c._deliveryCategory === this.selectedDelivery;
 
-              const courseBuildingCode = (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) ? c.secBldgmv[0] : '';
-              const matchesLocation = !this.selectedLocation || courseBuildingCode === this.selectedLocation;
+              const locCode = c._locCode || (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0 ? c.secBldgmv[0] : '');
+              const matchesLocation = !this.selectedLocation || locCode === this.selectedLocation;
 
-              const matchesStatus = !this.selectedStatus || (c.status === this.selectedStatus);
+              const matchesStatus = !this.selectedStatus || (c._statusDisplay === this.selectedStatus || c.status === this.selectedStatus);
 
               const search = String(this.searchQuery || '').toLowerCase();
-              const matchesSearch = !search || String(c.secname || '').toLowerCase().includes(search) || String(c.secshorttitle || '').toLowerCase().includes(search);
+              const matchesSearch = !search
+                || String(c.secname || '').toLowerCase().includes(search)
+                || String(c.secshorttitle || '').toLowerCase().includes(search)
+                || String(c.sectioncoursename || '').toLowerCase().includes(search);
 
-              const matchesDays = (() => {
-                  if (!this.selectedDays.length) return true;
+              const selected = Array.isArray(this.selectedDays) ? this.selectedDays : [];
+              let matchesDays = true;
+              if (selected.length) {
+                const set = new Set(c._meetingDays || []);
+                matchesDays = selected.some(d => set.has(d));
+              }
 
-                  const courseDaysSet = new Set();
-                  const rawDays = c.secmeetingdays;
-                  if (rawDays && Array.isArray(rawDays)) {
-                      rawDays.forEach(subArray => {
-                          if (Array.isArray(subArray)) {
-                              subArray.forEach(day => {
-                                  if (typeof day === 'string' && day.trim() !== '') {
-                                      courseDaysSet.add(day.trim());
-                                  }
-                              });
-                          }
-                      });
-                  }
-                  return this.selectedDays.some(selectedDay => courseDaysSet.has(selectedDay));
-              })();
+              let matchesTimes = true;
+              if (this.selectedTimes.length) {
+                // Online-only courses and courses with no recorded start time always pass
+                const mins = c._startMinutes || [];
+                if (c._deliveryCategory === 'Online' || mins.length === 0) {
+                  matchesTimes = true;
+                } else {
+                  matchesTimes = this.selectedTimes.some(bucket => {
+                    if (bucket === 'Morning')   return mins.some(m => m < 720);
+                    if (bucket === 'Afternoon') return mins.some(m => m >= 720 && m < 1020);
+                    if (bucket === 'Evening')   return mins.some(m => m >= 1020);
+                    return false;
+                  });
+                }
+              }
 
-
-              return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays;
+              return matchesDelivery && matchesLocation && matchesStatus && matchesSearch && matchesDays && matchesTimes;
             });
           } catch (e) {
-            console.error("Error in filteredCourses computed property:", e, "Courses data:", this.courses);
+            console.error('filteredCourses error:', e);
             return [];
           }
         },
         uniqueLocations() {
           try {
-            const buildingNameMap = {
-              'INTE': 'Internet',
-              'WW': 'West Wing',
-              'VSL': 'Red Hall',
-              'CAD': 'Cuyler A. Dunbar Building',
-              'ELS': 'Music Building',
-              'REP': 'Robert E. Paap Building',
-              'DEN': 'Dental Hygiene',
-              'WSC': 'Workforce Solutions Complex',
-              'COS': 'Cosmetology Center',
-              'HOSP': 'Hospital/Clinical Site',
-              'ATEC': 'Advanced Technology Education Center',
-              'TBD': 'To Be Determined'
+            const nameMap = {
+              'INTE': 'Internet', 'VIRT': 'Virtual', 'WW': 'West Wing',
+              'VSL': 'Red Hall', 'CAD': 'Cuyler A. Dunbar Building',
+              'ELS': 'Music Building', 'REP': 'Robert E. Paap Building',
+              'DEN': 'Dental Hygiene', 'WSC': 'Workforce Solutions Complex',
+              'COS': 'Cosmetology Center', 'HOSP': 'Hospital/Clinical Site',
+              'ATEC': 'Advanced Technology Education Center', 'TBD': 'To Be Determined',
+              'ALCO': 'Alexander County', 'EC': 'East Campus'
             };
-
-            const locationsSet = new Set();
+            const set = new Set();
             this.courses.forEach(c => {
-              if (c.secBldgmv && Array.isArray(c.secBldgmv) && c.secBldgmv.length > 0) {
-                const code = c.secBldgmv[0];
-                const fullName = buildingNameMap[code] || code;
-                locationsSet.add(JSON.stringify({
-                  label: `${fullName} (${code})`,
-                  value: code
-                }));
+              const code = c._locCode || '';
+              if (code) {
+                const full = nameMap[code] || code;
+                set.add(JSON.stringify({ label: `${full} (${code})`, value: code }));
               }
             });
-
-            const uniqueLocationsArray = Array.from(locationsSet).map(str => JSON.parse(str));
-
-            uniqueLocationsArray.sort((a, b) => {
+            return Array.from(set).map(s => JSON.parse(s)).sort((a, b) => {
               if (a.value === 'INTE') return -1;
               if (b.value === 'INTE') return 1;
               if (a.value === 'TBD') return 1;
               if (b.value === 'TBD') return -1;
               return a.label.localeCompare(b.label);
             });
-
-            return uniqueLocationsArray;
-          } catch (e) {
-            console.error("Error in uniqueLocations computed property:", e, "Courses data:", this.courses);
-            return [];
-          }
+          } catch (e) { return []; }
         },
         uniqueStatuses() {
           try {
-            const statuses = new Set();
-            this.courses.forEach(c => {
-              if (c.status) {
-                statuses.add(c.status);
-              }
-            });
-            return Array.from(statuses).sort();
-          } catch (e) {
-            console.error("Error in uniqueStatuses computed property:", e, "Courses data:", this.courses);
-            return [];
-          }
+            const s = new Set();
+            this.courses.forEach(c => { if (c._statusDisplay) s.add(c._statusDisplay); });
+            return Array.from(s).sort();
+          } catch (e) { return []; }
+        },
+        statusSummary() {
+          const out = { open: 0, closed: 0 };
+          this.filteredCourses.forEach(c => {
+            const s = String(c._statusDisplay || c.status || '').toUpperCase();
+            if (s.includes('CLOSED')) out.closed++;
+            else if (s.includes('OPEN')) out.open++;
+          });
+          return out;
         }
       },
+
       methods: {
-        isOnlineLocation(xsecRoom, secBldgmv) {
-            const roomCodes = (xsecRoom && Array.isArray(xsecRoom)) ? xsecRoom.map(r => String(r || '').trim().toLowerCase()) : [];
-            const buildingCodes = (secBldgmv && Array.isArray(secBldgmv)) ? secBldgmv.map(b => String(b || '').trim().toLowerCase()) : [];
-
-            const containsInte = buildingCodes.includes('inte');
-            const containsRnet = roomCodes.includes('rnet');
-
-            return containsInte || containsRnet;
+        // ── Helpers ──────────────────────────────────────────────────────────
+        EA(v) { return Array.isArray(v) ? v : (v == null ? [] : [v]); },
+        stripTags(raw) {
+          const d = document.createElement('div');
+          d.innerHTML = String(raw == null ? '' : raw);
+          return (d.textContent || '').replace(/\s+/g, ' ').trim();
         },
-        safeFormat(formatter, ...args) {
-            try {
-                return formatter.apply(this, args);
-            } catch (e) {
-                console.error("Formatting error:", formatter.name || 'Anonymous function', e, "Arguments:", args);
-                return '<span class="material-symbols-outlined online-icon" title="Formatting Error">error</span>';
+        linkifyText(t) {
+          const emailRx = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi;
+          const urlRx   = /(https?:\/\/[^\s<]+|www\.[^\s<]+)/gi;
+          const div = document.createElement('div');
+          div.textContent = String(t == null ? '' : t);
+          let html = div.innerHTML;
+          html = html.replace(emailRx, m => `<a href="mailto:${m}">${m}</a>`);
+          html = html.replace(urlRx, m => {
+            const href = /^https?:\/\//i.test(m) ? m : 'https://' + m;
+            return `<a href="${href}" target="_blank" rel="noopener">${m}</a>`;
+          });
+          return html;
+        },
+        cleanPipes(s) {
+          return String(s == null ? '' : s).replace(/\s*\|+\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+        },
+        sanitizeHtmlChunk(chunk) {
+          const src = this.cleanPipes(chunk);
+          const temp = document.createElement('div');
+          temp.innerHTML = src;
+          const out = [];
+          const walk = (node) => {
+            if (node.nodeType === 3) { out.push(this.linkifyText(node.nodeValue || '')); return; }
+            if (node.nodeType === 1) {
+              const tag = node.tagName.toLowerCase();
+              if (tag === 'a') {
+                let href = node.getAttribute('href') || '';
+                if (/^www\./i.test(href)) href = 'https://' + href;
+                if (!/^mailto:/i.test(href) && !/^https?:\/\//i.test(href)) {
+                  out.push(this.linkifyText(node.textContent || '')); return;
+                }
+                out.push(`<a href="${href}" target="_blank" rel="noopener">${node.textContent || ''}</a>`); return;
+              }
+              if (tag === 'br') { out.push(' '); return; }
+              Array.from(node.childNodes).forEach(walk);
             }
+          };
+          Array.from(temp.childNodes).forEach(walk);
+          return out.join(' ').replace(/\s{2,}/g, ' ').trim();
         },
+        parseTimeToMinutes(t) {
+          if (!t) return null;
+          const m = String(t).trim().match(/^(\d{1,2})(?::(\d{2}))?(?::\d{2})?\s*([AP]M)$/i);
+          if (!m) return null;
+          let h = parseInt(m[1]);
+          const mm = parseInt(m[2] || 0);
+          const ap = m[3].toUpperCase();
+          if (ap === 'PM' && h !== 12) h += 12;
+          if (ap === 'AM' && h === 12) h = 0;
+          return h * 60 + mm;
+        },
+        pad(n) { return String(n).padStart(2, '0'); },
+        fmtDate(d) {
+          if (!(d instanceof Date) || isNaN(d)) return '';
+          let h = d.getHours(), ap = h >= 12 ? 'PM' : 'AM';
+          h = h % 12 || 12;
+          return `${this.pad(d.getMonth()+1)}-${this.pad(d.getDate())}-${d.getFullYear()} ${h}:${this.pad(d.getMinutes())} ${ap}`;
+        },
+        parseHeaderDate(v) {
+          if (!v) return null;
+          const t = Date.parse(v);
+          if (!isNaN(t)) return new Date(t);
+          if (/^\d{10}$/.test(v)) return new Date(parseInt(v, 10) * 1000);
+          if (/^\d{13}$/.test(v)) return new Date(parseInt(v, 10));
+          return null;
+        },
+        pickLastUpdatedFromHeaders(headers) {
+          const cands = [
+            headers.get('X-Export-Time'), headers.get('Last-Modified'), headers.get('ETag')
+          ].map(this.parseHeaderDate).filter(Boolean);
+          if (cands.length) { cands.sort((a, b) => b - a); return cands[0]; }
+          return null;
+        },
+        pickLastUpdatedFromData(arr) {
+          if (!Array.isArray(arr) || !arr.length) return null;
+          const fields = ['exportTime', 'exportedAt', 'lastUpdated', 'lastupdated', 'updatedAt'];
+          const times = [];
+          for (const r of arr) {
+            for (const f of fields) {
+              if (r && r[f]) { const d = new Date(r[f]); if (!isNaN(d)) times.push(d); }
+            }
+          }
+          if (times.length) { times.sort((a, b) => b - a); return times[0]; }
+          return null;
+        },
+
+        // ── prepareCourse ─────────────────────────────────────────────────────
+        prepareCourse(item) {
+          const out = { ...item };
+
+          out.id   = String(item.id || item.secsynonym || '').trim();
+          out._id  = item.secsynonym || item.id || item.secname || Math.random().toString(36).slice(2);
+
+          const secno    = item.secno || item.secNo || '';
+          const baseName = item.sectioncoursename || item.secshorttitle || item.secname || '';
+          out._psSection = [baseName, secno].filter(Boolean).join(' - ');
+          out._psTitle   = item.secshorttitle || '';
+
+          const toArray = v => Array.isArray(v) ? v : (v == null ? [] : [v]);
+          const normalizeDay = d => {
+            const up = String(d || '').toUpperCase();
+            if (up === 'SU' || up === 'SUN') return 'Su';
+            if (up === 'TH' || up === 'R')   return 'TH';
+            if (up === 'M') return 'M'; if (up === 'T') return 'T';
+            if (up === 'W') return 'W'; if (up === 'F') return 'F';
+            if (up === 'S' || up === 'SAT') return 'S';
+            return d;
+          };
+          const formatTime = t => {
+            if (!t) return '';
+            const m = String(t).trim().match(/^(\d{1,2})(?::(\d{2}))?(?::\d{2})?\s*([AP]M)$/i);
+            if (!m) return String(t).trim();
+            const h = m[1], mm = m[2] || '00', ap = m[3].toUpperCase();
+            return mm === '00' ? `${h} ${ap}` : `${h}:${mm} ${ap}`;
+          };
+
+          // Raw schedule data
+          let rawDays  = toArray(item.secmeetingdays);
+          let rawStart = toArray(item.secStartTime);
+          let rawEnd   = toArray(item.secendtime);
+          let rawBldg  = toArray(item.secBldgmv).map(s => String(s || '').trim().toUpperCase());
+          let rawRoom  = toArray(item.xsecRoom).map(s => String(s || '').trim().toUpperCase());
+
+          // CE override
+          const ceDays  = toArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmMeetingDays);
+          const ceStart = toArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmStartTime);
+          const ceEnd   = toArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmEndTime);
+          const ceBldg  = toArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmBldg).map(s => String(s || '').trim().toUpperCase());
+          const ceRoom  = toArray(item.cOURSESECTIONSTOCOURSESECMEETINGLINK_assoc_csmRoom).map(s => String(s || '').trim().toUpperCase());
+
+          if (this.isCESelectedTerm) {
+            if (ceDays.length  && ceDays.some(d => d))  rawDays  = ceDays;
+            if (ceStart.length && ceStart.some(t => t)) rawStart = ceStart;
+            if (ceEnd.length   && ceEnd.some(t => t))   rawEnd   = ceEnd;
+            if (ceBldg.length  && ceBldg.some(b => b))  rawBldg  = ceBldg;
+            if (ceRoom.length  && ceRoom.some(r => r))  rawRoom  = ceRoom;
+          }
+
+          // Delivery category
+          const hasOnlineComponent = rawRoom.some(r => r === 'RNET') || rawBldg.some(b => b === 'INTE' || b === 'VIRT');
+          const loopLen = Math.max(rawBldg.length, rawRoom.length, rawDays.length);
+          let hasPhysicalComponent = false;
+          for (let i = 0; i < loopLen; i++) {
+            const b = rawBldg[i] || '', r = rawRoom[i] || '';
+            if (!/^(INTE|VIRT)$/.test(b) && r !== 'RNET') { hasPhysicalComponent = true; break; }
+          }
+          let delivery = 'Blended';
+          if (hasOnlineComponent && !hasPhysicalComponent) {
+            delivery = 'Online';
+          } else if (hasOnlineComponent && hasPhysicalComponent) {
+            delivery = 'Hybrid';
+          } else {
+            const sn = String(item.secname || '');
+            const match = sn.match(/-(\d{3,})$/);
+            if (match && !isNaN(parseInt(match[1], 10))) {
+              const num = parseInt(match[1], 10);
+              if (num >= 800 && num <= 829) delivery = 'Online';
+              else if (num >= 830 && num <= 874) delivery = 'Hybrid';
+            }
+          }
+          out._deliveryCategory = delivery;
+
+          // Days & Times
+          const uniqueDays  = new Set();
+          const uniqueTimes = new Set();
+          const isPureOnline = delivery === 'Online';
+
+          for (let i = 0; i < loopLen; i++) {
+            const b = rawBldg[i] || '', r = rawRoom[i] || '';
+            const isOnlineLoc = /^(INTE|VIRT)$/.test(b) || r === 'RNET';
+            if (!isOnlineLoc) {
+              let d = rawDays[i];
+              if (Array.isArray(d))               d.forEach(day => uniqueDays.add(normalizeDay(day)));
+              else if (typeof d === 'string' && d.trim()) uniqueDays.add(normalizeDay(d));
+
+              const s = rawStart[i] ? formatTime(rawStart[i]) : '';
+              const e = rawEnd[i]   ? formatTime(rawEnd[i])   : '';
+              if (s && e) uniqueTimes.add(`${s} – ${e}`);
+            }
+          }
+
+          // Collect start times in minutes-from-midnight for time-of-day filtering
+          const startMinutes = [];
+          for (let i = 0; i < loopLen; i++) {
+            const b = rawBldg[i] || '', r = rawRoom[i] || '';
+            const isOnlineLoc = /^(INTE|VIRT)$/.test(b) || r === 'RNET';
+            if (!isOnlineLoc && rawStart[i]) {
+              const mins = this.parseTimeToMinutes(rawStart[i]);
+              if (mins !== null) startMinutes.push(mins);
+            }
+          }
+          out._startMinutes = startMinutes;
+
+          out._meetingDays = Array.from(uniqueDays);
+          out._meetingDaysHtml = (isPureOnline || out._meetingDays.length === 0)
+            ? (isPureOnline ? '🌐' : 'TBD')
+            : ['M','T','W','TH','F','S','Su'].filter(d => uniqueDays.has(d)).join(', ');
+          out._meetingTimesHtml = (isPureOnline || uniqueTimes.size === 0)
+            ? (isPureOnline ? '🌐' : 'TBD')
+            : Array.from(uniqueTimes).join('; ');
+
+          // Location
+          const locMap = {
+            'ALCO':'Alexander County','ATEC':'Advanced Technology Education Center',
+            'CAD':'Cuyler A. Dunbar Building','CDC':'Corporate Development Center',
+            'COS':'Cosmetology Center','CVFA':'Catawba Valley Furniture Academy',
+            'EC':'East Campus','ELS':'Music Building','HOSP':'Hospital/Clinical Site',
+            'MPC':'Tarlton Complex','NCCET':'NC Center for Engineering Technologies',
+            'REP':'Robert E. Paap Building','TRNS':'TransTech',
+            'VSL':'Red Hall','WSC':'Workforce Solutions Complex',
+            'WW':'West Wing','INTE':'Internet','TBD':'To Be Determined',
+            'VIRT':'Virtual','DEN':'Dental Hygiene',
+            'GOOD':'Goodwill','TRIN':'Trinity','ABER':'Abernethy','PSTC':'PSTC'
+          };
+          // When secBldgmv is "TBD", fall back to the campus-level code (secLocation)
+          // to give a more useful location name than "To Be Determined"
+          const campusBldgMap = {
+            'AL': { code: 'ATEC', name: 'Advanced Technology Education Center' },
+            'MN': { code: 'MN',   name: 'Main Campus' },
+            'OC': { code: 'OC',   name: 'Off Campus'  }
+          };
+          const secLocationCode = String(item.secLocation || '').trim();
+
+          const uniqueLocs = new Set();
+          let firstPhysCode = '';
+          for (let i = 0; i < loopLen; i++) {
+            let code = rawBldg[i] || '', room = rawRoom[i] || '';
+            const isOnlineLoc = /^(INTE|VIRT)$/.test(code) || room === 'RNET';
+            if (!isOnlineLoc) {
+              // If building is TBD, try the campus fallback
+              let bldgName;
+              if (code === 'TBD' && campusBldgMap[secLocationCode]) {
+                const fallback = campusBldgMap[secLocationCode];
+                bldgName = fallback.name;
+                code     = fallback.code; // use resolved code for filter/firstPhysCode
+              } else {
+                bldgName = locMap[code] || code;
+              }
+              if (!firstPhysCode) firstPhysCode = code;
+              // Don't display "TBD" as a room number — it's just a placeholder
+              const displayRoom = (room && room !== 'TBD') ? room : '';
+              const locStr = displayRoom ? `${bldgName} ${displayRoom}` : bldgName;
+              if (locStr) uniqueLocs.add(locStr);
+            }
+          }
+          let locDisplay = Array.from(uniqueLocs).join(' / ');
+          if (hasOnlineComponent) locDisplay = locDisplay ? `${locDisplay} & 🌐` : '🌐';
+          out._locationHtml = locDisplay || 'N/A';
+          out._locCode = firstPhysCode || (hasOnlineComponent ? 'INTE' : '');
+
+          // Seats
+          const availRaw = toArray(item.xcrssecseatavail)[0];
+          const usedRaw  = toArray(item.xcrssecused)[0];
+          if (!isNaN(parseInt(availRaw))) {
+            const available = parseInt(availRaw);
+            const used = parseInt(usedRaw || 0);
+            out._seatsHtml = `${available} (of ${available + used})`;
+          } else {
+            out._seatsHtml = 'N/A';
+          }
+
+          // Instructor
+          const names = item.xcrssecfacultyxname || (item.xsecleadinstrlastname ? [item.xsecleadinstrlastname] : []);
+          out._instructorDisplay = (!names || !names.length) ? '' : names.map(n => {
+            const parts = String(n).split(',').map(p => p.trim());
+            return parts.length > 1 ? `${parts[0]}, ${parts.slice(1).join(' ')}` : n;
+          }).join('; ');
+
+          // Credits
+          const cv = item.secmincred;
+          const cval = Array.isArray(cv) ? (cv[0] == null ? '' : cv[0]) : cv;
+          out._credits = String(cval == null ? '' : cval).trim();
+
+          // Notes
+          const rawNotes = [];
+          const pc = item.secprintedcomments;
+          if (pc) { if (Array.isArray(pc)) rawNotes.push(...pc); else rawNotes.push(pc); }
+          const sc = item.seccomments || item.secComments || item.sec_comments;
+          if (sc) { if (Array.isArray(sc)) rawNotes.push(...sc); else rawNotes.push(sc); }
+          const joined = rawNotes.join(' ').trim();
+          out._hasNotes = joined.length > 0;
+          out._notesHtml = out._hasNotes ? this.sanitizeHtmlChunk(joined) : '';
+
+          // CE description appended to notes
+          const ceDesc = item.linkToXCOURSESECTIONS_assoc_xCOURSESECTIONSLinkToCOURSESECTIONS_assoc_crsdesc;
+          if (ceDesc) {
+            const arr = Array.isArray(ceDesc) ? ceDesc : [ceDesc];
+            const flat = this.stripTags(arr.join(' ').replace(/\s+/g, ' ').trim());
+            if (flat) {
+              out._notesHtml = (out._notesHtml ? out._notesHtml + '<hr/>' : '') + '<p>' + this.linkifyText(flat) + '</p>';
+              out._hasNotes = true;
+            }
+          }
+
+          // Status
+          const statusRaw = item.status || item.secavailstatus || item.secAvailStatus || item.secschedstatus || '';
+          out._statusDisplay = this.stripTags(statusRaw) || String(item.status || '').trim() || '';
+
+          // CE-specific: Contact Hours
+          const chArr = toArray(item.seccontacthours);
+          out._contactHours = chArr.length ? String(chArr[0]).trim() : '';
+
+          // CE-specific: Tuition / Other Fees
+          const _parseMoney = s => { if (!s) return 0; const n = parseFloat(String(s).replace(/[^0-9.\-]/g, '')); return isFinite(n) ? n : 0; };
+          const _fmt = n => '$' + Number(n || 0).toFixed(2);
+          const tuition = _parseMoney(item.tuition_);
+          const other   = _parseMoney(item.otherFees_);
+          out._tuitionFeesHtml = `${_fmt(tuition)} / ${_fmt(other)} (Total: ${_fmt(tuition + other)})`;
+
+          // PS-specific: Amount
+          const psAmtRaw = Array.isArray(item.rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt)
+            ? item.rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt[0]
+            : item.rEGBILLINGRATESTUITION_assoc_rgbrChargeAmt;
+          const psAmt = Number(psAmtRaw);
+          out._amountPSHtml = isFinite(psAmt) ? ('$' + psAmt.toFixed(2)) : '';
+
+          // CE-specific: Register button
+          const rawCalc2 = String(item.calculatedColumn2 || '').trim();
+          const mBtn = rawCalc2.match(/<a\b[^>]*href=['"]([^'"]+)['"]/i);
+          out._registerBtnHtml = mBtn
+            ? `<a class="btn btn-sm btn-primary w-100" target="_blank" rel="noopener" href="${mBtn[1]}">Register</a>`
+            : '';
+
+          return out;
+        },
+
+        // ── Term loading ──────────────────────────────────────────────────────
         async loadTermOptions() {
           this.loading = true;
+          try {
+            const res = await fetch('get_schedules.php');
+            if (res.ok) {
+              const files = await res.json();
+              if (Array.isArray(files) && files.length > 0) {
+                this.jsonFilesToLoad = files.filter(f =>
+                  f.endsWith('.json') && !f.toLowerCase().startsWith('importantdates')
+                );
+              }
+            }
+          } catch (e) { /* fall back to hardcoded */ }
+
           const loadedTerms = [];
           for (const filename of this.jsonFilesToLoad) {
-            let displayName = filename.replace('.json', '');
-            displayName = displayName.replace(/_/g, ' ');
-            displayName = displayName.split(' ').map(word => {
-                if (word.toLowerCase() === 'intercession') return 'Intercession';
-                return word.charAt(0).toUpperCase() + word.slice(1);
-            }).join(' ');
-
-            loadedTerms.push({
-              label: displayName,
-              value: filename
-            });
+            loadedTerms.push({ label: this.formatTermDisplayName(filename), value: filename });
           }
-          loadedTerms.sort((a, b) => {
-            const getSortKey = (label) => {
-                const parts = label.split(' ');
-                const year = parseInt(parts[parts.length - 1]);
-                let semesterOrder = 0;
-                const semesterPart = parts[0].toLowerCase();
-                if (semesterPart === 'spring') semesterOrder = 1;
-                else if (semesterPart === 'summer') semesterOrder = 2;
-                else if (semesterPart === 'fall') semesterOrder = 3;
-                else if (semesterPart === 'intercession' && parts[parts.length - 2].toLowerCase() === 'fall') semesterOrder = 3.5;
-                return year * 10 + semesterOrder;
-            };
-            return getSortKey(a.label) - getSortKey(b.label);
+          loadedTerms.sort((a, b) => this.getTermStartDate(a.label) - this.getTermStartDate(b.label));
+
+          // ── Merged "All Campuses" options ──────────────────────────────────
+          // For any season+year that has 2+ Curriculum files, insert a synthetic
+          // option that fetches and merges them all. CE/PS are never merged.
+          const isCU = label => !/Continuing\s*Education|Public\s*Services/i.test(label);
+          const extractSeasonYear = label => {
+            const m = label.match(/^(Spring|Summer|Fall)\s+(\d{4})/);
+            return m ? `${m[1]}-${m[2]}` : null; // e.g. "Fall-2026"
+          };
+
+          // Group CU terms by season-year
+          const cuGroups = {};
+          loadedTerms.forEach(t => {
+            if (!isCU(t.label)) return;
+            const key = extractSeasonYear(t.label);
+            if (!key) return;
+            (cuGroups[key] = cuGroups[key] || []).push(t);
           });
 
-          this.termOptions = loadedTerms;
+          // Build a merged option for each group with 2+ files
+          const mergedFiles = {};
+          const mergedByKey  = {};
+          Object.entries(cuGroups).forEach(([key, group]) => {
+            if (group.length < 2) return;
+            const [season, year] = key.split('-');
+            const mergedValue = `merged:${key}`;
+            mergedFiles[mergedValue] = group.map(o => o.value);
+            mergedByKey[key] = {
+              label: `◆ ${season} ${year} — All Campuses (Curriculum)`,
+              value: mergedValue
+            };
+          });
+          this.mergedTermFiles = mergedFiles;
+
+          // Insert each merged option just before its first individual member
+          const finalTerms = [];
+          const insertedKeys = new Set();
+          for (const term of loadedTerms) {
+            if (isCU(term.label)) {
+              const key = extractSeasonYear(term.label);
+              if (key && mergedByKey[key] && !insertedKeys.has(key)) {
+                finalTerms.push(mergedByKey[key]);
+                insertedKeys.add(key);
+              }
+            }
+            finalTerms.push(term);
+          }
+          this.termOptions = finalTerms;
+
           if (this.termOptions.length > 0) {
-            this.selectedTerm = this.termOptions[0].value;
+            const today = new Date();
+            let defaultTerm = this.termOptions[this.termOptions.length - 1];
+            let closestDiff = Infinity;
+            // First pass: find the closest upcoming individual term
+            for (const term of this.termOptions) {
+              if (term.value.startsWith('merged:')) continue;
+              const diff = this.getTermStartDate(term.label) - today;
+              if (diff >= 0 && diff < closestDiff) { closestDiff = diff; defaultTerm = term; }
+            }
+            // Prefer the merged option for that season+year if one exists
+            const defKey = extractSeasonYear(defaultTerm.label);
+            if (defKey && mergedByKey[defKey]) defaultTerm = mergedByKey[defKey];
+            this.selectedTerm = defaultTerm.value;
           }
-          this.loadCourses();
+          await this.onTermChanged();
         },
+
+        async onTermChanged() {
+          await this.loadCourses();
+          await this.loadImportantDates();
+        },
+
         async loadCourses() {
-          if (!this.selectedTerm) {
-              this.courses = [];
-              this.loading = false;
-              return;
-          }
+          if (!this.selectedTerm) { this.courses = []; this.loading = false; return; }
           this.loading = true;
           this.courses = [];
           this.lastUpdated = '';
+          this.openNotesById = {};
+          this.notesRefs = {};
+
+          // Merged terms fetch multiple files in parallel; single terms fetch one
+          const filesToLoad = this.mergedTermFiles[this.selectedTerm]
+            ? this.mergedTermFiles[this.selectedTerm]
+            : [this.selectedTerm];
 
           try {
-            const res = await fetch(this.selectedTerm);
-            if (!res.ok) {
-              throw new Error(`HTTP error! status: ${res.status}`);
-            }
-            const data = await res.json();
-            this.courses = data;
+            const responses = await Promise.all(filesToLoad.map(f => fetch(f)));
+            const allData = [];
+            let latestHeaderDate = null;
 
-            if (data.length > 0 && data[0].exportTime) {
-                const exportedTime = String(data[0].exportTime).trim();
-                this.lastUpdated = exportedTime || 'N/A';
+            for (const res of responses) {
+              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+              const headerDate = this.pickLastUpdatedFromHeaders(res.headers);
+              if (headerDate && (!latestHeaderDate || headerDate > latestHeaderDate)) {
+                latestHeaderDate = headerDate;
+              }
+              const data = await res.json();
+              allData.push(...data);
+            }
+
+            // Deduplicate by section ID (online courses appear in both campus files)
+            const seenIds = new Set();
+            const uniqueData = allData.filter(c => {
+              const key = String(c.id ?? c.secID ?? '');
+              if (!key || seenIds.has(key)) return false;
+              seenIds.add(key);
+              return true;
+            });
+            this.courses = uniqueData.map(c => this.prepareCourse(c));
+            const dataDate = this.pickLastUpdatedFromData(allData);
+            const chosen = dataDate || latestHeaderDate;
+            if (chosen) {
+              this.lastUpdated = this.fmtDate(chosen);
+            } else if (allData.length > 0 && allData[0].exportTime) {
+              this.lastUpdated = String(allData[0].exportTime).trim() || 'N/A';
             } else {
-                this.lastUpdated = 'N/A';
+              this.lastUpdated = 'N/A';
             }
-
             this.selectedLocation = '';
             this.selectedDelivery = '';
             this.selectedStatus = '';
             this.selectedDays = [];
+            this.selectedTimes = [];
+            this.searchInput = '';
             this.searchQuery = '';
           } catch (error) {
             console.error('Error loading courses:', error);
-            alert('Failed to load courses. Please ensure the JSON file exists and is accessible. Check the browser console for details.');
             this.lastUpdated = 'Error loading data.';
           } finally {
             this.loading = false;
           }
         },
-        formatInstructor(names) {
-          if (!names || names.length === 0) return 'N/A';
-          return names.map(name => {
-            const parts = name.split(',').map(p => p.trim());
-            if (parts.length > 1) {
-              const lastName = parts[0];
-              const firstNameAndMiddle = parts.slice(1).join(' ');
-              return `${lastName}, ${firstNameAndMiddle}`;
-            }
-            return name;
-          }).join('; ');
-        },
-        formatNotes(notes) {
-          if (!notes || notes.length === 0) return '';
-          const text = notes.join(' ');
-          return text.replace(/(https?:\/\/\S+|www\.\S+)/gi, match => {
-            const url = match.startsWith('http') ? match : `https://${match}`;
-            return `<a href="${url}" target="_blank" rel="noopener">${match}</a>`;
-          });
-        },
-        formatMeetingDays(daysArray, xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
 
-          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !daysArray || !Array.isArray(daysArray) || daysArray.length === 0) {
-            return globeIconHtml;
-          }
-
-          const allDays = new Set();
-          daysArray.forEach(subArray => {
-            if (Array.isArray(subArray)) {
-              subArray.forEach(day => {
-                if (typeof day === 'string' && day.trim() !== '') {
-                  allDays.add(day.trim());
+        // ── Important Dates ───────────────────────────────────────────────────
+        async loadImportantDates() {
+          this.importantBySection = {};
+          const season = this.impDatesSeason;
+          if (!season || this.isCESelectedTerm) return;
+          try {
+            const res = await fetch(`importantDates${season}.json`);
+            if (!res.ok) return;
+            const json = await res.json();
+            const by = {};
+            if (Array.isArray(json)) {
+              json.forEach(rec => {
+                const sec = String(rec.secname || '').trim();
+                const syn = String(rec.secsynonym || '').trim();
+                if (sec) by['__rec__' + sec] = rec;
+                if (syn) by['__rec__' + syn] = rec;
+                if (rec.date && rec.label) {
+                  const key = sec || syn;
+                  if (key) { by[key] = by[key] || []; by[key].push({ date: String(rec.date), label: String(rec.label) }); }
                 }
               });
+            } else if (json && typeof json === 'object' && json.bySection) {
+              Object.keys(json.bySection).forEach(k => { by[k] = Array.isArray(json.bySection[k]) ? json.bySection[k] : []; });
             }
-          });
-
-          if (allDays.size === 0) {
-            return globeIconHtml;
-          }
-
-          const dayOrder = ['M', 'T', 'W', 'TH', 'F', 'S', 'Su'];
-          const sortedDays = Array.from(allDays).sort((a, b) => {
-            return dayOrder.indexOf(a) - dayOrder.indexOf(b);
-          });
-
-          return sortedDays.join(', ');
+            this.importantBySection = by;
+          } catch (e) { /* optional file */ }
         },
-        formatMeetingTimes(startTimes, endTimes, xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
 
-          if (this.isOnlineLocation(xsecRoom, secBldgmv) || !startTimes || !Array.isArray(startTimes) || startTimes.length === 0 ||
-              !endTimes || !Array.isArray(endTimes) || endTimes.length === 0) {
-            return globeIconHtml;
+        buildDatesForCourse(c) {
+          const labelMap = {
+            secstartdate: 'First day of class', secenddate: 'Last day of class',
+            secovrregenddate: 'Online registration ends', secfirstcensusdate: 'Census date',
+            secsixtydate: '60% date', sixtyPercentDate: '60% date', tEST60_: '60% date'
+          };
+          const by  = this.importantBySection || {};
+          const res = [];
+          const add = (date, label) => {
+            if (!date || !label) return;
+            const key = date + '|' + label;
+            if (!res._s) res._s = new Set();
+            if (res._s.has(key)) return;
+            res._s.add(key);
+            res.push({ date: String(date), label: String(label) });
+          };
+          if (!this.isCESelectedTerm) {
+            const fromMap = by[c.secname] || by[c.secsynonym];
+            if (Array.isArray(fromMap)) fromMap.forEach(x => add(x.date, x.label));
+            const rec = by['__rec__' + c.secname] || by['__rec__' + c.secsynonym];
+            if (rec && typeof rec === 'object') Object.keys(labelMap).forEach(k => rec[k] && add(rec[k], labelMap[k]));
           }
+          Object.keys(labelMap).forEach(k => c[k] && add(c[k], labelMap[k]));
+          const parse = s => { const d = new Date(s); return isNaN(d.getTime()) ? null : d; };
+          res.sort((a, b) => { const da = parse(a.date), db = parse(b.date); if (da && db) return da - db; return String(a.date).localeCompare(String(b.date)); });
+          res._s = undefined;
+          return res;
+        },
 
-          const timeRanges = [];
-          for (let i = 0; i < startTimes.length; i++) {
-            const startTime = startTimes[i]?.trim();
-            const endTime = endTimes[i]?.trim();
+        maybeHasImpDates(c) {
+          if (this.isCESelectedTerm) return false;
+          return !!(c.secstartdate || c.secenddate
+            || (this.importantBySection && (
+              this.importantBySection[c.secname] || this.importantBySection[c.secsynonym]
+              || this.importantBySection['__rec__' + c.secname] || this.importantBySection['__rec__' + c.secsynonym]
+            ))
+          );
+        },
 
-            if (startTime && endTime) {
-              const formattedStartTime = startTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              const formattedEndTime = endTime.replace(':00 AM', ' AM').replace(':00 PM', ' PM');
-              timeRanges.push(`${formattedStartTime} - ${formattedEndTime}`);
+        // ── Notes expand/collapse ─────────────────────────────────────────────
+        isNotesOpen(c) { return !!this.openNotesById[c._id]; },
+        setNotesRef(id) { return el => { if (el) this.notesRefs[id] = el; }; },
+        toggleNotes(c) {
+          const id = c._id;
+          if (this.openNotesById[id]) {
+            const box = this.notesRefs[id];
+            if (box) {
+              box.style.maxHeight = box.scrollHeight + 'px';
+              requestAnimationFrame(() => {
+                box.classList.add('notes-collapsing');
+                box.addEventListener('transitionend', () => {
+                  this.openNotesById[id] = false;
+                  box.classList.remove('notes-collapsing');
+                  box.style.maxHeight = '';
+                }, { once: true });
+              });
+            } else {
+              requestAnimationFrame(() => { this.openNotesById[id] = false; });
             }
-          }
-
-          if (timeRanges.length === 0) {
-            return globeIconHtml;
-          }
-
-          return timeRanges.join('; ');
-        },
-        formatLocationDisplay(xsecRoom, secBldgmv) {
-          const globeIconHtml = '<span class="material-symbols-outlined online-icon">language</span>';
-
-          // Collect all location parts, filtered for valid strings and converted to lowercase for robust checking
-          const allLocationParts = new Set();
-          const originalLocationParts = []; // To preserve original casing for display
-
-          if (xsecRoom && Array.isArray(xsecRoom)) {
-              xsecRoom.forEach(part => {
-                  if (typeof part === 'string' && part.trim() !== '') {
-                      allLocationParts.add(part.trim().toLowerCase());
-                      originalLocationParts.push(part.trim());
-                  }
-              });
-          }
-          if (secBldgmv && Array.isArray(secBldgmv)) {
-              secBldgmv.forEach(part => {
-                  if (typeof part === 'string' && part.trim() !== '') {
-                      allLocationParts.add(part.trim().toLowerCase());
-                      originalLocationParts.push(part.trim());
-                  }
-              });
-          }
-
-          const hasOnlineComponent = allLocationParts.has('inte') || allLocationParts.has('rnet');
-
-          // Build the physical location string, explicitly excluding online identifiers (case-insensitive check)
-          let physicalLocationDisplayParts = [];
-          const uniqueOriginalParts = Array.from(new Set(originalLocationParts)); // Deduplicate original parts
-
-          uniqueOriginalParts.forEach(part => {
-              if (!(part.toLowerCase().includes('inte') || part.toLowerCase().includes('rnet'))) {
-                  physicalLocationDisplayParts.push(part);
-              }
-          });
-
-          const physicalLocationString = physicalLocationDisplayParts.sort().join(' ').trim();
-
-          if (hasOnlineComponent) {
-              if (physicalLocationString) {
-                  // Hybrid: Physical location & Icon
-                  return `${physicalLocationString} & ${globeIconHtml}`;
-              } else {
-                  // Pure Online: Only Icon
-                  return globeIconHtml;
-              }
           } else {
-              // Pure Seated: Just physical location
-              if (physicalLocationString) {
-                  return physicalLocationString;
-              } else {
-                  return 'N/A'; // Fallback if no location data at all
+            if (this.oneOpenNotesAtATime) {
+              for (const k in this.openNotesById) { if (this.openNotesById[k]) this.openNotesById[k] = false; }
+            }
+            this.openNotesById[id] = true;
+            nextTick(() => {
+              const box = this.notesRefs[id];
+              if (box) {
+                const h = box.scrollHeight;
+                box.style.maxHeight = '0px';
+                requestAnimationFrame(() => {
+                  box.style.maxHeight = h + 'px';
+                  box.addEventListener('transitionend', () => { box.style.maxHeight = ''; }, { once: true });
+                });
               }
+            });
           }
         },
-        formatSeatsDisplay(seatsAvailableArray, seatsUsedArray) {
-            let available = 'N/A';
-            let used = 0; // Default to 0 if not found
 
-            if (seatsAvailableArray && Array.isArray(seatsAvailableArray) && seatsAvailableArray.length > 0) {
-                const val = parseInt(seatsAvailableArray[0]);
-                if (!isNaN(val)) {
-                    available = val;
-                }
-            }
-
-            if (seatsUsedArray && Array.isArray(seatsUsedArray) && seatsUsedArray.length > 0) {
-                const val = parseInt(seatsUsedArray[0]);
-                if (!isNaN(val)) {
-                    used = val;
-                }
-            }
-
-            if (available === 'N/A') {
-                return 'N/A';
-            }
-
-            const total = available + used;
-            return `${available} (of ${total})`;
+        // ── Important Dates modal ─────────────────────────────────────────────
+        openDatesModal(c) {
+          this.modalCourse = c;
+          this.modalDates  = this.buildDatesForCourse(c);
+          this.datesModalOpen = true;
         },
-        getDeliveryCategoryFromSection(sectionName) {
-          if (!sectionName) return '';
-          const match = sectionName.match(/-(\d{3,})$/);
-          if (!match) return '';
-          const num = parseInt(match?.[1]);
-          if (isNaN(num)) return '';
-          if (num >= 800 && num <= 829) return 'Online';
-          if (num >= 830 && num <= 874) return 'Hybrid';
-          return 'Traditional';
+        closeDatesModal() { this.datesModalOpen = false; this.modalCourse = null; this.modalDates = []; },
+
+        // ── Search debounce ───────────────────────────────────────────────────
+        onSearchInput() {
+          clearTimeout(this._searchDebounce);
+          this._searchDebounce = setTimeout(() => {
+            this.searchQuery = this.searchInput;
+          }, 250);
+        },
+
+        // ── Dark mode / UI ────────────────────────────────────────────────────
+        toggleDarkMode() {
+          this.darkMode = !this.darkMode;
+          document.body.classList.toggle('dark-mode', this.darkMode);
+        },
+
+        // ── Term display names ────────────────────────────────────────────────
+        formatTermDisplayName(filename) {
+          const base = filename.replace('.json', '');
+          if (/^publicServices/i.test(base)) return 'Public Services (Continuing Education)';
+          if (/^CE_/i.test(base)) {
+            const campus = base.slice(3).split('_')
+              .map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            return `Continuing Education \u2013 ${campus}`;
+          }
+          const parts = base.split('_').filter(p => p.length > 0);
+          const yearIdx = parts.findIndex(p => /^20\d\d$/.test(p));
+          if (yearIdx < 0) {
+            const m = base.match(/^(20\d\d)(spring|fall|fa|summer|su|sp)(.*)?$/i);
+            if (m) {
+              const year = m[1];
+              const sMap = { spring:'Spring', sp:'Spring', fall:'Fall', fa:'Fall', summer:'Summer', su:'Summer' };
+              const season = sMap[m[2].toLowerCase()] || m[2];
+              const rest = (m[3] || '').toLowerCase();
+              if (/inter(session|cession)/.test(rest)) return `${season} ${year} \u2014 Intersession`;
+              if (/flex|late.?start/.test(rest)) return `${season} ${year} \u2014 Full Term (Curriculum \u2013 Flex)`;
+              return rest ? `${season} ${year} \u2014 ${rest}` : `${season} ${year}`;
+            }
+            return base.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').trim()
+              .split(/\s+/).map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
+          }
+          const year = parts[yearIdx];
+          const season = (parts[yearIdx + 1] || '');
+          const seasonLabel = season.charAt(0).toUpperCase() + season.slice(1).toLowerCase();
+          const cuIdx = parts.indexOf('CU');
+          const variantParts = cuIdx >= 0 ? parts.slice(yearIdx + 2, cuIdx) : parts.slice(yearIdx + 2);
+          const campusParts  = cuIdx >= 0 ? parts.slice(cuIdx + 1) : [];
+          const isFlexVariant = variantParts.some(p => /^flex$/i.test(p));
+          let termType = 'Full Term';
+          if (!isFlexVariant && variantParts.length > 0) {
+            const vl = variantParts.map(p => p.toLowerCase());
+            if (vl.some(p => /^inter(session|cession)$/.test(p))) {
+              const n = variantParts.find(p => /^\d+$/.test(p));
+              termType = n ? `Intersession ${n}` : 'Intersession';
+            } else if (vl.some(p => /^\d+(st|nd|rd|th)$/.test(p))) {
+              const ord = variantParts.find(p => /^\d+(st|nd|rd|th)$/i.test(p));
+              const wk  = variantParts.find(p => /^\d+wk$/i.test(p));
+              termType = wk ? `${ord} ${wk.replace(/wk$/i, '')} Week` : ord;
+            } else if (vl.some(p => /^\d+wk$/.test(p))) {
+              const wk = variantParts.find(p => /^\d+wk$/i.test(p));
+              termType = `${wk.replace(/wk$/i, '')} Week`;
+            } else {
+              termType = variantParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+            }
+          }
+          let campusDisplay = '';
+          if (isFlexVariant) campusDisplay = 'Flex';
+          else if (campusParts.length > 0) campusDisplay = campusParts.map(p => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase()).join(' ');
+          else if (cuIdx >= 0) campusDisplay = 'Main Campus';
+          let display = `${seasonLabel} ${year} \u2014 ${termType}`;
+          if (campusDisplay) display += ` (Curriculum \u2013 ${campusDisplay})`;
+          else if (cuIdx >= 0) display += ` (Curriculum)`;
+          return display;
+        },
+
+        getTermStartDate(label) {
+          const yearMatch = label.match(/\b(20\d\d)\b/);
+          const year = yearMatch ? parseInt(yearMatch[1]) : 0;
+          const lower = label.toLowerCase();
+          const isIntercession = lower.includes('intercession') || lower.includes('intersession');
+          if (lower.includes('summer')) return new Date(year, 4, 15);
+          if (lower.includes('fall') && isIntercession) return new Date(year, 11, 10);
+          if (lower.includes('fall')) return new Date(year, 7, 18);
+          if (lower.includes('spring') && isIntercession) return new Date(year, 0, 5);
+          if (lower.includes('spring')) return new Date(year, 0, 10);
+          return new Date(year, 0, 1);
+        },
+
+        // ── Print ─────────────────────────────────────────────────────────────
+        printCurrent() {
+          const courses       = this.filteredCourses.slice();
+          const includeNotes  = !!this.printIncludeNotes;
+          const includeDates  = !!this.printIncludeDates && !this.isCESelectedTerm;
+          const termLabel     = (this.termOptions.find(o => o.value === this.selectedTerm) || {}).label || '';
+          const lastUpdated   = this.lastUpdated || '';
+          const now = new Date();
+          const pad = n => String(n).padStart(2, '0');
+          const ts  = `${pad(now.getMonth()+1)}/${pad(now.getDate())}/${now.getFullYear()} ${now.getHours()%12||12}:${pad(now.getMinutes())} ${now.getHours()>=12?'PM':'AM'}`;
+          const esc = s => { const d = document.createElement('div'); d.textContent = String(s == null ? '' : s); return d.innerHTML; };
+
+          const isPS = this.isPublicServicesSelectedTerm;
+          const isCE = this.isCESelectedTerm;
+
+          const css = `<style>
+            @page { size: auto; margin: 14mm; }
+            body { font-family: 'Inter', system-ui, sans-serif; color: #222; }
+            h1 { margin: 0; color: #BA0C2F; font-size: 22px; }
+            .sub { color: #555; font-size: 11px; margin-top: 2px; }
+            .disclaimer { color: #6c757d; font-size: 10px; margin-top: 4px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+            th, td { border: 1px solid #ccc; padding: 5px 7px; vertical-align: top; font-size: 11px; }
+            thead th { background: #BA0C2F; color: #fff; }
+            tbody tr:nth-child(odd)  { background: #fff; }
+            tbody tr:nth-child(even) { background: #f5f6f8; }
+            .notes { background: #fffdf7; }
+            .dates { background: #f8fbff; }
+          </style>`;
+
+          const theadPS = `<thead><tr><th>ID</th><th>Section</th><th>Title</th><th>Amount</th><th>Delivery</th><th>Days</th><th>Time</th><th>Location</th><th>Start</th><th>End</th><th>Instructor</th><th>Status</th></tr></thead>`;
+          const theadCE = `<thead><tr><th>ID</th><th>Section</th><th>Title</th><th>Contact Hours</th><th>Tuition / Other Fees</th><th>Days</th><th>Time</th><th>Location</th><th>Start</th><th>End</th><th>Seats Avail</th><th>Instructor</th><th>Status</th></tr></thead>`;
+          const theadCU = `<thead><tr><th>ID</th><th>Section</th><th>Title</th><th>Credits</th><th>Delivery</th><th>Days</th><th>Time</th><th>Location</th><th>Start</th><th>End</th><th>Seats Available</th><th>Instructor</th><th>Status</th></tr></thead>`;
+          const tableHead = isPS ? theadPS : (isCE ? theadCE : theadCU);
+          const colspan   = isPS ? 12 : 13;
+
+          let rows = '';
+          for (const c of courses) {
+            const section = isPS ? c._psSection : c.secname;
+            const title   = isPS ? c._psTitle   : c.secshorttitle;
+            rows += '<tr>';
+            rows += `<td>${esc(c.id)}</td><td>${esc(section)}</td><td>${esc(title)}</td>`;
+            if (isPS) {
+              rows += `<td>${c._amountPSHtml}</td><td>${esc(c._deliveryCategory)}</td>`;
+            } else if (isCE) {
+              rows += `<td>${esc(c._contactHours)}</td><td>${c._tuitionFeesHtml}</td>`;
+            } else {
+              rows += `<td>${esc(c._credits)}</td><td>${esc(c._deliveryCategory)}</td>`;
+            }
+            rows += `<td>${c._meetingDaysHtml}</td><td>${c._meetingTimesHtml}</td><td>${c._locationHtml}</td>`;
+            rows += `<td>${esc(c.secstartdate||'')}</td><td>${esc(c.secenddate||'')}</td>`;
+            if (!isPS) rows += `<td>${c._seatsHtml}</td>`;
+            rows += `<td>${esc(c._instructorDisplay||'')}</td><td>${esc(c._statusDisplay||'')}</td>`;
+            rows += '</tr>';
+            if (includeNotes && c._hasNotes && c._notesHtml) {
+              rows += `<tr class="notes"><td colspan="${colspan}"><strong>Notes:</strong> ${c._notesHtml}</td></tr>`;
+            }
+            if (includeDates) {
+              const dates = this.buildDatesForCourse(c);
+              if (dates && dates.length) {
+                rows += `<tr class="dates"><td colspan="${colspan}"><strong>Important dates:</strong><ul style="margin:4px 0 0 14px;padding:0;">`;
+                for (const d of dates) rows += `<li><strong>${esc(d.date)}</strong> ${esc(d.label)}</li>`;
+                rows += '</ul></td></tr>';
+              }
+            }
+          }
+
+          const head = `<div><h1>Course Schedules</h1>
+            <div class="sub">${esc(termLabel)} · Printed ${esc(ts)}${lastUpdated ? ' · Data last updated ' + esc(lastUpdated) : ''}</div>
+            <div class="disclaimer">Prints reflect data at the time of printing; availability may change.</div></div>`;
+
+          const html = `<!DOCTYPE html><html><head><meta charset="utf-8">${css}</head><body>${head}<table>${tableHead}<tbody>${rows}</tbody></table></body></html>`;
+
+          const iframe = document.createElement('iframe');
+          iframe.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;opacity:0;';
+          document.body.appendChild(iframe);
+          const doc = iframe.contentDocument || iframe.contentWindow.document;
+          doc.open(); doc.write(html); doc.close();
+          iframe.onload = function () {
+            try { iframe.contentWindow.focus(); iframe.contentWindow.print(); } catch (e) {}
+            setTimeout(() => iframe.remove(), 500);
+          };
         }
       },
+
       mounted() {
         this.loadTermOptions();
       }
